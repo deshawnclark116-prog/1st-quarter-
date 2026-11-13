@@ -1,0 +1,38 @@
+name: First-quarter outcome grading
+
+on:
+  schedule:
+    # 15:00 UTC catches the previous US evening's completed games.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: first-quarter-grading
+  cancel-in-progress: false
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test model and grading logic
+        run: python -m unittest discover -s tests -v
+      - name: Grade recorded pregame predictions against completed games
+        run: python quarter_grade.py
+      - name: Save grade ledger and performance summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add grading/summary.json grading/rows.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Grade first-quarter pregame predictions"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
