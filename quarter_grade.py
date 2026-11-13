@@ -36,7 +36,7 @@ def archive_report(report: dict, root: Path = ARCHIVE_DIR) -> int:
         if path.exists():
             continue
         snapshot = {
-            "snapshot_at": now.isoformat(), "model_version": "q1_baseline_v1",
+            "snapshot_at": now.isoformat(), "model_version": ("q1_baseline_v1_nba10" if game["sport"] == "nba" else "q1_baseline_v1_nfl6"),
             "game_id": game["id"], "sport": game["sport"], "date": game["date"],
             "date_et": game["date_et"], "name": game["name"], "teams": game["teams"],
             "lineup_status": game.get("lineup_status"),
