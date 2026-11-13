@@ -67,7 +67,10 @@ def q1_minutes(summary: dict, team_id: str) -> dict[str, float] | None:
         if len(oncourt) != 5:
             return None
         subs += 1
-    if elapsed < 690:  # require all but final 30 seconds represented
+    # ESPN summaries may omit the period-end marker: one real game ends its
+    # recorded Q1 feed at 1:05 remaining. Extrapolate the last on-court five
+    # for at most two minutes, and reject larger unobserved gaps.
+    if elapsed < 600:
         return None
     dt = 720 - elapsed
     for player in oncourt:
