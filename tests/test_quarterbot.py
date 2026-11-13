@@ -68,6 +68,7 @@ class ParserTests(unittest.TestCase):
                       {"sport": "nba", "name": "Away at Home", "date": "2026-11-14T00:00Z",
                        "predictions": []}]}
         self.assertIn("Fri Nov 13, 07:00 PM EST", markdown(report))
+        self.assertIn("Generated: Thu Nov 12, 07:00 PM EST", markdown(report))
 
 
 if __name__ == "__main__":
