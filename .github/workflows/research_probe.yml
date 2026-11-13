@@ -1,0 +1,37 @@
+name: Probe first-quarter rotation and opportunity source
+on:
+  push:
+    branches: ["research-q1-opportunity-v3"]
+    paths: [".github/workflows/research_probe.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Inspect actual Q1 play-by-play and starter state
+        run: |
+          python - <<'PY'
+          from quarterbot import fetch_json, BASE
+          from collections import Counter
+          summary=fetch_json(f"{BASE}/basketball/nba/summary",{"event":"401909978"})
+          print("top-level keys",sorted(summary))
+          plays=[p for p in summary.get("plays",[]) if p.get("period",{}).get("number")==1]
+          print("Q1 plays",len(plays),"types",Counter(p.get("type",{}).get("text","") for p in plays).most_common(35))
+          for p in plays:
+              label=p.get("type",{}).get("text","").lower()
+              if any(t in label for t in ("substit","timeout","end period")):
+                  print("ROTATION",repr(p)[:900])
+                  if len([1 for q in plays[:plays.index(p)] if "substit" in q.get("type",{}).get("text","").lower()])>=3:break
+          for grp in summary.get("boxscore",{}).get("players",[])[:2]:
+              print("BOXTEAM",grp.get("team",{}).get("id"))
+              print("CATEGORY",str(grp.get("statistics",[])[0].keys())[:1000])
+              for a in grp.get("statistics",[])[0].get("athletes",[])[:4]:
+                  print("ATHLETE",{"starter":a.get("starter"),"stats":a.get("stats"),"name":a.get("athlete",{}).get("displayName")})
+          PY
