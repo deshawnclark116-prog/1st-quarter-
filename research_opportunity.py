@@ -21,7 +21,8 @@ from nba_walkforward import collect_games
 from quarterbot import BASE, SPORTS, LOCAL_TZ, MIN_DISPLAY, fetch_json, nba_stats, parse_time, project
 from quarter_challenger import nba_starter_flags
 from quarter_grade import _q1_team_score
-from quarter_opportunity import q1_minutes, candidate_forecasts
+from quarter_opportunity import q1_minutes, candidate_forecasts, weighted
+from quarter_shots import extract_q1_shots, fullgame_shots, forecast_shots
 
 
 def mean(values: list[float]):
@@ -38,6 +39,8 @@ def samples_before(history: list, player_id: str, metric: str) -> list[dict]:
             "minutes": (game["minutes"] or {}).get(player_id),
             "starter": game["starters"].get(player_id),
             "team_scored": game["scored"],
+            "q1_shots": game["q1_shots"].get(player_id, {}),
+            "full_shots": game["full_shots"].get(player_id, {}),
         })
     return output
 
@@ -68,6 +71,8 @@ def walkforward(begin: date, finish: date, max_games: int = 250, lookback: int =
                 data[tid] = {
                     "values": values, "roster": {str(pid) for pid in roster},
                     "starters": starters, "minutes": minutes,
+                    "q1_shots": extract_q1_shots(summary, tid),
+                    "full_shots": fullgame_shots(summary, tid),
                     "scored": official,
                     "points_valid": official is not None and abs(official - points_sum) < 0.01,
                 }
@@ -97,6 +102,22 @@ def walkforward(begin: date, finish: date, max_games: int = 250, lookback: int =
                         if base < MIN_DISPLAY[metric]:
                             continue
                         candidates = candidate_forecasts(samples, metric, base, opp_allowed, q1_scores)
+                        if metric == "points":
+                            starter_mins = [r["minutes"] for r in samples
+                                            if r.get("starter") is True and isinstance(r.get("minutes"), (int,float))]
+                            expected_mins = (min(12.0, max(4.0, 0.65 * weighted(starter_mins[:5]) + 0.35 * 8.5))
+                                             if len(starter_mins) >= 3 else None)
+                            team_scale = None
+                            if opp_allowed and q1_scores:
+                                score = weighted(q1_scores[:8])
+                                opponent = weighted(opp_allowed[:8])
+                                if score >= 10 and opponent >= 10:
+                                    team_scale = max(0.88, min(1.12, (0.7*score + 0.3*opponent)/score))
+                            candidates.update(forecast_shots(samples, base, expected_mins, team_scale))
+                        else:
+                            candidates.update({k: None for k in ("shot_volume", "shot_half_shrink",
+                                "shot_starter", "shot_starter_half_shrink", "shot_minutes",
+                                "shot_minutes_half_shrink", "shot_team_context")})
                         actual = float(current["values"].get(pid, {}).get(metric, 0))
                         row = {
                             "date": parse_time(event["date"]).astimezone(LOCAL_TZ).date().isoformat(),
@@ -122,7 +143,9 @@ def walkforward(begin: date, finish: date, max_games: int = 250, lookback: int =
 
     names = ["weighted_median", "median_recent6", "rolling_mean", "starter_conditional",
              "minute_rate", "minute_half_shrink", "starter_median",
-             "defense_shrink", "defense_full", "median_half_shrink", "median_quarter_shrink"]
+             "defense_shrink", "defense_full", "median_half_shrink", "median_quarter_shrink",
+             "shot_volume", "shot_half_shrink", "shot_starter", "shot_starter_half_shrink",
+             "shot_minutes", "shot_minutes_half_shrink", "shot_team_context"]
     train_end = "2026-11-02"  # immutable predeclared research windows
     validation_end = "2026-11-06"
     markets = ["points", "rebounds", "assists"]
