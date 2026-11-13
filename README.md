@@ -1,6 +1,6 @@
 # 1st Quarter
 
-**Model status: experimental baseline.** The current projections have not yet been backtested or shown to beat simple alternatives. Do not treat them as validated picks.
+**Model status: experimental baseline.** The baseline estimates are not proven profitable; NBA historical-horizon and shot-opportunity research has been backtested, but prospective betting-edge validation is still required. Do not treat them as validated picks.
 
 An automated first-quarter player projection bot for upcoming NBA and NFL games. It reads public ESPN schedules and game summaries, calculates each player's recent first-quarter production, and writes a Markdown report plus machine-readable JSON.
 
@@ -83,3 +83,24 @@ backtested-looking subset.
 
 The branch's new workflow `grade.yml` grades once per day. Confirm that
 GitHub Actions are enabled before relying on the automation.
+
+## November 13, 2026 — NBA history-window validation
+
+The historical research branch compared identical player-game predictions
+under six versus ten previous NBA team games in both 2025 and 2026.
+The ten-game horizon had lower first-quarter points, rebounds and assists
+mean absolute errors on matched retrospective samples in both years.
+Consequently the NBA baseline now uses **10 recent games**, while NFL remains
+at **6** (NFL was not part of the NBA evaluation). You can override those
+with `--nba-games N` and `--games N` respectively. The original weighted
+estimator is unchanged.
+
+A separate `shadow_shot_estimate` is archived for NBA point projections;
+it has **no influence on published predictions**. Its forward-only grade
+and game-cluster confidence interval are tracked by the nightly grader.
+
+Do not confuse retrospective improvements with betting profit: these
+research comparisons used the final-game box score to identify starters.
+The live workflow only publishes when both NBA starting fives have been
+confirmed before the game's start. Real betting-market prices, odds and
+net ROI are still required before this can be labeled a winning system.
