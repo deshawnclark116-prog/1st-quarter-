@@ -35,6 +35,19 @@ class FirstQuarterQualityTests(unittest.TestCase):
         payload["games"][0]["teams"][0]["players"][0]["lineupStatus"] = "Expected"
         self.assertIsNone(confirmed_starters(payload, self.game))
 
+    def test_espn_nba_abbreviation_aliases_and_accents(self):
+        from quarter_guard import normalized
+        self.assertEqual(normalized("Nikola Vučević"), normalized("Nikola Vucevic"))
+        game = dict(self.game, teams=[
+            {"id": "1", "abbreviation": "NY", "name": "New York Knicks"},
+            {"id": "2", "abbreviation": "GS", "name": "Golden State Warriors"}])
+        def team(code):
+            return {"teamTricode": code, "players": [
+                {"playerName": f"{code} {i}", "lineupStatus": "Confirmed"} for i in range(5)]}
+        payload = {"games": [{"teams": [team("NYK"), team("GSW")]}]}
+        found = confirmed_starters(payload, game)
+        self.assertEqual(set(found), {"NYK", "GSW"})
+
     def test_unverified_roster_never_publishes_official_nba(self):
         self.assertEqual(gate_nba_predictions(self.game, [self.pred], None, "url"), [])
         self.assertEqual(self.game["lineup_status"], "unconfirmed")
