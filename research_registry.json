@@ -19,9 +19,26 @@
   "challengers": [
     {
       "name": "nba_starter_role_v1",
-      "state": "shadow_only",
-      "publication_source": "shadow_role_estimate",
-      "promotion": "prohibited pending chronological held-out comparison; no odds/ROI proof"
+      "state": "FROZEN_NOT_PROMOTED",
+      "reason": "Chronological Nov 7-12 holdout on matched starter-conditioned rows showed MAE worse than baseline in points, rebounds and assists.",
+      "matched_holdout": {
+        "points": {
+          "n": 358,
+          "baseline_mae": 2.502,
+          "challenger_mae": 2.507
+        },
+        "rebounds": {
+          "n": 324,
+          "baseline_mae": 1.105,
+          "challenger_mae": 1.113
+        },
+        "assists": {
+          "n": 299,
+          "baseline_mae": 0.905,
+          "challenger_mae": 0.906
+        }
+      },
+      "reopen_only_for": "Genuinely new rotation, matchup, minutes, or opportunity data; not rescue tuning same features."
     }
   ],
   "data_gates": {
@@ -41,7 +58,32 @@
       "calibrated hit probabilities",
       "robust NFL Q1 role/usage model",
       "live NBA starter quality across entire slate"
-    ]
+    ],
+    "historical_walkforward": {
+      "period": "2026-10-20 to 2026-11-12",
+      "completed_games": 174,
+      "evaluated_rows": 3107,
+      "holdout": "2026-11-07 through 2026-11-12",
+      "oracle_lineups": true,
+      "holdout_results": {
+        "points": {
+          "n": 386,
+          "baseline_mae": 2.528,
+          "simple_last3_mae": 2.748
+        },
+        "rebounds": {
+          "n": 351,
+          "baseline_mae": 1.098,
+          "simple_last3_mae": 1.178
+        },
+        "assists": {
+          "n": 321,
+          "baseline_mae": 0.9,
+          "simple_last3_mae": 0.969
+        }
+      },
+      "conclusion": "Keep baseline; role-only challenger loses on matched holdout; no market odds or betting profitability."
+    }
   },
   "operational_status": {
     "github_actions": "2026-11-13 production smoke run succeeded after browser UA/header fix",
