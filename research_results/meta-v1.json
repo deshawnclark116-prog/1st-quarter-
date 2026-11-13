@@ -1,0 +1,189 @@
+{
+  "data_source": "research_results/opportunity-v3.csv",
+  "rows": 3107,
+  "note": "All features strictly computed from prior games; target starter identity is oracle/hindsight.",
+  "holdout_warning": "2026-11-07 to 11-12 was already inspected by earlier research; no promotion.",
+  "markets": [
+    {
+      "metric": "points",
+      "training_n": 530,
+      "validation_n": 226,
+      "diagnostic_n": 386,
+      "candidates": [
+        {
+          "name": "shallow_absolute_boosting",
+          "validation": {
+            "n": 226,
+            "baseline_mae": 2.7044,
+            "candidate_mae": 2.751,
+            "relative_mae_improvement_pct": -1.72
+          },
+          "exploratory_test": {
+            "n": 386,
+            "baseline_mae": 2.5285,
+            "candidate_mae": 2.519,
+            "relative_mae_improvement_pct": 0.38
+          }
+        },
+        {
+          "name": "robust_linear",
+          "validation": {
+            "n": 226,
+            "baseline_mae": 2.7044,
+            "candidate_mae": 2.6627,
+            "relative_mae_improvement_pct": 1.54
+          },
+          "exploratory_test": {
+            "n": 386,
+            "baseline_mae": 2.5285,
+            "candidate_mae": 2.4854,
+            "relative_mae_improvement_pct": 1.7
+          }
+        },
+        {
+          "name": "robust_bagged_forest",
+          "validation": {
+            "n": 226,
+            "baseline_mae": 2.7044,
+            "candidate_mae": 2.6446,
+            "relative_mae_improvement_pct": 2.21
+          },
+          "exploratory_test": {
+            "n": 386,
+            "baseline_mae": 2.5285,
+            "candidate_mae": 2.4946,
+            "relative_mae_improvement_pct": 1.34
+          }
+        }
+      ],
+      "validation_selected": "robust_bagged_forest",
+      "selected_exploratory_diagnostic": {
+        "n": 386,
+        "baseline_mae": 2.5285,
+        "candidate_mae": 2.4946,
+        "relative_mae_improvement_pct": 1.34
+      }
+    },
+    {
+      "metric": "rebounds",
+      "training_n": 481,
+      "validation_n": 214,
+      "diagnostic_n": 351,
+      "candidates": [
+        {
+          "name": "shallow_absolute_boosting",
+          "validation": {
+            "n": 214,
+            "baseline_mae": 1.1164,
+            "candidate_mae": 1.1046,
+            "relative_mae_improvement_pct": 1.06
+          },
+          "exploratory_test": {
+            "n": 351,
+            "baseline_mae": 1.0983,
+            "candidate_mae": 1.0512,
+            "relative_mae_improvement_pct": 4.28
+          }
+        },
+        {
+          "name": "robust_linear",
+          "validation": {
+            "n": 214,
+            "baseline_mae": 1.1164,
+            "candidate_mae": 1.1176,
+            "relative_mae_improvement_pct": -0.11
+          },
+          "exploratory_test": {
+            "n": 351,
+            "baseline_mae": 1.0983,
+            "candidate_mae": 1.0425,
+            "relative_mae_improvement_pct": 5.08
+          }
+        },
+        {
+          "name": "robust_bagged_forest",
+          "validation": {
+            "n": 214,
+            "baseline_mae": 1.1164,
+            "candidate_mae": 1.1366,
+            "relative_mae_improvement_pct": -1.81
+          },
+          "exploratory_test": {
+            "n": 351,
+            "baseline_mae": 1.0983,
+            "candidate_mae": 1.0616,
+            "relative_mae_improvement_pct": 3.34
+          }
+        }
+      ],
+      "validation_selected": "shallow_absolute_boosting",
+      "selected_exploratory_diagnostic": {
+        "n": 351,
+        "baseline_mae": 1.0983,
+        "candidate_mae": 1.0512,
+        "relative_mae_improvement_pct": 4.28
+      }
+    },
+    {
+      "metric": "assists",
+      "training_n": 410,
+      "validation_n": 188,
+      "diagnostic_n": 321,
+      "candidates": [
+        {
+          "name": "shallow_absolute_boosting",
+          "validation": {
+            "n": 188,
+            "baseline_mae": 0.8989,
+            "candidate_mae": 0.9258,
+            "relative_mae_improvement_pct": -2.99
+          },
+          "exploratory_test": {
+            "n": 321,
+            "baseline_mae": 0.9,
+            "candidate_mae": 0.8346,
+            "relative_mae_improvement_pct": 7.27
+          }
+        },
+        {
+          "name": "robust_linear",
+          "validation": {
+            "n": 188,
+            "baseline_mae": 0.8989,
+            "candidate_mae": 0.8993,
+            "relative_mae_improvement_pct": -0.04
+          },
+          "exploratory_test": {
+            "n": 321,
+            "baseline_mae": 0.9,
+            "candidate_mae": 0.863,
+            "relative_mae_improvement_pct": 4.11
+          }
+        },
+        {
+          "name": "robust_bagged_forest",
+          "validation": {
+            "n": 188,
+            "baseline_mae": 0.8989,
+            "candidate_mae": 0.9009,
+            "relative_mae_improvement_pct": -0.22
+          },
+          "exploratory_test": {
+            "n": 321,
+            "baseline_mae": 0.9,
+            "candidate_mae": 0.8975,
+            "relative_mae_improvement_pct": 0.27
+          }
+        }
+      ],
+      "validation_selected": "robust_linear",
+      "selected_exploratory_diagnostic": {
+        "n": 321,
+        "baseline_mae": 0.9,
+        "candidate_mae": 0.863,
+        "relative_mae_improvement_pct": 4.11
+      }
+    }
+  ],
+  "automatic_production_promotion": false
+}
