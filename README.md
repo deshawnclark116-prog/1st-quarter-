@@ -4,7 +4,7 @@ An automated first-quarter player projection bot for upcoming NBA and NFL games.
 
 ## Where to find predictions
 
-The latest run writes [predictions.md](predictions.md) and [predictions.json](predictions.json) in this repository. GitHub Actions runs daily at 14:00 UTC and can also be started manually from the **Actions** tab using **Run workflow**. The report is also added to the run summary.
+The latest run writes [predictions.md](predictions.md) and [predictions.json](predictions.json) in this repository. GitHub Actions runs daily at 14:00 and 00:00 UTC, plus Sunday at 16:30 UTC to refresh NFL availability closer to kickoff. It can also be started manually from the **Actions** tab using **Run workflow**. The report is also added to the run summary.
 
 ## Run locally
 
