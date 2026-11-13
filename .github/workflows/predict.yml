@@ -10,12 +10,14 @@ on:
       - "quarter_guard.py"
       - "quarter_challenger.py"
       - "quarter_grade.py"
+      - "quarter_schedule.py"
+      - "quarter_preflight.py"
       - ".github/workflows/predict.yml"
   schedule:
-    # GitHub cron uses UTC. Poll through the US afternoon/evening pregame windows.
-    - cron: "*/15 17-23 * * *"
-    - cron: "*/15 0-5 * * *"
-    - cron: "*/15 10-16 * * 0"
+    # UTC, all days/hours (NBA, NFL, international and daytime games).
+    # :02 offset avoids GitHub Actions' top-of-hour congestion.
+    # The preflight uses each game's real ESPN start time, not these clock hours.
+    - cron: "2,17,32,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -34,16 +36,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Check game-specific T-30 and T-15 triggers
+        id: preflight
+        run: python quarter_preflight.py
       - name: Test model and source parsers
+        if: steps.preflight.outputs.run == 'true'
         run: python -m unittest discover -s tests -v
       - name: Generate verified pregame projections and immutable archive
+        if: steps.preflight.outputs.run == 'true'
         run: python quarterbot.py --days 2
       - name: Add report to run summary
+        if: steps.preflight.outputs.run == 'true'
         run: |
           if [ -f predictions.md ]; then
             cat predictions.md >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Save latest report and pregame snapshots
+        if: steps.preflight.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

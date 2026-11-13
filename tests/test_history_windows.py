@@ -6,7 +6,7 @@ from quarterbot import build_report, markdown
 
 class SportHistoryWindowTests(unittest.TestCase):
     def test_nba_10_games_nfl_6_and_report_discloses_both(self):
-        date=(datetime.now(timezone.utc)+timedelta(minutes=60)).isoformat()
+        date=(datetime.now(timezone.utc)+timedelta(minutes=30)).isoformat()
         def event(sport):
             return {"id":sport,"date":date,"date_et":"2026-11-13T19:00:00-05:00",
                     "sport":sport,"name":"Test vs Test",

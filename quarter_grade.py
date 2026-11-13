@@ -24,7 +24,9 @@ def archive_report(report: dict, root: Path = ARCHIVE_DIR) -> int:
         tip = parse_time(game["date"])
         if not (now + timedelta(minutes=2) < tip <= now + timedelta(hours=2)):
             continue
-        if not game.get("predictions"):
+        if not game.get("predictions") or game.get("reused_verified_snapshot"):
+            # Retained T-30 predictions are not newly generated T-15 predictions.
+            # Never create a duplicate archive with an artificial later timestamp.
             continue
         if game["sport"] == "nba" and game.get("lineup_status") != "confirmed":
             continue
