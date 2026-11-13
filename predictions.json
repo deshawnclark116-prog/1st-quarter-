@@ -1,12 +1,1394 @@
 {
-  "generated_at": "2026-11-13T00:23:15.499669+00:00",
-  "start_date": "2026-11-13",
+  "generated_at": "2026-11-13T00:37:56.530058+00:00",
+  "start_date": "2026-11-12",
   "days": 4,
   "sample_size": 6,
   "games": [
     {
+      "id": "401909978",
+      "date": "2026-11-13T01:00Z",
+      "date_et": "2026-11-12T20:00:00-05:00",
+      "sport": "nba",
+      "name": "Dallas Mavericks at Minnesota Timberwolves",
+      "teams": [
+        {
+          "id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN"
+        },
+        {
+          "id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL"
+        }
+      ],
+      "predictions": [
+        {
+          "player": "Ayo Dosunmu",
+          "player_id": "4397002",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 0.6,
+          "low": 0,
+          "high": 1.3,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "player_id": "4397002",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 5.2,
+          "low": 2.0,
+          "high": 8.5,
+          "games": 6,
+          "recent": [
+            3.0,
+            10.0,
+            4.0,
+            2.0,
+            9.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "player_id": "4397002",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.5,
+          "low": 0.1,
+          "high": 2.9,
+          "games": 6,
+          "recent": [
+            2.0,
+            1.0,
+            0.0,
+            4.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Bones Hyland",
+          "player_id": "4592492",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 0.6,
+          "low": 0,
+          "high": 1.5,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Bones Hyland",
+          "player_id": "4592492",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 5.2,
+          "low": 3.3,
+          "high": 7.1,
+          "games": 6,
+          "recent": [
+            7.0,
+            3.0,
+            7.0,
+            3.0,
+            6.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Jaden McDaniels",
+          "player_id": "4431671",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 2.0,
+          "low": 0.9,
+          "high": 3.0,
+          "games": 6,
+          "recent": [
+            3.0,
+            2.0,
+            1.0,
+            2.0,
+            0.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Jaden McDaniels",
+          "player_id": "4431671",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 2.0,
+          "low": 0,
+          "high": 5.5,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            6.0,
+            3.0,
+            0.0,
+            9.0
+          ]
+        },
+        {
+          "player": "Jaden McDaniels",
+          "player_id": "4431671",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.5,
+          "low": 0.7,
+          "high": 2.2,
+          "games": 6,
+          "recent": [
+            1.0,
+            2.0,
+            2.0,
+            2.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Joan Beringer",
+          "player_id": "5279133",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.6,
+          "low": 0.8,
+          "high": 2.3,
+          "games": 6,
+          "recent": [
+            1.0,
+            2.0,
+            1.0,
+            2.0,
+            3.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Jonathan Kuminga",
+          "player_id": "4433247",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 0.8,
+          "low": 0.1,
+          "high": 1.5,
+          "games": 6,
+          "recent": [
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Jonathan Kuminga",
+          "player_id": "4433247",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 3.3,
+          "low": 1.4,
+          "high": 5.2,
+          "games": 6,
+          "recent": [
+            4.0,
+            5.0,
+            3.0,
+            3.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Jonathan Kuminga",
+          "player_id": "4433247",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.3,
+          "low": 0.0,
+          "high": 2.5,
+          "games": 6,
+          "recent": [
+            0.0,
+            3.0,
+            0.0,
+            3.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "player": "LaMelo Ball",
+          "player_id": "4432816",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 1.0,
+          "low": 0.3,
+          "high": 1.6,
+          "games": 6,
+          "recent": [
+            1.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "player": "LaMelo Ball",
+          "player_id": "4432816",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 6.8,
+          "low": 3.3,
+          "high": 10.2,
+          "games": 6,
+          "recent": [
+            4.0,
+            7.0,
+            8.0,
+            13.0,
+            2.0,
+            8.0
+          ]
+        },
+        {
+          "player": "LaMelo Ball",
+          "player_id": "4432816",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.0,
+          "low": 0,
+          "high": 2.4,
+          "games": 6,
+          "recent": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            3.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Rudy Gobert",
+          "player_id": "3032976",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 3.3,
+          "low": 2.3,
+          "high": 4.4,
+          "games": 5,
+          "recent": [
+            3.0,
+            4.0,
+            2.0,
+            4.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Terrence Shannon Jr.",
+          "player_id": "4432847",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "assists",
+          "estimate": 1.3,
+          "low": 0.4,
+          "high": 2.3,
+          "games": 3,
+          "recent": [
+            2.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Terrence Shannon Jr.",
+          "player_id": "4432847",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 2.2,
+          "low": 0,
+          "high": 5.7,
+          "games": 3,
+          "recent": [
+            2.0,
+            0.0,
+            7.0
+          ]
+        },
+        {
+          "player": "Terrence Shannon Jr.",
+          "player_id": "4432847",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.2,
+          "low": 0.6,
+          "high": 1.8,
+          "games": 3,
+          "recent": [
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Trey Lyles",
+          "player_id": "3136196",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "points",
+          "estimate": 2.2,
+          "low": 0,
+          "high": 4.5,
+          "games": 6,
+          "recent": [
+            5.0,
+            0.0,
+            3.0,
+            0.0,
+            0.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Trey Lyles",
+          "player_id": "3136196",
+          "team": "Minnesota Timberwolves",
+          "team_id": "16",
+          "metric": "rebounds",
+          "estimate": 1.7,
+          "low": 0.8,
+          "high": 2.7,
+          "games": 6,
+          "recent": [
+            3.0,
+            2.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Caleb Martin",
+          "player_id": "3138160",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "rebounds",
+          "estimate": 1.2,
+          "low": 0.4,
+          "high": 2.0,
+          "games": 6,
+          "recent": [
+            2.0,
+            1.0,
+            0.0,
+            2.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Cooper Flagg",
+          "player_id": "5041939",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "assists",
+          "estimate": 1.7,
+          "low": 0,
+          "high": 3.4,
+          "games": 6,
+          "recent": [
+            2.0,
+            0.0,
+            5.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Cooper Flagg",
+          "player_id": "5041939",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 7.9,
+          "low": 3.4,
+          "high": 12.4,
+          "games": 6,
+          "recent": [
+            9.0,
+            14.0,
+            4.0,
+            2.0,
+            4.0,
+            12.0
+          ]
+        },
+        {
+          "player": "Cooper Flagg",
+          "player_id": "5041939",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "rebounds",
+          "estimate": 3.4,
+          "low": 1.9,
+          "high": 4.9,
+          "games": 6,
+          "recent": [
+            5.0,
+            2.0,
+            5.0,
+            2.0,
+            1.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Daniel Gafford",
+          "player_id": "4278049",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "assists",
+          "estimate": 0.7,
+          "low": 0,
+          "high": 1.4,
+          "games": 6,
+          "recent": [
+            0.0,
+            2.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Daniel Gafford",
+          "player_id": "4278049",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 2.3,
+          "low": 0.5,
+          "high": 4.1,
+          "games": 6,
+          "recent": [
+            2.0,
+            1.0,
+            5.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        {
+          "player": "Daniel Gafford",
+          "player_id": "4278049",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "rebounds",
+          "estimate": 1.6,
+          "low": 0.1,
+          "high": 3.1,
+          "games": 6,
+          "recent": [
+            0.0,
+            3.0,
+            1.0,
+            2.0,
+            4.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Kyrie Irving",
+          "player_id": "6442",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "assists",
+          "estimate": 1.3,
+          "low": 0.5,
+          "high": 2.1,
+          "games": 5,
+          "recent": [
+            1.0,
+            2.0,
+            0.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Kyrie Irving",
+          "player_id": "6442",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 4.5,
+          "low": 1.5,
+          "high": 7.5,
+          "games": 5,
+          "recent": [
+            3.0,
+            9.0,
+            0.0,
+            6.0,
+            4.0
+          ]
+        },
+        {
+          "player": "Naji Marshall",
+          "player_id": "4278594",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.3,
+          "games": 5,
+          "recent": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "player": "P.J. Washington",
+          "player_id": "4278078",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 4.5,
+          "low": 1.2,
+          "high": 7.8,
+          "games": 6,
+          "recent": [
+            7.0,
+            0.0,
+            6.0,
+            8.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "player": "P.J. Washington",
+          "player_id": "4278078",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "rebounds",
+          "estimate": 1.2,
+          "low": 0.3,
+          "high": 2.2,
+          "games": 6,
+          "recent": [
+            1.0,
+            1.0,
+            0.0,
+            3.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Santi Aldama",
+          "player_id": "4593125",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.1,
+          "games": 3,
+          "recent": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Santi Aldama",
+          "player_id": "4593125",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 1.5,
+          "low": 0,
+          "high": 3.2,
+          "games": 3,
+          "recent": [
+            3.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Santi Aldama",
+          "player_id": "4593125",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "rebounds",
+          "estimate": 1.3,
+          "low": 0.4,
+          "high": 2.3,
+          "games": 3,
+          "recent": [
+            2.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Walter Clayton Jr.",
+          "player_id": "4896372",
+          "team": "Dallas Mavericks",
+          "team_id": "6",
+          "metric": "points",
+          "estimate": 1.6,
+          "low": 0,
+          "high": 3.6,
+          "games": 6,
+          "recent": [
+            0.0,
+            3.0,
+            0.0,
+            3.0,
+            5.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401909979",
+      "date": "2026-11-13T02:00Z",
+      "date_et": "2026-11-12T21:00:00-05:00",
+      "sport": "nba",
+      "name": "Charlotte Hornets at Phoenix Suns",
+      "teams": [
+        {
+          "id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX"
+        },
+        {
+          "id": "30",
+          "name": "Charlotte Hornets",
+          "abbreviation": "CHA"
+        }
+      ],
+      "predictions": [
+        {
+          "player": "Collin Gillespie",
+          "player_id": "4278585",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 2.3,
+          "low": 0.0,
+          "high": 4.5,
+          "games": 6,
+          "recent": [
+            6.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Devin Booker",
+          "player_id": "3136193",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 1.5,
+          "low": 0.8,
+          "high": 2.3,
+          "games": 6,
+          "recent": [
+            1.0,
+            1.0,
+            2.0,
+            3.0,
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Devin Booker",
+          "player_id": "3136193",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 9.7,
+          "low": 5.7,
+          "high": 13.7,
+          "games": 6,
+          "recent": [
+            8.0,
+            15.0,
+            4.0,
+            12.0,
+            12.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Devin Booker",
+          "player_id": "3136193",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 0.8,
+          "low": 0.3,
+          "high": 1.3,
+          "games": 6,
+          "recent": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Dillon Brooks",
+          "player_id": "3155526",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 4.6,
+          "low": 2.6,
+          "high": 6.5,
+          "games": 6,
+          "recent": [
+            4.0,
+            2.0,
+            5.0,
+            7.0,
+            8.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Dillon Brooks",
+          "player_id": "3155526",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 1.1,
+          "low": 0.5,
+          "high": 1.8,
+          "games": 6,
+          "recent": [
+            1.0,
+            1.0,
+            2.0,
+            0.0,
+            2.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Jalen Green",
+          "player_id": "4437244",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 1.4,
+          "low": 0.4,
+          "high": 2.5,
+          "games": 6,
+          "recent": [
+            1.0,
+            2.0,
+            3.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Jalen Green",
+          "player_id": "4437244",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 3.0,
+          "low": 0.3,
+          "high": 5.6,
+          "games": 6,
+          "recent": [
+            2.0,
+            0.0,
+            8.0,
+            2.0,
+            5.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Jalen Green",
+          "player_id": "4437244",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 1.4,
+          "low": 0.3,
+          "high": 2.5,
+          "games": 6,
+          "recent": [
+            2.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Khaman Maluach",
+          "player_id": "5203685",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 1.7,
+          "low": 0.6,
+          "high": 2.8,
+          "games": 6,
+          "recent": [
+            3.0,
+            2.0,
+            0.0,
+            1.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Khaman Maluach",
+          "player_id": "5203685",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 2.3,
+          "low": 1.6,
+          "high": 3.0,
+          "games": 6,
+          "recent": [
+            3.0,
+            2.0,
+            3.0,
+            1.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Luke Kennard",
+          "player_id": "3913174",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.3,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Miles Bridges",
+          "player_id": "4066383",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 0.6,
+          "low": 0,
+          "high": 1.4,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Miles Bridges",
+          "player_id": "4066383",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 1.8,
+          "low": 0,
+          "high": 3.6,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            4.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        {
+          "player": "Miles Bridges",
+          "player_id": "4066383",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 1.8,
+          "low": 0.9,
+          "high": 2.7,
+          "games": 6,
+          "recent": [
+            1.0,
+            2.0,
+            1.0,
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Oso Ighodaro",
+          "player_id": "4601023",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.3,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Oso Ighodaro",
+          "player_id": "4601023",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 2.6,
+          "low": 0.3,
+          "high": 4.9,
+          "games": 6,
+          "recent": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            5.0,
+            8.0
+          ]
+        },
+        {
+          "player": "Oso Ighodaro",
+          "player_id": "4601023",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 2.1,
+          "low": 1.1,
+          "high": 3.2,
+          "games": 6,
+          "recent": [
+            4.0,
+            1.0,
+            2.0,
+            1.0,
+            2.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Ryan Dunn",
+          "player_id": "4888725",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.2,
+          "games": 6,
+          "recent": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Ryan Dunn",
+          "player_id": "4888725",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "points",
+          "estimate": 3.4,
+          "low": 1.4,
+          "high": 5.4,
+          "games": 6,
+          "recent": [
+            4.0,
+            3.0,
+            5.0,
+            4.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Ryan Dunn",
+          "player_id": "4888725",
+          "team": "Phoenix Suns",
+          "team_id": "21",
+          "metric": "rebounds",
+          "estimate": 1.2,
+          "low": 0.0,
+          "high": 2.3,
+          "games": 6,
+          "recent": [
+            3.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Christian Anderson",
+          "player_id": "5060701",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 1.0,
+          "low": 0.1,
+          "high": 1.9,
+          "games": 5,
+          "recent": [
+            1.0,
+            2.0,
+            0.0,
+            0.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Coby White",
+          "player_id": "4395651",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "assists",
+          "estimate": 0.8,
+          "low": 0,
+          "high": 1.7,
+          "games": 4,
+          "recent": [
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Coby White",
+          "player_id": "4395651",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "points",
+          "estimate": 2.0,
+          "low": 1.2,
+          "high": 2.8,
+          "games": 4,
+          "recent": [
+            1.0,
+            3.0,
+            2.0,
+            3.0
+          ]
+        },
+        {
+          "player": "Grayson Allen",
+          "player_id": "3135045",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "points",
+          "estimate": 5.8,
+          "low": 2.1,
+          "high": 9.4,
+          "games": 6,
+          "recent": [
+            9.0,
+            0.0,
+            4.0,
+            8.0,
+            11.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Grayson Allen",
+          "player_id": "3135045",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 1.2,
+          "low": 0.3,
+          "high": 2.1,
+          "games": 6,
+          "recent": [
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Hannes Steinbach",
+          "player_id": "5281370",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 1.4,
+          "low": 0.4,
+          "high": 2.4,
+          "games": 4,
+          "recent": [
+            2.0,
+            2.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Naz Reid",
+          "player_id": "4396971",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "assists",
+          "estimate": 0.5,
+          "low": 0,
+          "high": 1.0,
+          "games": 6,
+          "recent": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Naz Reid",
+          "player_id": "4396971",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "points",
+          "estimate": 6.9,
+          "low": 2.2,
+          "high": 11.6,
+          "games": 6,
+          "recent": [
+            15.0,
+            3.0,
+            7.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        {
+          "player": "Naz Reid",
+          "player_id": "4396971",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 3.0,
+          "low": 1.6,
+          "high": 4.4,
+          "games": 6,
+          "recent": [
+            2.0,
+            2.0,
+            5.0,
+            5.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "player": "Royce O'Neale",
+          "player_id": "2583632",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "points",
+          "estimate": 2.3,
+          "low": 0,
+          "high": 4.8,
+          "games": 6,
+          "recent": [
+            4.0,
+            0.0,
+            0.0,
+            2.0,
+            6.0,
+            6.0
+          ]
+        },
+        {
+          "player": "Royce O'Neale",
+          "player_id": "2583632",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 0.9,
+          "low": 0,
+          "high": 2.0,
+          "games": 6,
+          "recent": [
+            1.0,
+            0.0,
+            0.0,
+            2.0,
+            3.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Ryan Kalkbrenner",
+          "player_id": "4576060",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "assists",
+          "estimate": 0.6,
+          "low": 0.1,
+          "high": 1.1,
+          "games": 6,
+          "recent": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Ryan Kalkbrenner",
+          "player_id": "4576060",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "rebounds",
+          "estimate": 2.0,
+          "low": 1.1,
+          "high": 2.8,
+          "games": 6,
+          "recent": [
+            2.0,
+            1.0,
+            3.0,
+            3.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "player": "Sion James",
+          "player_id": "4602025",
+          "team": "Charlotte Hornets",
+          "team_id": "30",
+          "metric": "assists",
+          "estimate": 1.0,
+          "low": 0.2,
+          "high": 1.8,
+          "games": 6,
+          "recent": [
+            2.0,
+            0.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
       "id": "401909296",
       "date": "2026-11-14T00:00Z",
+      "date_et": "2026-11-13T19:00:00-05:00",
       "sport": "nba",
       "name": "New York Knicks at Indiana Pacers",
       "teams": [
@@ -694,12 +2076,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T19:00:00-05:00"
+      ]
     },
     {
       "id": "401909297",
       "date": "2026-11-14T00:00Z",
+      "date_et": "2026-11-13T19:00:00-05:00",
       "sport": "nba",
       "name": "Milwaukee Bucks at Orlando Magic",
       "teams": [
@@ -1314,12 +2696,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T19:00:00-05:00"
+      ]
     },
     {
       "id": "401909298",
       "date": "2026-11-14T01:00Z",
+      "date_et": "2026-11-13T20:00:00-05:00",
       "sport": "nba",
       "name": "Cleveland Cavaliers at Miami Heat",
       "teams": [
@@ -2083,12 +3465,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909299",
       "date": "2026-11-14T01:00Z",
+      "date_et": "2026-11-13T20:00:00-05:00",
       "sport": "nba",
       "name": "Atlanta Hawks at Chicago Bulls",
       "teams": [
@@ -2807,12 +4189,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909300",
       "date": "2026-11-14T01:00Z",
+      "date_et": "2026-11-13T20:00:00-05:00",
       "sport": "nba",
       "name": "Memphis Grizzlies at New Orleans Pelicans",
       "teams": [
@@ -3569,12 +4951,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909301",
       "date": "2026-11-14T01:30Z",
+      "date_et": "2026-11-13T20:30:00-05:00",
       "sport": "nba",
       "name": "Utah Jazz at Houston Rockets",
       "teams": [
@@ -4285,12 +5667,12 @@
             3.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T20:30:00-05:00"
+      ]
     },
     {
       "id": "401909302",
       "date": "2026-11-14T02:30Z",
+      "date_et": "2026-11-13T21:30:00-05:00",
       "sport": "nba",
       "name": "Golden State Warriors at San Antonio Spurs",
       "teams": [
@@ -5015,12 +6397,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T21:30:00-05:00"
+      ]
     },
     {
       "id": "401909303",
       "date": "2026-11-14T03:00Z",
+      "date_et": "2026-11-13T22:00:00-05:00",
       "sport": "nba",
       "name": "Portland Trail Blazers at Sacramento Kings",
       "teams": [
@@ -5690,12 +7072,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T22:00:00-05:00"
+      ]
     },
     {
       "id": "401909304",
       "date": "2026-11-14T03:30Z",
+      "date_et": "2026-11-13T22:30:00-05:00",
       "sport": "nba",
       "name": "Oklahoma City Thunder at LA Clippers",
       "teams": [
@@ -6457,12 +7839,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-13T22:30:00-05:00"
+      ]
     },
     {
       "id": "401909980",
       "date": "2026-11-15T00:00Z",
+      "date_et": "2026-11-14T19:00:00-05:00",
       "sport": "nba",
       "name": "Denver Nuggets at New Orleans Pelicans",
       "teams": [
@@ -7170,12 +8552,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-14T19:00:00-05:00"
+      ]
     },
     {
       "id": "401909981",
       "date": "2026-11-15T00:30Z",
+      "date_et": "2026-11-14T19:30:00-05:00",
       "sport": "nba",
       "name": "Dallas Mavericks at Cleveland Cavaliers",
       "teams": [
@@ -7870,12 +9252,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-14T19:30:00-05:00"
+      ]
     },
     {
       "id": "401909982",
       "date": "2026-11-15T01:00Z",
+      "date_et": "2026-11-14T20:00:00-05:00",
       "sport": "nba",
       "name": "Detroit Pistons at Miami Heat",
       "teams": [
@@ -8575,12 +9957,12 @@
             2.0
           ]
         }
-      ],
-      "date_et": "2026-11-14T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909983",
       "date": "2026-11-15T01:00Z",
+      "date_et": "2026-11-14T20:00:00-05:00",
       "sport": "nba",
       "name": "Brooklyn Nets at Memphis Grizzlies",
       "teams": [
@@ -9279,12 +10661,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-14T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909984",
       "date": "2026-11-15T01:00Z",
+      "date_et": "2026-11-14T20:00:00-05:00",
       "sport": "nba",
       "name": "Chicago Bulls at Minnesota Timberwolves",
       "teams": [
@@ -10043,12 +11425,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-14T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909985",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nba",
       "name": "Indiana Pacers at Philadelphia 76ers",
       "teams": [
@@ -10717,12 +12099,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401909986",
       "date": "2026-11-15T21:00Z",
+      "date_et": "2026-11-15T16:00:00-05:00",
       "sport": "nba",
       "name": "Los Angeles Lakers at Phoenix Suns",
       "teams": [
@@ -11470,12 +12852,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T16:00:00-05:00"
+      ]
     },
     {
       "id": "401909987",
       "date": "2026-11-15T21:30Z",
+      "date_et": "2026-11-15T16:30:00-05:00",
       "sport": "nba",
       "name": "Charlotte Hornets at LA Clippers",
       "teams": [
@@ -12119,12 +13501,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T16:30:00-05:00"
+      ]
     },
     {
       "id": "401909988",
       "date": "2026-11-15T22:00Z",
+      "date_et": "2026-11-15T17:00:00-05:00",
       "sport": "nba",
       "name": "San Antonio Spurs at Utah Jazz",
       "teams": [
@@ -12819,12 +14201,12 @@
             3.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T17:00:00-05:00"
+      ]
     },
     {
       "id": "401909989",
       "date": "2026-11-15T23:00Z",
+      "date_et": "2026-11-15T18:00:00-05:00",
       "sport": "nba",
       "name": "Dallas Mavericks at Boston Celtics",
       "teams": [
@@ -13452,12 +14834,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T18:00:00-05:00"
+      ]
     },
     {
       "id": "401909990",
       "date": "2026-11-15T23:00Z",
+      "date_et": "2026-11-15T18:00:00-05:00",
       "sport": "nba",
       "name": "New York Knicks at Toronto Raptors",
       "teams": [
@@ -14159,12 +15541,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T18:00:00-05:00"
+      ]
     },
     {
       "id": "401909991",
       "date": "2026-11-16T00:00Z",
+      "date_et": "2026-11-15T19:00:00-05:00",
       "sport": "nba",
       "name": "Houston Rockets at Washington Wizards",
       "teams": [
@@ -14796,12 +16178,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T19:00:00-05:00"
+      ]
     },
     {
       "id": "401909992",
       "date": "2026-11-16T01:00Z",
+      "date_et": "2026-11-15T20:00:00-05:00",
       "sport": "nba",
       "name": "Atlanta Hawks at Milwaukee Bucks",
       "teams": [
@@ -15505,12 +16887,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T20:00:00-05:00"
+      ]
     },
     {
       "id": "401909993",
       "date": "2026-11-16T02:00Z",
+      "date_et": "2026-11-15T21:00:00-05:00",
       "sport": "nba",
       "name": "Oklahoma City Thunder at Sacramento Kings",
       "teams": [
@@ -16236,5703 +17618,304 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T21:00:00-05:00"
+      ]
     },
     {
-      "id": "401909994",
-      "date": "2026-11-17T00:00Z",
-      "sport": "nba",
-      "name": "Orlando Magic at Boston Celtics",
+      "id": "401873052",
+      "date": "2026-11-13T01:15Z",
+      "date_et": "2026-11-12T20:15:00-05:00",
+      "sport": "nfl",
+      "name": "Washington Commanders at New York Giants",
       "teams": [
-        {
-          "id": "2",
-          "name": "Boston Celtics",
-          "abbreviation": "BOS"
-        },
         {
           "id": "19",
-          "name": "Orlando Magic",
-          "abbreviation": "ORL"
+          "name": "New York Giants",
+          "abbreviation": "NYG"
+        },
+        {
+          "id": "28",
+          "name": "Washington Commanders",
+          "abbreviation": "WSH"
         }
       ],
       "predictions": [
         {
-          "player": "Baylor Scheierman",
-          "player_id": "4593841",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 1.6,
-          "low": 0.8,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            0.0,
-            2.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Derrick White",
-          "player_id": "3078576",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.3,
-          "high": 1.9,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            0.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Derrick White",
-          "player_id": "3078576",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 4.1,
-          "low": 0.6,
-          "high": 7.6,
-          "games": 6,
-          "recent": [
-            5.0,
-            5.0,
-            0.0,
-            10.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Derrick White",
-          "player_id": "3078576",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 1.2,
+          "player": "Darnell Mooney",
+          "player_id": "4040655",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "receiving_yards",
+          "estimate": 4.9,
           "low": 0,
-          "high": 2.5,
+          "high": 11.2,
           "games": 6,
           "recent": [
-            1.0,
-            1.0,
-            0.0,
-            4.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jayson Tatum",
-          "player_id": "4065648",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "assists",
-          "estimate": 2.5,
-          "low": 1.0,
-          "high": 4.0,
-          "games": 5,
-          "recent": [
-            4.0,
-            0.0,
-            2.0,
-            4.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jayson Tatum",
-          "player_id": "4065648",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 11.7,
-          "low": 7.6,
-          "high": 15.9,
-          "games": 5,
-          "recent": [
-            8.0,
-            11.0,
-            16.0,
-            18.0,
-            8.0
-          ]
-        },
-        {
-          "player": "Jayson Tatum",
-          "player_id": "4065648",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 2.9,
-          "low": 2.1,
-          "high": 3.6,
-          "games": 5,
-          "recent": [
-            3.0,
-            2.0,
-            3.0,
-            4.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Luka Garza",
-          "player_id": "4277951",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0,
-          "high": 4.5,
-          "games": 6,
-          "recent": [
-            5.0,
+            17.0,
             0.0,
             0.0,
             0.0,
-            3.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Mitchell Robinson",
-          "player_id": "4351852",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 2.7,
-          "low": 0.6,
-          "high": 4.7,
-          "games": 6,
-          "recent": [
-            1.0,
-            3.0,
-            4.0,
-            1.0,
-            7.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Neemias Queta",
-          "player_id": "4397424",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "assists",
-          "estimate": 0.8,
-          "low": 0.0,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            2.0,
-            1.0,
             0.0,
             0.0
           ]
         },
         {
-          "player": "Neemias Queta",
-          "player_id": "4397424",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 1.9,
-          "low": 0.0,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            5.0,
-            0.0,
-            1.0,
-            0.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Neemias Queta",
-          "player_id": "4397424",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.6,
-          "high": 2.1,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            2.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Payton Pritchard",
-          "player_id": "4066354",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            2.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Payton Pritchard",
-          "player_id": "4066354",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0.1,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            4.0,
-            0.0,
-            0.0,
-            3.0,
-            4.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Payton Pritchard",
-          "player_id": "4066354",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Sam Hauser",
-          "player_id": "4065804",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "points",
-          "estimate": 1.8,
-          "low": 0,
-          "high": 3.9,
-          "games": 6,
-          "recent": [
-            0.0,
-            3.0,
-            0.0,
-            3.0,
-            6.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Sam Hauser",
-          "player_id": "4065804",
-          "team": "Boston Celtics",
-          "team_id": "2",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.3,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            1.0,
-            3.0,
-            1.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Alex Morales",
-          "player_id": "4593034",
-          "team": "Orlando Magic",
+          "player": "Darnell Mooney",
+          "player_id": "4040655",
+          "team": "New York Giants",
           "team_id": "19",
-          "metric": "points",
-          "estimate": 1.9,
-          "low": 0,
-          "high": 3.9,
-          "games": 5,
-          "recent": [
-            5.0,
-            0.0,
-            0.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Anthony Black",
-          "player_id": "4712849",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "assists",
-          "estimate": 2.2,
-          "low": 0.9,
-          "high": 3.5,
-          "games": 5,
-          "recent": [
-            4.0,
-            2.0,
-            0.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Anthony Black",
-          "player_id": "4712849",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "points",
-          "estimate": 5.9,
-          "low": 1.4,
-          "high": 10.4,
-          "games": 5,
-          "recent": [
-            7.0,
-            12.0,
-            0.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Anthony Black",
-          "player_id": "4712849",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "rebounds",
-          "estimate": 2.3,
-          "low": 1.1,
-          "high": 3.4,
-          "games": 5,
-          "recent": [
-            4.0,
-            1.0,
-            1.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Desmond Bane",
-          "player_id": "4066320",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0.1,
-          "high": 1.1,
-          "games": 5,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Desmond Bane",
-          "player_id": "4066320",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "points",
+          "metric": "rushing_yards",
           "estimate": 5.0,
-          "low": 3.3,
-          "high": 6.7,
-          "games": 5,
-          "recent": [
-            3.0,
-            8.0,
-            4.0,
-            5.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Franz Wagner",
-          "player_id": "4566434",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "assists",
-          "estimate": 2.5,
-          "low": 0.9,
-          "high": 4.0,
-          "games": 6,
-          "recent": [
-            0.0,
-            5.0,
-            2.0,
-            3.0,
-            3.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Franz Wagner",
-          "player_id": "4566434",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "points",
-          "estimate": 6.7,
-          "low": 5.0,
-          "high": 8.4,
-          "games": 6,
-          "recent": [
-            6.0,
-            7.0,
-            8.0,
-            7.0,
-            7.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Franz Wagner",
-          "player_id": "4566434",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.6,
-          "high": 2.0,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            2.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jase Richardson",
-          "player_id": "5239561",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "assists",
-          "estimate": 0.8,
           "low": 0,
-          "high": 1.8,
+          "high": 12.2,
           "games": 6,
           "recent": [
-            1.0,
             0.0,
-            0.0,
-            1.0,
             3.0,
-            1.0
+            20.0,
+            0.0,
+            0.0,
+            9.0
           ]
         },
         {
-          "player": "Jase Richardson",
-          "player_id": "5239561",
-          "team": "Orlando Magic",
+          "player": "Devin Singletary",
+          "player_id": "4040761",
+          "team": "New York Giants",
           "team_id": "19",
-          "metric": "points",
-          "estimate": 1.8,
-          "low": 0,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            4.0,
-            0.0,
-            5.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Nikola Vucevic",
-          "player_id": "6478",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.1,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            1.0,
-            0.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Wendell Carter Jr.",
-          "player_id": "4277847",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 0.4,
-          "high": 5.1,
-          "games": 6,
-          "recent": [
-            7.0,
-            0.0,
-            0.0,
-            3.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Wendell Carter Jr.",
-          "player_id": "4277847",
-          "team": "Orlando Magic",
-          "team_id": "19",
-          "metric": "rebounds",
-          "estimate": 2.2,
-          "low": 0.3,
-          "high": 4.1,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            1.0,
-            6.0,
-            0.0,
-            2.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T19:00:00-05:00"
-    },
-    {
-      "id": "401909995",
-      "date": "2026-11-17T00:00Z",
-      "sport": "nba",
-      "name": "Chicago Bulls at Cleveland Cavaliers",
-      "teams": [
-        {
-          "id": "5",
-          "name": "Cleveland Cavaliers",
-          "abbreviation": "CLE"
-        },
-        {
-          "id": "4",
-          "name": "Chicago Bulls",
-          "abbreviation": "CHI"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Donovan Mitchell",
-          "player_id": "3908809",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 2.0,
-          "low": 1.0,
-          "high": 3.0,
-          "games": 6,
-          "recent": [
-            3.0,
-            1.0,
-            1.0,
-            3.0,
-            1.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Donovan Mitchell",
-          "player_id": "3908809",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 5.2,
-          "low": 2.3,
-          "high": 8.1,
-          "games": 6,
-          "recent": [
-            4.0,
-            3.0,
-            7.0,
-            10.0,
-            2.0,
-            8.0
-          ]
-        },
-        {
-          "player": "Donovan Mitchell",
-          "player_id": "3908809",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.2,
-          "high": 1.9,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            2.0,
-            2.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Evan Mobley",
-          "player_id": "4432158",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.2,
-          "high": 2.1,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            1.0,
-            3.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Evan Mobley",
-          "player_id": "4432158",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 3.5,
-          "low": 1.7,
-          "high": 5.2,
-          "games": 6,
-          "recent": [
-            5.0,
-            2.0,
-            1.0,
-            5.0,
-            4.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Evan Mobley",
-          "player_id": "4432158",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.5,
-          "low": 0.1,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            3.0,
-            1.0,
-            4.0,
-            2.0
-          ]
-        },
-        {
-          "player": "James Harden",
-          "player_id": "3992",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 1.9,
-          "low": 0.4,
-          "high": 3.3,
-          "games": 6,
-          "recent": [
-            0.0,
-            4.0,
-            2.0,
-            3.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "James Harden",
-          "player_id": "3992",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 2.4,
-          "low": 0.6,
-          "high": 4.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            2.0,
-            0.0,
-            4.0,
-            0.0,
-            4.0
-          ]
-        },
-        {
-          "player": "James Harden",
-          "player_id": "3992",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.4,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            1.0,
-            3.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jarrett Allen",
-          "player_id": "4066328",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 0.8,
-          "low": 0.3,
-          "high": 1.3,
-          "games": 4,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jarrett Allen",
-          "player_id": "4066328",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
+          "metric": "rushing_yards",
           "estimate": 4.7,
-          "low": 1.5,
-          "high": 7.9,
-          "games": 4,
-          "recent": [
-            4.0,
-            9.0,
-            0.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Jarrett Allen",
-          "player_id": "4066328",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 3.6,
-          "low": 2.0,
-          "high": 5.2,
-          "games": 4,
-          "recent": [
-            5.0,
-            4.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Mario Hezonja",
-          "player_id": "2995706",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 1.6,
           "low": 0,
-          "high": 3.4,
-          "games": 6,
-          "recent": [
-            0.0,
-            4.0,
-            0.0,
-            2.0,
-            4.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Mario Hezonja",
-          "player_id": "2995706",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            1.0,
-            3.0,
-            4.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Meleek Thomas",
-          "player_id": "5041951",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 3.8,
-          "low": 1.6,
-          "high": 6.0,
-          "games": 6,
-          "recent": [
-            5.0,
-            0.0,
-            6.0,
-            6.0,
-            3.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Peyton Watson",
-          "player_id": "4576087",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 1.2,
-          "low": 0,
-          "high": 2.5,
-          "games": 4,
-          "recent": [
-            3.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Peyton Watson",
-          "player_id": "4576087",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 4.0,
-          "low": 2.1,
-          "high": 5.9,
-          "games": 4,
-          "recent": [
-            3.0,
-            4.0,
-            7.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Peyton Watson",
-          "player_id": "4576087",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.4,
-          "low": 0.5,
-          "high": 2.3,
-          "games": 4,
-          "recent": [
-            2.0,
-            0.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Tyrese Proctor",
-          "player_id": "5023693",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            1.0,
-            0.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Tyrese Proctor",
-          "player_id": "5023693",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "points",
-          "estimate": 4.8,
-          "low": 2.3,
-          "high": 7.2,
-          "games": 6,
-          "recent": [
-            8.0,
-            4.0,
-            4.0,
-            0.0,
-            5.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Tyrese Proctor",
-          "player_id": "5023693",
-          "team": "Cleveland Cavaliers",
-          "team_id": "5",
-          "metric": "rebounds",
-          "estimate": 1.6,
-          "low": 0.4,
-          "high": 2.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            1.0,
-            4.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Caleb Wilson",
-          "player_id": "5095151",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 4.0,
-          "low": 2.0,
-          "high": 6.1,
-          "games": 6,
-          "recent": [
-            5.0,
-            5.0,
-            0.0,
-            4.0,
-            6.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Caleb Wilson",
-          "player_id": "5095151",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.6,
-          "high": 2.0,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Isaac Okoro",
-          "player_id": "4432822",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.3,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Isaac Okoro",
-          "player_id": "4432822",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 2.1,
-          "low": 0.5,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            4.0,
-            4.0,
-            2.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jalen Smith",
-          "player_id": "4397189",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.4,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jalen Smith",
-          "player_id": "4397189",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 6.9,
-          "low": 3.3,
-          "high": 10.5,
-          "games": 6,
-          "recent": [
-            10.0,
-            10.0,
-            3.0,
-            6.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Jalen Smith",
-          "player_id": "4397189",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 2.4,
-          "low": 0.9,
-          "high": 3.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            6.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Jordan Hawkins",
-          "player_id": "4683750",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 5,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jordan Hawkins",
-          "player_id": "4683750",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 5,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Josh Giddey",
-          "player_id": "4871145",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "assists",
-          "estimate": 3.8,
-          "low": 1.4,
-          "high": 6.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            7.0,
-            0.0,
-            5.0,
-            1.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Josh Giddey",
-          "player_id": "4871145",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 2.5,
-          "low": 1.0,
-          "high": 3.9,
-          "games": 6,
-          "recent": [
-            4.0,
-            2.0,
-            3.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Matas Buzelis",
-          "player_id": "4711294",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.4,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Matas Buzelis",
-          "player_id": "4711294",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 4.4,
-          "low": 1.8,
-          "high": 6.9,
-          "games": 6,
-          "recent": [
-            7.0,
-            5.0,
-            0.0,
-            2.0,
-            7.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Matas Buzelis",
-          "player_id": "4711294",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 1.4,
-          "low": 0.9,
-          "high": 1.9,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            2.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Noa Essengue",
-          "player_id": "5242496",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 1.8,
-          "low": 0,
-          "high": 3.7,
-          "games": 6,
-          "recent": [
-            0.0,
-            5.0,
-            3.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Noa Essengue",
-          "player_id": "5242496",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.1,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            2.0,
-            3.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Patrick Williams",
-          "player_id": "4431687",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 0.8,
-          "low": 0.2,
-          "high": 1.4,
+          "high": 9.5,
           "games": 3,
           "recent": [
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Tre Jones",
-          "player_id": "4395626",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "points",
-          "estimate": 3.5,
-          "low": 1.3,
-          "high": 5.7,
-          "games": 6,
-          "recent": [
-            7.0,
-            2.0,
-            4.0,
-            0.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Zach Collins",
-          "player_id": "4066650",
-          "team": "Chicago Bulls",
-          "team_id": "4",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 4,
-          "recent": [
-            0.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T19:00:00-05:00"
-    },
-    {
-      "id": "401909996",
-      "date": "2026-11-17T00:00Z",
-      "sport": "nba",
-      "name": "Memphis Grizzlies at Washington Wizards",
-      "teams": [
-        {
-          "id": "27",
-          "name": "Washington Wizards",
-          "abbreviation": "WSH"
-        },
-        {
-          "id": "29",
-          "name": "Memphis Grizzlies",
-          "abbreviation": "MEM"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "AJ Dybantsa",
-          "player_id": "5142718",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 3.2,
-          "low": 2.4,
-          "high": 4.0,
-          "games": 6,
-          "recent": [
-            3.0,
-            4.0,
-            3.0,
-            2.0,
-            4.0,
-            4.0
-          ]
-        },
-        {
-          "player": "AJ Dybantsa",
-          "player_id": "5142718",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 0.8,
-          "low": 0.2,
-          "high": 1.4,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            1.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Alex Sarr",
-          "player_id": "5160992",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 4.1,
-          "low": 1.7,
-          "high": 6.5,
-          "games": 5,
-          "recent": [
-            3.0,
-            2.0,
             9.0,
-            4.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Alex Sarr",
-          "player_id": "5160992",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 3.4,
-          "low": 1.3,
-          "high": 5.5,
-          "games": 5,
-          "recent": [
-            5.0,
-            1.0,
-            6.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Anthony Davis",
-          "player_id": "6583",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 8.8,
-          "low": 6.6,
-          "high": 11.0,
-          "games": 4,
-          "recent": [
-            6.0,
-            11.0,
-            10.0,
-            11.0
-          ]
-        },
-        {
-          "player": "Anthony Davis",
-          "player_id": "6583",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 3.2,
-          "low": 2.4,
-          "high": 4.0,
-          "games": 4,
-          "recent": [
-            3.0,
-            4.0,
-            3.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Bilal Coulibaly",
-          "player_id": "5104155",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "assists",
-          "estimate": 0.9,
-          "low": 0,
-          "high": 1.9,
-          "games": 5,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Bilal Coulibaly",
-          "player_id": "5104155",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.8,
-          "high": 1.8,
-          "games": 5,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Deandre Ayton",
-          "player_id": "4278129",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 1.5,
-          "low": 0.0,
-          "high": 3.0,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            2.0,
-            4.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Deandre Ayton",
-          "player_id": "4278129",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 2.0,
-          "low": 0,
-          "high": 4.4,
-          "games": 6,
-          "recent": [
-            0.0,
-            3.0,
-            1.0,
-            7.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Kyshawn George",
-          "player_id": "5174563",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0.2,
-          "high": 1.2,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Kyshawn George",
-          "player_id": "5174563",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 3.9,
-          "low": 1.2,
-          "high": 6.6,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            2.0,
-            8.0,
-            7.0,
-            8.0
-          ]
-        },
-        {
-          "player": "Kyshawn George",
-          "player_id": "5174563",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "rebounds",
-          "estimate": 2.8,
-          "low": 1.1,
-          "high": 4.4,
-          "games": 6,
-          "recent": [
-            5.0,
-            1.0,
-            3.0,
-            3.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Trae Young",
-          "player_id": "4277905",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "assists",
-          "estimate": 1.8,
-          "low": 0.3,
-          "high": 3.3,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            1.0,
-            5.0,
-            3.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Trae Young",
-          "player_id": "4277905",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 4.6,
-          "low": 0.7,
-          "high": 8.4,
-          "games": 6,
-          "recent": [
-            3.0,
-            12.0,
-            0.0,
-            2.0,
-            5.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Tre Johnson",
-          "player_id": "5238230",
-          "team": "Washington Wizards",
-          "team_id": "27",
-          "metric": "points",
-          "estimate": 2.7,
-          "low": 0,
-          "high": 5.7,
-          "games": 6,
-          "recent": [
-            5.0,
-            0.0,
-            0.0,
-            8.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Cam Spencer",
-          "player_id": "4433083",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.2,
-          "low": 0.1,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            0.0,
-            3.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Cam Spencer",
-          "player_id": "4433083",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 2.4,
-          "low": 0.0,
-          "high": 4.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            3.0,
-            2.0,
-            7.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Cam Spencer",
-          "player_id": "4433083",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            0.0,
-            3.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Cameron Boozer",
-          "player_id": "5041935",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.2,
-          "low": 0.4,
-          "high": 2.0,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            2.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Cameron Boozer",
-          "player_id": "5041935",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 3.0,
-          "low": 1.3,
-          "high": 4.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            4.0,
-            3.0,
-            4.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Cameron Boozer",
-          "player_id": "5041935",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 1.5,
-          "low": 0,
-          "high": 3.2,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            1.0,
-            0.0,
-            3.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Cedric Coward",
-          "player_id": "4903027",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.2,
-          "low": 0.2,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            1.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Cedric Coward",
-          "player_id": "4903027",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 0.2,
-          "high": 5.4,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            2.0,
-            8.0,
-            2.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Cedric Coward",
-          "player_id": "4903027",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 3.0,
-          "low": 2.0,
-          "high": 4.0,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            5.0,
-            3.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Isaiah Stewart",
-          "player_id": "4432810",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 2.5,
-          "low": 0,
-          "high": 5.0,
-          "games": 4,
-          "recent": [
-            0.0,
-            4.0,
-            3.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Javon Small",
-          "player_id": "4781746",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.2,
-          "high": 1.8,
-          "games": 4,
-          "recent": [
-            0.0,
-            2.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Javon Small",
-          "player_id": "4781746",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 1.6,
-          "low": 0,
-          "high": 3.6,
-          "games": 4,
-          "recent": [
-            0.0,
-            2.0,
-            5.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Javon Small",
-          "player_id": "4781746",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 0.8,
-          "low": 0.1,
-          "high": 1.5,
-          "games": 4,
-          "recent": [
-            0.0,
-            1.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jaylen Wells",
-          "player_id": "5112087",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 3.9,
-          "low": 1.4,
-          "high": 6.3,
-          "games": 6,
-          "recent": [
-            8.0,
-            3.0,
-            2.0,
-            0.0,
-            4.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Jerami Grant",
-          "player_id": "2991070",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.7,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jerami Grant",
-          "player_id": "2991070",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 3.2,
-          "low": 1.7,
-          "high": 4.8,
-          "games": 6,
-          "recent": [
-            5.0,
-            4.0,
-            0.0,
-            3.0,
-            3.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Taylor Hendricks",
-          "player_id": "4684806",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 2.7,
-          "low": 0.6,
-          "high": 4.8,
-          "games": 4,
-          "recent": [
-            3.0,
-            5.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Ty Jerome",
-          "player_id": "4065733",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0,
-          "high": 2.2,
-          "games": 5,
-          "recent": [
-            2.0,
-            0.0,
-            1.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Ty Jerome",
-          "player_id": "4065733",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "points",
-          "estimate": 3.9,
-          "low": 0.7,
-          "high": 7.0,
-          "games": 5,
-          "recent": [
-            0.0,
-            7.0,
-            8.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Ty Jerome",
-          "player_id": "4065733",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.8,
-          "high": 1.8,
-          "games": 5,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Zach Edey",
-          "player_id": "4600663",
-          "team": "Memphis Grizzlies",
-          "team_id": "29",
-          "metric": "rebounds",
-          "estimate": 1.4,
-          "low": 0.7,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            2.0,
-            2.0,
-            0.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T19:00:00-05:00"
-    },
-    {
-      "id": "401909997",
-      "date": "2026-11-17T00:30Z",
-      "sport": "nba",
-      "name": "Philadelphia 76ers at Brooklyn Nets",
-      "teams": [
-        {
-          "id": "17",
-          "name": "Brooklyn Nets",
-          "abbreviation": "BKN"
-        },
-        {
-          "id": "20",
-          "name": "Philadelphia 76ers",
-          "abbreviation": "PHI"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Danny Wolf",
-          "player_id": "5107173",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 0.9,
-          "low": 0.4,
-          "high": 1.4,
-          "games": 4,
-          "recent": [
-            1.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Danny Wolf",
-          "player_id": "5107173",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 0.5,
-          "high": 5.1,
-          "games": 4,
-          "recent": [
-            5.0,
-            0.0,
-            4.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Danny Wolf",
-          "player_id": "5107173",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "rebounds",
-          "estimate": 3.0,
-          "low": 0.1,
-          "high": 5.9,
-          "games": 4,
-          "recent": [
-            4.0,
-            0.0,
-            7.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Day'Ron Sharpe",
-          "player_id": "4432194",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.0,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            3.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Day'Ron Sharpe",
-          "player_id": "4432194",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0.4,
-          "high": 3.5,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            4.0,
-            0.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Day'Ron Sharpe",
-          "player_id": "4432194",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "rebounds",
-          "estimate": 1.9,
-          "low": 0,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            3.0,
-            1.0,
-            1.0,
-            0.0,
-            3.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Julius Randle",
-          "player_id": "3064514",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            3.0,
-            0.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Julius Randle",
-          "player_id": "3064514",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 4.6,
-          "low": 2.3,
-          "high": 6.9,
-          "games": 6,
-          "recent": [
-            6.0,
-            3.0,
-            5.0,
-            7.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Julius Randle",
-          "player_id": "3064514",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "rebounds",
-          "estimate": 1.8,
-          "low": 1.1,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            2.0,
-            2.0,
-            3.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Keon Ellis",
-          "player_id": "4702177",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 0.5,
-          "low": 0,
-          "high": 1.3,
-          "games": 5,
-          "recent": [
-            0.0,
-            2.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Michael Porter Jr.",
-          "player_id": "4278104",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 0.9,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            1.0,
-            0.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Michael Porter Jr.",
-          "player_id": "4278104",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 8.4,
-          "low": 4.4,
-          "high": 12.4,
-          "games": 6,
-          "recent": [
-            9.0,
-            15.0,
-            6.0,
-            2.0,
-            5.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Michael Porter Jr.",
-          "player_id": "4278104",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "rebounds",
-          "estimate": 2.8,
-          "low": 1.7,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            4.0,
-            4.0,
-            3.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Moritz Wagner",
-          "player_id": "3150844",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "assists",
-          "estimate": 0.8,
-          "low": 0.0,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Moritz Wagner",
-          "player_id": "3150844",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 4.2,
-          "low": 2.0,
-          "high": 6.4,
-          "games": 6,
-          "recent": [
-            7.0,
-            3.0,
-            5.0,
-            0.0,
-            3.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Noah Clowney",
-          "player_id": "4712896",
-          "team": "Brooklyn Nets",
-          "team_id": "17",
-          "metric": "points",
-          "estimate": 2.6,
-          "low": 0.4,
-          "high": 4.8,
-          "games": 6,
-          "recent": [
-            6.0,
-            0.0,
-            3.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Anfernee Simons",
-          "player_id": "4351851",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 1.9,
-          "low": 0,
-          "high": 4.0,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            6.0,
-            0.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Dean Wade",
-          "player_id": "3912848",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0.1,
-          "high": 2.1,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            0.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jabari Walker",
-          "player_id": "4432446",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.1,
-          "high": 1.9,
-          "games": 5,
-          "recent": [
-            0.0,
-            2.0,
-            2.0,
             0.0,
             1.0
           ]
         },
         {
-          "player": "Jaylen Brown",
-          "player_id": "3917376",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "assists",
-          "estimate": 1.2,
-          "low": 0.6,
-          "high": 1.9,
+          "player": "Isaiah Likely",
+          "player_id": "4361050",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "receiving_yards",
+          "estimate": 22.3,
+          "low": 6.1,
+          "high": 38.6,
           "games": 6,
           "recent": [
-            1.0,
-            1.0,
-            2.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jaylen Brown",
-          "player_id": "3917376",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 5.7,
-          "low": 2.3,
-          "high": 9.0,
-          "games": 6,
-          "recent": [
-            4.0,
-            8.0,
-            2.0,
-            10.0,
-            8.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jaylen Brown",
-          "player_id": "3917376",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 1.5,
-          "low": 0.3,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
+            38.0,
             0.0,
-            4.0,
-            1.0,
-            1.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Joel Embiid",
-          "player_id": "3059318",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 5.9,
-          "low": 3.8,
-          "high": 8.0,
-          "games": 5,
-          "recent": [
-            7.0,
-            6.0,
-            2.0,
-            8.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Joel Embiid",
-          "player_id": "3059318",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 3.6,
-          "low": 2.4,
-          "high": 4.8,
-          "games": 5,
-          "recent": [
+            42.0,
+            19.0,
             3.0,
-            5.0,
-            2.0,
-            5.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Kentavious Caldwell-Pope",
-          "player_id": "2581018",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "assists",
-          "estimate": 0.8,
-          "low": 0,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "LeBron James",
-          "player_id": "1966",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.3,
-          "high": 1.9,
-          "games": 5,
-          "recent": [
-            0.0,
-            2.0,
-            1.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "LeBron James",
-          "player_id": "1966",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 1.9,
-          "low": 0.5,
-          "high": 3.2,
-          "games": 5,
-          "recent": [
-            0.0,
-            3.0,
-            2.0,
-            4.0,
-            2.0
-          ]
-        },
-        {
-          "player": "LeBron James",
-          "player_id": "1966",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 2.1,
-          "low": 0.9,
-          "high": 3.3,
-          "games": 5,
-          "recent": [
-            2.0,
-            1.0,
-            2.0,
-            4.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Tyrese Maxey",
-          "player_id": "4431678",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            0.0,
-            2.0,
-            5.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Tyrese Maxey",
-          "player_id": "4431678",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 6.0,
-          "low": 1.9,
-          "high": 10.1,
-          "games": 6,
-          "recent": [
-            8.0,
-            6.0,
-            6.0,
-            2.0,
-            2.0,
-            14.0
-          ]
-        },
-        {
-          "player": "Tyrese Maxey",
-          "player_id": "4431678",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.2,
-          "high": 1.9,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            0.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "VJ Edgecombe",
-          "player_id": "5124612",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.1,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            0.0,
-            0.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "VJ Edgecombe",
-          "player_id": "5124612",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "points",
-          "estimate": 4.1,
-          "low": 1.0,
-          "high": 7.2,
-          "games": 6,
-          "recent": [
-            2.0,
-            6.0,
-            2.0,
-            3.0,
-            11.0,
-            5.0
-          ]
-        },
-        {
-          "player": "VJ Edgecombe",
-          "player_id": "5124612",
-          "team": "Philadelphia 76ers",
-          "team_id": "20",
-          "metric": "rebounds",
-          "estimate": 1.6,
-          "low": 0.6,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            2.0,
-            3.0,
-            0.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T19:30:00-05:00"
-    },
-    {
-      "id": "401909998",
-      "date": "2026-11-17T00:30Z",
-      "sport": "nba",
-      "name": "Houston Rockets at Miami Heat",
-      "teams": [
-        {
-          "id": "14",
-          "name": "Miami Heat",
-          "abbreviation": "MIA"
-        },
-        {
-          "id": "10",
-          "name": "Houston Rockets",
-          "abbreviation": "HOU"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Andrew Wiggins",
-          "player_id": "3059319",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 3.3,
-          "low": 0.9,
-          "high": 5.6,
-          "games": 6,
-          "recent": [
-            3.0,
-            6.0,
-            2.0,
-            0.0,
-            3.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Andrew Wiggins",
-          "player_id": "3059319",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0,
-          "high": 2.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            4.0,
-            2.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Bam Adebayo",
-          "player_id": "4066261",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0.1,
-          "high": 1.1,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Bam Adebayo",
-          "player_id": "4066261",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 5.3,
-          "low": 2.0,
-          "high": 8.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            6.0,
-            7.0,
-            9.0,
-            2.0,
-            11.0
-          ]
-        },
-        {
-          "player": "Bam Adebayo",
-          "player_id": "4066261",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "rebounds",
-          "estimate": 2.4,
-          "low": 1.5,
-          "high": 3.3,
-          "games": 6,
-          "recent": [
-            3.0,
-            3.0,
-            1.0,
-            3.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Bobby Portis",
-          "player_id": "3064482",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            0.0,
-            5.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Bobby Portis",
-          "player_id": "3064482",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 2.1,
-          "low": 0.5,
-          "high": 3.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            4.0,
-            0.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Bobby Portis",
-          "player_id": "3064482",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0.2,
-          "high": 2.0,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            3.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Davion Mitchell",
-          "player_id": "4278053",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 1.7,
-          "low": 1.2,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Davion Mitchell",
-          "player_id": "4278053",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 3.6,
-          "low": 1.4,
-          "high": 5.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            3.0,
-            6.0,
-            2.0,
-            6.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Giannis Antetokounmpo",
-          "player_id": "3032977",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 1.3,
-          "low": 0.3,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            3.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Giannis Antetokounmpo",
-          "player_id": "3032977",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 7.4,
-          "low": 5.5,
-          "high": 9.2,
-          "games": 6,
-          "recent": [
-            8.0,
-            6.0,
-            9.0,
-            6.0,
-            8.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Giannis Antetokounmpo",
-          "player_id": "3032977",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "rebounds",
-          "estimate": 2.6,
-          "low": 1.5,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            4.0,
-            2.0,
-            3.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Klay Thompson",
-          "player_id": "6475",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.1,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            3.0,
-            0.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Klay Thompson",
-          "player_id": "6475",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 5.2,
-          "low": 2.0,
-          "high": 8.5,
-          "games": 6,
-          "recent": [
-            5.0,
-            6.0,
-            0.0,
-            11.0,
-            5.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Pelle Larsson",
-          "player_id": "4601025",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0.1,
-          "high": 1.1,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            1.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Pelle Larsson",
-          "player_id": "4601025",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "points",
-          "estimate": 2.9,
-          "low": 0.8,
-          "high": 5.0,
-          "games": 6,
-          "recent": [
-            5.0,
-            0.0,
-            5.0,
-            3.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Pelle Larsson",
-          "player_id": "4601025",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            0.0,
-            1.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Ryan Conwell",
-          "player_id": "5107157",
-          "team": "Miami Heat",
-          "team_id": "14",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.5,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Alperen Sengun",
-          "player_id": "4871144",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "assists",
-          "estimate": 2.1,
-          "low": 1.6,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            2.0,
-            3.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Alperen Sengun",
-          "player_id": "4871144",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 4.5,
-          "low": 1.6,
-          "high": 7.4,
-          "games": 6,
-          "recent": [
-            9.0,
-            3.0,
-            2.0,
-            0.0,
-            6.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Alperen Sengun",
-          "player_id": "4871144",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "rebounds",
-          "estimate": 3.0,
-          "low": 0.9,
-          "high": 5.0,
-          "games": 6,
-          "recent": [
-            5.0,
-            4.0,
-            1.0,
-            1.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Amen Thompson",
-          "player_id": "4684740",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.0,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            0.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Amen Thompson",
-          "player_id": "4684740",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 3.0,
-          "low": 0.8,
-          "high": 5.3,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            6.0,
-            2.0,
-            6.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Amen Thompson",
-          "player_id": "4684740",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "rebounds",
-          "estimate": 1.6,
-          "low": 0.2,
-          "high": 2.9,
-          "games": 6,
-          "recent": [
-            4.0,
-            0.0,
-            1.0,
-            0.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Fred VanVleet",
-          "player_id": "2991230",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "assists",
-          "estimate": 1.7,
-          "low": 1.0,
-          "high": 2.5,
-          "games": 5,
-          "recent": [
-            2.0,
-            2.0,
-            1.0,
-            1.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Fred VanVleet",
-          "player_id": "2991230",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 4.2,
-          "low": 2.2,
-          "high": 6.2,
-          "games": 5,
-          "recent": [
-            3.0,
-            5.0,
-            3.0,
-            8.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jabari Smith Jr.",
-          "player_id": "4432639",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0.2,
-          "high": 3.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            2.0,
-            0.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Jabari Smith Jr.",
-          "player_id": "4432639",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "rebounds",
-          "estimate": 1.2,
-          "low": 0,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            3.0,
-            2.0,
-            2.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Kevin Durant",
-          "player_id": "3202",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "assists",
-          "estimate": 1.8,
-          "low": 0.9,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            3.0,
-            1.0,
-            2.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Kevin Durant",
-          "player_id": "3202",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 8.6,
-          "low": 5.3,
-          "high": 11.9,
-          "games": 6,
-          "recent": [
-            11.0,
-            11.0,
-            2.0,
-            10.0,
-            6.0,
             10.0
           ]
         },
         {
-          "player": "Kevin Durant",
-          "player_id": "3202",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "rebounds",
-          "estimate": 2.0,
-          "low": 0.4,
-          "high": 3.6,
-          "games": 6,
+          "player": "J.J. McCarthy",
+          "player_id": "4433970",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "passing_yards",
+          "estimate": 59.6,
+          "low": 15.8,
+          "high": 103.4,
+          "games": 4,
           "recent": [
-            1.0,
-            5.0,
-            1.0,
-            2.0,
+            77.0,
+            96.0,
             0.0,
-            1.0
+            0.0
           ]
         },
         {
-          "player": "Marcus Smart",
-          "player_id": "2990992",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 2.9,
-          "low": 0,
-          "high": 6.7,
+          "player": "Jameis Winston",
+          "player_id": "2969939",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "passing_yards",
+          "estimate": 24.9,
+          "low": 0.1,
+          "high": 49.6,
           "games": 6,
           "recent": [
-            3.0,
-            3.0,
+            0.0,
+            0.0,
+            57.0,
+            46.0,
+            51.0,
+            54.0
+          ]
+        },
+        {
+          "player": "Malachi Fields",
+          "player_id": "4682648",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "receiving_yards",
+          "estimate": 11.6,
+          "low": 0,
+          "high": 28.8,
+          "games": 6,
+          "recent": [
+            0.0,
+            47.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0
+          ]
+        },
+        {
+          "player": "Malik Nabers",
+          "player_id": "4595348",
+          "team": "New York Giants",
+          "team_id": "19",
+          "metric": "receiving_yards",
+          "estimate": 26.5,
+          "low": 6.9,
+          "high": 46.0,
+          "games": 6,
+          "recent": [
+            22.0,
+            50.0,
+            -2.0,
+            27.0,
+            48.0,
+            5.0
+          ]
+        },
+        {
+          "player": "Antonio Williams",
+          "player_id": "5081432",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "receiving_yards",
+          "estimate": 6.1,
+          "low": 0,
+          "high": 12.7,
+          "games": 6,
+          "recent": [
+            18.0,
+            4.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "player": "Austin Ekeler",
+          "player_id": "3068267",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "rushing_yards",
+          "estimate": 4.9,
+          "low": 0.9,
+          "high": 9.0,
+          "games": 5,
+          "recent": [
+            5.0,
+            7.0,
             3.0,
             0.0,
-            2.0,
             12.0
           ]
         },
         {
-          "player": "Reed Sheppard",
-          "player_id": "4711272",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 2.1,
+          "player": "Chig Okonkwo",
+          "player_id": "4360635",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "receiving_yards",
+          "estimate": 9.9,
           "low": 0,
-          "high": 4.3,
+          "high": 22.7,
           "games": 5,
           "recent": [
-            2.0,
-            0.0,
-            3.0,
-            6.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Tari Eason",
-          "player_id": "4433192",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "points",
-          "estimate": 3.0,
-          "low": 0.8,
-          "high": 5.2,
-          "games": 6,
-          "recent": [
-            2.0,
-            6.0,
-            0.0,
-            2.0,
-            6.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Tari Eason",
-          "player_id": "4433192",
-          "team": "Houston Rockets",
-          "team_id": "10",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.0,
-          "high": 3.4,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            5.0,
-            2.0,
-            0.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T19:30:00-05:00"
-    },
-    {
-      "id": "401909999",
-      "date": "2026-11-17T01:00Z",
-      "sport": "nba",
-      "name": "Portland Trail Blazers at Minnesota Timberwolves",
-      "teams": [
-        {
-          "id": "16",
-          "name": "Minnesota Timberwolves",
-          "abbreviation": "MIN"
-        },
-        {
-          "id": "22",
-          "name": "Portland Trail Blazers",
-          "abbreviation": "POR"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Ayo Dosunmu",
-          "player_id": "4397002",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.3,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            1.0,
-            2.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Ayo Dosunmu",
-          "player_id": "4397002",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 5.2,
-          "low": 2.0,
-          "high": 8.5,
-          "games": 6,
-          "recent": [
-            3.0,
-            10.0,
-            4.0,
-            2.0,
-            9.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Ayo Dosunmu",
-          "player_id": "4397002",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.5,
-          "low": 0.1,
-          "high": 2.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            4.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Bones Hyland",
-          "player_id": "4592492",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            2.0,
-            0.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Bones Hyland",
-          "player_id": "4592492",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 5.2,
-          "low": 3.3,
-          "high": 7.1,
-          "games": 6,
-          "recent": [
-            7.0,
-            3.0,
-            7.0,
-            3.0,
-            6.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jaden McDaniels",
-          "player_id": "4431671",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 2.0,
-          "low": 0.9,
-          "high": 3.0,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            1.0,
-            2.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jaden McDaniels",
-          "player_id": "4431671",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0,
-          "high": 5.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            6.0,
-            3.0,
-            0.0,
-            9.0
-          ]
-        },
-        {
-          "player": "Jaden McDaniels",
-          "player_id": "4431671",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.5,
-          "low": 0.7,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            2.0,
-            2.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Joan Beringer",
-          "player_id": "5279133",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.6,
-          "low": 0.8,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            2.0,
-            3.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jonathan Kuminga",
-          "player_id": "4433247",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 0.8,
-          "low": 0.1,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            2.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jonathan Kuminga",
-          "player_id": "4433247",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 3.3,
-          "low": 1.4,
-          "high": 5.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            5.0,
-            3.0,
-            3.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jonathan Kuminga",
-          "player_id": "4433247",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.0,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            3.0,
-            0.0,
-            3.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "LaMelo Ball",
-          "player_id": "4432816",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "LaMelo Ball",
-          "player_id": "4432816",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 6.8,
-          "low": 3.3,
-          "high": 10.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            7.0,
-            8.0,
-            13.0,
-            2.0,
-            8.0
-          ]
-        },
-        {
-          "player": "LaMelo Ball",
-          "player_id": "4432816",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0,
-          "high": 2.4,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            0.0,
-            3.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Rudy Gobert",
-          "player_id": "3032976",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 3.3,
-          "low": 2.3,
-          "high": 4.4,
-          "games": 5,
-          "recent": [
-            3.0,
-            4.0,
-            2.0,
-            4.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Terrence Shannon Jr.",
-          "player_id": "4432847",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "assists",
-          "estimate": 1.3,
-          "low": 0.4,
-          "high": 2.3,
-          "games": 3,
-          "recent": [
-            2.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Terrence Shannon Jr.",
-          "player_id": "4432847",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 2.2,
-          "low": 0,
-          "high": 5.7,
-          "games": 3,
-          "recent": [
-            2.0,
-            0.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Terrence Shannon Jr.",
-          "player_id": "4432847",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.2,
-          "low": 0.6,
-          "high": 1.8,
-          "games": 3,
-          "recent": [
-            1.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Trey Lyles",
-          "player_id": "3136196",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "points",
-          "estimate": 2.2,
-          "low": 0,
-          "high": 4.5,
-          "games": 6,
-          "recent": [
-            5.0,
-            0.0,
-            3.0,
-            0.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Trey Lyles",
-          "player_id": "3136196",
-          "team": "Minnesota Timberwolves",
-          "team_id": "16",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.8,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            1.0,
-            1.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Damian Lillard",
-          "player_id": "6606",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            1.0,
-            0.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Damian Lillard",
-          "player_id": "6606",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 3.6,
-          "low": 2.5,
-          "high": 4.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            5.0,
-            4.0,
-            3.0,
-            5.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Deni Avdija",
-          "player_id": "4683021",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "assists",
-          "estimate": 2.3,
-          "low": 0.9,
-          "high": 3.6,
-          "games": 6,
-          "recent": [
-            2.0,
-            3.0,
-            1.0,
-            3.0,
-            4.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Deni Avdija",
-          "player_id": "4683021",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 4.6,
-          "low": 2.9,
-          "high": 6.3,
-          "games": 6,
-          "recent": [
-            3.0,
-            3.0,
-            6.0,
-            6.0,
-            7.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Deni Avdija",
-          "player_id": "4683021",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 2.4,
-          "low": 0.7,
-          "high": 4.1,
-          "games": 6,
-          "recent": [
-            1.0,
-            3.0,
-            3.0,
-            5.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Donovan Clingan",
-          "player_id": "5105565",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 2.3,
-          "low": 0.0,
-          "high": 4.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            5.0,
-            0.0,
-            3.0,
-            6.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Donovan Clingan",
-          "player_id": "5105565",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 3.6,
-          "low": 2.1,
-          "high": 5.0,
-          "games": 6,
-          "recent": [
-            2.0,
-            5.0,
-            2.0,
-            6.0,
-            4.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Jrue Holiday",
-          "player_id": "3995",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 3.1,
-          "low": 1.2,
-          "high": 5.0,
-          "games": 6,
-          "recent": [
-            5.0,
-            3.0,
-            2.0,
-            4.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jrue Holiday",
-          "player_id": "3995",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.1,
-          "high": 1.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            1.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Robert Williams III",
-          "player_id": "4066211",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 2.5,
-          "low": 1.3,
-          "high": 3.8,
-          "games": 5,
-          "recent": [
-            4.0,
-            2.0,
-            2.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Robert Williams III",
-          "player_id": "4066211",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 1.8,
-          "low": 0.4,
-          "high": 3.2,
-          "games": 5,
-          "recent": [
-            2.0,
-            1.0,
-            4.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Scoot Henderson",
-          "player_id": "4683678",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 2.1,
-          "low": 1.0,
-          "high": 3.2,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            3.0,
-            2.0,
-            3.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Sidy Cissoko",
-          "player_id": "5081727",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "assists",
-          "estimate": 0.5,
-          "low": 0,
-          "high": 1.0,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            0.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Sidy Cissoko",
-          "player_id": "5081727",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 3.4,
-          "low": 1.2,
-          "high": 5.6,
-          "games": 6,
-          "recent": [
-            6.0,
-            4.0,
-            0.0,
-            4.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Sidy Cissoko",
-          "player_id": "5081727",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.2,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            3.0,
-            0.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Toumani Camara",
-          "player_id": "4431736",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "points",
-          "estimate": 3.4,
-          "low": 2.2,
-          "high": 4.5,
-          "games": 6,
-          "recent": [
-            5.0,
-            4.0,
-            2.0,
-            2.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Toumani Camara",
-          "player_id": "4431736",
-          "team": "Portland Trail Blazers",
-          "team_id": "22",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            3.0,
-            0.0,
-            0.0,
-            1.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T20:00:00-05:00"
-    },
-    {
-      "id": "401910000",
-      "date": "2026-11-17T01:00Z",
-      "sport": "nba",
-      "name": "Golden State Warriors at New Orleans Pelicans",
-      "teams": [
-        {
-          "id": "3",
-          "name": "New Orleans Pelicans",
-          "abbreviation": "NO"
-        },
-        {
-          "id": "9",
-          "name": "Golden State Warriors",
-          "abbreviation": "GS"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Dejounte Murray",
-          "player_id": "3907497",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "assists",
-          "estimate": 0.9,
-          "low": 0.2,
-          "high": 1.7,
-          "games": 5,
-          "recent": [
-            1.0,
-            0.0,
-            1.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Dejounte Murray",
-          "player_id": "3907497",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 2.6,
-          "low": 0.2,
-          "high": 5.0,
-          "games": 5,
-          "recent": [
-            2.0,
-            4.0,
-            2.0,
-            0.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Dejounte Murray",
-          "player_id": "3907497",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.7,
-          "games": 5,
-          "recent": [
-            2.0,
-            1.0,
-            0.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Derik Queen",
-          "player_id": "4869780",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            3.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Derik Queen",
-          "player_id": "4869780",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 2.0,
-          "low": 0.4,
-          "high": 3.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            2.0,
-            1.0,
-            2.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Derik Queen",
-          "player_id": "4869780",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 0.8,
-          "low": 0,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            0.0,
-            1.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Herbert Jones",
-          "player_id": "4277813",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 1.6,
-          "low": 0.5,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            2.0,
-            0.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Herbert Jones",
-          "player_id": "4277813",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.4,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            1.0,
-            3.0,
-            0.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jeremiah Fears",
-          "player_id": "5144091",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "assists",
-          "estimate": 2.4,
-          "low": 1.3,
-          "high": 3.6,
-          "games": 6,
-          "recent": [
-            3.0,
-            4.0,
-            1.0,
-            2.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jeremiah Fears",
-          "player_id": "5144091",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 4.3,
-          "low": 2.4,
-          "high": 6.2,
-          "games": 6,
-          "recent": [
-            5.0,
-            3.0,
-            2.0,
-            8.0,
-            5.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Jeremiah Fears",
-          "player_id": "5144091",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.8,
-          "high": 2.6,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            3.0,
-            2.0,
-            3.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Karlo Matkovic",
-          "player_id": "4997538",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 4.5,
-          "low": 0,
-          "high": 9.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            4.0,
-            0.0,
-            16.0,
-            3.0,
-            9.0
-          ]
-        },
-        {
-          "player": "Karlo Matkovic",
-          "player_id": "4997538",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.5,
-          "high": 3.0,
-          "games": 6,
-          "recent": [
-            1.0,
-            4.0,
-            0.0,
-            2.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Saddiq Bey",
-          "player_id": "4397136",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.4,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            0.0,
-            1.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Saddiq Bey",
-          "player_id": "4397136",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 0.7,
-          "high": 4.9,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            6.0,
-            3.0,
-            4.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Saddiq Bey",
-          "player_id": "4397136",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            3.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Zion Williamson",
-          "player_id": "4395628",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.7,
-          "games": 5,
-          "recent": [
-            1.0,
-            0.0,
-            2.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Zion Williamson",
-          "player_id": "4395628",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "points",
-          "estimate": 3.8,
-          "low": 1.0,
-          "high": 6.6,
-          "games": 5,
-          "recent": [
-            5.0,
-            7.0,
-            0.0,
-            0.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Zion Williamson",
-          "player_id": "4395628",
-          "team": "New Orleans Pelicans",
-          "team_id": "3",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.3,
-          "high": 3.1,
-          "games": 5,
-          "recent": [
-            0.0,
-            2.0,
-            4.0,
-            1.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Al Horford",
-          "player_id": "3213",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.7,
-          "games": 5,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Al Horford",
-          "player_id": "3213",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 1.3,
-          "low": 0.5,
-          "high": 2.0,
-          "games": 5,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Brandin Podziemski",
-          "player_id": "4709138",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.5,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            0.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Brandin Podziemski",
-          "player_id": "4709138",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 4.4,
-          "low": 2.3,
-          "high": 6.4,
-          "games": 6,
-          "recent": [
-            6.0,
-            5.0,
-            5.0,
-            3.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Brandin Podziemski",
-          "player_id": "4709138",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 0.9,
-          "low": 0.1,
-          "high": 1.7,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            2.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Charles Bassey",
-          "player_id": "4397886",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.3,
-          "high": 1.6,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            1.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "De'Anthony Melton",
-          "player_id": "4066436",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 2.5,
-          "low": 0.9,
-          "high": 4.1,
-          "games": 6,
-          "recent": [
-            2.0,
-            4.0,
-            3.0,
-            0.0,
-            2.0,
-            5.0
-          ]
-        },
-        {
-          "player": "De'Anthony Melton",
-          "player_id": "4066436",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 1.0,
-          "low": 0.4,
-          "high": 1.7,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            0.0,
-            2.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Draymond Green",
-          "player_id": "6589",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 2.7,
-          "low": 1.3,
-          "high": 4.0,
-          "games": 5,
-          "recent": [
-            2.0,
-            2.0,
-            5.0,
-            3.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Draymond Green",
-          "player_id": "6589",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 1.9,
-          "low": 0.4,
-          "high": 3.4,
-          "games": 5,
-          "recent": [
-            4.0,
-            0.0,
-            2.0,
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Draymond Green",
-          "player_id": "6589",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 1.8,
-          "low": 0.4,
-          "high": 3.2,
-          "games": 5,
-          "recent": [
-            2.0,
-            1.0,
-            4.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Georges Niang",
-          "player_id": "2990969",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 2.1,
-          "low": 0.6,
-          "high": 3.7,
-          "games": 6,
-          "recent": [
-            0.0,
-            4.0,
-            3.0,
-            3.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Georges Niang",
-          "player_id": "2990969",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 0.8,
-          "low": 0,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            1.0,
-            1.0,
-            0.0,
-            3.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Gui Santos",
-          "player_id": "4997536",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.5,
-          "games": 4,
-          "recent": [
-            0.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Gui Santos",
-          "player_id": "4997536",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 1.7,
-          "low": 0.4,
-          "high": 3.0,
-          "games": 4,
-          "recent": [
-            2.0,
-            3.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Stephen Curry",
-          "player_id": "3975",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 5,
-          "recent": [
-            0.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Stephen Curry",
-          "player_id": "3975",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 5.1,
-          "low": 2.9,
-          "high": 7.4,
-          "games": 5,
-          "recent": [
-            3.0,
-            8.0,
-            7.0,
-            3.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Stephen Curry",
-          "player_id": "3975",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 0.7,
-          "low": 0,
-          "high": 1.5,
-          "games": 5,
-          "recent": [
-            0.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Will Richard",
-          "player_id": "4897262",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 1.8,
-          "low": 0,
-          "high": 4.6,
-          "games": 5,
-          "recent": [
-            0.0,
-            0.0,
-            7.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Yaxel Lendeborg",
-          "player_id": "5175737",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "assists",
-          "estimate": 1.4,
-          "low": 0.7,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            0.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Yaxel Lendeborg",
-          "player_id": "5175737",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "points",
-          "estimate": 5.0,
-          "low": 2.9,
-          "high": 7.1,
-          "games": 6,
-          "recent": [
-            5.0,
-            7.0,
-            5.0,
-            5.0,
-            0.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Yaxel Lendeborg",
-          "player_id": "5175737",
-          "team": "Golden State Warriors",
-          "team_id": "9",
-          "metric": "rebounds",
-          "estimate": 3.0,
-          "low": 1.9,
-          "high": 4.1,
-          "games": 6,
-          "recent": [
-            4.0,
-            3.0,
-            3.0,
-            3.0,
-            1.0,
-            1.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T20:00:00-05:00"
-    },
-    {
-      "id": "401910001",
-      "date": "2026-11-17T02:00Z",
-      "sport": "nba",
-      "name": "Phoenix Suns at Denver Nuggets",
-      "teams": [
-        {
-          "id": "7",
-          "name": "Denver Nuggets",
-          "abbreviation": "DEN"
-        },
-        {
-          "id": "21",
-          "name": "Phoenix Suns",
-          "abbreviation": "PHX"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Aaron Gordon",
-          "player_id": "3064290",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 1.4,
-          "high": 4.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            2.0,
-            4.0,
-            2.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Cameron Johnson",
-          "player_id": "3138196",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 4.2,
-          "low": 2.8,
-          "high": 5.5,
-          "games": 6,
-          "recent": [
-            5.0,
-            3.0,
-            4.0,
-            6.0,
-            2.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Cameron Johnson",
-          "player_id": "3138196",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "rebounds",
-          "estimate": 1.2,
-          "low": 0.3,
-          "high": 2.2,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            1.0,
-            0.0,
-            1.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Christian Braun",
-          "player_id": "4431767",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.5,
-          "high": 1.5,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Christian Braun",
-          "player_id": "4431767",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 3.9,
-          "low": 0.2,
-          "high": 7.5,
-          "games": 6,
-          "recent": [
-            7.0,
-            2.0,
-            2.0,
-            0.0,
-            5.0,
-            11.0
-          ]
-        },
-        {
-          "player": "Christian Braun",
-          "player_id": "4431767",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0.4,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            1.0,
-            1.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "DeMar DeRozan",
-          "player_id": "3978",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "assists",
-          "estimate": 1.1,
-          "low": 0.5,
-          "high": 1.8,
-          "games": 5,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "player": "DeMar DeRozan",
-          "player_id": "3978",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 1.5,
-          "low": 0.3,
-          "high": 2.7,
-          "games": 5,
-          "recent": [
-            2.0,
-            0.0,
-            2.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jamal Murray",
-          "player_id": "3936299",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "assists",
-          "estimate": 1.5,
-          "low": 0.2,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            1.0,
-            2.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Jamal Murray",
-          "player_id": "3936299",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 4.5,
-          "low": 1.2,
-          "high": 7.8,
-          "games": 6,
-          "recent": [
-            3.0,
-            7.0,
-            2.0,
-            3.0,
-            11.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Jamal Murray",
-          "player_id": "3936299",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "rebounds",
-          "estimate": 1.4,
-          "low": 0.2,
-          "high": 2.6,
-          "games": 6,
-          "recent": [
-            1.0,
-            0.0,
-            2.0,
-            2.0,
-            4.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Nikola Jokic",
-          "player_id": "3112335",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "assists",
-          "estimate": 3.6,
-          "low": 2.3,
-          "high": 5.0,
-          "games": 6,
-          "recent": [
-            4.0,
-            4.0,
-            3.0,
-            5.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Nikola Jokic",
-          "player_id": "3112335",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 8.4,
-          "low": 6.0,
-          "high": 10.9,
-          "games": 6,
-          "recent": [
-            8.0,
-            6.0,
-            10.0,
-            13.0,
-            6.0,
-            8.0
-          ]
-        },
-        {
-          "player": "Nikola Jokic",
-          "player_id": "3112335",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "rebounds",
-          "estimate": 4.0,
-          "low": 2.5,
-          "high": 5.6,
-          "games": 6,
-          "recent": [
-            4.0,
-            2.0,
-            6.0,
-            5.0,
-            5.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Spencer Jones",
-          "player_id": "4592427",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 1.5,
-          "low": 0,
-          "high": 3.2,
-          "games": 3,
-          "recent": [
-            3.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Trevon Brazile",
-          "player_id": "4698719",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "points",
-          "estimate": 2.8,
-          "low": 2.1,
-          "high": 3.5,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            3.0,
-            4.0,
-            2.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Trevon Brazile",
-          "player_id": "4698719",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "rebounds",
-          "estimate": 2.5,
-          "low": 1.1,
-          "high": 3.8,
-          "games": 6,
-          "recent": [
-            4.0,
-            1.0,
-            2.0,
-            3.0,
-            3.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Tyus Jones",
-          "player_id": "3135046",
-          "team": "Denver Nuggets",
-          "team_id": "7",
-          "metric": "assists",
-          "estimate": 1.0,
-          "low": 0.1,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            0.0,
-            2.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Collin Gillespie",
-          "player_id": "4278585",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 2.3,
-          "low": 0.0,
-          "high": 4.5,
-          "games": 6,
-          "recent": [
-            6.0,
-            0.0,
-            0.0,
-            3.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Devin Booker",
-          "player_id": "3136193",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 1.5,
-          "low": 0.8,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
-            2.0,
-            3.0,
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Devin Booker",
-          "player_id": "3136193",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 9.7,
-          "low": 5.7,
-          "high": 13.7,
-          "games": 6,
-          "recent": [
-            8.0,
             15.0,
-            4.0,
-            12.0,
-            12.0,
+            0.0,
+            0.0,
+            34.0,
             5.0
           ]
         },
         {
-          "player": "Devin Booker",
-          "player_id": "3136193",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 0.8,
+          "player": "Colson Yankoff",
+          "player_id": "4361088",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "receiving_yards",
+          "estimate": 3.3,
           "low": 0.3,
-          "high": 1.3,
-          "games": 6,
+          "high": 6.3,
+          "games": 3,
           "recent": [
-            1.0,
-            1.0,
+            6.0,
             0.0,
-            1.0,
-            1.0,
-            0.0
+            2.0
           ]
         },
         {
-          "player": "Dillon Brooks",
-          "player_id": "3155526",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 4.6,
+          "player": "Jayden Daniels",
+          "player_id": "4426348",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "passing_yards",
+          "estimate": 39.5,
+          "low": 24.2,
+          "high": 54.8,
+          "games": 4,
+          "recent": [
+            57.0,
+            15.0,
+            44.0,
+            34.0
+          ]
+        },
+        {
+          "player": "Rachaad White",
+          "player_id": "4697815",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "rushing_yards",
+          "estimate": 8.3,
           "low": 2.6,
-          "high": 6.5,
-          "games": 6,
+          "high": 14.1,
+          "games": 5,
           "recent": [
-            4.0,
-            2.0,
-            5.0,
-            7.0,
-            8.0,
-            5.0
-          ]
-        },
-        {
-          "player": "Dillon Brooks",
-          "player_id": "3155526",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 1.1,
-          "low": 0.5,
-          "high": 1.8,
-          "games": 6,
-          "recent": [
-            1.0,
-            1.0,
+            13.0,
+            13.0,
             2.0,
             0.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Jalen Green",
-          "player_id": "4437244",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 1.4,
-          "low": 0.4,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            3.0,
-            0.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Jalen Green",
-          "player_id": "4437244",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 3.0,
-          "low": 0.3,
-          "high": 5.6,
-          "games": 6,
-          "recent": [
-            2.0,
-            0.0,
-            8.0,
-            2.0,
-            5.0,
             2.0
           ]
         },
         {
-          "player": "Jalen Green",
-          "player_id": "4437244",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 1.4,
-          "low": 0.3,
-          "high": 2.5,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            1.0,
-            0.0,
-            0.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Khaman Maluach",
-          "player_id": "5203685",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 1.7,
-          "low": 0.6,
-          "high": 2.8,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            0.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Khaman Maluach",
-          "player_id": "5203685",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 2.3,
-          "low": 1.6,
-          "high": 3.0,
-          "games": 6,
-          "recent": [
-            3.0,
-            2.0,
-            3.0,
-            1.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "player": "Luke Kennard",
-          "player_id": "3913174",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 0.5,
+          "player": "Stefon Diggs",
+          "player_id": "2976212",
+          "team": "Washington Commanders",
+          "team_id": "28",
+          "metric": "receiving_yards",
+          "estimate": 5.3,
           "low": 0,
-          "high": 1.3,
-          "games": 6,
+          "high": 12.9,
+          "games": 5,
           "recent": [
             0.0,
             0.0,
-            2.0,
-            0.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Miles Bridges",
-          "player_id": "4066383",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 0.6,
-          "low": 0,
-          "high": 1.4,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            2.0,
-            1.0,
-            1.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Miles Bridges",
-          "player_id": "4066383",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 1.8,
-          "low": 0,
-          "high": 3.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            4.0,
-            3.0,
-            4.0,
-            4.0
-          ]
-        },
-        {
-          "player": "Miles Bridges",
-          "player_id": "4066383",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 1.8,
-          "low": 0.9,
-          "high": 2.7,
-          "games": 6,
-          "recent": [
-            1.0,
-            2.0,
-            1.0,
-            3.0,
-            3.0,
-            3.0
-          ]
-        },
-        {
-          "player": "Oso Ighodaro",
-          "player_id": "4601023",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 0.5,
-          "low": 0,
-          "high": 1.3,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            1.0,
-            1.0,
-            2.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Oso Ighodaro",
-          "player_id": "4601023",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 2.6,
-          "low": 0.3,
-          "high": 4.9,
-          "games": 6,
-          "recent": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            5.0,
-            8.0
-          ]
-        },
-        {
-          "player": "Oso Ighodaro",
-          "player_id": "4601023",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 2.1,
-          "low": 1.1,
-          "high": 3.2,
-          "games": 6,
-          "recent": [
-            4.0,
-            1.0,
-            2.0,
-            1.0,
-            2.0,
-            1.0
-          ]
-        },
-        {
-          "player": "Ryan Dunn",
-          "player_id": "4888725",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "assists",
-          "estimate": 0.5,
-          "low": 0,
-          "high": 1.2,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            1.0,
-            2.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Ryan Dunn",
-          "player_id": "4888725",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "points",
-          "estimate": 3.4,
-          "low": 1.4,
-          "high": 5.4,
-          "games": 6,
-          "recent": [
-            4.0,
-            3.0,
-            5.0,
-            4.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Ryan Dunn",
-          "player_id": "4888725",
-          "team": "Phoenix Suns",
-          "team_id": "21",
-          "metric": "rebounds",
-          "estimate": 1.2,
-          "low": 0.0,
-          "high": 2.3,
-          "games": 6,
-          "recent": [
-            3.0,
-            0.0,
-            0.0,
-            1.0,
-            2.0,
+            17.0,
+            14.0,
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-16T21:00:00-05:00"
+      ]
     },
     {
       "id": "401873053",
       "date": "2026-11-15T14:30Z",
+      "date_et": "2026-11-15T09:30:00-05:00",
       "sport": "nfl",
       "name": "New England Patriots at Detroit Lions",
       "teams": [
@@ -22212,12 +18195,12 @@
             1.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T09:30:00-05:00"
+      ]
     },
     {
       "id": "401873058",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Kansas City Chiefs at Atlanta Falcons",
       "teams": [
@@ -22476,12 +18459,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873056",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Houston Texans at Cleveland Browns",
       "teams": [
@@ -22666,12 +18649,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873060",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Minnesota Vikings at Green Bay Packers",
       "teams": [
@@ -22939,12 +18922,12 @@
             5.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873057",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Jacksonville Jaguars at Tennessee Titans",
       "teams": [
@@ -23261,12 +19244,12 @@
             36.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873059",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Miami Dolphins at Indianapolis Colts",
       "teams": [
@@ -23522,12 +19505,12 @@
             13.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873055",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Carolina Panthers at New Orleans Saints",
       "teams": [
@@ -23752,12 +19735,12 @@
             17.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873054",
       "date": "2026-11-15T18:00Z",
+      "date_et": "2026-11-15T13:00:00-05:00",
       "sport": "nfl",
       "name": "Buffalo Bills at New York Jets",
       "teams": [
@@ -24030,12 +20013,12 @@
             0.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T13:00:00-05:00"
+      ]
     },
     {
       "id": "401873062",
       "date": "2026-11-15T21:05Z",
+      "date_et": "2026-11-15T16:05:00-05:00",
       "sport": "nfl",
       "name": "Seattle Seahawks at Las Vegas Raiders",
       "teams": [
@@ -24182,12 +20165,12 @@
             15.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T16:05:00-05:00"
+      ]
     },
     {
       "id": "401873061",
       "date": "2026-11-15T21:05Z",
+      "date_et": "2026-11-15T16:05:00-05:00",
       "sport": "nfl",
       "name": "Los Angeles Rams at Arizona Cardinals",
       "teams": [
@@ -24333,12 +20316,12 @@
             28.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T16:05:00-05:00"
+      ]
     },
     {
       "id": "401873063",
       "date": "2026-11-15T21:25Z",
+      "date_et": "2026-11-15T16:25:00-05:00",
       "sport": "nfl",
       "name": "San Francisco 49ers at Dallas Cowboys",
       "teams": [
@@ -24616,12 +20599,12 @@
             -2.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T16:25:00-05:00"
+      ]
     },
     {
       "id": "401873064",
       "date": "2026-11-16T01:20Z",
+      "date_et": "2026-11-15T20:20:00-05:00",
       "sport": "nfl",
       "name": "Pittsburgh Steelers at Cincinnati Bengals",
       "teams": [
@@ -24919,215 +20902,7 @@
             11.0
           ]
         }
-      ],
-      "date_et": "2026-11-15T20:20:00-05:00"
-    },
-    {
-      "id": "401873065",
-      "date": "2026-11-17T01:15Z",
-      "sport": "nfl",
-      "name": "Los Angeles Chargers at Baltimore Ravens",
-      "teams": [
-        {
-          "id": "33",
-          "name": "Baltimore Ravens",
-          "abbreviation": "BAL"
-        },
-        {
-          "id": "24",
-          "name": "Los Angeles Chargers",
-          "abbreviation": "LAC"
-        }
-      ],
-      "predictions": [
-        {
-          "player": "Derrick Henry",
-          "player_id": "3043078",
-          "team": "Baltimore Ravens",
-          "team_id": "33",
-          "metric": "rushing_yards",
-          "estimate": 20.8,
-          "low": 9.3,
-          "high": 32.3,
-          "games": 6,
-          "recent": [
-            18.0,
-            23.0,
-            9.0,
-            30.0,
-            40.0,
-            7.0
-          ]
-        },
-        {
-          "player": "Justice Hill",
-          "player_id": "4038441",
-          "team": "Baltimore Ravens",
-          "team_id": "33",
-          "metric": "rushing_yards",
-          "estimate": 3.4,
-          "low": 0,
-          "high": 12.9,
-          "games": 6,
-          "recent": [
-            0.0,
-            0.0,
-            5.0,
-            0.0,
-            26.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Zay Flowers",
-          "player_id": "4429615",
-          "team": "Baltimore Ravens",
-          "team_id": "33",
-          "metric": "receiving_yards",
-          "estimate": 17.9,
-          "low": 0,
-          "high": 45.3,
-          "games": 6,
-          "recent": [
-            -3.0,
-            0.0,
-            76.0,
-            6.0,
-            17.0,
-            37.0
-          ]
-        },
-        {
-          "player": "Zay Flowers",
-          "player_id": "4429615",
-          "team": "Baltimore Ravens",
-          "team_id": "33",
-          "metric": "rushing_yards",
-          "estimate": 4.0,
-          "low": 0,
-          "high": 9.2,
-          "games": 6,
-          "recent": [
-            9.0,
-            0.0,
-            0.0,
-            1.0,
-            13.0,
-            0.0
-          ]
-        },
-        {
-          "player": "Charlie Kolar",
-          "player_id": "4241263",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "receiving_yards",
-          "estimate": 11.4,
-          "low": 0.8,
-          "high": 22.0,
-          "games": 4,
-          "recent": [
-            26.0,
-            0.0,
-            0.0,
-            10.0
-          ]
-        },
-        {
-          "player": "Justin Herbert",
-          "player_id": "4038941",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "passing_yards",
-          "estimate": 30.0,
-          "low": 17.8,
-          "high": 42.1,
-          "games": 6,
-          "recent": [
-            39.0,
-            40.0,
-            21.0,
-            10.0,
-            34.0,
-            13.0
-          ]
-        },
-        {
-          "player": "Kimani Vidal",
-          "player_id": "4430968",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "rushing_yards",
-          "estimate": 4.6,
-          "low": 0.8,
-          "high": 8.4,
-          "games": 6,
-          "recent": [
-            6.0,
-            1.0,
-            11.0,
-            2.0,
-            0.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Omarion Hampton",
-          "player_id": "4685382",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "rushing_yards",
-          "estimate": 8.3,
-          "low": 2.2,
-          "high": 14.4,
-          "games": 6,
-          "recent": [
-            8.0,
-            10.0,
-            0.0,
-            8.0,
-            17.0,
-            18.0
-          ]
-        },
-        {
-          "player": "Quentin Johnston",
-          "player_id": "4429025",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "receiving_yards",
-          "estimate": 3.1,
-          "low": 0,
-          "high": 7.2,
-          "games": 5,
-          "recent": [
-            0.0,
-            10.0,
-            0.0,
-            0.0,
-            6.0
-          ]
-        },
-        {
-          "player": "Tre' Harris",
-          "player_id": "4686612",
-          "team": "Los Angeles Chargers",
-          "team_id": "24",
-          "metric": "receiving_yards",
-          "estimate": 6.1,
-          "low": 0,
-          "high": 12.4,
-          "games": 5,
-          "recent": [
-            13.0,
-            0.0,
-            0.0,
-            13.0,
-            0.0
-          ]
-        }
-      ],
-      "date_et": "2026-11-16T20:15:00-05:00"
+      ]
     }
   ],
   "warnings": []
