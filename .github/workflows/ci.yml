@@ -52,6 +52,15 @@ jobs:
               print("NBA feed accessible. Top-level keys:", sorted(payload)[:20] if isinstance(payload, dict) else type(payload).__name__)
               print("lineupStatus counts:", dict(statuses))
               print("lineup player record field names:", examples)
+              games = payload.get("games", []) if isinstance(payload, dict) else []
+              print("games count:", len(games))
+              if games and isinstance(games[0], dict):
+                  game0 = games[0]
+                  print("first game keys:", sorted(game0))
+                  for k, v in game0.items():
+                      if isinstance(v, dict): print("game child", k, "keys:", sorted(v))
+                      elif isinstance(v, list) and v and isinstance(v[0], dict):
+                          print("game list", k, "first child keys:", sorted(v[0]))
           except Exception as error:
               print("NBA feed UNVERIFIED (not a model test failure):", type(error).__name__, str(error)[:250])
           PY
