@@ -34,4 +34,36 @@ jobs:
               print("CATEGORY",str(grp.get("statistics",[])[0].keys())[:1000])
               for a in grp.get("statistics",[])[0].get("athletes",[])[:4]:
                   print("ATHLETE",{"starter":a.get("starter"),"stats":a.get("stats"),"name":a.get("athlete",{}).get("displayName")})
+          print("Q1 chronological audit")
+          from quarter_challenger import nba_starter_flags
+          from quarter_opportunity import q1_clock_seconds
+          for tid in ("6", "16"):
+              starter=nba_starter_flags(summary,tid)
+              oc={pid for pid,b in starter.items() if b}
+              print("TEAM",tid,"starters",oc)
+              elapsed=0.0
+              sub_count=0
+              for i,p in enumerate(summary.get("plays",[])):
+                  if p.get("period",{}).get("number") != 1:continue
+                  t=q1_clock_seconds(p)
+                  if t is None:continue
+                  if t < elapsed - 2:
+                      print("REVERSAL",i,"elapsed",elapsed,"t",t,"clock",p.get("clock"),"type",p.get("type"))
+                      break
+                  elapsed=max(elapsed,t)
+                  if str(p.get("team",{}).get("id")) != tid: continue
+                  if "substitution" in p.get("type",{}).get("text","").lower():
+                      pts=p.get("participants",[])
+                      if len(pts)<2:
+                          print("SUB_MISSING_PARTICIPANTS",i,p)
+                          break
+                      incoming=str(pts[0].get("athlete",{}).get("id"))
+                      outgoing=str(pts[1].get("athlete",{}).get("id"))
+                      if outgoing not in oc:
+                          print("SUB_MISSING_ONCOURT",i,incoming,outgoing,"existing",oc,"clock",p.get("clock"))
+                          break
+                      oc.remove(outgoing)
+                      oc.add(incoming)
+                      sub_count+=1
+              print("last elapsed",elapsed,"sub count",sub_count)
           PY
