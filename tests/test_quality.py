@@ -61,6 +61,33 @@ class FirstQuarterQualityTests(unittest.TestCase):
         self.assertIsInstance(shadow, float)
         self.assertGreater(shadow, 6.0)
 
+    def test_full_report_hides_nba_before_lineup_confirmation(self):
+        from quarterbot import build_report
+        sample_game = dict(self.game)
+        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=45)).isoformat()
+        with (patch("quarterbot.upcoming_games", return_value=[sample_game]),
+              patch("quarterbot.analyze_team", return_value=[self.pred]),
+              patch("quarterbot.filter_availability", side_effect=lambda game, predictions, *args: predictions),
+              patch("quarterbot.fetch_confirmed_starters", return_value=(None, "https://source"))):
+            report = build_report(datetime.now(timezone.utc).date(), 1, 6, ["nba"])
+        self.assertEqual(report["games"][0]["predictions"], [])
+        self.assertEqual(report["games"][0]["lineup_status"], "unconfirmed")
+
+    def test_full_report_only_publishes_confirmed_starters(self):
+        from quarterbot import build_report
+        sample_game = dict(self.game)
+        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=45)).isoformat()
+        with (patch("quarterbot.upcoming_games", return_value=[sample_game]),
+              patch("quarterbot.analyze_team", return_value=[self.pred]),
+              patch("quarterbot.filter_availability", side_effect=lambda game, predictions, *args: predictions),
+              patch("quarterbot.fetch_confirmed_starters",
+                    return_value=({"BOS": {"bos0"}, "NYK": {"nyk0"}}, "https://source"))):
+            report = build_report(datetime.now(timezone.utc).date(), 1, 6, ["nba"])
+        game = report["games"][0]
+        self.assertEqual(game["lineup_status"], "confirmed")
+        self.assertTrue(game["predictions"])
+        self.assertTrue(all(x["starter_confirmed"] for x in game["predictions"]))
+
     def test_archive_and_select_only_eligible_pregame(self):
         with tempfile.TemporaryDirectory() as root:
             good = dict(self.game, predictions=[self.pred], lineup_status="confirmed")
