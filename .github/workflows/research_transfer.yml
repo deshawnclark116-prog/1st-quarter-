@@ -2,7 +2,7 @@ name: Year-separated Q1 candidate transfer experiment
 on:
   push:
     branches: ["research-q1-opportunity-v3"]
-    paths: [".github/workflows/research_transfer.yml"]
+    paths: [".github/workflows/research_transfer.yml", "research_transfer.py"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research_results/year_transfer-v1.json
+          git add research_results/year_transfer-v1.json research_results/year_transfer-v1.csv
           if ! git diff --cached --quiet; then
             git commit -m "Record Q1 prior-year transfer validation"
             git pull --rebase origin research-q1-opportunity-v3
