@@ -1,0 +1,50 @@
+{
+  "begin": "2026-10-20",
+  "through": "2026-11-12",
+  "games_found": 174,
+  "games_processed": 174,
+  "rows": 3107,
+  "holdout_dates": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12"
+  ],
+  "method": "strictly prior observations, oracle confirmed-starter identity (hindsight availability)",
+  "warning": "No historical pre-tipoff starter snapshots or betting prices. Not a real pregame win-rate or ROI.",
+  "warnings": [],
+  "by_market": [
+    {
+      "market": "points",
+      "holdout_n": 386,
+      "baseline_mae": 2.528,
+      "naive_last3_mae": 2.748,
+      "role_paired_n": 358,
+      "baseline_mae_on_role_pair": 2.502,
+      "role_challenger_mae": 2.507,
+      "role_challenger_promoted": false
+    },
+    {
+      "market": "rebounds",
+      "holdout_n": 351,
+      "baseline_mae": 1.098,
+      "naive_last3_mae": 1.178,
+      "role_paired_n": 324,
+      "baseline_mae_on_role_pair": 1.105,
+      "role_challenger_mae": 1.113,
+      "role_challenger_promoted": false
+    },
+    {
+      "market": "assists",
+      "holdout_n": 321,
+      "baseline_mae": 0.9,
+      "naive_last3_mae": 0.969,
+      "role_paired_n": 299,
+      "baseline_mae_on_role_pair": 0.905,
+      "role_challenger_mae": 0.906,
+      "role_challenger_promoted": false
+    }
+  ]
+}
