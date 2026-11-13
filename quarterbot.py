@@ -218,10 +218,89 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
     return sorted(results, key=lambda result: (result["player"], result["metric"]))
 
 
+def active_roster(sport: str, team_id: str, before: datetime) -> set[str]:
+    data = fetch_json(f"{BASE}/{SPORTS[sport]}/teams/{team_id}/roster",
+                      {"season": season_year(sport, before)})
+    groups = data.get("athletes", [])
+    if sport == "nba":
+        athletes = groups
+    else:
+        athletes = [athlete for group in groups
+                    if group.get("position") in {"offense", "defense", "specialTeam"}
+                    for athlete in group.get("items", [])]
+    if not athletes:
+        raise RuntimeError(f"No current roster for team {team_id}")
+    return {athlete["id"] for athlete in athletes
+            if athlete.get("id") and athlete.get("status", {}).get("type") == "active"}
+
+
+def last_game_lead_qb(team_id: str, before: datetime, cache: dict) -> str | None:
+    games = recent_games("nfl", team_id, before, 1)
+    if not games:
+        return None
+    game_id = games[0]["id"]
+    if game_id not in cache:
+        cache[game_id] = fetch_json(f"{BASE}/{SPORTS['nfl']}/summary", {"event": game_id})
+    candidates = []
+    for group in cache[game_id].get("boxscore", {}).get("players", []):
+        if group.get("team", {}).get("id") != team_id:
+            continue
+        for category in group.get("statistics", []):
+            if category.get("name") != "passing":
+                continue
+            for entry in category.get("athletes", []):
+                try:
+                    attempts = int(entry["stats"][0].split("/")[-1])
+                    candidates.append((attempts, entry["athlete"]["id"]))
+                except (IndexError, KeyError, ValueError):
+                    continue
+    return max(candidates)[1] if candidates and max(candidates)[0] > 0 else None
+
+
+def filter_availability(game: dict, predictions: list[dict], before: datetime,
+                        roster_cache: dict, summary_cache: dict, errors: list[str]) -> list[dict]:
+    sport = game["sport"]
+    try:
+        preview = fetch_json(f"{BASE}/{SPORTS[sport]}/summary", {"event": game["id"]})
+        if "injuries" not in preview:
+            raise RuntimeError("Pregame injury data unavailable")
+        injuries = {entry.get("athlete", {}).get("id"): entry.get("status", "").lower()
+                    for group in preview["injuries"] for entry in group.get("injuries", [])}
+        active = {}
+        for team in game["teams"]:
+            key = (sport, team["id"], season_year(sport, before))
+            if key not in roster_cache:
+                roster_cache[key] = active_roster(sport, team["id"], before)
+            active[team["id"]] = roster_cache[key]
+        lead_qbs = {}
+        if sport == "nfl":
+            for team in game["teams"]:
+                lead_qbs[team["id"]] = last_game_lead_qb(team["id"], before, summary_cache)
+    except (RuntimeError, KeyError, ValueError) as error:
+        errors.append(f"{sport.upper()} {game['name']}: availability could not be checked: {error}")
+        return []
+    eligible = []
+    excluded = []
+    for prediction in predictions:
+        pid, team_id = prediction["player_id"], prediction["team_id"]
+        status = injuries.get(pid, "")
+        if pid not in active[team_id]:
+            excluded.append(prediction["player"] + " (not on active roster)")
+        elif status in {"out", "doubtful", "inactive", "suspended"}:
+            excluded.append(prediction["player"] + f" ({status})")
+        elif sport == "nfl" and prediction["metric"] == "passing_yards" and pid != lead_qbs[team_id]:
+            excluded.append(prediction["player"] + " (not last game's lead passer)")
+        else:
+            prediction["availability"] = "questionable" if status == "questionable" else "active roster; game status unconfirmed"
+            eligible.append(prediction)
+    game["excluded"] = sorted(set(excluded))
+    return eligible
+
+
 def build_report(start: date, days: int, sample_size: int, sports: list[str]) -> dict:
     report = {"generated_at": datetime.now(timezone.utc).isoformat(), "start_date": start.isoformat(),
               "days": days, "sample_size": sample_size, "games": [], "warnings": []}
-    cache, teams_cache = {}, {}
+    cache, teams_cache, roster_cache = {}, {}, {}
     for sport in sports:
         try:
             games = upcoming_games(sport, start, days)
@@ -240,7 +319,8 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
                         report["warnings"].append(f"{sport.upper()} {team['name']}: {error}")
                         teams_cache[key] = []
                 predictions.extend(teams_cache[key])
-            game["predictions"] = predictions
+            game["predictions"] = filter_availability(game, predictions, before,
+                                                      roster_cache, cache, report["warnings"])
             report["games"].append(game)
     return report
 
@@ -250,9 +330,11 @@ def markdown(report: dict) -> str:
     lines = ["# First-quarter player projections", "", f"Generated: {generated}",
              f"Window starts: {report['start_date']} Eastern ({report['days']} days); up to {report['sample_size']} prior games per team.",
              "Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.", "",
+             "Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. "
+             "NFL passing estimates show the team's most recent lead passer. Tonight's starter and participation are not confirmed. "
              "Estimates use each player's recent first-quarter results, weighted toward newer games. "
              "Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. "
-             "Availability, injuries, lineup changes, and matchup adjustments are not verified. "
+             "Late lineup changes and matchup adjustments are not reflected. "
              "NFL yardage comes from play descriptions and may miss unusual or corrected plays.", ""]
     if not report["games"]:
         lines += ["No upcoming NBA or NFL games were found in the selected window.", ""]
@@ -262,11 +344,14 @@ def markdown(report: dict) -> str:
         if not game["predictions"]:
             lines += ["Insufficient usable first-quarter history for this game.", ""]
             continue
+        if game.get("excluded"):
+            lines += ["Excluded after roster/injury/lead-passer check: " + ", ".join(game["excluded"]) + ".", ""]
         lines += ["| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |",
                   "|---|---|---|---:|---:|---:|---|"]
         for p in game["predictions"]:
             recent = ", ".join(str(v) for v in p["recent"])
-            lines.append(f"| {p['player']} | {p['team']} | {p['metric'].replace('_', ' ')} | "
+            player = p["player"] + (" (questionable)" if p.get("availability") == "questionable" else "")
+            lines.append(f"| {player} | {p['team']} | {p['metric'].replace('_', ' ')} | "
                          f"{p['estimate']} | {p['low']}–{p['high']} | {p['games']} | {recent} |")
         lines.append("")
     if report["warnings"]:
