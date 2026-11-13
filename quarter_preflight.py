@@ -57,6 +57,7 @@ def main() -> int:
         run, targets = should_run(now, games, old)
     print("Q1 preflight:", "RUN" if run else "SKIP", *targets, sep="\n")
     print("Q1 preflight trigger:", event, "(scheduled cron versus explicit code/manual trigger)")
+    print("Q1 request: immediate pre-tipoff verification of the November 13 seven PM NBA games.")
     output = os.environ.get("GITHUB_OUTPUT")
     if output:
         with open(output, "a", encoding="utf-8") as handle:
