@@ -1,6 +1,16 @@
 name: First-quarter pregame projections
 
 on:
+  # A code change gets a safe integration smoke run; published-report commits
+  # never recursively trigger this because they do not modify these paths.
+  push:
+    branches: ["main"]
+    paths:
+      - "quarterbot.py"
+      - "quarter_guard.py"
+      - "quarter_challenger.py"
+      - "quarter_grade.py"
+      - ".github/workflows/predict.yml"
   schedule:
     # GitHub cron uses UTC. Poll through the US afternoon/evening pregame windows.
     - cron: "*/15 17-23 * * *"
