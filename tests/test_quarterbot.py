@@ -1,6 +1,6 @@
 import unittest
 
-from quarterbot import nba_stats, nfl_stats, project, season_year
+from quarterbot import markdown, nba_stats, nfl_stats, project, season_year
 from datetime import datetime, timezone
 
 
@@ -61,6 +61,13 @@ class ParserTests(unittest.TestCase):
         self.assertLessEqual(p["low"], p["estimate"])
         self.assertEqual(season_year("nba", datetime(2026, 11, 13, tzinfo=timezone.utc)), 2027)
         self.assertEqual(season_year("nfl", datetime(2026, 1, 13, tzinfo=timezone.utc)), 2025)
+
+    def test_evening_game_uses_eastern_calendar_date(self):
+        report = {"generated_at": "2026-11-13T00:00:00+00:00", "start_date": "2026-11-13",
+                  "days": 1, "sample_size": 6, "warnings": [], "games": [
+                      {"sport": "nba", "name": "Away at Home", "date": "2026-11-14T00:00Z",
+                       "predictions": []}]}
+        self.assertIn("Fri Nov 13, 07:00 PM EST", markdown(report))
 
 
 if __name__ == "__main__":
