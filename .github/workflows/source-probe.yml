@@ -1,0 +1,53 @@
+name: Probe public sports data providers
+
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/source-probe.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test multiple public schedule and summary hosts
+        run: |
+          python - <<'PY'
+          import json, urllib.request, urllib.error
+          day = "20261113"
+          targets = {
+            "site_espn_nba": f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={day}&limit=100",
+            "web_espn_nba": f"https://site.web.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={day}&limit=100",
+            "web_espn_nfl": f"https://site.web.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates={day}&limit=100",
+            "cdn_espn_nba": f"https://cdn.espn.com/core/nba/scoreboard?xhr=1&dates={day}",
+            "cdn_espn_nfl": f"https://cdn.espn.com/core/nfl/scoreboard?xhr=1&dates={day}",
+            "core_espn_nba": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events?limit=2",
+            "nba_scoreboard": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+            "nba_lineups": f"https://stats.nba.com/js/data/leaders/00_daily_lineups_{day}.json",
+            "nfl_scores": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+          }
+          for name, url in targets.items():
+              try:
+                  req = urllib.request.Request(url, headers={
+                      "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
+                      "Accept":"application/json,text/plain,*/*",
+                      "Referer":"https://www.espn.com/"})
+                  with urllib.request.urlopen(req, timeout=8) as resp:
+                      body = resp.read(120000)
+                      try:
+                          parsed = json.loads(body)
+                          keys = sorted(parsed)[:10] if isinstance(parsed, dict) else type(parsed).__name__
+                      except Exception:
+                          keys = body[:100].decode(errors="replace")
+                      print(name, "HTTP", resp.status, "keys", keys)
+              except Exception as e:
+                  print(name, type(e).__name__, str(e)[:160])
+          PY
