@@ -5,15 +5,17 @@
   "champions": {
     "NBA_Q1": {
       "name": "q1_baseline_v1",
-      "method": "weighted recent first-quarter values (six prior team games)",
-      "state": "experimental/unvalidated",
-      "official_betting": false
+      "method": "Recency-weighted first-quarter stat average over 10 most recent completed NBA team games, confirmed starting-five gate",
+      "state": "retrospectively better lookback than 6 on matched 2025/2026 games; NOT proven profitable",
+      "official_betting": false,
+      "version": "q1_baseline_v1_nba10"
     },
     "NFL_Q1": {
       "name": "q1_baseline_v1",
       "method": "weighted recent first-quarter values from play descriptions",
       "state": "experimental/unvalidated",
-      "official_betting": false
+      "official_betting": false,
+      "version": "q1_baseline_v1_nfl6"
     }
   },
   "challengers": [
@@ -145,6 +147,31 @@
         }
       },
       "conclusion": "Keep baseline; role-only challenger loses on matched holdout; no market odds or betting profitability."
+    },
+    "history_window_stress": {
+      "2025_later": {
+        "matched_points_n": 461,
+        "points_mae_6": 2.66746,
+        "points_mae_10": 2.62863,
+        "matched_rebounds_n": 409,
+        "rebounds_mae_6": 1.03985,
+        "rebounds_mae_10": 1.01687,
+        "matched_assists_n": 371,
+        "assists_mae_6": 0.93046,
+        "assists_mae_10": 0.91078
+      },
+      "2026_later": {
+        "matched_points_n": 372,
+        "points_mae_6": 2.61102,
+        "points_mae_10": 2.51263,
+        "matched_rebounds_n": 337,
+        "rebounds_mae_6": 1.10326,
+        "rebounds_mae_10": 1.07092,
+        "matched_assists_n": 303,
+        "assists_mae_6": 0.93036,
+        "assists_mae_10": 0.90099
+      },
+      "limitation": "Retrospective oracle-starter research; selected on available historical data, future performance needs grade ledger."
     }
   },
   "operational_status": {
@@ -153,6 +180,6 @@
     "prediction_schedule": "15-minute polling in selected UTC game windows",
     "outcome_grading": "daily separate GitHub Action",
     "forward_shot_shadow": "Merged 2026-11-13 (PR #3); production retains original baseline pick estimates; future archives score separate shot estimate.",
-    "six_vs_ten_window": "Six-game exact-horizon comparative research completed for 2026; 2025 matched check pending as of 2026-11-13. NFL stays six unless separately validated."
+    "six_vs_ten_window": "Paired retrospective 2025 and 2026 evaluations: NBA 10-game recency window improved points/rebounds/assists MAE versus six-game on matched games; NFL remains six. Not independently verified live yet."
   }
 }
