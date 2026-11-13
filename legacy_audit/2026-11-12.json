@@ -1,0 +1,84 @@
+{
+  "sampled_games": 3,
+  "graded_projections": 85,
+  "by_market": [
+    {
+      "sport": "nba",
+      "market": "assists",
+      "n": 22,
+      "mae": 0.936,
+      "bias": 0.073,
+      "empirical_range_coverage": 0.636
+    },
+    {
+      "sport": "nba",
+      "market": "points",
+      "n": 24,
+      "mae": 2.517,
+      "bias": 0.442,
+      "empirical_range_coverage": 0.667
+    },
+    {
+      "sport": "nba",
+      "market": "rebounds",
+      "n": 25,
+      "mae": 1.016,
+      "bias": 0.184,
+      "empirical_range_coverage": 0.64
+    },
+    {
+      "sport": "nfl",
+      "market": "passing_yards",
+      "n": 3,
+      "mae": 15.333,
+      "bias": 4.333,
+      "empirical_range_coverage": 0.333
+    },
+    {
+      "sport": "nfl",
+      "market": "receiving_yards",
+      "n": 7,
+      "mae": 8.829,
+      "bias": 6.8,
+      "empirical_range_coverage": 0.857
+    },
+    {
+      "sport": "nfl",
+      "market": "rushing_yards",
+      "n": 4,
+      "mae": 2.775,
+      "bias": 1.725,
+      "empirical_range_coverage": 1.0
+    }
+  ],
+  "shadow_comparison": [],
+  "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. Shadow challenger NOT promoted.",
+  "reference_commit": "e68f587c8",
+  "day": "2026-11-12",
+  "generated_at": "2026-11-13T00:37:56.530058+00:00",
+  "status": "legacy_unverified_lineups_no_betting_lines",
+  "by_game": [
+    {
+      "game": "Dallas Mavericks at Minnesota Timberwolves",
+      "sport": "nba",
+      "predictions": 37,
+      "verified_player_grade_rows": 37,
+      "errors": []
+    },
+    {
+      "game": "Charlotte Hornets at Phoenix Suns",
+      "sport": "nba",
+      "predictions": 35,
+      "verified_player_grade_rows": 34,
+      "errors": []
+    },
+    {
+      "game": "Washington Commanders at New York Giants",
+      "sport": "nfl",
+      "predictions": 15,
+      "verified_player_grade_rows": 14,
+      "errors": []
+    }
+  ],
+  "warnings": []
+}
