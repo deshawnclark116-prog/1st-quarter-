@@ -1,7 +1,8 @@
 import unittest
 
-from quarterbot import markdown, nba_stats, nfl_stats, project, season_year
+from quarterbot import filter_availability, markdown, nba_stats, nfl_stats, project, season_year
 from datetime import datetime, timezone
+from unittest.mock import patch
 
 
 class ParserTests(unittest.TestCase):
@@ -69,6 +70,28 @@ class ParserTests(unittest.TestCase):
                        "predictions": []}]}
         self.assertIn("Fri Nov 13, 07:00 PM EST", markdown(report))
         self.assertIn("Generated: Thu Nov 12, 07:00 PM EST", markdown(report))
+
+    def test_unavailable_player_and_backup_qb_are_removed(self):
+        game = {"id": "1", "sport": "nfl", "name": "Away at Home", "teams": [
+            {"id": "19", "name": "Home"}, {"id": "28", "name": "Away"}]}
+        predictions = [
+            {"player_id": "starter", "player": "Starter", "team_id": "19", "metric": "passing_yards"},
+            {"player_id": "backup", "player": "Backup", "team_id": "19", "metric": "passing_yards"},
+            {"player_id": "out", "player": "Out Player", "team_id": "28", "metric": "receiving_yards"},
+            {"player_id": "q", "player": "Questionable", "team_id": "28", "metric": "receiving_yards"},
+        ]
+        preview = {"injuries": [{"injuries": [
+            {"athlete": {"id": "out"}, "status": "Out"},
+            {"athlete": {"id": "q"}, "status": "Questionable"}]}]}
+        with (patch("quarterbot.fetch_json", return_value=preview),
+              patch("quarterbot.active_roster", side_effect=lambda sport, team, before:
+                    {"starter", "backup"} if team == "19" else {"out", "q"}),
+              patch("quarterbot.last_game_lead_qb", side_effect=lambda team, before, cache:
+                    "starter" if team == "19" else None)):
+            result = filter_availability(game, predictions,
+                                         datetime(2026, 11, 13, tzinfo=timezone.utc), {}, {}, [])
+        self.assertEqual({p["player"] for p in result}, {"Starter", "Questionable"})
+        self.assertEqual(next(p for p in result if p["player"] == "Questionable")["availability"], "questionable")
 
 
 if __name__ == "__main__":
