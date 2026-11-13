@@ -66,4 +66,14 @@ jobs:
                       oc.add(incoming)
                       sub_count+=1
               print("last elapsed",elapsed,"sub count",sub_count)
+          print("SHOOTING EVENT FIELD TEST")
+          for p in plays:
+              label=p.get("type",{}).get("text","").lower()
+              if any(k in label for k in ("jump shot","free throw","layup")):
+                  print("SHOT",label,"scored",p.get("scoringPlay"),"attempted",p.get("pointsAttempted"),
+                        "shooting",p.get("shootingPlay"),"short",p.get("shortDescription"),
+                        "text",p.get("text","")[:70],
+                        "players",[(z.get("athlete",{}).get("id")) for z in p.get("participants",[])])
+                  if p.get("scoringPlay") is False:
+                      break
           PY
