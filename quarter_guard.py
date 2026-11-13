@@ -3,15 +3,19 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from datetime import date
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 LINEUPS_URL = "https://stats.nba.com/js/data/leaders/00_daily_lineups_{day}.json"
+# ESPN team abbreviations differ from NBA.com's official tricodes.
+ESPN_TO_NBA = {"NY": "NYK", "GS": "GSW", "SA": "SAS", "NO": "NOP"}
 
 
 def normalized(value: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", value.casefold())
+    ascii_name = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]", "", ascii_name.casefold())
 
 
 def _get(value: dict, *keys):
@@ -23,7 +27,8 @@ def _get(value: dict, *keys):
 
 def _team_code(value) -> str | None:
     if isinstance(value, str):
-        return value.upper().strip() if 2 <= len(value) <= 4 else None
+        code = value.upper().strip()
+        return ESPN_TO_NBA.get(code, code) if 2 <= len(code) <= 4 else None
     if isinstance(value, dict):
         return _team_code(_get(value, "teamTricode", "teamAbbreviation", "teamCode", "abbreviation", "triCode", "teamAbbr"))
     return None
@@ -78,7 +83,7 @@ def gate_nba_predictions(game: dict, projections: list[dict], starters: dict[str
         game["lineup_status"] = "unconfirmed"
         game["withheld_reason"] = "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
         return []
-    team_map = {t["name"]: t.get("abbreviation", "").upper() for t in game["teams"]}
+    team_map = {t["name"]: _team_code(t.get("abbreviation", "")) for t in game["teams"]}
     eligible = [p for p in projections if normalized(p["player"]) in starters.get(team_map.get(p["team"]), set())]
     game["lineup_status"] = "confirmed"
     game["lineup_source"] = source
