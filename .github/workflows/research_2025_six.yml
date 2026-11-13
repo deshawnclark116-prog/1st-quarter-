@@ -1,0 +1,31 @@
+name: Cross-season six-game lookback robustness audit
+on:
+  push:
+    branches: ["research-q1-opportunity-v3"]
+    paths: [".github/workflows/research_2025_six.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Compare six-game historical Q1 2025
+        run: python research_2025_six.py
+      - name: Persist paired horizon testing data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_results/opportunity-v3-2025-six.json research_results/opportunity-v3-2025-six.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive six-game 2025 Q1 horizon comparison"
+            git pull --rebase origin research-q1-opportunity-v3
+            git push origin HEAD:research-q1-opportunity-v3
+          fi
