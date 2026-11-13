@@ -73,6 +73,7 @@ def compare(rows, prediction):
 def main():
     old=read_data(SRC/"opportunity-v3-2025.csv")
     future=read_data(SRC/"opportunity-v3.csv")
+    audit_rows=[]
     report={"design":"2025-only model selection/refitting, test on 2026 frozen predictions",
             "limitation":"historical target starters are ORACLE and 2026 results already inspected; not clean prospective performance",
             "promotion_authorized":False,"market_results":[]}
@@ -93,6 +94,15 @@ def main():
         frozen=model_list()[chosen["name"]]()
         frozen.fit(xdata(all_prev),[r["actual"] for r in all_prev])
         predicted=[max(0,float(p)) for p in frozen.predict(xdata(current))]
+        for r,pred in zip(current,predicted):
+            audit_rows.append({
+                "date": r["date"], "game_id": r["game_id"],
+                "player_id": r["player_id"], "metric":metric,
+                "baseline":round(r["baseline"],4), "challenger":round(pred,4),
+                "actual":r["actual"],
+                "baseline_ae":round(abs(r["baseline"]-r["actual"]),4),
+                "challenger_ae":round(abs(pred-r["actual"]),4),
+            })
         forecast={r["game_id"]+":"+r["player_id"]+":"+r["metric"]:p
                   for r,p in zip(current,predicted)}
         later_preds=[forecast[r["game_id"]+":"+r["player_id"]+":"+r["metric"]] for r in later]
@@ -106,6 +116,10 @@ def main():
         })
     path=SRC/"year_transfer-v1.json"
     path.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
+    with (SRC/"year_transfer-v1.csv").open("w",newline="",encoding="utf-8") as handle:
+        writer=csv.DictWriter(handle,fieldnames=["date","game_id","player_id","metric","baseline","challenger","actual","baseline_ae","challenger_ae"])
+        writer.writeheader()
+        writer.writerows(audit_rows)
     print(json.dumps(report,indent=2))
 
 
