@@ -1,10 +1,10 @@
 # First-quarter player projections
 
-Generated: Thu Nov 12, 07:37 PM EST
+Generated: Thu Nov 12, 07:57 PM EST
 Window starts: 2026-11-12 Eastern (4 days); up to 6 prior games per team.
 Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
-Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Availability, injuries, lineup changes, and matchup adjustments are not verified. NFL yardage comes from play descriptions and may miss unusual or corrected plays.
+Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. NFL passing estimates show the team's most recent lead passer. Tonight's starter and participation are not confirmed. Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Late lineup changes and matchup adjustments are not reflected. NFL yardage comes from play descriptions and may miss unusual or corrected plays.
 
 ## NBA: Dallas Mavericks at Minnesota Timberwolves — Thu Nov 12, 08:00 PM EST
 
@@ -169,6 +169,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Cleveland Cavaliers at Miami Heat — Fri Nov 13, 08:00 PM EST
 
+Excluded after roster/injury/lead-passer check: Evan Mobley (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Andrew Wiggins | Miami Heat | points | 3.3 | 0.9–5.6 | 6 | 3.0, 6.0, 2.0, 0.0, 3.0, 7.0 |
@@ -193,9 +195,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Donovan Mitchell | Cleveland Cavaliers | assists | 2.0 | 1.0–3.0 | 6 | 3.0, 1.0, 1.0, 3.0, 1.0, 3.0 |
 | Donovan Mitchell | Cleveland Cavaliers | points | 5.2 | 2.3–8.1 | 6 | 4.0, 3.0, 7.0, 10.0, 2.0, 8.0 |
 | Donovan Mitchell | Cleveland Cavaliers | rebounds | 1.0 | 0.2–1.9 | 6 | 1.0, 0.0, 2.0, 2.0, 0.0, 2.0 |
-| Evan Mobley | Cleveland Cavaliers | assists | 1.1 | 0.2–2.1 | 6 | 1.0, 0.0, 1.0, 3.0, 2.0, 1.0 |
-| Evan Mobley | Cleveland Cavaliers | points | 3.5 | 1.7–5.2 | 6 | 5.0, 2.0, 1.0, 5.0, 4.0, 6.0 |
-| Evan Mobley | Cleveland Cavaliers | rebounds | 1.5 | 0.1–2.8 | 6 | 1.0, 0.0, 3.0, 1.0, 4.0, 2.0 |
 | James Harden | Cleveland Cavaliers | assists | 1.9 | 0.4–3.3 | 6 | 0.0, 4.0, 2.0, 3.0, 0.0, 2.0 |
 | James Harden | Cleveland Cavaliers | points | 2.4 | 0.6–4.2 | 6 | 4.0, 2.0, 0.0, 4.0, 0.0, 4.0 |
 | James Harden | Cleveland Cavaliers | rebounds | 1.3 | 0.4–2.3 | 6 | 0.0, 2.0, 1.0, 3.0, 2.0, 1.0 |
@@ -214,10 +213,10 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Atlanta Hawks at Chicago Bulls — Fri Nov 13, 08:00 PM EST
 
+Excluded after roster/injury/lead-passer check: Caleb Wilson (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
-| Caleb Wilson | Chicago Bulls | points | 4.0 | 2.0–6.1 | 6 | 5.0, 5.0, 0.0, 4.0, 6.0, 6.0 |
-| Caleb Wilson | Chicago Bulls | rebounds | 1.3 | 0.6–2.0 | 6 | 1.0, 2.0, 1.0, 1.0, 2.0, 0.0 |
 | Isaac Okoro | Chicago Bulls | assists | 0.6 | 0–1.3 | 6 | 2.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Isaac Okoro | Chicago Bulls | points | 2.1 | 0.5–3.8 | 6 | 0.0, 4.0, 4.0, 2.0, 0.0, 3.0 |
 | Jalen Smith | Chicago Bulls | assists | 0.7 | 0–1.4 | 6 | 2.0, 0.0, 0.0, 0.0, 1.0, 0.0 |
@@ -256,6 +255,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Zuby Ejiofor | Atlanta Hawks | assists | 0.6 | 0–1.3 | 5 | 0.0, 0.0, 2.0, 1.0, 1.0 |
 
 ## NBA: Memphis Grizzlies at New Orleans Pelicans — Fri Nov 13, 08:00 PM EST
+
+Excluded after roster/injury/lead-passer check: Zach Edey (out).
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -298,7 +299,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ty Jerome | Memphis Grizzlies | assists | 1.1 | 0–2.2 | 5 | 2.0, 0.0, 1.0, 0.0, 3.0 |
 | Ty Jerome | Memphis Grizzlies | points | 3.9 | 0.7–7.0 | 5 | 0.0, 7.0, 8.0, 2.0, 2.0 |
 | Ty Jerome | Memphis Grizzlies | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
-| Zach Edey | Memphis Grizzlies | rebounds | 1.4 | 0.7–2.2 | 6 | 1.0, 2.0, 1.0, 2.0, 2.0, 0.0 |
 
 ## NBA: Utah Jazz at Houston Rockets — Fri Nov 13, 08:30 PM EST
 
@@ -344,6 +344,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Golden State Warriors at San Antonio Spurs — Fri Nov 13, 09:30 PM EST
 
+Excluded after roster/injury/lead-passer check: Stephen Curry (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | De'Aaron Fox | San Antonio Spurs | assists | 1.2 | 0.6–1.8 | 6 | 2.0, 1.0, 1.0, 1.0, 0.0, 1.0 |
@@ -377,9 +379,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Georges Niang | Golden State Warriors | rebounds | 0.8 | 0–1.8 | 6 | 0.0, 1.0, 1.0, 0.0, 3.0, 1.0 |
 | Gui Santos | Golden State Warriors | assists | 0.6 | 0–1.5 | 4 | 0.0, 2.0, 0.0, 0.0 |
 | Gui Santos | Golden State Warriors | rebounds | 1.7 | 0.4–3.0 | 4 | 2.0, 3.0, 0.0, 0.0 |
-| Stephen Curry | Golden State Warriors | assists | 0.7 | 0–1.5 | 5 | 0.0, 1.0, 2.0, 0.0, 0.0 |
-| Stephen Curry | Golden State Warriors | points | 5.1 | 2.9–7.4 | 5 | 3.0, 8.0, 7.0, 3.0, 3.0 |
-| Stephen Curry | Golden State Warriors | rebounds | 0.7 | 0–1.5 | 5 | 0.0, 1.0, 2.0, 0.0, 0.0 |
 | Will Richard | Golden State Warriors | points | 1.8 | 0–4.6 | 5 | 0.0, 0.0, 7.0, 3.0, 0.0 |
 | Yaxel Lendeborg | Golden State Warriors | assists | 1.4 | 0.7–2.2 | 6 | 0.0, 2.0, 2.0, 2.0, 2.0, 2.0 |
 | Yaxel Lendeborg | Golden State Warriors | points | 5.0 | 2.9–7.1 | 6 | 5.0, 7.0, 5.0, 5.0, 0.0, 5.0 |
@@ -514,14 +513,13 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Dallas Mavericks at Cleveland Cavaliers — Sat Nov 14, 07:30 PM EST
 
+Excluded after roster/injury/lead-passer check: Evan Mobley (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Donovan Mitchell | Cleveland Cavaliers | assists | 2.0 | 1.0–3.0 | 6 | 3.0, 1.0, 1.0, 3.0, 1.0, 3.0 |
 | Donovan Mitchell | Cleveland Cavaliers | points | 5.2 | 2.3–8.1 | 6 | 4.0, 3.0, 7.0, 10.0, 2.0, 8.0 |
 | Donovan Mitchell | Cleveland Cavaliers | rebounds | 1.0 | 0.2–1.9 | 6 | 1.0, 0.0, 2.0, 2.0, 0.0, 2.0 |
-| Evan Mobley | Cleveland Cavaliers | assists | 1.1 | 0.2–2.1 | 6 | 1.0, 0.0, 1.0, 3.0, 2.0, 1.0 |
-| Evan Mobley | Cleveland Cavaliers | points | 3.5 | 1.7–5.2 | 6 | 5.0, 2.0, 1.0, 5.0, 4.0, 6.0 |
-| Evan Mobley | Cleveland Cavaliers | rebounds | 1.5 | 0.1–2.8 | 6 | 1.0, 0.0, 3.0, 1.0, 4.0, 2.0 |
 | James Harden | Cleveland Cavaliers | assists | 1.9 | 0.4–3.3 | 6 | 0.0, 4.0, 2.0, 3.0, 0.0, 2.0 |
 | James Harden | Cleveland Cavaliers | points | 2.4 | 0.6–4.2 | 6 | 4.0, 2.0, 0.0, 4.0, 0.0, 4.0 |
 | James Harden | Cleveland Cavaliers | rebounds | 1.3 | 0.4–2.3 | 6 | 0.0, 2.0, 1.0, 3.0, 2.0, 1.0 |
@@ -597,6 +595,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Brooklyn Nets at Memphis Grizzlies — Sat Nov 14, 08:00 PM EST
 
+Excluded after roster/injury/lead-passer check: Zach Edey (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Cam Spencer | Memphis Grizzlies | assists | 1.2 | 0.1–2.3 | 6 | 0.0, 2.0, 0.0, 3.0, 2.0, 2.0 |
@@ -619,7 +619,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ty Jerome | Memphis Grizzlies | assists | 1.1 | 0–2.2 | 5 | 2.0, 0.0, 1.0, 0.0, 3.0 |
 | Ty Jerome | Memphis Grizzlies | points | 3.9 | 0.7–7.0 | 5 | 0.0, 7.0, 8.0, 2.0, 2.0 |
 | Ty Jerome | Memphis Grizzlies | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
-| Zach Edey | Memphis Grizzlies | rebounds | 1.4 | 0.7–2.2 | 6 | 1.0, 2.0, 1.0, 2.0, 2.0, 0.0 |
 | Danny Wolf | Brooklyn Nets | assists | 0.9 | 0.4–1.4 | 4 | 1.0, 1.0, 1.0, 0.0 |
 | Danny Wolf | Brooklyn Nets | points | 2.8 | 0.5–5.1 | 4 | 5.0, 0.0, 4.0, 0.0 |
 | Danny Wolf | Brooklyn Nets | rebounds | 3.0 | 0.1–5.9 | 4 | 4.0, 0.0, 7.0, 0.0 |
@@ -638,6 +637,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Noah Clowney | Brooklyn Nets | points | 2.6 | 0.4–4.8 | 6 | 6.0, 0.0, 3.0, 2.0, 0.0, 0.0 |
 
 ## NBA: Chicago Bulls at Minnesota Timberwolves — Sat Nov 14, 08:00 PM EST
+
+Excluded after roster/injury/lead-passer check: Caleb Wilson (out).
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -662,8 +663,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Terrence Shannon Jr. | Minnesota Timberwolves | rebounds | 1.2 | 0.6–1.8 | 3 | 1.0, 1.0, 2.0 |
 | Trey Lyles | Minnesota Timberwolves | points | 2.2 | 0–4.5 | 6 | 5.0, 0.0, 3.0, 0.0, 0.0, 5.0 |
 | Trey Lyles | Minnesota Timberwolves | rebounds | 1.7 | 0.8–2.7 | 6 | 3.0, 2.0, 1.0, 1.0, 0.0, 1.0 |
-| Caleb Wilson | Chicago Bulls | points | 4.0 | 2.0–6.1 | 6 | 5.0, 5.0, 0.0, 4.0, 6.0, 6.0 |
-| Caleb Wilson | Chicago Bulls | rebounds | 1.3 | 0.6–2.0 | 6 | 1.0, 2.0, 1.0, 1.0, 2.0, 0.0 |
 | Isaac Okoro | Chicago Bulls | assists | 0.6 | 0–1.3 | 6 | 2.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Isaac Okoro | Chicago Bulls | points | 2.1 | 0.5–3.8 | 6 | 0.0, 4.0, 4.0, 2.0, 0.0, 3.0 |
 | Jalen Smith | Chicago Bulls | assists | 0.7 | 0–1.4 | 6 | 2.0, 0.0, 0.0, 0.0, 1.0, 0.0 |
@@ -684,6 +683,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NBA: Indiana Pacers at Philadelphia 76ers — Sun Nov 15, 01:00 PM EST
 
+Excluded after roster/injury/lead-passer check: LeBron James (out).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Anfernee Simons | Philadelphia 76ers | points | 1.9 | 0–4.0 | 6 | 2.0, 0.0, 6.0, 0.0, 0.0, 3.0 |
@@ -695,9 +696,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Joel Embiid | Philadelphia 76ers | points | 5.9 | 3.8–8.0 | 5 | 7.0, 6.0, 2.0, 8.0, 7.0 |
 | Joel Embiid | Philadelphia 76ers | rebounds | 3.6 | 2.4–4.8 | 5 | 3.0, 5.0, 2.0, 5.0, 3.0 |
 | Kentavious Caldwell-Pope | Philadelphia 76ers | assists | 0.8 | 0–1.5 | 6 | 1.0, 2.0, 0.0, 0.0, 0.0, 0.0 |
-| LeBron James | Philadelphia 76ers | assists | 1.1 | 0.3–1.9 | 5 | 0.0, 2.0, 1.0, 2.0, 2.0 |
-| LeBron James | Philadelphia 76ers | points | 1.9 | 0.5–3.2 | 5 | 0.0, 3.0, 2.0, 4.0, 2.0 |
-| LeBron James | Philadelphia 76ers | rebounds | 2.1 | 0.9–3.3 | 5 | 2.0, 1.0, 2.0, 4.0, 4.0 |
 | Tyrese Maxey | Philadelphia 76ers | assists | 1.0 | 0–2.8 | 6 | 0.0, 1.0, 0.0, 2.0, 5.0, 1.0 |
 | Tyrese Maxey | Philadelphia 76ers | points | 6.0 | 1.9–10.1 | 6 | 8.0, 6.0, 6.0, 2.0, 2.0, 14.0 |
 | Tyrese Maxey | Philadelphia 76ers | rebounds | 1.0 | 0.2–1.9 | 6 | 1.0, 2.0, 1.0, 0.0, 0.0, 2.0 |
@@ -1052,6 +1050,8 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NFL: Washington Commanders at New York Giants — Thu Nov 12, 08:15 PM EST
 
+Excluded after roster/injury/lead-passer check: Jameis Winston (not last game's lead passer).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Darnell Mooney | New York Giants | receiving yards | 4.9 | 0–11.2 | 6 | 17.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
@@ -1059,7 +1059,6 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Devin Singletary | New York Giants | rushing yards | 4.7 | 0–9.5 | 3 | 9.0, 0.0, 1.0 |
 | Isaiah Likely | New York Giants | receiving yards | 22.3 | 6.1–38.6 | 6 | 38.0, 0.0, 42.0, 19.0, 3.0, 10.0 |
 | J.J. McCarthy | New York Giants | passing yards | 59.6 | 15.8–103.4 | 4 | 77.0, 96.0, 0.0, 0.0 |
-| Jameis Winston | New York Giants | passing yards | 24.9 | 0.1–49.6 | 6 | 0.0, 0.0, 57.0, 46.0, 51.0, 54.0 |
 | Malachi Fields | New York Giants | receiving yards | 11.6 | 0–28.8 | 6 | 0.0, 47.0, 0.0, 0.0, 0.0, 9.0 |
 | Malik Nabers | New York Giants | receiving yards | 26.5 | 6.9–46.0 | 6 | 22.0, 50.0, -2.0, 27.0, 48.0, 5.0 |
 | Antonio Williams | Washington Commanders | receiving yards | 6.1 | 0–12.7 | 6 | 18.0, 4.0, 0.0, 0.0, 0.0, 0.0 |
@@ -1079,15 +1078,15 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Jameson Williams | Detroit Lions | receiving yards | 20.0 | 1.5–38.6 | 6 | 0.0, 46.0, 40.0, 0.0, 6.0, 19.0 |
 | Jared Goff | Detroit Lions | passing yards | 52.8 | 21.4–84.1 | 6 | 31.0, 66.0, 108.0, 7.0, 42.0, 55.0 |
 | Sam LaPorta | Detroit Lions | receiving yards | 3.1 | 0–7.3 | 6 | 0.0, 8.0, 0.0, 0.0, 9.0, 8.0 |
-| Sione Vaki | Detroit Lions | rushing yards | 5.9 | 1.0–10.9 | 6 | 11.0, 11.0, 0.0, 0.0, 0.0, 3.0 |
+| Sione Vaki (questionable) | Detroit Lions | rushing yards | 5.9 | 1.0–10.9 | 6 | 11.0, 11.0, 0.0, 0.0, 0.0, 3.0 |
 | Corey Kiner | New England Patriots | rushing yards | 6.3 | 0–14.9 | 5 | 0.0, 22.0, 2.0, 0.0, 0.0 |
 | DeMario Douglas | New England Patriots | receiving yards | 3.7 | 0–19.1 | 6 | 0.0, 0.0, -1.0, 0.0, 41.0, 0.0 |
 | Drake Maye | New England Patriots | passing yards | 40.8 | 20.9–60.6 | 6 | 24.0, 31.0, 51.0, 42.0, 85.0, 57.0 |
 | Efton Chism III | New England Patriots | receiving yards | 4.5 | 0–11.2 | 6 | 10.0, 0.0, 0.0, 0.0, 17.0, 0.0 |
 | Eli Raridon | New England Patriots | receiving yards | 4.6 | 0–10.7 | 6 | 0.0, 5.0, 15.0, 0.0, 0.0, 12.0 |
-| Hunter Henry | New England Patriots | receiving yards | 9.8 | 1.1–18.5 | 6 | 9.0, 26.0, 0.0, 0.0, 7.0, 8.0 |
-| Rhamondre Stevenson | New England Patriots | receiving yards | 4.4 | 0–13.0 | 6 | 0.0, 0.0, 23.0, 0.0, 0.0, 0.0 |
-| Rhamondre Stevenson | New England Patriots | rushing yards | 6.0 | 2.1–9.8 | 6 | 3.0, 10.0, 5.0, 4.0, 12.0, 1.0 |
+| Hunter Henry (questionable) | New England Patriots | receiving yards | 9.8 | 1.1–18.5 | 6 | 9.0, 26.0, 0.0, 0.0, 7.0, 8.0 |
+| Rhamondre Stevenson (questionable) | New England Patriots | receiving yards | 4.4 | 0–13.0 | 6 | 0.0, 0.0, 23.0, 0.0, 0.0, 0.0 |
+| Rhamondre Stevenson (questionable) | New England Patriots | rushing yards | 6.0 | 2.1–9.8 | 6 | 3.0, 10.0, 5.0, 4.0, 12.0, 1.0 |
 
 ## NFL: Kansas City Chiefs at Atlanta Falcons — Sun Nov 15, 01:00 PM EST
 
@@ -1111,14 +1110,14 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
-| Denzel Boston | Cleveland Browns | receiving yards | 3.1 | 0–6.8 | 6 | 7.0, 0.0, 0.0, 0.0, 9.0, 5.0 |
+| Denzel Boston (questionable) | Cleveland Browns | receiving yards | 3.1 | 0–6.8 | 6 | 7.0, 0.0, 0.0, 0.0, 9.0, 5.0 |
 | KC Concepcion | Cleveland Browns | receiving yards | 11.5 | 0–24.4 | 6 | 11.0, 0.0, 36.0, 0.0, 5.0, 21.0 |
 | Quinshon Judkins | Cleveland Browns | rushing yards | 14.9 | 0.2–29.5 | 5 | 4.0, 8.0, 42.0, 21.0, 3.0 |
 | C.J. Stroud | Houston Texans | passing yards | 57.4 | 20.7–94.1 | 6 | 68.0, 22.0, 54.0, 65.0, 129.0, 18.0 |
 | C.J. Stroud | Houston Texans | rushing yards | 4.3 | 0–9.3 | 6 | 12.0, 0.0, 0.0, 0.0, 9.0, 0.0 |
 | Dalton Schultz | Houston Texans | receiving yards | 8.9 | 0–18.1 | 6 | 0.0, 21.0, 1.0, 21.0, 7.0, 0.0 |
 | Nico Collins | Houston Texans | receiving yards | 24.9 | 5.9–43.8 | 5 | 28.0, 0.0, 42.0, 25.0, 57.0 |
-| Woody Marks | Houston Texans | rushing yards | 9.2 | 0–21.8 | 6 | 10.0, 0.0, 5.0, 36.0, 3.0, 0.0 |
+| Woody Marks (questionable) | Houston Texans | rushing yards | 9.2 | 0–21.8 | 6 | 10.0, 0.0, 5.0, 36.0, 3.0, 0.0 |
 | Xavier Hutchinson | Houston Texans | receiving yards | 11.8 | 0.7–22.9 | 6 | 29.0, 0.0, 5.0, 18.0, 0.0, 0.0 |
 
 ## NFL: Minnesota Vikings at Green Bay Packers — Sun Nov 15, 01:00 PM EST
@@ -1132,13 +1131,13 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Matthew Golden | Green Bay Packers | receiving yards | 49.1 | 5.7–92.6 | 6 | 126.0, 0.0, 27.0, 46.0, 15.0, 0.0 |
 | Pierre Strong Jr. | Green Bay Packers | receiving yards | 4.0 | 0–10.5 | 4 | 0.0, 0.0, 14.0, 12.0 |
 | Pierre Strong Jr. | Green Bay Packers | rushing yards | 3.7 | 0.6–6.8 | 4 | 8.0, 0.0, 1.0, 3.0 |
-| Savion Williams | Green Bay Packers | receiving yards | 7.6 | 0–20.0 | 4 | 0.0, 0.0, 27.0, 22.0 |
+| Savion Williams (questionable) | Green Bay Packers | receiving yards | 7.6 | 0–20.0 | 4 | 0.0, 0.0, 27.0, 22.0 |
 | Tucker Kraft | Green Bay Packers | receiving yards | 13.7 | 0–29.3 | 6 | 0.0, 12.0, 43.0, 0.0, 13.0, 30.0 |
 | Aaron Jones Sr. | Minnesota Vikings | rushing yards | 12.0 | 4.8–19.2 | 6 | 3.0, 16.0, 8.0, 25.0, 14.0, 19.0 |
 | Jordan Addison | Minnesota Vikings | receiving yards | 4.5 | 0–12.1 | 5 | 0.0, 0.0, 20.0, 2.0, 4.0 |
 | Jordan Mason | Minnesota Vikings | rushing yards | 10.2 | 0.7–19.7 | 3 | 5.0, 11.0, 24.0 |
 | Justin Jefferson | Minnesota Vikings | receiving yards | 7.9 | 0–20.7 | 5 | 0.0, 0.0, 13.0, 24.0, 32.0 |
-| T.J. Hockenson | Minnesota Vikings | receiving yards | 8.9 | 1.9–15.9 | 6 | 3.0, 22.0, 8.0, 7.0, 0.0, 5.0 |
+| T.J. Hockenson (questionable) | Minnesota Vikings | receiving yards | 8.9 | 1.9–15.9 | 6 | 3.0, 22.0, 8.0, 7.0, 0.0, 5.0 |
 
 ## NFL: Jacksonville Jaguars at Tennessee Titans — Sun Nov 15, 01:00 PM EST
 
@@ -1150,33 +1149,32 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Daniel Bellinger | Tennessee Titans | receiving yards | 6.3 | 0–14.5 | 6 | 22.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Elic Ayomanor | Tennessee Titans | receiving yards | 6.6 | 0–15.1 | 6 | 23.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Gunnar Helm | Tennessee Titans | receiving yards | 6.3 | 0–13.9 | 5 | 19.0, 0.0, 0.0, 0.0, 0.0 |
-| Tony Pollard | Tennessee Titans | receiving yards | 3.7 | 0–8.6 | 6 | 13.0, 0.0, 0.0, 0.0, 0.0, -1.0 |
-| Tony Pollard | Tennessee Titans | rushing yards | 48.1 | 19.8–76.4 | 6 | 62.0, 88.0, 18.0, 24.0, 23.0, 8.0 |
+| Tony Pollard (questionable) | Tennessee Titans | receiving yards | 3.7 | 0–8.6 | 6 | 13.0, 0.0, 0.0, 0.0, 0.0, -1.0 |
+| Tony Pollard (questionable) | Tennessee Titans | rushing yards | 48.1 | 19.8–76.4 | 6 | 62.0, 88.0, 18.0, 24.0, 23.0, 8.0 |
 | Wan'Dale Robinson | Tennessee Titans | receiving yards | 10.5 | 1.8–19.2 | 6 | 22.0, 0.0, 16.0, 0.0, 12.0, 1.0 |
-| Bhayshul Tuten | Jacksonville Jaguars | rushing yards | 18.6 | 13.8–23.5 | 6 | 16.0, 28.0, 14.0, 16.0, 15.0, 21.0 |
+| Bhayshul Tuten (questionable) | Jacksonville Jaguars | rushing yards | 18.6 | 13.8–23.5 | 6 | 16.0, 28.0, 14.0, 16.0, 15.0, 21.0 |
 | Brenton Strange | Jacksonville Jaguars | receiving yards | 23.5 | 7.0–40.0 | 6 | 0.0, 46.0, 34.0, 15.0, 37.0, 9.0 |
-| Chris Rodriguez Jr. | Jacksonville Jaguars | rushing yards | 8.8 | 0–21.6 | 6 | 3.0, 4.0, 36.0, 0.0, 0.0, 3.0 |
-| Jakobi Meyers | Jacksonville Jaguars | receiving yards | 15.5 | 2.7–28.2 | 6 | 33.0, 14.0, 0.0, 0.0, 26.0, 5.0 |
+| Chris Rodriguez Jr. (questionable) | Jacksonville Jaguars | rushing yards | 8.8 | 0–21.6 | 6 | 3.0, 4.0, 36.0, 0.0, 0.0, 3.0 |
+| Jakobi Meyers (questionable) | Jacksonville Jaguars | receiving yards | 15.5 | 2.7–28.2 | 6 | 33.0, 14.0, 0.0, 0.0, 26.0, 5.0 |
 | Nate Boerkircher | Jacksonville Jaguars | receiving yards | 17.9 | 0–36.4 | 6 | 52.0, 0.0, 7.0, 12.0, 0.0, 0.0 |
 | Parker Washington | Jacksonville Jaguars | receiving yards | 13.8 | 0–33.7 | 6 | 11.0, 0.0, 8.0, 58.0, 0.0, 18.0 |
 | Trevor Lawrence | Jacksonville Jaguars | passing yards | 73.3 | 50.4–96.3 | 6 | 100.0, 60.0, 49.0, 94.0, 63.0, 36.0 |
 
 ## NFL: Miami Dolphins at Indianapolis Colts — Sun Nov 15, 01:00 PM EST
 
+Excluded after roster/injury/lead-passer check: Keenan Allen (not on active roster), Malik Willis (not on active roster).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Daniel Jones | Indianapolis Colts | passing yards | 20.5 | 0–41.3 | 6 | 1.0, 13.0, 25.0, 67.0, 22.0, 15.0 |
 | Deion Burks | Indianapolis Colts | receiving yards | 5.9 | 0–21.1 | 6 | 0.0, 0.0, 0.0, 41.0, 0.0, 0.0 |
 | Jonathan Taylor | Indianapolis Colts | rushing yards | 20.9 | 9.9–31.8 | 6 | 19.0, 23.0, 39.0, 10.0, 5.0, 13.0 |
-| Keenan Allen | Indianapolis Colts | receiving yards | 8.6 | 1.7–15.5 | 5 | 0.0, 16.0, 13.0, 13.0, 0.0 |
 | Tyler Warren | Indianapolis Colts | receiving yards | 4.8 | 0–12.2 | 4 | 0.0, 4.0, 18.0, 0.0 |
 | Caleb Douglas | Miami Dolphins | receiving yards | 11.2 | 1.2–21.1 | 3 | 20.0, 0.0, 7.0 |
-| Chris Bell | Miami Dolphins | receiving yards | 3.9 | 0–9.6 | 6 | 0.0, 15.0, 0.0, 0.0, 0.0, 7.0 |
+| Chris Bell (questionable) | Miami Dolphins | receiving yards | 3.9 | 0–9.6 | 6 | 0.0, 15.0, 0.0, 0.0, 0.0, 7.0 |
 | Greg Dulcich | Miami Dolphins | receiving yards | 11.5 | 0–32.9 | 5 | 0.0, 0.0, 55.0, 0.0, 7.0 |
 | Malik Washington | Miami Dolphins | receiving yards | 7.2 | 0–19.5 | 6 | 0.0, 0.0, 22.0, 0.0, 16.0, 31.0 |
 | Malik Washington | Miami Dolphins | rushing yards | 4.1 | 0–10.9 | 6 | 0.0, 0.0, 8.0, 18.0, 0.0, 0.0 |
-| Malik Willis | Miami Dolphins | passing yards | 31.1 | 3.3–59.0 | 6 | 20.0, 15.0, 84.0, 0.0, 34.0, 55.0 |
-| Malik Willis | Miami Dolphins | rushing yards | 3.7 | 0–9.4 | 6 | 0.0, 0.0, 12.0, 0.0, 8.0, 13.0 |
 | Ollie Gordon II | Miami Dolphins | rushing yards | 20.1 | 11.1–29.2 | 6 | 13.0, 16.0, 33.0, 32.0, 12.0, 13.0 |
 
 ## NFL: Carolina Panthers at New Orleans Saints — Sun Nov 15, 01:00 PM EST
@@ -1205,9 +1203,9 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Geno Smith | New York Jets | passing yards | 56.1 | 33.2–79.0 | 6 | 45.0, 60.0, 77.0, 52.0, 69.0, 6.0 |
 | Kenyon Sadiq | New York Jets | receiving yards | 3.3 | 0–6.8 | 6 | 8.0, 0.0, 6.0, 0.0, -1.0, 0.0 |
 | Mason Taylor | New York Jets | receiving yards | 4.9 | 0–12.3 | 5 | 0.0, 0.0, 13.0, 17.0, 0.0 |
-| Omar Cooper Jr. | New York Jets | receiving yards | 23.3 | 0–50.0 | 3 | 12.0, 52.0, 0.0 |
+| Omar Cooper Jr. (questionable) | New York Jets | receiving yards | 23.3 | 0–50.0 | 3 | 12.0, 52.0, 0.0 |
 | DJ Moore | Buffalo Bills | receiving yards | 9.0 | 3.5–14.5 | 4 | 15.0, 0.0, 11.0, 8.0 |
-| Dalton Kincaid | Buffalo Bills | receiving yards | 12.0 | 2.9–21.0 | 6 | 12.0, 23.0, 16.0, 0.0, 0.0, 0.0 |
+| Dalton Kincaid (questionable) | Buffalo Bills | receiving yards | 12.0 | 2.9–21.0 | 6 | 12.0, 23.0, 16.0, 0.0, 0.0, 0.0 |
 | James Cook III | Buffalo Bills | rushing yards | 17.8 | 9.3–26.2 | 6 | 17.0, 17.0, 16.0, 32.0, 3.0, 20.0 |
 | Josh Allen | Buffalo Bills | passing yards | 51.9 | 23.4–80.4 | 6 | 43.0, 77.0, 77.0, 7.0, 54.0, 9.0 |
 | Josh Allen | Buffalo Bills | rushing yards | 7.5 | 1.9–13.2 | 6 | 7.0, 13.0, 2.0, 14.0, 0.0, 1.0 |
@@ -1216,12 +1214,13 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 
 ## NFL: Seattle Seahawks at Las Vegas Raiders — Sun Nov 15, 04:05 PM EST
 
+Excluded after roster/injury/lead-passer check: Kirk Cousins (not on active roster).
+
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
 | Ashton Jeanty | Las Vegas Raiders | rushing yards | 6.5 | 1.1–12.0 | 6 | 7.0, 0.0, 7.0, 15.0, 11.0, 0.0 |
 | Brock Bowers | Las Vegas Raiders | receiving yards | 17.6 | 1.3–33.8 | 6 | 20.0, 35.0, 0.0, 0.0, 37.0, 0.0 |
 | Jalen Nailor | Las Vegas Raiders | receiving yards | 11.0 | 2.1–19.9 | 4 | 6.0, 24.0, 7.0, 0.0 |
-| Kirk Cousins | Las Vegas Raiders | passing yards | 41.7 | 25.4–58.0 | 6 | 35.0, 59.0, 14.0, 49.0, 53.0, 61.0 |
 | Mike Washington Jr. | Las Vegas Raiders | rushing yards | 10.7 | 1.8–19.5 | 6 | 4.0, 21.0, 21.0, 0.0, 5.0, 1.0 |
 | Tre Tucker | Las Vegas Raiders | receiving yards | 3.7 | 0–13.4 | 6 | 0.0, 0.0, 0.0, 26.0, 0.0, 0.0 |
 | Jaxon Smith-Njigba | Seattle Seahawks | receiving yards | 20.7 | 8.7–32.7 | 6 | 15.0, 37.0, 9.0, 11.0, 38.0, 15.0 |
@@ -1246,7 +1245,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Dak Prescott | Dallas Cowboys | passing yards | 39.1 | 24.7–53.5 | 6 | 56.0, 10.0, 49.0, 42.0, 37.0, 40.0 |
 | Javonte Williams | Dallas Cowboys | receiving yards | 4.0 | 0–8.2 | 6 | 9.0, 1.0, 0.0, 0.0, 8.0, 9.0 |
 | Javonte Williams | Dallas Cowboys | rushing yards | 18.7 | 10.7–26.6 | 6 | 29.0, 9.0, 20.0, 10.0, 26.0, 11.0 |
-| Jonathan Mingo | Dallas Cowboys | receiving yards | 9.2 | 0–19.2 | 4 | 23.0, 0.0, 0.0, 0.0 |
+| Jonathan Mingo (questionable) | Dallas Cowboys | receiving yards | 9.2 | 0–19.2 | 4 | 23.0, 0.0, 0.0, 0.0 |
 | Ryan Flournoy | Dallas Cowboys | receiving yards | 10.9 | 0–23.1 | 6 | 7.0, 0.0, 35.0, 9.0, 0.0, 19.0 |
 | Tyler Goodson | Dallas Cowboys | rushing yards | 8.4 | 0.1–16.7 | 5 | 20.0, 0.0, 10.0, -2.0, 0.0 |
 | Brandin Cooks | San Francisco 49ers | receiving yards | 4.3 | 0–9.5 | 5 | 13.0, 0.0, 0.0, 0.0, 0.0 |
