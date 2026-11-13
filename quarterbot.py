@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo
 from quarter_guard import fetch_confirmed_starters, gate_nba_predictions
 from quarter_challenger import nba_starter_flags, role_challenger
 from quarter_shots import extract_q1_shots, fullgame_shots, forecast_shots
+from quarter_schedule import game_phase, index_previous, reusable_verified
 
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports"
@@ -398,12 +399,16 @@ def filter_availability(game: dict, predictions: list[dict], before: datetime,
 
 
 def build_report(start: date, days: int, sample_size: int, sports: list[str],
-                 nba_sample_size: int = 10) -> dict:
+                 nba_sample_size: int = 10, previous_report: dict | None = None,
+                 now: datetime | None = None) -> dict:
     # NBA ten-game horizon beat six on 2025/2026 date-separated paired tests.
     # NFL stays on the separately unvalidated six-game horizon.
-    report = {"generated_at": datetime.now(timezone.utc).isoformat(), "start_date": start.isoformat(),
+    reference_now = now or datetime.now(timezone.utc)
+    report = {"generated_at": reference_now.isoformat(), "start_date": start.isoformat(),
               "days": days, "sample_size": sample_size,
-              "nba_sample_size": nba_sample_size, "games": [], "warnings": []}
+              "nba_sample_size": nba_sample_size, "games": [], "warnings": [],
+              "publication_policy": "scheduled_game_minus_30_with_unconfirmed_retry_minus_15"}
+    cached_previous = index_previous(previous_report)
     cache, teams_cache, roster_cache = {}, {}, {}
     for sport in sports:
         try:
@@ -413,14 +418,28 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str],
             continue
         for game in games:
             before = parse_time(game["date"])
-            now = datetime.now(timezone.utc)
-            # Only spend API calls when an actionable pregame window approaches.
-            # Never show early estimates as verified lineup-based projections.
-            if before > now + timedelta(hours=2):
+            phase = game_phase(game["date"], reference_now)
+            game["run_phase"] = phase
+            if phase == "waiting":
                 game["predictions"] = []
-                game["withheld_reason"] = "Awaiting the two-hour pregame verification window."
+                game["withheld_reason"] = "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
                 report["games"].append(game)
                 continue
+            if phase == "closed":
+                game["predictions"] = []
+                game["withheld_reason"] = "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
+                report["games"].append(game)
+                continue
+            previous = cached_previous.get((sport, str(game["id"])))
+            if reusable_verified(game, previous):
+                # If T-30 starters/inactives were already verified, do not rerun at
+                # T-15 and do not forge a new prediction timestamp or archive.
+                preserved = dict(previous)
+                preserved["run_phase"] = "retained_verified_primary"
+                preserved["reused_verified_snapshot"] = True
+                report["games"].append(preserved)
+                continue
+            game["checked_at"] = reference_now.isoformat()
             predictions = []
             for team in game["teams"]:
                 key = (sport, team["id"], season_year(sport, before))
@@ -441,7 +460,9 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str],
                 game["predictions"] = gate_nba_predictions(
                     game, game["predictions"], starters, source
                 )
-            if datetime.now(timezone.utc) >= before - timedelta(minutes=2):
+            # A delayed Actions job can cross the tipoff cutoff while fetching
+            # historical games. In that case, fail closed even if lineups were valid.
+            if (now or datetime.now(timezone.utc)) >= before - timedelta(minutes=2):
                 game["predictions"] = []
                 game["withheld_reason"] = "Pregame cutoff reached before publication; projections withheld."
             report["games"].append(game)
@@ -499,8 +520,15 @@ def main() -> int:
     if not 1 <= args.days <= 14 or not 3 <= args.games <= 20 or not 3 <= args.nba_games <= 20:
         parser.error("--days must be 1–14 and game-history windows must be 3–20")
     sports = list(SPORTS) if args.sport == "both" else [args.sport]
+    previous_report = None
+    previous_path = args.output.with_suffix(".json")
+    if previous_path.exists():
+        try:
+            previous_report = json.loads(previous_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            print("WARNING: unreadable previous report; no cached picks will be reused.", file=sys.stderr)
     report = build_report(args.date, args.days, args.games, sports,
-                          nba_sample_size=args.nba_games)
+                          nba_sample_size=args.nba_games, previous_report=previous_report)
     # Model outputs remain experimental; this is a verified-starter gate, not
     # an assertion of calibrated betting probabilities.
     from quarter_grade import archive_report
