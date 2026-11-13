@@ -1,11 +1,12 @@
 # First-quarter player projections
 
 Generated: 2026-11-13T00:23:15.499669+00:00
-Window starts: 2026-11-13 (4 days); up to 6 prior games per team.
+Window starts: 2026-11-13 Eastern (4 days); up to 6 prior games per team.
+Game times are shown in Eastern time (EST or EDT).
 
 Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Availability, injuries, lineup changes, and matchup adjustments are not verified. NFL yardage comes from play descriptions and may miss unusual or corrected plays.
 
-## NBA: New York Knicks at Indiana Pacers — 2026-11-14 00:00 UTC
+## NBA: New York Knicks at Indiana Pacers — Fri Nov 13, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -47,7 +48,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | OG Anunoby | New York Knicks | rebounds | 1.2 | 0.6–1.8 | 6 | 2.0, 1.0, 1.0, 1.0, 0.0, 1.0 |
 | Tyler Kolek | New York Knicks | assists | 0.6 | 0–1.4 | 6 | 0.0, 1.0, 2.0, 0.0, 0.0, 0.0 |
 
-## NBA: Milwaukee Bucks at Orlando Magic — 2026-11-14 00:00 UTC
+## NBA: Milwaukee Bucks at Orlando Magic — Fri Nov 13, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -84,7 +85,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tyler Herro | Milwaukee Bucks | points | 4.2 | 0.8–7.6 | 5 | 7.0, 7.0, 0.0, 0.0, 0.0 |
 | Tyler Herro | Milwaukee Bucks | rebounds | 0.7 | 0.2–1.2 | 5 | 1.0, 0.0, 1.0, 1.0, 1.0 |
 
-## NBA: Cleveland Cavaliers at Miami Heat — 2026-11-14 01:00 UTC
+## NBA: Cleveland Cavaliers at Miami Heat — Fri Nov 13, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -129,7 +130,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tyrese Proctor | Cleveland Cavaliers | points | 4.8 | 2.3–7.2 | 6 | 8.0, 4.0, 4.0, 0.0, 5.0, 6.0 |
 | Tyrese Proctor | Cleveland Cavaliers | rebounds | 1.6 | 0.4–2.9 | 6 | 2.0, 1.0, 1.0, 4.0, 0.0, 1.0 |
 
-## NBA: Atlanta Hawks at Chicago Bulls — 2026-11-14 01:00 UTC
+## NBA: Atlanta Hawks at Chicago Bulls — Fri Nov 13, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -172,7 +173,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Onyeka Okongwu | Atlanta Hawks | rebounds | 1.7 | 0.7–2.7 | 6 | 2.0, 1.0, 2.0, 1.0, 2.0, 4.0 |
 | Zuby Ejiofor | Atlanta Hawks | assists | 0.6 | 0–1.3 | 5 | 0.0, 0.0, 2.0, 1.0, 1.0 |
 
-## NBA: Memphis Grizzlies at New Orleans Pelicans — 2026-11-14 01:00 UTC
+## NBA: Memphis Grizzlies at New Orleans Pelicans — Fri Nov 13, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -217,7 +218,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ty Jerome | Memphis Grizzlies | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
 | Zach Edey | Memphis Grizzlies | rebounds | 1.4 | 0.7–2.2 | 6 | 1.0, 2.0, 1.0, 2.0, 2.0, 0.0 |
 
-## NBA: Utah Jazz at Houston Rockets — 2026-11-14 01:30 UTC
+## NBA: Utah Jazz at Houston Rockets — Fri Nov 13, 08:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -259,7 +260,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Svi Mykhailiuk | Utah Jazz | assists | 0.6 | 0–1.3 | 6 | 2.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Svi Mykhailiuk | Utah Jazz | points | 1.9 | 0.6–3.2 | 6 | 3.0, 3.0, 0.0, 0.0, 2.0, 3.0 |
 
-## NBA: Golden State Warriors at San Antonio Spurs — 2026-11-14 02:30 UTC
+## NBA: Golden State Warriors at San Antonio Spurs — Fri Nov 13, 09:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -302,7 +303,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Yaxel Lendeborg | Golden State Warriors | points | 5.0 | 2.9–7.1 | 6 | 5.0, 7.0, 5.0, 5.0, 0.0, 5.0 |
 | Yaxel Lendeborg | Golden State Warriors | rebounds | 3.0 | 1.9–4.1 | 6 | 4.0, 3.0, 3.0, 3.0, 1.0, 1.0 |
 
-## NBA: Portland Trail Blazers at Sacramento Kings — 2026-11-14 03:00 UTC
+## NBA: Portland Trail Blazers at Sacramento Kings — Fri Nov 13, 10:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -342,7 +343,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Toumani Camara | Portland Trail Blazers | points | 3.4 | 2.2–4.5 | 6 | 5.0, 4.0, 2.0, 2.0, 2.0, 3.0 |
 | Toumani Camara | Portland Trail Blazers | rebounds | 1.1 | 0–2.2 | 6 | 0.0, 2.0, 3.0, 0.0, 0.0, 1.0 |
 
-## NBA: Oklahoma City Thunder at LA Clippers — 2026-11-14 03:30 UTC
+## NBA: Oklahoma City Thunder at LA Clippers — Fri Nov 13, 10:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -387,7 +388,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | points | 8.9 | 6.2–11.5 | 6 | 4.0, 12.0, 12.0, 9.0, 9.0, 9.0 |
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | rebounds | 2.0 | 0.3–3.7 | 6 | 2.0, 5.0, 0.0, 0.0, 2.0, 1.0 |
 
-## NBA: Denver Nuggets at New Orleans Pelicans — 2026-11-15 00:00 UTC
+## NBA: Denver Nuggets at New Orleans Pelicans — Sat Nov 14, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -429,7 +430,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Trevon Brazile | Denver Nuggets | rebounds | 2.5 | 1.1–3.8 | 6 | 4.0, 1.0, 2.0, 3.0, 3.0, 0.0 |
 | Tyus Jones | Denver Nuggets | assists | 1.0 | 0.1–1.8 | 6 | 2.0, 0.0, 0.0, 2.0, 1.0, 0.0 |
 
-## NBA: Dallas Mavericks at Cleveland Cavaliers — 2026-11-15 00:30 UTC
+## NBA: Dallas Mavericks at Cleveland Cavaliers — Sat Nov 14, 07:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -471,7 +472,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Santi Aldama | Dallas Mavericks | rebounds | 1.3 | 0.4–2.3 | 3 | 2.0, 1.0, 0.0 |
 | Walter Clayton Jr. | Dallas Mavericks | points | 1.6 | 0–3.6 | 6 | 0.0, 3.0, 0.0, 3.0, 5.0, 0.0 |
 
-## NBA: Detroit Pistons at Miami Heat — 2026-11-15 01:00 UTC
+## NBA: Detroit Pistons at Miami Heat — Sat Nov 14, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -512,7 +513,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Paul Reed | Detroit Pistons | rebounds | 2.9 | 1.2–4.5 | 6 | 3.0, 5.0, 3.0, 1.0, 1.0, 0.0 |
 | Ronald Holland II | Detroit Pistons | rebounds | 1.6 | 0.6–2.5 | 6 | 3.0, 1.0, 1.0, 0.0, 2.0, 2.0 |
 
-## NBA: Brooklyn Nets at Memphis Grizzlies — 2026-11-15 01:00 UTC
+## NBA: Brooklyn Nets at Memphis Grizzlies — Sat Nov 14, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -554,7 +555,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Moritz Wagner | Brooklyn Nets | points | 4.2 | 2.0–6.4 | 6 | 7.0, 3.0, 5.0, 0.0, 3.0, 5.0 |
 | Noah Clowney | Brooklyn Nets | points | 2.6 | 0.4–4.8 | 6 | 6.0, 0.0, 3.0, 2.0, 0.0, 0.0 |
 
-## NBA: Chicago Bulls at Minnesota Timberwolves — 2026-11-15 01:00 UTC
+## NBA: Chicago Bulls at Minnesota Timberwolves — Sat Nov 14, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -599,7 +600,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tre Jones | Chicago Bulls | points | 3.5 | 1.3–5.7 | 6 | 7.0, 2.0, 4.0, 0.0, 2.0, 2.0 |
 | Zach Collins | Chicago Bulls | rebounds | 0.7 | 0–1.5 | 4 | 0.0, 1.0, 2.0, 0.0 |
 
-## NBA: Indiana Pacers at Philadelphia 76ers — 2026-11-15 18:00 UTC
+## NBA: Indiana Pacers at Philadelphia 76ers — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -640,7 +641,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | T.J. McConnell | Indiana Pacers | assists | 1.7 | 0.5–2.8 | 3 | 2.0, 2.0, 0.0 |
 | T.J. McConnell | Indiana Pacers | rebounds | 0.7 | 0.1–1.3 | 3 | 1.0, 0.0, 1.0 |
 
-## NBA: Los Angeles Lakers at Phoenix Suns — 2026-11-15 21:00 UTC
+## NBA: Los Angeles Lakers at Phoenix Suns — Sun Nov 15, 04:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -684,7 +685,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ziaire Williams | Los Angeles Lakers | assists | 0.6 | 0–1.3 | 6 | 2.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
 | Ziaire Williams | Los Angeles Lakers | points | 2.8 | 0.1–5.5 | 6 | 0.0, 3.0, 8.0, 2.0, 3.0, 0.0 |
 
-## NBA: Charlotte Hornets at LA Clippers — 2026-11-15 21:30 UTC
+## NBA: Charlotte Hornets at LA Clippers — Sun Nov 15, 04:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -723,7 +724,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ryan Kalkbrenner | Charlotte Hornets | rebounds | 2.0 | 1.1–2.8 | 6 | 2.0, 1.0, 3.0, 3.0, 1.0, 1.0 |
 | Sion James | Charlotte Hornets | assists | 1.0 | 0.2–1.8 | 6 | 2.0, 0.0, 0.0, 2.0, 1.0, 1.0 |
 
-## NBA: San Antonio Spurs at Utah Jazz — 2026-11-15 22:00 UTC
+## NBA: San Antonio Spurs at Utah Jazz — Sun Nov 15, 05:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -764,7 +765,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Victor Wembanyama | San Antonio Spurs | points | 9.9 | 5.8–14.0 | 6 | 6.0, 14.0, 8.0, 12.0, 15.0, 4.0 |
 | Victor Wembanyama | San Antonio Spurs | rebounds | 2.6 | 0–5.4 | 6 | 0.0, 2.0, 2.0, 5.0, 9.0, 3.0 |
 
-## NBA: Dallas Mavericks at Boston Celtics — 2026-11-15 23:00 UTC
+## NBA: Dallas Mavericks at Boston Celtics — Sun Nov 15, 06:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -802,7 +803,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Santi Aldama | Dallas Mavericks | rebounds | 1.3 | 0.4–2.3 | 3 | 2.0, 1.0, 0.0 |
 | Walter Clayton Jr. | Dallas Mavericks | points | 1.6 | 0–3.6 | 6 | 0.0, 3.0, 0.0, 3.0, 5.0, 0.0 |
 
-## NBA: New York Knicks at Toronto Raptors — 2026-11-15 23:00 UTC
+## NBA: New York Knicks at Toronto Raptors — Sun Nov 15, 06:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -844,7 +845,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | OG Anunoby | New York Knicks | rebounds | 1.2 | 0.6–1.8 | 6 | 2.0, 1.0, 1.0, 1.0, 0.0, 1.0 |
 | Tyler Kolek | New York Knicks | assists | 0.6 | 0–1.4 | 6 | 0.0, 1.0, 2.0, 0.0, 0.0, 0.0 |
 
-## NBA: Houston Rockets at Washington Wizards — 2026-11-16 00:00 UTC
+## NBA: Houston Rockets at Washington Wizards — Sun Nov 15, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -882,7 +883,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tari Eason | Houston Rockets | points | 3.0 | 0.8–5.2 | 6 | 2.0, 6.0, 0.0, 2.0, 6.0, 3.0 |
 | Tari Eason | Houston Rockets | rebounds | 1.7 | 0.0–3.4 | 6 | 2.0, 1.0, 0.0, 5.0, 2.0, 0.0 |
 
-## NBA: Atlanta Hawks at Milwaukee Bucks — 2026-11-16 01:00 UTC
+## NBA: Atlanta Hawks at Milwaukee Bucks — Sun Nov 15, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -924,7 +925,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Onyeka Okongwu | Atlanta Hawks | rebounds | 1.7 | 0.7–2.7 | 6 | 2.0, 1.0, 2.0, 1.0, 2.0, 4.0 |
 | Zuby Ejiofor | Atlanta Hawks | assists | 0.6 | 0–1.3 | 5 | 0.0, 0.0, 2.0, 1.0, 1.0 |
 
-## NBA: Oklahoma City Thunder at Sacramento Kings — 2026-11-16 02:00 UTC
+## NBA: Oklahoma City Thunder at Sacramento Kings — Sun Nov 15, 09:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -967,7 +968,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | points | 8.9 | 6.2–11.5 | 6 | 4.0, 12.0, 12.0, 9.0, 9.0, 9.0 |
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | rebounds | 2.0 | 0.3–3.7 | 6 | 2.0, 5.0, 0.0, 0.0, 2.0, 1.0 |
 
-## NBA: Orlando Magic at Boston Celtics — 2026-11-17 00:00 UTC
+## NBA: Orlando Magic at Boston Celtics — Mon Nov 16, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1003,7 +1004,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Wendell Carter Jr. | Orlando Magic | points | 2.8 | 0.4–5.1 | 6 | 7.0, 0.0, 0.0, 3.0, 2.0, 3.0 |
 | Wendell Carter Jr. | Orlando Magic | rebounds | 2.2 | 0.3–4.1 | 6 | 2.0, 2.0, 1.0, 6.0, 0.0, 2.0 |
 
-## NBA: Chicago Bulls at Cleveland Cavaliers — 2026-11-17 00:00 UTC
+## NBA: Chicago Bulls at Cleveland Cavaliers — Mon Nov 16, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1048,7 +1049,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tre Jones | Chicago Bulls | points | 3.5 | 1.3–5.7 | 6 | 7.0, 2.0, 4.0, 0.0, 2.0, 2.0 |
 | Zach Collins | Chicago Bulls | rebounds | 0.7 | 0–1.5 | 4 | 0.0, 1.0, 2.0, 0.0 |
 
-## NBA: Memphis Grizzlies at Washington Wizards — 2026-11-17 00:00 UTC
+## NBA: Memphis Grizzlies at Washington Wizards — Mon Nov 16, 07:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1090,7 +1091,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ty Jerome | Memphis Grizzlies | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
 | Zach Edey | Memphis Grizzlies | rebounds | 1.4 | 0.7–2.2 | 6 | 1.0, 2.0, 1.0, 2.0, 2.0, 0.0 |
 
-## NBA: Philadelphia 76ers at Brooklyn Nets — 2026-11-17 00:30 UTC
+## NBA: Philadelphia 76ers at Brooklyn Nets — Mon Nov 16, 07:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1129,7 +1130,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | VJ Edgecombe | Philadelphia 76ers | points | 4.1 | 1.0–7.2 | 6 | 2.0, 6.0, 2.0, 3.0, 11.0, 5.0 |
 | VJ Edgecombe | Philadelphia 76ers | rebounds | 1.6 | 0.6–2.5 | 6 | 2.0, 3.0, 0.0, 1.0, 1.0, 1.0 |
 
-## NBA: Houston Rockets at Miami Heat — 2026-11-17 00:30 UTC
+## NBA: Houston Rockets at Miami Heat — Mon Nov 16, 07:30 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1170,7 +1171,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tari Eason | Houston Rockets | points | 3.0 | 0.8–5.2 | 6 | 2.0, 6.0, 0.0, 2.0, 6.0, 3.0 |
 | Tari Eason | Houston Rockets | rebounds | 1.7 | 0.0–3.4 | 6 | 2.0, 1.0, 0.0, 5.0, 2.0, 0.0 |
 
-## NBA: Portland Trail Blazers at Minnesota Timberwolves — 2026-11-17 01:00 UTC
+## NBA: Portland Trail Blazers at Minnesota Timberwolves — Mon Nov 16, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1213,7 +1214,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Toumani Camara | Portland Trail Blazers | points | 3.4 | 2.2–4.5 | 6 | 5.0, 4.0, 2.0, 2.0, 2.0, 3.0 |
 | Toumani Camara | Portland Trail Blazers | rebounds | 1.1 | 0–2.2 | 6 | 0.0, 2.0, 3.0, 0.0, 0.0, 1.0 |
 
-## NBA: Golden State Warriors at New Orleans Pelicans — 2026-11-17 01:00 UTC
+## NBA: Golden State Warriors at New Orleans Pelicans — Mon Nov 16, 08:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1259,7 +1260,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Yaxel Lendeborg | Golden State Warriors | points | 5.0 | 2.9–7.1 | 6 | 5.0, 7.0, 5.0, 5.0, 0.0, 5.0 |
 | Yaxel Lendeborg | Golden State Warriors | rebounds | 3.0 | 1.9–4.1 | 6 | 4.0, 3.0, 3.0, 3.0, 1.0, 1.0 |
 
-## NBA: Phoenix Suns at Denver Nuggets — 2026-11-17 02:00 UTC
+## NBA: Phoenix Suns at Denver Nuggets — Mon Nov 16, 09:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1303,7 +1304,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Ryan Dunn | Phoenix Suns | points | 3.4 | 1.4–5.4 | 6 | 4.0, 3.0, 5.0, 4.0, 0.0, 0.0 |
 | Ryan Dunn | Phoenix Suns | rebounds | 1.2 | 0.0–2.3 | 6 | 3.0, 0.0, 0.0, 1.0, 2.0, 0.0 |
 
-## NFL: New England Patriots at Detroit Lions — 2026-11-15 14:30 UTC
+## NFL: New England Patriots at Detroit Lions — Sun Nov 15, 09:30 AM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1322,7 +1323,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Rhamondre Stevenson | New England Patriots | receiving yards | 4.4 | 0–13.0 | 6 | 0.0, 0.0, 23.0, 0.0, 0.0, 0.0 |
 | Rhamondre Stevenson | New England Patriots | rushing yards | 6.0 | 2.1–9.8 | 6 | 3.0, 10.0, 5.0, 4.0, 12.0, 1.0 |
 
-## NFL: Kansas City Chiefs at Atlanta Falcons — 2026-11-15 18:00 UTC
+## NFL: Kansas City Chiefs at Atlanta Falcons — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1340,7 +1341,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Travis Kelce | Kansas City Chiefs | receiving yards | 12.1 | 0–28.8 | 6 | 17.0, 19.0, 0.0, 0.0, 5.0, 48.0 |
 | Xavier Worthy | Kansas City Chiefs | receiving yards | 19.0 | 0–44.1 | 6 | 11.0, 7.0, 2.0, 69.0, 41.0, 0.0 |
 
-## NFL: Houston Texans at Cleveland Browns — 2026-11-15 18:00 UTC
+## NFL: Houston Texans at Cleveland Browns — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1354,7 +1355,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Woody Marks | Houston Texans | rushing yards | 9.2 | 0–21.8 | 6 | 10.0, 0.0, 5.0, 36.0, 3.0, 0.0 |
 | Xavier Hutchinson | Houston Texans | receiving yards | 11.8 | 0.7–22.9 | 6 | 29.0, 0.0, 5.0, 18.0, 0.0, 0.0 |
 
-## NFL: Minnesota Vikings at Green Bay Packers — 2026-11-15 18:00 UTC
+## NFL: Minnesota Vikings at Green Bay Packers — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1373,7 +1374,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Justin Jefferson | Minnesota Vikings | receiving yards | 7.9 | 0–20.7 | 5 | 0.0, 0.0, 13.0, 24.0, 32.0 |
 | T.J. Hockenson | Minnesota Vikings | receiving yards | 8.9 | 1.9–15.9 | 6 | 3.0, 22.0, 8.0, 7.0, 0.0, 5.0 |
 
-## NFL: Jacksonville Jaguars at Tennessee Titans — 2026-11-15 18:00 UTC
+## NFL: Jacksonville Jaguars at Tennessee Titans — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1394,7 +1395,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Parker Washington | Jacksonville Jaguars | receiving yards | 13.8 | 0–33.7 | 6 | 11.0, 0.0, 8.0, 58.0, 0.0, 18.0 |
 | Trevor Lawrence | Jacksonville Jaguars | passing yards | 73.3 | 50.4–96.3 | 6 | 100.0, 60.0, 49.0, 94.0, 63.0, 36.0 |
 
-## NFL: Miami Dolphins at Indianapolis Colts — 2026-11-15 18:00 UTC
+## NFL: Miami Dolphins at Indianapolis Colts — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1412,7 +1413,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Malik Willis | Miami Dolphins | rushing yards | 3.7 | 0–9.4 | 6 | 0.0, 0.0, 12.0, 0.0, 8.0, 13.0 |
 | Ollie Gordon II | Miami Dolphins | rushing yards | 20.1 | 11.1–29.2 | 6 | 13.0, 16.0, 33.0, 32.0, 12.0, 13.0 |
 
-## NFL: Carolina Panthers at New Orleans Saints — 2026-11-15 18:00 UTC
+## NFL: Carolina Panthers at New Orleans Saints — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1428,7 +1429,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tetairoa McMillan | Carolina Panthers | receiving yards | 13.6 | 0–34.4 | 6 | 0.0, 10.0, 0.0, 42.0, 52.0, 5.0 |
 | Tommy Tremble | Carolina Panthers | receiving yards | 7.0 | 0–14.5 | 6 | 0.0, 19.0, 0.0, 6.0, 9.0, 17.0 |
 
-## NFL: Buffalo Bills at New York Jets — 2026-11-15 18:00 UTC
+## NFL: Buffalo Bills at New York Jets — Sun Nov 15, 01:00 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1447,7 +1448,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Khalil Shakir | Buffalo Bills | receiving yards | 15.4 | 0–33.2 | 6 | 9.0, 50.0, 0.0, 0.0, 10.0, 0.0 |
 | Ty Johnson | Buffalo Bills | receiving yards | 5.4 | 0–14.3 | 6 | 0.0, 0.0, 24.0, 0.0, 9.0, 0.0 |
 
-## NFL: Seattle Seahawks at Las Vegas Raiders — 2026-11-15 21:05 UTC
+## NFL: Seattle Seahawks at Las Vegas Raiders — Sun Nov 15, 04:05 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1459,7 +1460,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Tre Tucker | Las Vegas Raiders | receiving yards | 3.7 | 0–13.4 | 6 | 0.0, 0.0, 0.0, 26.0, 0.0, 0.0 |
 | Jaxon Smith-Njigba | Seattle Seahawks | receiving yards | 20.7 | 8.7–32.7 | 6 | 15.0, 37.0, 9.0, 11.0, 38.0, 15.0 |
 
-## NFL: Los Angeles Rams at Arizona Cardinals — 2026-11-15 21:05 UTC
+## NFL: Los Angeles Rams at Arizona Cardinals — Sun Nov 15, 04:05 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1471,7 +1472,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Matthew Stafford | Los Angeles Rams | passing yards | 28.2 | 11.3–45.2 | 6 | 29.0, 12.0, 49.0, 9.0, 42.0, 52.0 |
 | Puka Nacua | Los Angeles Rams | receiving yards | 21.8 | 9.6–34.0 | 6 | 29.0, 12.0, 37.0, 0.0, 24.0, 28.0 |
 
-## NFL: San Francisco 49ers at Dallas Cowboys — 2026-11-15 21:25 UTC
+## NFL: San Francisco 49ers at Dallas Cowboys — Sun Nov 15, 04:25 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1490,7 +1491,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | George Kittle | San Francisco 49ers | receiving yards | 25.0 | 9.9–40.0 | 6 | 41.0, 28.0, 30.0, 0.0, 3.0, 12.0 |
 | Kaelon Black | San Francisco 49ers | rushing yards | 10.4 | 1.1–19.8 | 6 | 16.0, 23.0, 2.0, 0.0, 1.0, -2.0 |
 
-## NFL: Pittsburgh Steelers at Cincinnati Bengals — 2026-11-16 01:20 UTC
+## NFL: Pittsburgh Steelers at Cincinnati Bengals — Sun Nov 15, 08:20 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1510,7 +1511,7 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Pat Freiermuth | Pittsburgh Steelers | receiving yards | 3.0 | 0–6.3 | 6 | 7.0, 0.0, 0.0, 7.0, 0.0, 0.0 |
 | Rico Dowdle | Pittsburgh Steelers | rushing yards | 17.0 | 5.9–28.1 | 3 | 27.0, 5.0, 11.0 |
 
-## NFL: Los Angeles Chargers at Baltimore Ravens — 2026-11-17 01:15 UTC
+## NFL: Los Angeles Chargers at Baltimore Ravens — Mon Nov 16, 08:15 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
