@@ -18,6 +18,7 @@ from zoneinfo import ZoneInfo
 
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports"
+LOCAL_TZ = ZoneInfo("America/New_York")
 SPORTS = {"nba": "basketball/nba", "nfl": "football/nfl"}
 METRICS = {
     "nba": ("points", "rebounds", "assists"),
@@ -62,7 +63,8 @@ def upcoming_games(sport: str, start: date, days: int) -> list[dict]:
             if len(teams) != 2:
                 continue
             games[event["id"]] = {
-                "id": event["id"], "date": event["date"], "sport": sport,
+                "id": event["id"], "date": event["date"],
+                "date_et": parse_time(event["date"]).astimezone(LOCAL_TZ).isoformat(), "sport": sport,
                 "name": event.get("name", "Game"),
                 "teams": [{"id": t["team"]["id"], "name": t["team"]["displayName"],
                            "abbreviation": t["team"].get("abbreviation", "")}
@@ -245,7 +247,8 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
 
 def markdown(report: dict) -> str:
     lines = ["# First-quarter player projections", "", f"Generated: {report['generated_at']}",
-             f"Window starts: {report['start_date']} ({report['days']} days); up to {report['sample_size']} prior games per team.", "",
+             f"Window starts: {report['start_date']} Eastern ({report['days']} days); up to {report['sample_size']} prior games per team.",
+             "Game times are shown in Eastern time (EST or EDT).", "",
              "Estimates use each player's recent first-quarter results, weighted toward newer games. "
              "Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. "
              "Availability, injuries, lineup changes, and matchup adjustments are not verified. "
@@ -253,7 +256,7 @@ def markdown(report: dict) -> str:
     if not report["games"]:
         lines += ["No upcoming NBA or NFL games were found in the selected window.", ""]
     for game in report["games"]:
-        start = parse_time(game["date"]).strftime("%Y-%m-%d %H:%M UTC")
+        start = parse_time(game["date"]).astimezone(LOCAL_TZ).strftime("%a %b %d, %I:%M %p %Z")
         lines += [f"## {game['sport'].upper()}: {game['name']} — {start}", ""]
         if not game["predictions"]:
             lines += ["Insufficient usable first-quarter history for this game.", ""]
@@ -273,7 +276,7 @@ def markdown(report: dict) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", type=date.fromisoformat,
-                        default=datetime.now(ZoneInfo("America/New_York")).date())
+                        default=datetime.now(LOCAL_TZ).date())
     parser.add_argument("--days", type=int, default=4)
     parser.add_argument("--games", type=int, default=6, help="prior games per team")
     parser.add_argument("--sport", choices=["nba", "nfl", "both"], default="both")
