@@ -121,7 +121,11 @@ def grade_snapshot(snapshot: dict, summary: dict) -> tuple[list[dict], list[str]
             continue
         actual = float(stats.get(key, {}).get(pred["metric"], 0))
         estimate = float(pred["estimate"])
+        shadow = pred.get("shadow_role_estimate")
+        shadow = float(shadow) if shadow is not None else None
         rows.append({
+            "shadow_estimate": shadow,
+            "shadow_absolute_error": round(abs(shadow - actual), 3) if shadow is not None else None,
             "date_et": snapshot["date_et"][:10], "game_id": snapshot["game_id"],
             "matchup": snapshot["name"], "sport": snapshot["sport"],
             "snapshot_at": snapshot["snapshot_at"], "model_version": snapshot["model_version"],
@@ -147,7 +151,17 @@ def summarize(rows: list[dict]) -> dict:
              "empirical_range_coverage": round(sum(x["in_range"] for x in data) / len(data), 3)}
             for (sport, metric), data in sorted(groups.items())
         ],
-        "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured.",
+        "shadow_comparison": [
+            {"sport": sport, "market": metric,
+             "paired_n": len(paired),
+             "baseline_mae_on_paired": round(sum(x["absolute_error"] for x in paired) / len(paired), 3),
+             "challenger_mae_on_paired": round(sum(x["shadow_absolute_error"] for x in paired) / len(paired), 3),
+             "mae_improvement": round(sum(x["absolute_error"] - x["shadow_absolute_error"] for x in paired) / len(paired), 3),
+             "promoted": False}
+            for (sport, metric), data in sorted(groups.items())
+            if (paired := [x for x in data if x.get("shadow_absolute_error") is not None])
+        ],
+        "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. Shadow challenger NOT promoted.",
     }
 
 
@@ -168,7 +182,7 @@ def main():
     result["snapshots_checked"] = len(snapshots)
     result["warnings"] = warnings
     (dest / "summary.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
-    fields = ["date_et", "game_id", "matchup", "sport", "snapshot_at", "model_version", "player", "metric", "estimate", "actual", "error", "absolute_error", "in_range"]
+    fields = ["date_et", "game_id", "matchup", "sport", "snapshot_at", "model_version", "player", "metric", "estimate", "actual", "error", "absolute_error", "in_range", "shadow_estimate", "shadow_absolute_error"]
     with (dest / "rows.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
