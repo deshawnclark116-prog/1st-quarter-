@@ -397,9 +397,13 @@ def filter_availability(game: dict, predictions: list[dict], before: datetime,
     return eligible
 
 
-def build_report(start: date, days: int, sample_size: int, sports: list[str]) -> dict:
+def build_report(start: date, days: int, sample_size: int, sports: list[str],
+                 nba_sample_size: int = 10) -> dict:
+    # NBA ten-game horizon beat six on 2025/2026 date-separated paired tests.
+    # NFL stays on the separately unvalidated six-game horizon.
     report = {"generated_at": datetime.now(timezone.utc).isoformat(), "start_date": start.isoformat(),
-              "days": days, "sample_size": sample_size, "games": [], "warnings": []}
+              "days": days, "sample_size": sample_size,
+              "nba_sample_size": nba_sample_size, "games": [], "warnings": []}
     cache, teams_cache, roster_cache = {}, {}, {}
     for sport in sports:
         try:
@@ -422,7 +426,9 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
                 key = (sport, team["id"], season_year(sport, before))
                 if key not in teams_cache:
                     try:
-                        teams_cache[key] = analyze_team(sport, team, before, sample_size, cache, report["warnings"])
+                        teams_cache[key] = analyze_team(sport, team, before,
+                                                        nba_sample_size if sport == "nba" else sample_size,
+                                                        cache, report["warnings"])
                     except RuntimeError as error:
                         report["warnings"].append(f"{sport.upper()} {team['name']}: {error}")
                         teams_cache[key] = []
@@ -445,7 +451,7 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
 def markdown(report: dict) -> str:
     generated = parse_time(report["generated_at"]).astimezone(LOCAL_TZ).strftime("%a %b %d, %I:%M %p %Z")
     lines = ["# Experimental first-quarter baseline", "", f"Generated: {generated}",
-             f"Window starts: {report['start_date']} Eastern ({report['days']} days); up to {report['sample_size']} prior games per team.",
+             f"Window starts: {report['start_date']} Eastern ({report['days']} days); NBA up to {report.get('nba_sample_size', report['sample_size'])} and NFL up to {report['sample_size']} prior games per team.",
              "Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.", "",
              "Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. "
              "NFL projections require NFL.com's published game-day inactive list; they are withheld until it can be verified. "
@@ -485,14 +491,16 @@ def main() -> int:
     parser.add_argument("--date", type=date.fromisoformat,
                         default=datetime.now(LOCAL_TZ).date())
     parser.add_argument("--days", type=int, default=4)
-    parser.add_argument("--games", type=int, default=6, help="prior games per team")
+    parser.add_argument("--games", type=int, default=6, help="prior NFL games per team")
+    parser.add_argument("--nba-games", type=int, default=10, help="prior NBA games per team (validated 10 by default)")
     parser.add_argument("--sport", choices=["nba", "nfl", "both"], default="both")
     parser.add_argument("--output", type=Path, default=Path("predictions.md"))
     args = parser.parse_args()
-    if not 1 <= args.days <= 14 or not 3 <= args.games <= 20:
-        parser.error("--days must be 1–14 and --games must be 3–20")
+    if not 1 <= args.days <= 14 or not 3 <= args.games <= 20 or not 3 <= args.nba_games <= 20:
+        parser.error("--days must be 1–14 and game-history windows must be 3–20")
     sports = list(SPORTS) if args.sport == "both" else [args.sport]
-    report = build_report(args.date, args.days, args.games, sports)
+    report = build_report(args.date, args.days, args.games, sports,
+                          nba_sample_size=args.nba_games)
     # Model outputs remain experimental; this is a verified-starter gate, not
     # an assertion of calibrated betting probabilities.
     from quarter_grade import archive_report
