@@ -1,0 +1,32 @@
+name: Chronological NBA quarter model research
+
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/walkforward.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run leak-safe historical NBA projection comparison
+        run: python nba_walkforward.py --from-date 2026-10-20 --through-date 2026-11-12 --max-games 180 --lookback 10
+      - name: Persist holdout comparison and event ledger
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backtests/nba_2026-10-20_2026-11-12.json backtests/nba_2026-10-20_2026-11-12.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive 2026 NBA chronological Q1 model comparison"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
