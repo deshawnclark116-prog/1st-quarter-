@@ -25,12 +25,12 @@
       "train_n": 530,
       "validation_n": 226,
       "diagnostic_n": 386,
-      "selected_on_validation_only": "minute_half_shrink",
+      "selected_on_validation_only": "shot_volume",
       "selected_diagnostic_result": {
-        "n": 356,
-        "baseline_mae_paired": 2.5003,
-        "challenger_mae": 2.5043,
-        "relative_mae_improvement_pct": -0.16
+        "n": 386,
+        "baseline_mae_paired": 2.5285,
+        "challenger_mae": 2.4346,
+        "relative_mae_improvement_pct": 3.72
       },
       "baseline_full_diagnostic_mae": 2.5285,
       "candidates": [
@@ -273,6 +273,160 @@
             "baseline_mae_paired": 2.5285,
             "challenger_mae": 2.5508,
             "relative_mae_improvement_pct": -0.88
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_volume",
+          "train": {
+            "n": 530,
+            "baseline_mae_paired": 2.5115,
+            "challenger_mae": 2.3968,
+            "relative_mae_improvement_pct": 4.57
+          },
+          "validation": {
+            "n": 226,
+            "baseline_mae_paired": 2.7044,
+            "challenger_mae": 2.6136,
+            "relative_mae_improvement_pct": 3.36
+          },
+          "diagnostic_test": {
+            "n": 386,
+            "baseline_mae_paired": 2.5285,
+            "challenger_mae": 2.4346,
+            "relative_mae_improvement_pct": 3.72
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_half_shrink",
+          "train": {
+            "n": 530,
+            "baseline_mae_paired": 2.5115,
+            "challenger_mae": 2.4236,
+            "relative_mae_improvement_pct": 3.5
+          },
+          "validation": {
+            "n": 226,
+            "baseline_mae_paired": 2.7044,
+            "challenger_mae": 2.6288,
+            "relative_mae_improvement_pct": 2.8
+          },
+          "diagnostic_test": {
+            "n": 386,
+            "baseline_mae_paired": 2.5285,
+            "challenger_mae": 2.4643,
+            "relative_mae_improvement_pct": 2.54
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_starter",
+          "train": {
+            "n": 480,
+            "baseline_mae_paired": 2.4663,
+            "challenger_mae": 2.3747,
+            "relative_mae_improvement_pct": 3.71
+          },
+          "validation": {
+            "n": 208,
+            "baseline_mae_paired": 2.7322,
+            "challenger_mae": 2.6562,
+            "relative_mae_improvement_pct": 2.78
+          },
+          "diagnostic_test": {
+            "n": 358,
+            "baseline_mae_paired": 2.5017,
+            "challenger_mae": 2.4274,
+            "relative_mae_improvement_pct": 2.97
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_starter_half_shrink",
+          "train": {
+            "n": 480,
+            "baseline_mae_paired": 2.4663,
+            "challenger_mae": 2.3888,
+            "relative_mae_improvement_pct": 3.14
+          },
+          "validation": {
+            "n": 208,
+            "baseline_mae_paired": 2.7322,
+            "challenger_mae": 2.6665,
+            "relative_mae_improvement_pct": 2.4
+          },
+          "diagnostic_test": {
+            "n": 358,
+            "baseline_mae_paired": 2.5017,
+            "challenger_mae": 2.4411,
+            "relative_mae_improvement_pct": 2.42
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_minutes",
+          "train": {
+            "n": 477,
+            "baseline_mae_paired": 2.4771,
+            "challenger_mae": 2.4221,
+            "relative_mae_improvement_pct": 2.22
+          },
+          "validation": {
+            "n": 208,
+            "baseline_mae_paired": 2.7322,
+            "challenger_mae": 2.6783,
+            "relative_mae_improvement_pct": 1.97
+          },
+          "diagnostic_test": {
+            "n": 356,
+            "baseline_mae_paired": 2.5003,
+            "challenger_mae": 2.4327,
+            "relative_mae_improvement_pct": 2.7
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_minutes_half_shrink",
+          "train": {
+            "n": 477,
+            "baseline_mae_paired": 2.4771,
+            "challenger_mae": 2.4147,
+            "relative_mae_improvement_pct": 2.52
+          },
+          "validation": {
+            "n": 208,
+            "baseline_mae_paired": 2.7322,
+            "challenger_mae": 2.6753,
+            "relative_mae_improvement_pct": 2.08
+          },
+          "diagnostic_test": {
+            "n": 356,
+            "baseline_mae_paired": 2.5003,
+            "challenger_mae": 2.442,
+            "relative_mae_improvement_pct": 2.33
+          },
+          "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_team_context",
+          "train": {
+            "n": 530,
+            "baseline_mae_paired": 2.5115,
+            "challenger_mae": 2.4057,
+            "relative_mae_improvement_pct": 4.21
+          },
+          "validation": {
+            "n": 226,
+            "baseline_mae_paired": 2.7044,
+            "challenger_mae": 2.6168,
+            "relative_mae_improvement_pct": 3.24
+          },
+          "diagnostic_test": {
+            "n": 386,
+            "baseline_mae_paired": 2.5285,
+            "challenger_mae": 2.4211,
+            "relative_mae_improvement_pct": 4.25
           },
           "eligible_for_selection": true
         }
@@ -533,6 +687,97 @@
             "relative_mae_improvement_pct": 0.59
           },
           "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_volume",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_starter",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_starter_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_minutes",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_minutes_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_team_context",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
         }
       ]
     },
@@ -791,6 +1036,97 @@
             "relative_mae_improvement_pct": 0.82
           },
           "eligible_for_selection": true
+        },
+        {
+          "candidate": "shot_volume",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_starter",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_starter_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_minutes",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_minutes_half_shrink",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
+        },
+        {
+          "candidate": "shot_team_context",
+          "train": {
+            "n": 0
+          },
+          "validation": {
+            "n": 0
+          },
+          "diagnostic_test": {
+            "n": 0
+          },
+          "eligible_for_selection": false
         }
       ]
     }
