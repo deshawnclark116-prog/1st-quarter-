@@ -64,7 +64,7 @@ class FirstQuarterQualityTests(unittest.TestCase):
     def test_full_report_hides_nba_before_lineup_confirmation(self):
         from quarterbot import build_report
         sample_game = dict(self.game)
-        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=45)).isoformat()
+        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=30)).isoformat()
         with (patch("quarterbot.upcoming_games", return_value=[sample_game]),
               patch("quarterbot.analyze_team", return_value=[self.pred]),
               patch("quarterbot.filter_availability", side_effect=lambda game, predictions, *args: predictions),
@@ -76,7 +76,7 @@ class FirstQuarterQualityTests(unittest.TestCase):
     def test_full_report_only_publishes_confirmed_starters(self):
         from quarterbot import build_report
         sample_game = dict(self.game)
-        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=45)).isoformat()
+        sample_game["date"] = (datetime.now(timezone.utc) + timedelta(minutes=30)).isoformat()
         with (patch("quarterbot.upcoming_games", return_value=[sample_game]),
               patch("quarterbot.analyze_team", return_value=[self.pred]),
               patch("quarterbot.filter_availability", side_effect=lambda game, predictions, *args: predictions),
