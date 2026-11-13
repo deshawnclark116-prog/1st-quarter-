@@ -1,10 +1,10 @@
-# First-quarter player projections
+# Experimental first-quarter baseline
 
-Generated: Thu Nov 12, 07:57 PM EST
+Generated: Thu Nov 12, 08:07 PM EST
 Window starts: 2026-11-12 Eastern (4 days); up to 6 prior games per team.
 Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
-Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. NFL passing estimates show the team's most recent lead passer. Tonight's starter and participation are not confirmed. Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Late lineup changes and matchup adjustments are not reflected. NFL yardage comes from play descriptions and may miss unusual or corrected plays.
+Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. NFL projections require NFL.com's published game-day inactive list; they are withheld until it can be verified. NFL passing estimates show the team's most recent lead passer. Tonight's starter and participation are not confirmed. Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Late lineup changes and matchup adjustments are not reflected. NFL yardage comes from play descriptions and may miss unusual or corrected plays. This baseline has not yet shown predictive improvement in a backtest.
 
 ## NBA: Dallas Mavericks at Minnesota Timberwolves — Thu Nov 12, 08:00 PM EST
 
@@ -1050,7 +1050,9 @@ Excluded after roster/injury/lead-passer check: LeBron James (out).
 
 ## NFL: Washington Commanders at New York Giants — Thu Nov 12, 08:15 PM EST
 
-Excluded after roster/injury/lead-passer check: Jameis Winston (not last game's lead passer).
+Official inactives: [NFL.com](https://amp.nfl.com/news/week-10-thursday-night-inactives-washington-commanders-at-new-york-giants).
+
+Excluded after roster/injury/lead-passer check: Colson Yankoff (officially inactive), Jameis Winston (not last game's lead passer).
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
@@ -1064,214 +1066,54 @@ Excluded after roster/injury/lead-passer check: Jameis Winston (not last game's 
 | Antonio Williams | Washington Commanders | receiving yards | 6.1 | 0–12.7 | 6 | 18.0, 4.0, 0.0, 0.0, 0.0, 0.0 |
 | Austin Ekeler | Washington Commanders | rushing yards | 4.9 | 0.9–9.0 | 5 | 5.0, 7.0, 3.0, 0.0, 12.0 |
 | Chig Okonkwo | Washington Commanders | receiving yards | 9.9 | 0–22.7 | 5 | 15.0, 0.0, 0.0, 34.0, 5.0 |
-| Colson Yankoff | Washington Commanders | receiving yards | 3.3 | 0.3–6.3 | 3 | 6.0, 0.0, 2.0 |
 | Jayden Daniels | Washington Commanders | passing yards | 39.5 | 24.2–54.8 | 4 | 57.0, 15.0, 44.0, 34.0 |
 | Rachaad White | Washington Commanders | rushing yards | 8.3 | 2.6–14.1 | 5 | 13.0, 13.0, 2.0, 0.0, 2.0 |
 | Stefon Diggs | Washington Commanders | receiving yards | 5.3 | 0–12.9 | 5 | 0.0, 0.0, 17.0, 14.0, 0.0 |
 
 ## NFL: New England Patriots at Detroit Lions — Sun Nov 15, 09:30 AM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Isaac TeSlaa | Detroit Lions | receiving yards | 3.0 | 0–6.6 | 5 | 9.0, 0.0, 0.0, 0.0, 0.0 |
-| Jahmyr Gibbs | Detroit Lions | rushing yards | 20.6 | 9.3–32.0 | 6 | 34.0, 18.0, 24.0, 5.0, 14.0, 0.0 |
-| Jameson Williams | Detroit Lions | receiving yards | 20.0 | 1.5–38.6 | 6 | 0.0, 46.0, 40.0, 0.0, 6.0, 19.0 |
-| Jared Goff | Detroit Lions | passing yards | 52.8 | 21.4–84.1 | 6 | 31.0, 66.0, 108.0, 7.0, 42.0, 55.0 |
-| Sam LaPorta | Detroit Lions | receiving yards | 3.1 | 0–7.3 | 6 | 0.0, 8.0, 0.0, 0.0, 9.0, 8.0 |
-| Sione Vaki (questionable) | Detroit Lions | rushing yards | 5.9 | 1.0–10.9 | 6 | 11.0, 11.0, 0.0, 0.0, 0.0, 3.0 |
-| Corey Kiner | New England Patriots | rushing yards | 6.3 | 0–14.9 | 5 | 0.0, 22.0, 2.0, 0.0, 0.0 |
-| DeMario Douglas | New England Patriots | receiving yards | 3.7 | 0–19.1 | 6 | 0.0, 0.0, -1.0, 0.0, 41.0, 0.0 |
-| Drake Maye | New England Patriots | passing yards | 40.8 | 20.9–60.6 | 6 | 24.0, 31.0, 51.0, 42.0, 85.0, 57.0 |
-| Efton Chism III | New England Patriots | receiving yards | 4.5 | 0–11.2 | 6 | 10.0, 0.0, 0.0, 0.0, 17.0, 0.0 |
-| Eli Raridon | New England Patriots | receiving yards | 4.6 | 0–10.7 | 6 | 0.0, 5.0, 15.0, 0.0, 0.0, 12.0 |
-| Hunter Henry (questionable) | New England Patriots | receiving yards | 9.8 | 1.1–18.5 | 6 | 9.0, 26.0, 0.0, 0.0, 7.0, 8.0 |
-| Rhamondre Stevenson (questionable) | New England Patriots | receiving yards | 4.4 | 0–13.0 | 6 | 0.0, 0.0, 23.0, 0.0, 0.0, 0.0 |
-| Rhamondre Stevenson (questionable) | New England Patriots | rushing yards | 6.0 | 2.1–9.8 | 6 | 3.0, 10.0, 5.0, 4.0, 12.0, 1.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Kansas City Chiefs at Atlanta Falcons — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Bijan Robinson | Atlanta Falcons | rushing yards | 14.9 | 0–34.2 | 6 | 52.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
-| Drake London | Atlanta Falcons | receiving yards | 5.6 | 0–11.7 | 6 | 15.0, 0.0, 0.0, 5.0, 0.0, 12.0 |
-| Jahan Dotson | Atlanta Falcons | receiving yards | 9.1 | 0.8–17.4 | 6 | 16.0, 19.0, 0.0, 0.0, 0.0, 0.0 |
-| Michael Penix Jr. | Atlanta Falcons | passing yards | 22.3 | 7.0–37.7 | 6 | 44.0, 24.0, 10.0, 5.0, 0.0, 30.0 |
-| Michael Penix Jr. | Atlanta Falcons | rushing yards | 10.7 | 0–22.9 | 6 | 34.0, 2.0, 0.0, 0.0, 5.0, 0.0 |
-| Cyrus Allen | Kansas City Chiefs | receiving yards | 3.6 | 0–10.8 | 5 | 0.0, 0.0, 18.0, 0.0, 0.0 |
-| Jalen Royals | Kansas City Chiefs | receiving yards | 3.1 | 0–6.5 | 6 | 8.0, 0.0, 0.0, 6.0, 0.0, 0.0 |
-| Kenneth Walker III | Kansas City Chiefs | rushing yards | 20.0 | 4.7–35.2 | 6 | 16.0, 9.0, 16.0, 55.0, 15.0, 19.0 |
-| Noah Gray | Kansas City Chiefs | receiving yards | 8.1 | 0–17.7 | 6 | 0.0, 0.0, 25.0, 16.0, 11.0, 0.0 |
-| Patrick Mahomes | Kansas City Chiefs | passing yards | 68.6 | 51.5–85.8 | 6 | 68.0, 60.0, 58.0, 95.0, 63.0, 90.0 |
-| Rashee Rice | Kansas City Chiefs | receiving yards | 24.3 | 17.0–31.6 | 3 | 26.0, 26.0, 16.0 |
-| Travis Kelce | Kansas City Chiefs | receiving yards | 12.1 | 0–28.8 | 6 | 17.0, 19.0, 0.0, 0.0, 5.0, 48.0 |
-| Xavier Worthy | Kansas City Chiefs | receiving yards | 19.0 | 0–44.1 | 6 | 11.0, 7.0, 2.0, 69.0, 41.0, 0.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Houston Texans at Cleveland Browns — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Denzel Boston (questionable) | Cleveland Browns | receiving yards | 3.1 | 0–6.8 | 6 | 7.0, 0.0, 0.0, 0.0, 9.0, 5.0 |
-| KC Concepcion | Cleveland Browns | receiving yards | 11.5 | 0–24.4 | 6 | 11.0, 0.0, 36.0, 0.0, 5.0, 21.0 |
-| Quinshon Judkins | Cleveland Browns | rushing yards | 14.9 | 0.2–29.5 | 5 | 4.0, 8.0, 42.0, 21.0, 3.0 |
-| C.J. Stroud | Houston Texans | passing yards | 57.4 | 20.7–94.1 | 6 | 68.0, 22.0, 54.0, 65.0, 129.0, 18.0 |
-| C.J. Stroud | Houston Texans | rushing yards | 4.3 | 0–9.3 | 6 | 12.0, 0.0, 0.0, 0.0, 9.0, 0.0 |
-| Dalton Schultz | Houston Texans | receiving yards | 8.9 | 0–18.1 | 6 | 0.0, 21.0, 1.0, 21.0, 7.0, 0.0 |
-| Nico Collins | Houston Texans | receiving yards | 24.9 | 5.9–43.8 | 5 | 28.0, 0.0, 42.0, 25.0, 57.0 |
-| Woody Marks (questionable) | Houston Texans | rushing yards | 9.2 | 0–21.8 | 6 | 10.0, 0.0, 5.0, 36.0, 3.0, 0.0 |
-| Xavier Hutchinson | Houston Texans | receiving yards | 11.8 | 0.7–22.9 | 6 | 29.0, 0.0, 5.0, 18.0, 0.0, 0.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Minnesota Vikings at Green Bay Packers — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Christian Watson | Green Bay Packers | receiving yards | 19.2 | 3.3–35.1 | 6 | 10.0, 28.0, 7.0, 27.0, 47.0, 0.0 |
-| Jordan Love | Green Bay Packers | passing yards | 98.6 | 61.4–135.9 | 6 | 136.0, 43.0, 122.0, 109.0, 93.0, 39.0 |
-| Jordan Love | Green Bay Packers | rushing yards | 4.5 | 0–9.2 | 6 | 13.0, 0.0, 0.0, 0.0, 6.0, 4.0 |
-| Josh Jacobs | Green Bay Packers | rushing yards | 6.0 | 4.2–7.8 | 3 | 5.0, 8.0, 5.0 |
-| Matthew Golden | Green Bay Packers | receiving yards | 49.1 | 5.7–92.6 | 6 | 126.0, 0.0, 27.0, 46.0, 15.0, 0.0 |
-| Pierre Strong Jr. | Green Bay Packers | receiving yards | 4.0 | 0–10.5 | 4 | 0.0, 0.0, 14.0, 12.0 |
-| Pierre Strong Jr. | Green Bay Packers | rushing yards | 3.7 | 0.6–6.8 | 4 | 8.0, 0.0, 1.0, 3.0 |
-| Savion Williams (questionable) | Green Bay Packers | receiving yards | 7.6 | 0–20.0 | 4 | 0.0, 0.0, 27.0, 22.0 |
-| Tucker Kraft | Green Bay Packers | receiving yards | 13.7 | 0–29.3 | 6 | 0.0, 12.0, 43.0, 0.0, 13.0, 30.0 |
-| Aaron Jones Sr. | Minnesota Vikings | rushing yards | 12.0 | 4.8–19.2 | 6 | 3.0, 16.0, 8.0, 25.0, 14.0, 19.0 |
-| Jordan Addison | Minnesota Vikings | receiving yards | 4.5 | 0–12.1 | 5 | 0.0, 0.0, 20.0, 2.0, 4.0 |
-| Jordan Mason | Minnesota Vikings | rushing yards | 10.2 | 0.7–19.7 | 3 | 5.0, 11.0, 24.0 |
-| Justin Jefferson | Minnesota Vikings | receiving yards | 7.9 | 0–20.7 | 5 | 0.0, 0.0, 13.0, 24.0, 32.0 |
-| T.J. Hockenson (questionable) | Minnesota Vikings | receiving yards | 8.9 | 1.9–15.9 | 6 | 3.0, 22.0, 8.0, 7.0, 0.0, 5.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Jacksonville Jaguars at Tennessee Titans — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Calvin Ridley | Tennessee Titans | receiving yards | 7.9 | 0–17.0 | 5 | 10.0, 0.0, 23.0, 0.0, 0.0 |
-| Cam Ward | Tennessee Titans | passing yards | 58.2 | 26.0–90.5 | 6 | 109.0, 39.0, 37.0, 35.0, 59.0, 3.0 |
-| Chimere Dike | Tennessee Titans | receiving yards | 3.4 | 0–9.0 | 5 | 0.0, 0.0, 6.0, 15.0, 3.0 |
-| Daniel Bellinger | Tennessee Titans | receiving yards | 6.3 | 0–14.5 | 6 | 22.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
-| Elic Ayomanor | Tennessee Titans | receiving yards | 6.6 | 0–15.1 | 6 | 23.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
-| Gunnar Helm | Tennessee Titans | receiving yards | 6.3 | 0–13.9 | 5 | 19.0, 0.0, 0.0, 0.0, 0.0 |
-| Tony Pollard (questionable) | Tennessee Titans | receiving yards | 3.7 | 0–8.6 | 6 | 13.0, 0.0, 0.0, 0.0, 0.0, -1.0 |
-| Tony Pollard (questionable) | Tennessee Titans | rushing yards | 48.1 | 19.8–76.4 | 6 | 62.0, 88.0, 18.0, 24.0, 23.0, 8.0 |
-| Wan'Dale Robinson | Tennessee Titans | receiving yards | 10.5 | 1.8–19.2 | 6 | 22.0, 0.0, 16.0, 0.0, 12.0, 1.0 |
-| Bhayshul Tuten (questionable) | Jacksonville Jaguars | rushing yards | 18.6 | 13.8–23.5 | 6 | 16.0, 28.0, 14.0, 16.0, 15.0, 21.0 |
-| Brenton Strange | Jacksonville Jaguars | receiving yards | 23.5 | 7.0–40.0 | 6 | 0.0, 46.0, 34.0, 15.0, 37.0, 9.0 |
-| Chris Rodriguez Jr. (questionable) | Jacksonville Jaguars | rushing yards | 8.8 | 0–21.6 | 6 | 3.0, 4.0, 36.0, 0.0, 0.0, 3.0 |
-| Jakobi Meyers (questionable) | Jacksonville Jaguars | receiving yards | 15.5 | 2.7–28.2 | 6 | 33.0, 14.0, 0.0, 0.0, 26.0, 5.0 |
-| Nate Boerkircher | Jacksonville Jaguars | receiving yards | 17.9 | 0–36.4 | 6 | 52.0, 0.0, 7.0, 12.0, 0.0, 0.0 |
-| Parker Washington | Jacksonville Jaguars | receiving yards | 13.8 | 0–33.7 | 6 | 11.0, 0.0, 8.0, 58.0, 0.0, 18.0 |
-| Trevor Lawrence | Jacksonville Jaguars | passing yards | 73.3 | 50.4–96.3 | 6 | 100.0, 60.0, 49.0, 94.0, 63.0, 36.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Miami Dolphins at Indianapolis Colts — Sun Nov 15, 01:00 PM EST
 
-Excluded after roster/injury/lead-passer check: Keenan Allen (not on active roster), Malik Willis (not on active roster).
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Daniel Jones | Indianapolis Colts | passing yards | 20.5 | 0–41.3 | 6 | 1.0, 13.0, 25.0, 67.0, 22.0, 15.0 |
-| Deion Burks | Indianapolis Colts | receiving yards | 5.9 | 0–21.1 | 6 | 0.0, 0.0, 0.0, 41.0, 0.0, 0.0 |
-| Jonathan Taylor | Indianapolis Colts | rushing yards | 20.9 | 9.9–31.8 | 6 | 19.0, 23.0, 39.0, 10.0, 5.0, 13.0 |
-| Tyler Warren | Indianapolis Colts | receiving yards | 4.8 | 0–12.2 | 4 | 0.0, 4.0, 18.0, 0.0 |
-| Caleb Douglas | Miami Dolphins | receiving yards | 11.2 | 1.2–21.1 | 3 | 20.0, 0.0, 7.0 |
-| Chris Bell (questionable) | Miami Dolphins | receiving yards | 3.9 | 0–9.6 | 6 | 0.0, 15.0, 0.0, 0.0, 0.0, 7.0 |
-| Greg Dulcich | Miami Dolphins | receiving yards | 11.5 | 0–32.9 | 5 | 0.0, 0.0, 55.0, 0.0, 7.0 |
-| Malik Washington | Miami Dolphins | receiving yards | 7.2 | 0–19.5 | 6 | 0.0, 0.0, 22.0, 0.0, 16.0, 31.0 |
-| Malik Washington | Miami Dolphins | rushing yards | 4.1 | 0–10.9 | 6 | 0.0, 0.0, 8.0, 18.0, 0.0, 0.0 |
-| Ollie Gordon II | Miami Dolphins | rushing yards | 20.1 | 11.1–29.2 | 6 | 13.0, 16.0, 33.0, 32.0, 12.0, 13.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Carolina Panthers at New Orleans Saints — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Chris Olave | New Orleans Saints | receiving yards | 13.5 | 0.0–26.9 | 6 | 11.0, 15.0, 0.0, 14.0, 44.0, 12.0 |
-| Devaughn Vele | New Orleans Saints | receiving yards | 7.1 | 0.4–13.8 | 6 | 0.0, 14.0, 16.0, 0.0, 2.0, 11.0 |
-| Juwan Johnson | New Orleans Saints | receiving yards | 8.2 | 0–18.2 | 6 | 19.0, 0.0, 0.0, 0.0, 25.0, 8.0 |
-| Tyler Shough | New Orleans Saints | passing yards | 32.5 | 2.8–62.1 | 6 | 30.0, 36.0, 16.0, 9.0, 100.0, 31.0 |
-| Tyler Shough | New Orleans Saints | rushing yards | 5.0 | 0–18.1 | 6 | 11.0, 0.0, 0.0, 0.0, 2.0, 36.0 |
-| Bryce Young | Carolina Panthers | passing yards | 35.2 | 11.2–59.3 | 6 | 10.0, 53.0, 10.0, 67.0, 68.0, 38.0 |
-| Chuba Hubbard | Carolina Panthers | receiving yards | 5.1 | 0–10.7 | 6 | -1.0, 15.0, 6.0, 0.0, 7.0, 0.0 |
-| Chuba Hubbard | Carolina Panthers | rushing yards | 15.0 | 6.2–23.8 | 6 | 5.0, 29.0, 9.0, 19.0, 21.0, 6.0 |
-| Mitchell Evans | Carolina Panthers | receiving yards | 4.3 | 0.2–8.5 | 6 | 11.0, 5.0, 0.0, 0.0, 0.0, 0.0 |
-| Tetairoa McMillan | Carolina Panthers | receiving yards | 13.6 | 0–34.4 | 6 | 0.0, 10.0, 0.0, 42.0, 52.0, 5.0 |
-| Tommy Tremble | Carolina Panthers | receiving yards | 7.0 | 0–14.5 | 6 | 0.0, 19.0, 0.0, 6.0, 9.0, 17.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Buffalo Bills at New York Jets — Sun Nov 15, 01:00 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Adonai Mitchell | New York Jets | receiving yards | 8.0 | 0–21.6 | 3 | 0.0, 24.0, 0.0 |
-| Braelon Allen | New York Jets | receiving yards | 8.2 | 1.2–15.2 | 6 | 19.0, 0.0, 7.0, 10.0, 0.0, 0.0 |
-| Braelon Allen | New York Jets | rushing yards | 24.2 | 1.8–46.6 | 6 | 2.0, 43.0, 4.0, 48.0, 56.0, 9.0 |
-| Geno Smith | New York Jets | passing yards | 56.1 | 33.2–79.0 | 6 | 45.0, 60.0, 77.0, 52.0, 69.0, 6.0 |
-| Kenyon Sadiq | New York Jets | receiving yards | 3.3 | 0–6.8 | 6 | 8.0, 0.0, 6.0, 0.0, -1.0, 0.0 |
-| Mason Taylor | New York Jets | receiving yards | 4.9 | 0–12.3 | 5 | 0.0, 0.0, 13.0, 17.0, 0.0 |
-| Omar Cooper Jr. (questionable) | New York Jets | receiving yards | 23.3 | 0–50.0 | 3 | 12.0, 52.0, 0.0 |
-| DJ Moore | Buffalo Bills | receiving yards | 9.0 | 3.5–14.5 | 4 | 15.0, 0.0, 11.0, 8.0 |
-| Dalton Kincaid (questionable) | Buffalo Bills | receiving yards | 12.0 | 2.9–21.0 | 6 | 12.0, 23.0, 16.0, 0.0, 0.0, 0.0 |
-| James Cook III | Buffalo Bills | rushing yards | 17.8 | 9.3–26.2 | 6 | 17.0, 17.0, 16.0, 32.0, 3.0, 20.0 |
-| Josh Allen | Buffalo Bills | passing yards | 51.9 | 23.4–80.4 | 6 | 43.0, 77.0, 77.0, 7.0, 54.0, 9.0 |
-| Josh Allen | Buffalo Bills | rushing yards | 7.5 | 1.9–13.2 | 6 | 7.0, 13.0, 2.0, 14.0, 0.0, 1.0 |
-| Khalil Shakir | Buffalo Bills | receiving yards | 15.4 | 0–33.2 | 6 | 9.0, 50.0, 0.0, 0.0, 10.0, 0.0 |
-| Ty Johnson | Buffalo Bills | receiving yards | 5.4 | 0–14.3 | 6 | 0.0, 0.0, 24.0, 0.0, 9.0, 0.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Seattle Seahawks at Las Vegas Raiders — Sun Nov 15, 04:05 PM EST
 
-Excluded after roster/injury/lead-passer check: Kirk Cousins (not on active roster).
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Ashton Jeanty | Las Vegas Raiders | rushing yards | 6.5 | 1.1–12.0 | 6 | 7.0, 0.0, 7.0, 15.0, 11.0, 0.0 |
-| Brock Bowers | Las Vegas Raiders | receiving yards | 17.6 | 1.3–33.8 | 6 | 20.0, 35.0, 0.0, 0.0, 37.0, 0.0 |
-| Jalen Nailor | Las Vegas Raiders | receiving yards | 11.0 | 2.1–19.9 | 4 | 6.0, 24.0, 7.0, 0.0 |
-| Mike Washington Jr. | Las Vegas Raiders | rushing yards | 10.7 | 1.8–19.5 | 6 | 4.0, 21.0, 21.0, 0.0, 5.0, 1.0 |
-| Tre Tucker | Las Vegas Raiders | receiving yards | 3.7 | 0–13.4 | 6 | 0.0, 0.0, 0.0, 26.0, 0.0, 0.0 |
-| Jaxon Smith-Njigba | Seattle Seahawks | receiving yards | 20.7 | 8.7–32.7 | 6 | 15.0, 37.0, 9.0, 11.0, 38.0, 15.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Los Angeles Rams at Arizona Cardinals — Sun Nov 15, 04:05 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Reggie Virgil | Arizona Cardinals | receiving yards | 12.5 | 0–26.6 | 3 | 25.0, 0.0, 0.0 |
-| Trey McBride | Arizona Cardinals | receiving yards | 10.9 | 0–24.3 | 6 | 5.0, 5.0, 5.0, 42.0, 11.0, 6.0 |
-| Tyler Allgeier | Arizona Cardinals | rushing yards | 11.4 | 0–25.7 | 6 | 26.0, 4.0, 5.0, 2.0, 0.0, 38.0 |
-| Blake Corum | Los Angeles Rams | rushing yards | 7.0 | 1.5–12.4 | 6 | 0.0, 6.0, 14.0, 15.0, 3.0, 9.0 |
-| Kyren Williams | Los Angeles Rams | rushing yards | 9.7 | 3.1–16.4 | 6 | 17.0, 1.0, 5.0, 8.0, 18.0, 17.0 |
-| Matthew Stafford | Los Angeles Rams | passing yards | 28.2 | 11.3–45.2 | 6 | 29.0, 12.0, 49.0, 9.0, 42.0, 52.0 |
-| Puka Nacua | Los Angeles Rams | receiving yards | 21.8 | 9.6–34.0 | 6 | 29.0, 12.0, 37.0, 0.0, 24.0, 28.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: San Francisco 49ers at Dallas Cowboys — Sun Nov 15, 04:25 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| CeeDee Lamb | Dallas Cowboys | receiving yards | 11.2 | 4.7–17.7 | 6 | 13.0, 9.0, 9.0, 22.0, 0.0, 10.0 |
-| Dak Prescott | Dallas Cowboys | passing yards | 39.1 | 24.7–53.5 | 6 | 56.0, 10.0, 49.0, 42.0, 37.0, 40.0 |
-| Javonte Williams | Dallas Cowboys | receiving yards | 4.0 | 0–8.2 | 6 | 9.0, 1.0, 0.0, 0.0, 8.0, 9.0 |
-| Javonte Williams | Dallas Cowboys | rushing yards | 18.7 | 10.7–26.6 | 6 | 29.0, 9.0, 20.0, 10.0, 26.0, 11.0 |
-| Jonathan Mingo (questionable) | Dallas Cowboys | receiving yards | 9.2 | 0–19.2 | 4 | 23.0, 0.0, 0.0, 0.0 |
-| Ryan Flournoy | Dallas Cowboys | receiving yards | 10.9 | 0–23.1 | 6 | 7.0, 0.0, 35.0, 9.0, 0.0, 19.0 |
-| Tyler Goodson | Dallas Cowboys | rushing yards | 8.4 | 0.1–16.7 | 5 | 20.0, 0.0, 10.0, -2.0, 0.0 |
-| Brandin Cooks | San Francisco 49ers | receiving yards | 4.3 | 0–9.5 | 5 | 13.0, 0.0, 0.0, 0.0, 0.0 |
-| Brock Purdy | San Francisco 49ers | passing yards | 68.9 | 34.3–103.5 | 6 | 70.0, 75.0, 121.0, 29.0, 14.0, 53.0 |
-| Brock Purdy | San Francisco 49ers | rushing yards | 10.7 | 0–22.2 | 6 | 32.0, 0.0, 7.0, 0.0, 2.0, 0.0 |
-| Christian McCaffrey | San Francisco 49ers | receiving yards | 13.8 | 0–29.7 | 6 | 0.0, 45.0, 13.0, 0.0, 0.0, 13.0 |
-| Christian McCaffrey | San Francisco 49ers | rushing yards | 27.1 | 17.6–36.7 | 6 | 42.0, 29.0, 18.0, 17.0, 17.0, 16.0 |
-| George Kittle | San Francisco 49ers | receiving yards | 25.0 | 9.9–40.0 | 6 | 41.0, 28.0, 30.0, 0.0, 3.0, 12.0 |
-| Kaelon Black | San Francisco 49ers | rushing yards | 10.4 | 1.1–19.8 | 6 | 16.0, 23.0, 2.0, 0.0, 1.0, -2.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
 
 ## NFL: Pittsburgh Steelers at Cincinnati Bengals — Sun Nov 15, 08:20 PM EST
 
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Chase Brown | Cincinnati Bengals | receiving yards | 6.2 | 2.9–9.6 | 6 | 11.0, 5.0, 3.0, 6.0, 5.0, 0.0 |
-| Chase Brown | Cincinnati Bengals | rushing yards | 9.6 | 0–19.9 | 6 | 0.0, 30.0, 5.0, 6.0, 0.0, 13.0 |
-| Dohnte Meyers | Cincinnati Bengals | rushing yards | 4.6 | 0–10.5 | 6 | 16.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
-| Ja'Marr Chase | Cincinnati Bengals | receiving yards | 25.0 | 5.6–44.4 | 6 | 60.0, 13.0, 9.0, 7.0, 6.0, 31.0 |
-| Joe Burrow | Cincinnati Bengals | passing yards | 53.5 | 27.4–79.6 | 6 | 95.0, 38.0, 12.0, 46.0, 53.0, 72.0 |
-| Samaje Perine | Cincinnati Bengals | rushing yards | 3.7 | 0–10.7 | 6 | 4.0, 0.0, -2.0, 19.0, 0.0, 5.0 |
-| Tee Higgins | Cincinnati Bengals | receiving yards | 14.3 | 5.6–23.0 | 6 | 12.0, 20.0, 0.0, 22.0, 26.0, 10.0 |
-| Aaron Rodgers | Pittsburgh Steelers | passing yards | 42.0 | 0–91.4 | 6 | 17.0, 26.0, 11.0, 108.0, 69.0, 143.0 |
-| DK Metcalf | Pittsburgh Steelers | receiving yards | 5.4 | 0–12.7 | 6 | 4.0, 5.0, 0.0, 3.0, 22.0, 11.0 |
-| Darnell Washington | Pittsburgh Steelers | receiving yards | 3.5 | 0–7.8 | 6 | 0.0, 0.0, 5.0, 10.0, 6.0, 11.0 |
-| Germie Bernard | Pittsburgh Steelers | receiving yards | 6.1 | 1.7–10.6 | 6 | 6.0, 6.0, 6.0, 13.0, 0.0, 0.0 |
-| Jaylen Warren | Pittsburgh Steelers | receiving yards | 16.4 | 0–42.2 | 6 | 0.0, 10.0, 0.0, 75.0, 20.0, 30.0 |
-| Jaylen Warren | Pittsburgh Steelers | rushing yards | 29.7 | 10.3–49.1 | 6 | 65.0, 13.0, 20.0, 5.0, 29.0, 16.0 |
-| Pat Freiermuth | Pittsburgh Steelers | receiving yards | 3.0 | 0–6.3 | 6 | 7.0, 0.0, 0.0, 7.0, 0.0, 0.0 |
-| Rico Dowdle | Pittsburgh Steelers | rushing yards | 17.0 | 5.9–28.1 | 3 | 27.0, 5.0, 11.0 |
+NFL.com game-day inactive list has not been verified yet; projections withheld.
