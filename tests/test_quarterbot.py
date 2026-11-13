@@ -1,0 +1,67 @@
+import unittest
+
+from quarterbot import nba_stats, nfl_stats, project, season_year
+from datetime import datetime, timezone
+
+
+class ParserTests(unittest.TestCase):
+    def test_nba_first_quarter_only_and_assist(self):
+        summary = {
+            "boxscore": {"players": [{"team": {"id": "1"}, "statistics": [{"athletes": [
+                {"athlete": {"id": "a", "displayName": "Alex"}, "didNotPlay": False},
+                {"athlete": {"id": "b", "displayName": "Blake"}, "didNotPlay": False},
+            ]}]}]},
+            "plays": [
+                {"period": {"number": 1}, "team": {"id": "1"}, "type": {"text": "Jump Shot"},
+                 "scoringPlay": True, "scoreValue": 2, "text": "Alex makes shot (Blake assists)",
+                 "participants": [{"athlete": {"id": "a"}}, {"athlete": {"id": "b"}}]},
+                {"period": {"number": 1}, "team": {"id": "1"}, "type": {"text": "Defensive Rebound"},
+                 "participants": [{"athlete": {"id": "b"}}]},
+                {"period": {"number": 2}, "team": {"id": "1"}, "type": {"text": "Jump Shot"},
+                 "scoringPlay": True, "scoreValue": 3, "participants": [{"athlete": {"id": "a"}}]},
+            ],
+        }
+        stats, roster = nba_stats(summary, "1")
+        self.assertEqual(roster, {"a", "b"})
+        self.assertEqual(stats["a"]["points"], 2)
+        self.assertEqual(stats["b"]["rebounds"], 1)
+        self.assertEqual(stats["b"]["assists"], 1)
+
+    def test_nfl_first_quarter_yards_and_no_play(self):
+        athletes = [
+            {"athlete": {"id": "q", "firstName": "John", "lastName": "Jones", "displayName": "John Jones"}},
+            {"athlete": {"id": "r", "firstName": "Bill", "lastName": "Reed", "displayName": "Bill Reed"}},
+        ]
+        summary = {
+            "boxscore": {"players": [{"team": {"id": "1"}, "statistics": [
+                {"name": "passing", "athletes": athletes[:1]},
+                {"name": "rushing", "athletes": athletes[1:]},
+                {"name": "receiving", "athletes": athletes[1:]},
+            ]}]},
+            "drives": {"previous": [{"team": {"id": "1"}, "plays": [
+                {"period": {"number": 1}, "type": {"text": "Pass Reception"},
+                 "text": "J.Jones pass short right to B.Reed for 13 yards."},
+                {"period": {"number": 1}, "type": {"text": "Rush"},
+                 "text": "B.Reed right tackle for 4 yards."},
+                {"period": {"number": 1}, "type": {"text": "Penalty"},
+                 "text": "B.Reed right tackle for 10 yards. No Play."},
+                {"period": {"number": 2}, "type": {"text": "Rush"},
+                 "text": "B.Reed right tackle for 20 yards."},
+            ]}]},
+        }
+        stats, roster = nfl_stats(summary, "1")
+        self.assertEqual(roster, {"q", "r"})
+        self.assertEqual(stats["q"]["passing_yards"], 13)
+        self.assertEqual(stats["r"]["receiving_yards"], 13)
+        self.assertEqual(stats["r"]["rushing_yards"], 4)
+
+    def test_projection_and_season(self):
+        p = project([8, 6, 4, 2])
+        self.assertGreater(p["estimate"], 5)
+        self.assertLessEqual(p["low"], p["estimate"])
+        self.assertEqual(season_year("nba", datetime(2026, 11, 13, tzinfo=timezone.utc)), 2027)
+        self.assertEqual(season_year("nfl", datetime(2026, 1, 13, tzinfo=timezone.utc)), 2025)
+
+
+if __name__ == "__main__":
+    unittest.main()
