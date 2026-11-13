@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-13T19:37:50.872159+00:00",
+  "generated_at": "2026-11-13T19:39:35.450097+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
+  "nba_sample_size": 10,
   "games": [
     {
       "id": "401909296",
