@@ -53,6 +53,18 @@
   ],
   "shadow_comparison": [],
   "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. Shadow challenger NOT promoted.",
+  "nba_points_by_actual_starter": [
+    {
+      "actually_started": true,
+      "n": 16,
+      "mae": 2.631
+    },
+    {
+      "actually_started": false,
+      "n": 8,
+      "mae": 2.288
+    }
+  ],
   "reference_commit": "e68f587c8",
   "day": "2026-11-12",
   "generated_at": "2026-11-13T00:37:56.530058+00:00",
