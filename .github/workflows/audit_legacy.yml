@@ -3,7 +3,7 @@ name: Audit November 12 legacy first-quarter predictions
 on:
   push:
     branches: ["main"]
-    paths: [".github/workflows/audit_legacy.yml"]
+    paths: [".github/workflows/audit_legacy.yml", "audit_legacy.py"]
   workflow_dispatch:
 
 permissions:
