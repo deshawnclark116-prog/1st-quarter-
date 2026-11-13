@@ -1,0 +1,205 @@
+{
+  "design": "2025-only model selection/refitting, test on 2026 frozen predictions",
+  "limitation": "historical target starters are ORACLE and 2026 results already inspected; not clean prospective performance",
+  "promotion_authorized": false,
+  "market_results": [
+    {
+      "metric": "points",
+      "earlier_train_n": 408,
+      "earlier_validation_n": 235,
+      "year_2026_n": 1142,
+      "year_2026_later_n": 386,
+      "selected_solely_2025": {
+        "name": "shallow_quantile_boost",
+        "validation": {
+          "n": 235,
+          "baseline_mae": 2.6179,
+          "challenger_mae": 2.5855,
+          "mae_improvement_pct": 1.24
+        }
+      },
+      "year_2026_all": {
+        "n": 1142,
+        "baseline_mae": 2.5554,
+        "challenger_mae": 2.4933,
+        "mae_improvement_pct": 2.43
+      },
+      "year_2026_later": {
+        "n": 386,
+        "baseline_mae": 2.5285,
+        "challenger_mae": 2.4773,
+        "mae_improvement_pct": 2.02
+      },
+      "all_models_2025_validation": [
+        {
+          "name": "shallow_quantile_boost",
+          "validation": {
+            "n": 235,
+            "baseline_mae": 2.6179,
+            "challenger_mae": 2.5855,
+            "mae_improvement_pct": 1.24
+          }
+        },
+        {
+          "name": "pooled_huber",
+          "validation": {
+            "n": 235,
+            "baseline_mae": 2.6179,
+            "challenger_mae": 2.6382,
+            "mae_improvement_pct": -0.78
+          }
+        },
+        {
+          "name": "bagged_trees",
+          "validation": {
+            "n": 235,
+            "baseline_mae": 2.6179,
+            "challenger_mae": 2.6018,
+            "mae_improvement_pct": 0.61
+          }
+        },
+        {
+          "name": "randomized_trees",
+          "validation": {
+            "n": 235,
+            "baseline_mae": 2.6179,
+            "challenger_mae": 2.5897,
+            "mae_improvement_pct": 1.08
+          }
+        }
+      ]
+    },
+    {
+      "metric": "rebounds",
+      "earlier_train_n": 382,
+      "earlier_validation_n": 218,
+      "year_2026_n": 1046,
+      "year_2026_later_n": 351,
+      "selected_solely_2025": {
+        "name": "shallow_quantile_boost",
+        "validation": {
+          "n": 218,
+          "baseline_mae": 1.1784,
+          "challenger_mae": 1.1098,
+          "mae_improvement_pct": 5.83
+        }
+      },
+      "year_2026_all": {
+        "n": 1046,
+        "baseline_mae": 1.1073,
+        "challenger_mae": 1.0585,
+        "mae_improvement_pct": 4.4
+      },
+      "year_2026_later": {
+        "n": 351,
+        "baseline_mae": 1.0983,
+        "challenger_mae": 1.0057,
+        "mae_improvement_pct": 8.43
+      },
+      "all_models_2025_validation": [
+        {
+          "name": "shallow_quantile_boost",
+          "validation": {
+            "n": 218,
+            "baseline_mae": 1.1784,
+            "challenger_mae": 1.1098,
+            "mae_improvement_pct": 5.83
+          }
+        },
+        {
+          "name": "pooled_huber",
+          "validation": {
+            "n": 218,
+            "baseline_mae": 1.1784,
+            "challenger_mae": 1.1196,
+            "mae_improvement_pct": 4.99
+          }
+        },
+        {
+          "name": "bagged_trees",
+          "validation": {
+            "n": 218,
+            "baseline_mae": 1.1784,
+            "challenger_mae": 1.1462,
+            "mae_improvement_pct": 2.73
+          }
+        },
+        {
+          "name": "randomized_trees",
+          "validation": {
+            "n": 218,
+            "baseline_mae": 1.1784,
+            "challenger_mae": 1.1431,
+            "mae_improvement_pct": 2.99
+          }
+        }
+      ]
+    },
+    {
+      "metric": "assists",
+      "earlier_train_n": 329,
+      "earlier_validation_n": 187,
+      "year_2026_n": 919,
+      "year_2026_later_n": 321,
+      "selected_solely_2025": {
+        "name": "pooled_huber",
+        "validation": {
+          "n": 187,
+          "baseline_mae": 0.8572,
+          "challenger_mae": 0.8355,
+          "mae_improvement_pct": 2.53
+        }
+      },
+      "year_2026_all": {
+        "n": 919,
+        "baseline_mae": 0.9318,
+        "challenger_mae": 0.8902,
+        "mae_improvement_pct": 4.46
+      },
+      "year_2026_later": {
+        "n": 321,
+        "baseline_mae": 0.9,
+        "challenger_mae": 0.8635,
+        "mae_improvement_pct": 4.06
+      },
+      "all_models_2025_validation": [
+        {
+          "name": "shallow_quantile_boost",
+          "validation": {
+            "n": 187,
+            "baseline_mae": 0.8572,
+            "challenger_mae": 0.8444,
+            "mae_improvement_pct": 1.5
+          }
+        },
+        {
+          "name": "pooled_huber",
+          "validation": {
+            "n": 187,
+            "baseline_mae": 0.8572,
+            "challenger_mae": 0.8355,
+            "mae_improvement_pct": 2.53
+          }
+        },
+        {
+          "name": "bagged_trees",
+          "validation": {
+            "n": 187,
+            "baseline_mae": 0.8572,
+            "challenger_mae": 0.8564,
+            "mae_improvement_pct": 0.09
+          }
+        },
+        {
+          "name": "randomized_trees",
+          "validation": {
+            "n": 187,
+            "baseline_mae": 0.8572,
+            "challenger_mae": 0.8654,
+            "mae_improvement_pct": -0.95
+          }
+        }
+      ]
+    }
+  ]
+}
