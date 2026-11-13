@@ -11,6 +11,7 @@ from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from quarterbot import BASE, SPORTS, fetch_json, nba_stats, nfl_stats, parse_time
+from quarter_validation import validate_shot_shadow
 
 ARCHIVE_DIR = Path("archive")
 
@@ -174,6 +175,7 @@ def summarize(rows: list[dict]) -> dict:
             for (sport, metric), data in sorted(groups.items())
             if (paired := [x for x in data if x.get("shot_absolute_error") is not None])
         ],
+        "live_shot_validation": validate_shot_shadow(rows),
         "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. NO challenger automatically promoted.",
     }
 
