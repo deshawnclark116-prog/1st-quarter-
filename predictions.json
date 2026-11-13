@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:39:35.450097+00:00",
+  "generated_at": "2026-11-13T22:03:20.860756+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
@@ -23,8 +23,9 @@
           "abbreviation": "NY"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909297",
@@ -44,8 +45,9 @@
           "abbreviation": "MIL"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909298",
@@ -65,8 +67,9 @@
           "abbreviation": "CLE"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909299",
@@ -86,8 +89,9 @@
           "abbreviation": "ATL"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909300",
@@ -107,8 +111,9 @@
           "abbreviation": "MEM"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909301",
@@ -128,8 +133,9 @@
           "abbreviation": "UTAH"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909302",
@@ -149,8 +155,9 @@
           "abbreviation": "GS"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909303",
@@ -170,8 +177,9 @@
           "abbreviation": "POR"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909304",
@@ -191,8 +199,9 @@
           "abbreviation": "OKC"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909980",
@@ -212,8 +221,9 @@
           "abbreviation": "DEN"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909981",
@@ -233,8 +243,9 @@
           "abbreviation": "DAL"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909982",
@@ -254,8 +265,9 @@
           "abbreviation": "DET"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909983",
@@ -275,8 +287,9 @@
           "abbreviation": "BKN"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
       "id": "401909984",
@@ -296,9 +309,11 @@
           "abbreviation": "CHI"
         }
       ],
+      "run_phase": "waiting",
       "predictions": [],
-      "withheld_reason": "Awaiting the two-hour pregame verification window."
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     }
   ],
-  "warnings": []
+  "warnings": [],
+  "publication_policy": "scheduled_game_minus_30_with_unconfirmed_retry_minus_15"
 }
