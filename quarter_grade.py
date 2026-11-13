@@ -166,9 +166,29 @@ def summarize(rows: list[dict]) -> dict:
 
 
 def main():
+    dest = Path("grading")
+    dest.mkdir(exist_ok=True)
+    prior_csv = dest / "rows.csv"
     rows, warnings = [], []
+    if prior_csv.exists():
+        with prior_csv.open(newline="", encoding="utf-8") as handle:
+            for old in csv.DictReader(handle):
+                try:
+                    old["estimate"] = float(old["estimate"])
+                    old["actual"] = float(old["actual"])
+                    old["error"] = float(old["error"])
+                    old["absolute_error"] = float(old["absolute_error"])
+                    old["in_range"] = str(old["in_range"]).lower() == "true"
+                    shadow = old.get("shadow_absolute_error")
+                    old["shadow_absolute_error"] = float(shadow) if shadow not in (None, "", "None") else None
+                    rows.append(old)
+                except (KeyError, ValueError, TypeError):
+                    continue
+    existing_games = {(r["sport"], str(r["game_id"])) for r in rows}
     snapshots = select_latest_pregame()
     for snap in snapshots:
+        if (snap["sport"], str(snap["game_id"])) in existing_games:
+            continue  # Existing historical results survive subsequent daily runs.
         try:
             summary = fetch_json(f"{BASE}/{SPORTS[snap['sport']]}/summary", {"event": snap["game_id"]})
             graded, notes = grade_snapshot(snap, summary)
@@ -176,8 +196,6 @@ def main():
             warnings.extend(f"{snap['game_id']}: {note}" for note in notes)
         except (RuntimeError, ValueError, KeyError) as exc:
             warnings.append(f"{snap['game_id']}: {exc}")
-    dest = Path("grading")
-    dest.mkdir(exist_ok=True)
     result = summarize(rows)
     result["snapshots_checked"] = len(snapshots)
     result["warnings"] = warnings
