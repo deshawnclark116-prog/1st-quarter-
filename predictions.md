@@ -1,6 +1,6 @@
 # Experimental first-quarter baseline
 
-Generated: Fri Nov 13, 02:29 PM EST
+Generated: Fri Nov 13, 02:37 PM EST
 Window starts: 2026-11-13 Eastern (2 days); up to 6 prior games per team.
 Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
