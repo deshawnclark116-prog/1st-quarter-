@@ -16,6 +16,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
+from quarter_guard import fetch_confirmed_starters, gate_nba_predictions
+from quarter_challenger import nba_starter_flags, role_challenger
 
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports"
@@ -198,6 +200,7 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
         errors.append(f"{sport.upper()} {team['name']}: only {len(games)} completed games found")
         return []
     samples, latest_roster, names = defaultdict(list), set(), {}
+    role_samples = defaultdict(list)
     for index, game in enumerate(games):
         try:
             if game["id"] not in cache:
@@ -205,6 +208,7 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
             summary = cache[game["id"]]
             game_stats, roster = (nba_stats(summary, team["id"]) if sport == "nba"
                                   else nfl_stats(summary, team["id"]))
+            known_starters = nba_starter_flags(summary, team["id"]) if sport == "nba" else {}
             if index == 0:
                 latest_roster = roster
             for pid in roster:
@@ -214,6 +218,7 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
             for pid in roster:
                 for metric in METRICS[sport]:
                     samples[(pid, metric)].append(float(game_stats.get(pid, {}).get(metric, 0)))
+                    role_samples[(pid, metric)].append(known_starters.get(str(pid)))
         except (RuntimeError, KeyError, ValueError) as error:
             errors.append(f"{sport.upper()} game {game['id']}: {error}")
     results = []
@@ -222,6 +227,12 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
             continue
         prediction = project(values)
         if prediction["estimate"] >= MIN_DISPLAY[metric]:
+            # An independent, role-aware challenger is logged but never promoted
+            # until future-only paired grading proves superior.
+            if sport == "nba":
+                shadow = role_challenger(values, role_samples[(pid, metric)], prediction["estimate"])
+                if shadow is not None:
+                    prediction["shadow_role_estimate"] = shadow
             results.append({"player": names[pid], "player_id": pid, "team": team["name"],
                             "team_id": team["id"], "metric": metric, **prediction})
     return sorted(results, key=lambda result: (result["player"], result["metric"]))
@@ -375,6 +386,14 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
             continue
         for game in games:
             before = parse_time(game["date"])
+            now = datetime.now(timezone.utc)
+            # Only spend API calls when an actionable pregame window approaches.
+            # Never show early estimates as verified lineup-based projections.
+            if before > now + timedelta(hours=2):
+                game["predictions"] = []
+                game["withheld_reason"] = "Awaiting the two-hour pregame verification window."
+                report["games"].append(game)
+                continue
             predictions = []
             for team in game["teams"]:
                 key = (sport, team["id"], season_year(sport, before))
@@ -387,6 +406,15 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
                 predictions.extend(teams_cache[key])
             game["predictions"] = filter_availability(game, predictions, before,
                                                       roster_cache, cache, report["warnings"])
+            if sport == "nba":
+                # A listed active roster is NOT a confirmed starting five.
+                starters, source = fetch_confirmed_starters(game)
+                game["predictions"] = gate_nba_predictions(
+                    game, game["predictions"], starters, source
+                )
+            if datetime.now(timezone.utc) >= before - timedelta(minutes=2):
+                game["predictions"] = []
+                game["withheld_reason"] = "Pregame cutoff reached before publication; projections withheld."
             report["games"].append(game)
     return report
 
@@ -442,10 +470,14 @@ def main() -> int:
         parser.error("--days must be 1–14 and --games must be 3–20")
     sports = list(SPORTS) if args.sport == "both" else [args.sport]
     report = build_report(args.date, args.days, args.games, sports)
+    # Model outputs remain experimental; this is a verified-starter gate, not
+    # an assertion of calibrated betting probabilities.
+    from quarter_grade import archive_report
+    archived = archive_report(report)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(markdown(report), encoding="utf-8")
     args.output.with_suffix(".json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {args.output} and {args.output.with_suffix('.json')} ({len(report['games'])} games)")
+    print(f"Wrote {args.output} and {args.output.with_suffix('.json')} ({len(report['games'])} games); archived {archived} pregame snapshots")
     for warning in report["warnings"]:
         print("WARNING:", warning, file=sys.stderr)
     return 0 if report["games"] or not report["warnings"] else 1

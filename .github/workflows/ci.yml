@@ -1,0 +1,66 @@
+name: First-quarter quality gate
+
+on:
+  push:
+    branches: ["q1-verification-grading-v2"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Syntax-compile and run deterministic unit tests
+        run: |
+          python -m compileall -q quarterbot.py quarter_guard.py quarter_challenger.py quarter_grade.py
+          python -m unittest discover -s tests -v
+      - name: Non-blocking NBA.com lineup source probe
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from urllib.request import Request, urlopen
+          from quarter_guard import LINEUPS_URL
+          date = datetime.now(ZoneInfo("America/New_York")).strftime("%Y%m%d")
+          url = LINEUPS_URL.format(day=date)
+          try:
+              with urlopen(Request(url, headers={
+                  "User-Agent": "Mozilla/5.0 (compatible; quarterbot/2.0)",
+                  "Accept": "application/json"}), timeout=10) as response:
+                  payload = json.load(response)
+              statuses, examples = Counter(), []
+              def inspect(node):
+                  if isinstance(node, list):
+                      for value in node: inspect(value)
+                  elif isinstance(node, dict):
+                      if "lineupStatus" in node or "lineup_status" in node:
+                          statuses[str(node.get("lineupStatus", node.get("lineup_status")))] += 1
+                          if len(examples) < 3: examples.append(sorted(node))
+                      for value in node.values(): inspect(value)
+              inspect(payload)
+              print("NBA feed accessible. Top-level keys:", sorted(payload)[:20] if isinstance(payload, dict) else type(payload).__name__)
+              print("lineupStatus counts:", dict(statuses))
+              print("lineup player record field names:", examples)
+              games = payload.get("games", []) if isinstance(payload, dict) else []
+              print("games count:", len(games))
+              if games and isinstance(games[0], dict):
+                  game0 = games[0]
+                  print("first game keys:", sorted(game0))
+                  for k, v in game0.items():
+                      if isinstance(v, dict): print("game child", k, "keys:", sorted(v))
+                      elif isinstance(v, list) and v and isinstance(v[0], dict):
+                          print("game list", k, "first child keys:", sorted(v[0]))
+          except Exception as error:
+              print("NBA feed UNVERIFIED (not a model test failure):", type(error).__name__, str(error)[:250])
+          PY
