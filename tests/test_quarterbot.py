@@ -1,6 +1,6 @@
 import unittest
 
-from quarterbot import filter_availability, markdown, nba_stats, nfl_stats, project, season_year
+from quarterbot import extract_official_inactives, filter_availability, markdown, nba_stats, nfl_stats, project, season_year
 from datetime import datetime, timezone
 from unittest.mock import patch
 
@@ -86,12 +86,22 @@ class ParserTests(unittest.TestCase):
         with (patch("quarterbot.fetch_json", return_value=preview),
               patch("quarterbot.active_roster", side_effect=lambda sport, team, before:
                     {"starter", "backup"} if team == "19" else {"out", "q"}),
+              patch("quarterbot.official_nfl_inactives", return_value=({"19": ["QB Backup"], "28": []}, "https://amp.nfl.com/news/example")),
               patch("quarterbot.last_game_lead_qb", side_effect=lambda team, before, cache:
                     "starter" if team == "19" else None)):
             result = filter_availability(game, predictions,
                                          datetime(2026, 11, 13, tzinfo=timezone.utc), {}, {}, [])
         self.assertEqual({p["player"] for p in result}, {"Starter", "Questionable"})
         self.assertEqual(next(p for p in result if p["player"] == "Questionable")["availability"], "questionable")
+
+    def test_official_inactive_article_requires_both_team_lists(self):
+        teams = [{"id": "19", "name": "New York Giants"},
+                 {"id": "28", "name": "Washington Commanders"}]
+        article = """<h3>COMMANDERS</h3><ul><li>TE Colson Yankoff</li><li>QB Athan Kaliakmanis</li><li>C Lucas Patrick</li></ul>
+                     <h3><strong>GIANTS</strong></h3><ul><li>LB Malik Harrison</li><li>CB Paulson Adebo</li><li>OL Josh Sills</li></ul>"""
+        listed = extract_official_inactives(article, teams)
+        self.assertIn("TE Colson Yankoff", listed["28"])
+        self.assertIsNone(extract_official_inactives(article.split("<h3><strong>GIANTS")[0], teams))
 
 
 if __name__ == "__main__":
