@@ -1,0 +1,31 @@
+name: Independent prior-season Q1 opportunity stress test
+on:
+  push:
+    branches: ["research-q1-opportunity-v3"]
+    paths: [".github/workflows/research_2025.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test research candidates
+        run: python -m unittest discover -s tests -v
+      - name: Run independently held retrospective 2025 Q1 history
+        run: python research_opportunity_2025.py --from-date 2025-10-20 --through-date 2025-11-12 --max-games 180
+      - name: Save year-separated evaluation without promotion
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_results/opportunity-v3-2025.json research_results/opportunity-v3-2025.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Record independent 2025 Q1 historical stress test"
+            git pull --rebase origin research-q1-opportunity-v3
+            git push origin HEAD:research-q1-opportunity-v3
+          fi

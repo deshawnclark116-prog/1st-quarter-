@@ -1,0 +1,84 @@
+name: Probe first-quarter rotation and opportunity source
+on:
+  push:
+    branches: ["research-q1-opportunity-v3"]
+    paths: [".github/workflows/research_probe.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Inspect actual Q1 play-by-play and starter state
+        run: |
+          python - <<'PY'
+          from quarterbot import fetch_json, BASE
+          from collections import Counter
+          summary=fetch_json(f"{BASE}/basketball/nba/summary",{"event":"401909978"})
+          print("top-level keys",sorted(summary))
+          plays=[p for p in summary.get("plays",[]) if p.get("period",{}).get("number")==1]
+          print("Q1 plays",len(plays),"types",Counter(p.get("type",{}).get("text","") for p in plays).most_common(35))
+          for p in plays:
+              label=p.get("type",{}).get("text","").lower()
+              if any(t in label for t in ("substit","timeout","end period")):
+                  print("ROTATION",repr(p)[:900])
+                  if len([1 for q in plays[:plays.index(p)] if "substit" in q.get("type",{}).get("text","").lower()])>=3:break
+          for grp in summary.get("boxscore",{}).get("players",[])[:2]:
+              print("BOXTEAM",grp.get("team",{}).get("id"))
+              print("CATEGORY",str(grp.get("statistics",[])[0].keys())[:1000])
+              for a in grp.get("statistics",[])[0].get("athletes",[])[:4]:
+                  print("ATHLETE",{"starter":a.get("starter"),"stats":a.get("stats"),"name":a.get("athlete",{}).get("displayName")})
+          print("Q1 chronological audit")
+          from quarter_challenger import nba_starter_flags
+          from quarter_opportunity import q1_clock_seconds
+          for tid in ("6", "16"):
+              starter=nba_starter_flags(summary,tid)
+              oc={pid for pid,b in starter.items() if b}
+              print("TEAM",tid,"starters",oc)
+              elapsed=0.0
+              sub_count=0
+              for i,p in enumerate(summary.get("plays",[])):
+                  if p.get("period",{}).get("number") != 1:continue
+                  t=q1_clock_seconds(p)
+                  if t is None:continue
+                  if t < elapsed - 2:
+                      print("REVERSAL",i,"elapsed",elapsed,"t",t,"clock",p.get("clock"),"type",p.get("type"))
+                      break
+                  elapsed=max(elapsed,t)
+                  if str(p.get("team",{}).get("id")) != tid: continue
+                  if "substitution" in p.get("type",{}).get("text","").lower():
+                      pts=p.get("participants",[])
+                      if len(pts)<2:
+                          print("SUB_MISSING_PARTICIPANTS",i,p)
+                          break
+                      incoming=str(pts[0].get("athlete",{}).get("id"))
+                      outgoing=str(pts[1].get("athlete",{}).get("id"))
+                      if outgoing not in oc:
+                          print("SUB_MISSING_ONCOURT",i,incoming,outgoing,"existing",oc,"clock",p.get("clock"))
+                          break
+                      oc.remove(outgoing)
+                      oc.add(incoming)
+                      sub_count+=1
+              print("last elapsed",elapsed,"sub count",sub_count)
+          print("SHOOTING EVENT FIELD TEST")
+          for p in plays:
+              label=p.get("type",{}).get("text","").lower()
+              if any(k in label for k in ("jump shot","free throw","layup")):
+                  print("SHOT",label,"scored",p.get("scoringPlay"),"attempted",p.get("pointsAttempted"),
+                        "shooting",p.get("shootingPlay"),"short",p.get("shortDescription"),
+                        "text",p.get("text","")[:70],
+                        "players",[(z.get("athlete",{}).get("id")) for z in p.get("participants",[])])
+                  if p.get("scoringPlay") is False:
+                      break
+          for p in plays:
+              if p.get("shootingPlay") and not p.get("scoringPlay") and p.get("pointsAttempted") in (2,3):
+                  print("MISSED_FGA",p.get("type"),p.get("text","")[:110],
+                        p.get("pointsAttempted"),p.get("participants"))
+                  break
+          PY
