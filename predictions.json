@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:03:20.860756+00:00",
+  "generated_at": "2026-11-13T23:55:12.927306+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
@@ -23,9 +23,12 @@
           "abbreviation": "NY"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-13T23:55:12.927306+00:00",
+      "excluded": [],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909297",
@@ -45,9 +48,12 @@
           "abbreviation": "MIL"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-13T23:55:12.927306+00:00",
+      "excluded": [],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909298",
