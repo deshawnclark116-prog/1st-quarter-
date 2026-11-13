@@ -1,0 +1,34 @@
+name: Audit November 12 legacy first-quarter predictions
+
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/audit_legacy.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit only the historical pregame predictions
+        run: python audit_legacy.py --ref e68f587c8 --date 2026-11-12
+      - name: Persist separate legacy audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add legacy_audit/2026-11-12.json legacy_audit/2026-11-12.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive November 12 legacy first-quarter diagnostic grades"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
