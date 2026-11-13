@@ -18,6 +18,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 from quarter_guard import fetch_confirmed_starters, gate_nba_predictions
 from quarter_challenger import nba_starter_flags, role_challenger
+from quarter_shots import extract_q1_shots, fullgame_shots, forecast_shots
 
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports"
@@ -209,6 +210,7 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
         return []
     samples, latest_roster, names = defaultdict(list), set(), {}
     role_samples = defaultdict(list)
+    shot_history = defaultdict(list)
     for index, game in enumerate(games):
         try:
             if game["id"] not in cache:
@@ -217,6 +219,8 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
             game_stats, roster = (nba_stats(summary, team["id"]) if sport == "nba"
                                   else nfl_stats(summary, team["id"]))
             known_starters = nba_starter_flags(summary, team["id"]) if sport == "nba" else {}
+            shot_q1 = extract_q1_shots(summary, team["id"]) if sport == "nba" else {}
+            shot_full = fullgame_shots(summary, team["id"]) if sport == "nba" else {}
             if index == 0:
                 latest_roster = roster
             for pid in roster:
@@ -227,6 +231,12 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
                 for metric in METRICS[sport]:
                     samples[(pid, metric)].append(float(game_stats.get(pid, {}).get(metric, 0)))
                     role_samples[(pid, metric)].append(known_starters.get(str(pid)))
+                if sport == "nba":
+                    shot_history[pid].append({
+                        "q1_shots": shot_q1.get(str(pid), {}),
+                        "full_shots": shot_full.get(str(pid), {}),
+                        "starter": known_starters.get(str(pid)), "minutes": None,
+                    })
         except (RuntimeError, KeyError, ValueError) as error:
             errors.append(f"{sport.upper()} game {game['id']}: {error}")
     results = []
@@ -241,6 +251,11 @@ def analyze_team(sport: str, team: dict, before: datetime, sample_size: int,
                 shadow = role_challenger(values, role_samples[(pid, metric)], prediction["estimate"])
                 if shadow is not None:
                     prediction["shadow_role_estimate"] = shadow
+                if metric == "points" and len(shot_history.get(pid, [])) >= 3:
+                    # Research-only: this never overrides the official estimate.
+                    experimental = forecast_shots(shot_history[pid], prediction["estimate"])
+                    if experimental.get("shot_volume") is not None:
+                        prediction["shadow_shot_estimate"] = experimental["shot_volume"]
             results.append({"player": names[pid], "player_id": pid, "team": team["name"],
                             "team_id": team["id"], "metric": metric, **prediction})
     return sorted(results, key=lambda result: (result["player"], result["metric"]))

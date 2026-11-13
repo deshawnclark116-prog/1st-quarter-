@@ -123,7 +123,11 @@ def grade_snapshot(snapshot: dict, summary: dict) -> tuple[list[dict], list[str]
         estimate = float(pred["estimate"])
         shadow = pred.get("shadow_role_estimate")
         shadow = float(shadow) if shadow is not None else None
+        shot = pred.get("shadow_shot_estimate")
+        shot = float(shot) if shot is not None else None
         rows.append({
+            "shot_estimate": shot,
+            "shot_absolute_error": round(abs(shot - actual), 3) if shot is not None else None,
             "shadow_estimate": shadow,
             "shadow_absolute_error": round(abs(shadow - actual), 3) if shadow is not None else None,
             "date_et": snapshot["date_et"][:10], "game_id": snapshot["game_id"],
@@ -161,7 +165,16 @@ def summarize(rows: list[dict]) -> dict:
             for (sport, metric), data in sorted(groups.items())
             if (paired := [x for x in data if x.get("shadow_absolute_error") is not None])
         ],
-        "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. Shadow challenger NOT promoted.",
+        "shot_comparison": [
+            {"sport": sport, "market": metric, "paired_n": len(paired),
+             "baseline_mae_on_paired": round(sum(x["absolute_error"] for x in paired) / len(paired), 3),
+             "shot_mae_on_paired": round(sum(x["shot_absolute_error"] for x in paired) / len(paired), 3),
+             "mae_improvement": round(sum(x["absolute_error"] - x["shot_absolute_error"] for x in paired) / len(paired), 3),
+             "promoted": False}
+            for (sport, metric), data in sorted(groups.items())
+            if (paired := [x for x in data if x.get("shot_absolute_error") is not None])
+        ],
+        "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. NO challenger automatically promoted.",
     }
 
 
@@ -181,6 +194,8 @@ def main():
                     old["in_range"] = str(old["in_range"]).lower() == "true"
                     shadow = old.get("shadow_absolute_error")
                     old["shadow_absolute_error"] = float(shadow) if shadow not in (None, "", "None") else None
+                    shot = old.get("shot_absolute_error")
+                    old["shot_absolute_error"] = float(shot) if shot not in (None, "", "None") else None
                     rows.append(old)
                 except (KeyError, ValueError, TypeError):
                     continue
@@ -200,7 +215,8 @@ def main():
     result["snapshots_checked"] = len(snapshots)
     result["warnings"] = warnings
     (dest / "summary.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
-    fields = ["date_et", "game_id", "matchup", "sport", "snapshot_at", "model_version", "player", "metric", "estimate", "actual", "error", "absolute_error", "in_range", "shadow_estimate", "shadow_absolute_error"]
+    fields = ["date_et", "game_id", "matchup", "sport", "snapshot_at", "model_version", "player", "metric", "estimate", "actual", "error", "absolute_error", "in_range", "shadow_estimate", "shadow_absolute_error",
+              "shot_estimate", "shot_absolute_error"]
     with (dest / "rows.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
