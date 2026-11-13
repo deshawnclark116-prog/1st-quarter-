@@ -76,4 +76,9 @@ jobs:
                         "players",[(z.get("athlete",{}).get("id")) for z in p.get("participants",[])])
                   if p.get("scoringPlay") is False:
                       break
+          for p in plays:
+              if p.get("shootingPlay") and not p.get("scoringPlay") and p.get("pointsAttempted") in (2,3):
+                  print("MISSED_FGA",p.get("type"),p.get("text","")[:110],
+                        p.get("pointsAttempted"),p.get("participants"))
+                  break
           PY
