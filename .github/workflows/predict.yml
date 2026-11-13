@@ -37,9 +37,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p archive
           git add predictions.md predictions.json
-          git add -A archive
+          if [ -d archive ] && find archive -type f -print -quit | grep -q .; then
+            git add -A archive
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "Record first-quarter pregame predictions and snapshots"
             git pull --rebase origin main
