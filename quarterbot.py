@@ -248,7 +248,7 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
 def markdown(report: dict) -> str:
     lines = ["# First-quarter player projections", "", f"Generated: {report['generated_at']}",
              f"Window starts: {report['start_date']} Eastern ({report['days']} days); up to {report['sample_size']} prior games per team.",
-             "Game times are shown in Eastern time (EST or EDT).", "",
+             "Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.", "",
              "Estimates use each player's recent first-quarter results, weighted toward newer games. "
              "Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. "
              "Availability, injuries, lineup changes, and matchup adjustments are not verified. "
