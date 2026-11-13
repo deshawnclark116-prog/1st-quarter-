@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import statistics
@@ -43,6 +44,14 @@ def fetch_json(url: str, params: dict | None = None, retries: int = 2) -> dict:
             if attempt < retries:
                 time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"Could not fetch {url}: {last_error}")
+
+
+def fetch_text(url: str) -> str:
+    try:
+        with urlopen(Request(url, headers={"User-Agent": "1st-quarter-bot/1.0"}), timeout=20) as response:
+            return response.read().decode("utf-8")
+    except (HTTPError, URLError, TimeoutError, UnicodeDecodeError) as error:
+        raise RuntimeError(f"Could not fetch {url}: {error}") from error
 
 
 def parse_time(value: str) -> datetime:
@@ -257,6 +266,53 @@ def last_game_lead_qb(team_id: str, before: datetime, cache: dict) -> str | None
     return max(candidates)[1] if candidates and max(candidates)[0] > 0 else None
 
 
+def normalized_name(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", value.lower())
+
+
+def extract_official_inactives(page: str, teams: list[dict]) -> dict[str, list[str]] | None:
+    """Read the team sections of an NFL.com game-day inactive article."""
+    headings = {}
+    for match in re.finditer(r"<h3\b[^>]*>(.*?)</h3>(.*?)(?=<h3\b|$)", page, re.I | re.S):
+        title = html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip().upper()
+        listed = re.search(r"<ul\b[^>]*>(.*?)</ul>", match.group(2), re.I | re.S)
+        if not listed:
+            continue
+        players = [" ".join(html.unescape(re.sub(r"<[^>]+>", "", item)).split())
+                   for item in re.findall(r"<li\b[^>]*>(.*?)</li>", listed.group(1), re.I | re.S)]
+        if players:
+            headings[title] = players
+    found = {}
+    for team in teams:
+        title = team["name"].split()[-1].upper()
+        if title not in headings or len(headings[title]) < 3:
+            return None
+        found[team["id"]] = headings[title]
+    return found
+
+
+def official_nfl_inactives(game: dict, preview: dict) -> tuple[dict[str, list[str]], str] | None:
+    week = preview.get("header", {}).get("week")
+    if not isinstance(week, int):
+        return None
+    local = parse_time(game["date"]).astimezone(LOCAL_TZ)
+    season = season_year("nfl", local)
+    day = local.strftime("%A").lower()
+    matchup = re.sub(r"[^a-z0-9]+", "-", game["name"].lower()).strip("-")
+    if day in {"thursday", "monday"}:
+        slug = f"week-{week}-{day}-night-inactives-{matchup}"
+    elif day == "sunday":
+        slug = f"nfl-week-{week}-inactives-players-ruled-out-sunday-{season}-season"
+    else:
+        return None
+    url = f"https://amp.nfl.com/news/{slug}"
+    try:
+        listed = extract_official_inactives(fetch_text(url), game["teams"])
+    except RuntimeError:
+        return None
+    return (listed, url) if listed else None
+
+
 def filter_availability(game: dict, predictions: list[dict], before: datetime,
                         roster_cache: dict, summary_cache: dict, errors: list[str]) -> list[dict]:
     sport = game["sport"]
@@ -273,11 +329,18 @@ def filter_availability(game: dict, predictions: list[dict], before: datetime,
                 roster_cache[key] = active_roster(sport, team["id"], before)
             active[team["id"]] = roster_cache[key]
         lead_qbs = {}
+        official = None
         if sport == "nfl":
+            official = official_nfl_inactives(game, preview)
+            if official is None:
+                game["withheld_reason"] = "NFL.com game-day inactive list is not yet available or could not be verified."
+                return []
+            game["availability_source"] = official[1]
             for team in game["teams"]:
                 lead_qbs[team["id"]] = last_game_lead_qb(team["id"], before, summary_cache)
     except (RuntimeError, KeyError, ValueError) as error:
         errors.append(f"{sport.upper()} {game['name']}: availability could not be checked: {error}")
+        game["withheld_reason"] = "Roster or injury check failed."
         return []
     eligible = []
     excluded = []
@@ -286,6 +349,9 @@ def filter_availability(game: dict, predictions: list[dict], before: datetime,
         status = injuries.get(pid, "")
         if pid not in active[team_id]:
             excluded.append(prediction["player"] + " (not on active roster)")
+        elif official and any(normalized_name(prediction["player"]) in normalized_name(item)
+                              for item in official[0][team_id]):
+            excluded.append(prediction["player"] + " (officially inactive)")
         elif status in {"out", "doubtful", "inactive", "suspended"}:
             excluded.append(prediction["player"] + f" ({status})")
         elif sport == "nfl" and prediction["metric"] == "passing_yards" and pid != lead_qbs[team_id]:
@@ -327,23 +393,27 @@ def build_report(start: date, days: int, sample_size: int, sports: list[str]) ->
 
 def markdown(report: dict) -> str:
     generated = parse_time(report["generated_at"]).astimezone(LOCAL_TZ).strftime("%a %b %d, %I:%M %p %Z")
-    lines = ["# First-quarter player projections", "", f"Generated: {generated}",
+    lines = ["# Experimental first-quarter baseline", "", f"Generated: {generated}",
              f"Window starts: {report['start_date']} Eastern ({report['days']} days); up to {report['sample_size']} prior games per team.",
              "Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.", "",
              "Current team rosters and listed Out/Doubtful injuries are checked before a player is shown. "
+             "NFL projections require NFL.com's published game-day inactive list; they are withheld until it can be verified. "
              "NFL passing estimates show the team's most recent lead passer. Tonight's starter and participation are not confirmed. "
              "Estimates use each player's recent first-quarter results, weighted toward newer games. "
              "Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. "
              "Late lineup changes and matchup adjustments are not reflected. "
-             "NFL yardage comes from play descriptions and may miss unusual or corrected plays.", ""]
+             "NFL yardage comes from play descriptions and may miss unusual or corrected plays. "
+             "This baseline has not yet shown predictive improvement in a backtest.", ""]
     if not report["games"]:
         lines += ["No upcoming NBA or NFL games were found in the selected window.", ""]
     for game in report["games"]:
         start = parse_time(game["date"]).astimezone(LOCAL_TZ).strftime("%a %b %d, %I:%M %p %Z")
         lines += [f"## {game['sport'].upper()}: {game['name']} — {start}", ""]
         if not game["predictions"]:
-            lines += ["Insufficient usable first-quarter history for this game.", ""]
+            lines += [game.get("withheld_reason", "Insufficient usable first-quarter history for this game."), ""]
             continue
+        if game.get("availability_source"):
+            lines += [f"Official inactives: [NFL.com]({game['availability_source']}).", ""]
         if game.get("excluded"):
             lines += ["Excluded after roster/injury/lead-passer check: " + ", ".join(game["excluded"]) + ".", ""]
         lines += ["| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |",
