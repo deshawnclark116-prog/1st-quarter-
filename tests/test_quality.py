@@ -28,11 +28,11 @@ class FirstQuarterQualityTests(unittest.TestCase):
 
     def test_requires_five_individually_confirmed_players_on_both_teams(self):
         def team(code):
-            return {"teamTricode": code, "players": [
+            return {"teamAbbreviation": code, "players": [
                 {"playerName": f"{code} {i}", "lineupStatus": "Confirmed"} for i in range(5)]}
-        payload = {"games": [{"teams": [team("BOS"), team("NY")]}]}
+        payload = {"games": [{"homeTeam": team("BOS"), "awayTeam": team("NYK")}]}
         self.assertEqual(set(confirmed_starters(payload, self.game)), {"BOS", "NYK"})
-        payload["games"][0]["teams"][0]["players"][0]["lineupStatus"] = "Expected"
+        payload["games"][0]["homeTeam"]["players"][0]["lineupStatus"] = "Expected"
         self.assertIsNone(confirmed_starters(payload, self.game))
 
     def test_espn_nba_abbreviation_aliases_and_accents(self):
@@ -44,7 +44,7 @@ class FirstQuarterQualityTests(unittest.TestCase):
         def team(code):
             return {"teamTricode": code, "players": [
                 {"playerName": f"{code} {i}", "lineupStatus": "Confirmed"} for i in range(5)]}
-        payload = {"games": [{"teams": [team("NYK"), team("GSW")]}]}
+        payload = {"games": [{"homeTeam": team("NYK"), "awayTeam": team("GSW")}]}
         found = confirmed_starters(payload, game)
         self.assertEqual(set(found), {"NYK", "GSW"})
 
