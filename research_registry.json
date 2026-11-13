@@ -39,6 +39,68 @@
         }
       },
       "reopen_only_for": "Genuinely new rotation, matchup, minutes, or opportunity data; not rescue tuning same features."
+    },
+    {
+      "name": "nba_q1_shot_volume_v1",
+      "state": "ACTIVE_FORWARD_SHADOW_NOT_PROMOTED",
+      "version": "2026-11-13",
+      "forward_field": "shadow_shot_estimate",
+      "description": "Separate Q1 shot attempt volume from regularized shooting skill using historical ESPN Q1 play-by-play and prior full-game stats.",
+      "validation": {
+        "six_game_2026_validation": {
+          "n": 222,
+          "baseline_mae": 2.7239,
+          "challenger_mae": 2.6377,
+          "relative_improvement_pct": 3.16
+        },
+        "six_game_2026_reused_diagnostic": {
+          "n": 376,
+          "baseline_mae": 2.5971,
+          "challenger_mae": 2.4603,
+          "relative_improvement_pct": 5.27,
+          "game_cluster_bootstrap_95_delta_mae": [
+            0.0531,
+            0.2202
+          ]
+        },
+        "ten_game_2025_reused_diagnostic": {
+          "n": 480,
+          "baseline_mae": 2.6333,
+          "challenger_mae": 2.5592,
+          "relative_improvement_pct": 2.81
+        },
+        "ten_game_2026_reused_diagnostic": {
+          "n": 386,
+          "baseline_mae": 2.5285,
+          "challenger_mae": 2.4346,
+          "relative_improvement_pct": 3.72
+        }
+      },
+      "warning": "Retrospective starting status and previously inspected dates; no sportsbook pricing or independent forward track record; maintain shadow only."
+    },
+    {
+      "name": "q1_cross_season_rebound_hgbr_v1",
+      "state": "RESEARCH_ONLY_NOT_DEPLOYED",
+      "trained_on": "2025 only; model selected on 2025 validation, refit on all 2025",
+      "validation": {
+        "year_2026_all": {
+          "n": 1046,
+          "baseline_mae": 1.1073,
+          "challenger_mae": 1.0585,
+          "relative_improvement_pct": 4.4
+        },
+        "year_2026_later": {
+          "n": 351,
+          "baseline_mae": 1.0983,
+          "challenger_mae": 1.0057,
+          "relative_improvement_pct": 8.43,
+          "game_cluster_bootstrap_95_delta_mae": [
+            0.0166,
+            0.1707
+          ]
+        }
+      },
+      "warning": "Compared to 10-game research baseline and using oracle target starters; not directly comparable to six-game live model; not promoted."
     }
   ],
   "data_gates": {
@@ -50,7 +112,7 @@
   "validation": {
     "legacy_audit": "2026-11-12 historical prediction report before kickoff, 85 grades, starting lineups not previously verified, no sportsbook lines.",
     "clean_forward_samples": 0,
-    "holdout": "NBA chronological research test: late-date holdout; historical starters are oracle availability, not pregame verification.",
+    "holdout": "2025/2026 retrospective cross-season and intra-season experiments; no untouched future predictions graded yet.",
     "success_gate": "Promote only after future-only, preregistered paired tests across varied dates/teams; sufficient n per market, material error/calibration gains, bootstrap uncertainty; no cherry-picking.",
     "profit_gate": "Real bettable 1Q lines and odds, vig, market availability, rejected/unfilled wagers, closing-line value and out-of-sample net ROI required.",
     "not_yet_shown": [
@@ -89,6 +151,8 @@
     "github_actions": "2026-11-13 production smoke run succeeded after browser UA/header fix",
     "lineup_feed": "Confirmed accessible from GitHub runner; 90 Expected players before games, correct structure observed.",
     "prediction_schedule": "15-minute polling in selected UTC game windows",
-    "outcome_grading": "daily separate GitHub Action"
+    "outcome_grading": "daily separate GitHub Action",
+    "forward_shot_shadow": "Merged 2026-11-13 (PR #3); production retains original baseline pick estimates; future archives score separate shot estimate.",
+    "six_vs_ten_window": "Six-game exact-horizon comparative research completed for 2026; 2025 matched check pending as of 2026-11-13. NFL stays six unless separately validated."
   }
 }
