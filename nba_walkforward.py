@@ -16,7 +16,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
-from quarterbot import BASE, SPORTS, MIN_DISPLAY, fetch_json, nba_stats, parse_time, project
+from quarterbot import BASE, SPORTS, MIN_DISPLAY, LOCAL_TZ, fetch_json, nba_stats, parse_time, project
 from quarter_challenger import nba_starter_flags, role_challenger
 from quarter_grade import _q1_team_score
 
@@ -103,7 +103,7 @@ def backtest(begin: date, finish: date, max_games: int = 180, lookback: int = 10
                         shadow = role_challenger(samples, flags, baseline["estimate"])
                         actual = float(today["values"].get(pid, {}).get(metric, 0))
                         rows.append({
-                            "date": event["date"][:10], "game_id": event["id"],
+                            "date": parse_time(event["date"]).astimezone(LOCAL_TZ).date().isoformat(), "game_id": event["id"],
                             "matchup": event["name"], "team": team["name"],
                             "player_id": pid,
                             "player": today["values"].get(pid, {}).get("name", pid),
