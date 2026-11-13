@@ -1,10 +1,92 @@
 # First-quarter player projections
 
-Generated: 2026-11-13T00:23:15.499669+00:00
-Window starts: 2026-11-13 Eastern (4 days); up to 6 prior games per team.
-Game times are shown in Eastern time (EST or EDT).
+Generated: Thu Nov 12, 07:37 PM EST
+Window starts: 2026-11-12 Eastern (4 days); up to 6 prior games per team.
+Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
 Estimates use each player's recent first-quarter results, weighted toward newer games. Ranges show roughly one observed standard deviation around the estimate; they are not calibrated probabilities. Availability, injuries, lineup changes, and matchup adjustments are not verified. NFL yardage comes from play descriptions and may miss unusual or corrected plays.
+
+## NBA: Dallas Mavericks at Minnesota Timberwolves — Thu Nov 12, 08:00 PM EST
+
+| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
+|---|---|---|---:|---:|---:|---|
+| Ayo Dosunmu | Minnesota Timberwolves | assists | 0.6 | 0–1.3 | 6 | 0.0, 0.0, 1.0, 2.0, 1.0, 0.0 |
+| Ayo Dosunmu | Minnesota Timberwolves | points | 5.2 | 2.0–8.5 | 6 | 3.0, 10.0, 4.0, 2.0, 9.0, 2.0 |
+| Ayo Dosunmu | Minnesota Timberwolves | rebounds | 1.5 | 0.1–2.9 | 6 | 2.0, 1.0, 0.0, 4.0, 1.0, 0.0 |
+| Bones Hyland | Minnesota Timberwolves | assists | 0.6 | 0–1.5 | 6 | 0.0, 0.0, 2.0, 0.0, 1.0, 2.0 |
+| Bones Hyland | Minnesota Timberwolves | points | 5.2 | 3.3–7.1 | 6 | 7.0, 3.0, 7.0, 3.0, 6.0, 3.0 |
+| Jaden McDaniels | Minnesota Timberwolves | assists | 2.0 | 0.9–3.0 | 6 | 3.0, 2.0, 1.0, 2.0, 0.0, 3.0 |
+| Jaden McDaniels | Minnesota Timberwolves | points | 2.0 | 0–5.5 | 6 | 0.0, 0.0, 6.0, 3.0, 0.0, 9.0 |
+| Jaden McDaniels | Minnesota Timberwolves | rebounds | 1.5 | 0.7–2.2 | 6 | 1.0, 2.0, 2.0, 2.0, 0.0, 1.0 |
+| Joan Beringer | Minnesota Timberwolves | rebounds | 1.6 | 0.8–2.3 | 6 | 1.0, 2.0, 1.0, 2.0, 3.0, 1.0 |
+| Jonathan Kuminga | Minnesota Timberwolves | assists | 0.8 | 0.1–1.5 | 6 | 0.0, 1.0, 1.0, 2.0, 1.0, 0.0 |
+| Jonathan Kuminga | Minnesota Timberwolves | points | 3.3 | 1.4–5.2 | 6 | 4.0, 5.0, 3.0, 3.0, 0.0, 0.0 |
+| Jonathan Kuminga | Minnesota Timberwolves | rebounds | 1.3 | 0.0–2.5 | 6 | 0.0, 3.0, 0.0, 3.0, 1.0, 1.0 |
+| LaMelo Ball | Minnesota Timberwolves | assists | 1.0 | 0.3–1.6 | 6 | 1.0, 1.0, 2.0, 0.0, 0.0, 1.0 |
+| LaMelo Ball | Minnesota Timberwolves | points | 6.8 | 3.3–10.2 | 6 | 4.0, 7.0, 8.0, 13.0, 2.0, 8.0 |
+| LaMelo Ball | Minnesota Timberwolves | rebounds | 1.0 | 0–2.4 | 6 | 2.0, 0.0, 0.0, 0.0, 3.0, 3.0 |
+| Rudy Gobert | Minnesota Timberwolves | rebounds | 3.3 | 2.3–4.4 | 5 | 3.0, 4.0, 2.0, 4.0, 5.0 |
+| Terrence Shannon Jr. | Minnesota Timberwolves | assists | 1.3 | 0.4–2.3 | 3 | 2.0, 1.0, 0.0 |
+| Terrence Shannon Jr. | Minnesota Timberwolves | points | 2.2 | 0–5.7 | 3 | 2.0, 0.0, 7.0 |
+| Terrence Shannon Jr. | Minnesota Timberwolves | rebounds | 1.2 | 0.6–1.8 | 3 | 1.0, 1.0, 2.0 |
+| Trey Lyles | Minnesota Timberwolves | points | 2.2 | 0–4.5 | 6 | 5.0, 0.0, 3.0, 0.0, 0.0, 5.0 |
+| Trey Lyles | Minnesota Timberwolves | rebounds | 1.7 | 0.8–2.7 | 6 | 3.0, 2.0, 1.0, 1.0, 0.0, 1.0 |
+| Caleb Martin | Dallas Mavericks | rebounds | 1.2 | 0.4–2.0 | 6 | 2.0, 1.0, 0.0, 2.0, 1.0, 0.0 |
+| Cooper Flagg | Dallas Mavericks | assists | 1.7 | 0–3.4 | 6 | 2.0, 0.0, 5.0, 0.0, 1.0, 1.0 |
+| Cooper Flagg | Dallas Mavericks | points | 7.9 | 3.4–12.4 | 6 | 9.0, 14.0, 4.0, 2.0, 4.0, 12.0 |
+| Cooper Flagg | Dallas Mavericks | rebounds | 3.4 | 1.9–4.9 | 6 | 5.0, 2.0, 5.0, 2.0, 1.0, 3.0 |
+| Daniel Gafford | Dallas Mavericks | assists | 0.7 | 0–1.4 | 6 | 0.0, 2.0, 0.0, 1.0, 0.0, 1.0 |
+| Daniel Gafford | Dallas Mavericks | points | 2.3 | 0.5–4.1 | 6 | 2.0, 1.0, 5.0, 0.0, 4.0, 4.0 |
+| Daniel Gafford | Dallas Mavericks | rebounds | 1.6 | 0.1–3.1 | 6 | 0.0, 3.0, 1.0, 2.0, 4.0, 0.0 |
+| Kyrie Irving | Dallas Mavericks | assists | 1.3 | 0.5–2.1 | 5 | 1.0, 2.0, 0.0, 2.0, 2.0 |
+| Kyrie Irving | Dallas Mavericks | points | 4.5 | 1.5–7.5 | 5 | 3.0, 9.0, 0.0, 6.0, 4.0 |
+| Naji Marshall | Dallas Mavericks | assists | 0.5 | 0–1.3 | 5 | 0.0, 1.0, 0.0, 1.0, 2.0 |
+| P.J. Washington | Dallas Mavericks | points | 4.5 | 1.2–7.8 | 6 | 7.0, 0.0, 6.0, 8.0, 2.0, 0.0 |
+| P.J. Washington | Dallas Mavericks | rebounds | 1.2 | 0.3–2.2 | 6 | 1.0, 1.0, 0.0, 3.0, 2.0, 2.0 |
+| Santi Aldama | Dallas Mavericks | assists | 0.5 | 0–1.1 | 3 | 1.0, 0.0, 0.0 |
+| Santi Aldama | Dallas Mavericks | points | 1.5 | 0–3.2 | 3 | 3.0, 0.0, 0.0 |
+| Santi Aldama | Dallas Mavericks | rebounds | 1.3 | 0.4–2.3 | 3 | 2.0, 1.0, 0.0 |
+| Walter Clayton Jr. | Dallas Mavericks | points | 1.6 | 0–3.6 | 6 | 0.0, 3.0, 0.0, 3.0, 5.0, 0.0 |
+
+## NBA: Charlotte Hornets at Phoenix Suns — Thu Nov 12, 09:00 PM EST
+
+| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
+|---|---|---|---:|---:|---:|---|
+| Collin Gillespie | Phoenix Suns | points | 2.3 | 0.0–4.5 | 6 | 6.0, 0.0, 0.0, 3.0, 0.0, 3.0 |
+| Devin Booker | Phoenix Suns | assists | 1.5 | 0.8–2.3 | 6 | 1.0, 1.0, 2.0, 3.0, 1.0, 2.0 |
+| Devin Booker | Phoenix Suns | points | 9.7 | 5.7–13.7 | 6 | 8.0, 15.0, 4.0, 12.0, 12.0, 5.0 |
+| Devin Booker | Phoenix Suns | rebounds | 0.8 | 0.3–1.3 | 6 | 1.0, 1.0, 0.0, 1.0, 1.0, 0.0 |
+| Dillon Brooks | Phoenix Suns | points | 4.6 | 2.6–6.5 | 6 | 4.0, 2.0, 5.0, 7.0, 8.0, 5.0 |
+| Dillon Brooks | Phoenix Suns | rebounds | 1.1 | 0.5–1.8 | 6 | 1.0, 1.0, 2.0, 0.0, 2.0, 1.0 |
+| Jalen Green | Phoenix Suns | assists | 1.4 | 0.4–2.5 | 6 | 1.0, 2.0, 3.0, 0.0, 1.0, 0.0 |
+| Jalen Green | Phoenix Suns | points | 3.0 | 0.3–5.6 | 6 | 2.0, 0.0, 8.0, 2.0, 5.0, 2.0 |
+| Jalen Green | Phoenix Suns | rebounds | 1.4 | 0.3–2.5 | 6 | 2.0, 2.0, 1.0, 0.0, 0.0, 3.0 |
+| Khaman Maluach | Phoenix Suns | assists | 1.7 | 0.6–2.8 | 6 | 3.0, 2.0, 0.0, 1.0, 2.0, 0.0 |
+| Khaman Maluach | Phoenix Suns | rebounds | 2.3 | 1.6–3.0 | 6 | 3.0, 2.0, 3.0, 1.0, 2.0, 2.0 |
+| Luke Kennard | Phoenix Suns | assists | 0.5 | 0–1.3 | 6 | 0.0, 0.0, 2.0, 0.0, 1.0, 1.0 |
+| Miles Bridges | Phoenix Suns | assists | 0.6 | 0–1.4 | 6 | 0.0, 0.0, 2.0, 1.0, 1.0, 0.0 |
+| Miles Bridges | Phoenix Suns | points | 1.8 | 0–3.6 | 6 | 0.0, 0.0, 4.0, 3.0, 4.0, 4.0 |
+| Miles Bridges | Phoenix Suns | rebounds | 1.8 | 0.9–2.7 | 6 | 1.0, 2.0, 1.0, 3.0, 3.0, 3.0 |
+| Oso Ighodaro | Phoenix Suns | assists | 0.5 | 0–1.3 | 6 | 0.0, 0.0, 1.0, 1.0, 2.0, 0.0 |
+| Oso Ighodaro | Phoenix Suns | points | 2.6 | 0.3–4.9 | 6 | 2.0, 2.0, 2.0, 2.0, 5.0, 8.0 |
+| Oso Ighodaro | Phoenix Suns | rebounds | 2.1 | 1.1–3.2 | 6 | 4.0, 1.0, 2.0, 1.0, 2.0, 1.0 |
+| Ryan Dunn | Phoenix Suns | assists | 0.5 | 0–1.2 | 6 | 0.0, 0.0, 1.0, 2.0, 0.0, 0.0 |
+| Ryan Dunn | Phoenix Suns | points | 3.4 | 1.4–5.4 | 6 | 4.0, 3.0, 5.0, 4.0, 0.0, 0.0 |
+| Ryan Dunn | Phoenix Suns | rebounds | 1.2 | 0.0–2.3 | 6 | 3.0, 0.0, 0.0, 1.0, 2.0, 0.0 |
+| Christian Anderson | Charlotte Hornets | rebounds | 1.0 | 0.1–1.9 | 5 | 1.0, 2.0, 0.0, 0.0, 2.0 |
+| Coby White | Charlotte Hornets | assists | 0.8 | 0–1.7 | 4 | 2.0, 0.0, 0.0, 0.0 |
+| Coby White | Charlotte Hornets | points | 2.0 | 1.2–2.8 | 4 | 1.0, 3.0, 2.0, 3.0 |
+| Grayson Allen | Charlotte Hornets | points | 5.8 | 2.1–9.4 | 6 | 9.0, 0.0, 4.0, 8.0, 11.0, 5.0 |
+| Grayson Allen | Charlotte Hornets | rebounds | 1.2 | 0.3–2.1 | 6 | 2.0, 2.0, 0.0, 0.0, 1.0, 2.0 |
+| Hannes Steinbach | Charlotte Hornets | rebounds | 1.4 | 0.4–2.4 | 4 | 2.0, 2.0, 0.0, 0.0 |
+| Naz Reid | Charlotte Hornets | assists | 0.5 | 0–1.0 | 6 | 0.0, 1.0, 0.0, 1.0, 1.0, 0.0 |
+| Naz Reid | Charlotte Hornets | points | 6.9 | 2.2–11.6 | 6 | 15.0, 3.0, 7.0, 0.0, 4.0, 4.0 |
+| Naz Reid | Charlotte Hornets | rebounds | 3.0 | 1.6–4.4 | 6 | 2.0, 2.0, 5.0, 5.0, 2.0, 2.0 |
+| Royce O'Neale | Charlotte Hornets | points | 2.3 | 0–4.8 | 6 | 4.0, 0.0, 0.0, 2.0, 6.0, 6.0 |
+| Royce O'Neale | Charlotte Hornets | rebounds | 0.9 | 0–2.0 | 6 | 1.0, 0.0, 0.0, 2.0, 3.0, 0.0 |
+| Ryan Kalkbrenner | Charlotte Hornets | assists | 0.6 | 0.1–1.1 | 6 | 1.0, 0.0, 1.0, 0.0, 1.0, 0.0 |
+| Ryan Kalkbrenner | Charlotte Hornets | rebounds | 2.0 | 1.1–2.8 | 6 | 2.0, 1.0, 3.0, 3.0, 1.0, 1.0 |
+| Sion James | Charlotte Hornets | assists | 1.0 | 0.2–1.8 | 6 | 2.0, 0.0, 0.0, 2.0, 1.0, 1.0 |
 
 ## NBA: New York Knicks at Indiana Pacers — Fri Nov 13, 07:00 PM EST
 
@@ -968,341 +1050,25 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | points | 8.9 | 6.2–11.5 | 6 | 4.0, 12.0, 12.0, 9.0, 9.0, 9.0 |
 | Shai Gilgeous-Alexander | Oklahoma City Thunder | rebounds | 2.0 | 0.3–3.7 | 6 | 2.0, 5.0, 0.0, 0.0, 2.0, 1.0 |
 
-## NBA: Orlando Magic at Boston Celtics — Mon Nov 16, 07:00 PM EST
+## NFL: Washington Commanders at New York Giants — Thu Nov 12, 08:15 PM EST
 
 | Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
 |---|---|---|---:|---:|---:|---|
-| Baylor Scheierman | Boston Celtics | rebounds | 1.6 | 0.8–2.3 | 6 | 2.0, 2.0, 0.0, 2.0, 2.0, 1.0 |
-| Derrick White | Boston Celtics | assists | 1.1 | 0.3–1.9 | 6 | 1.0, 2.0, 0.0, 1.0, 2.0, 0.0 |
-| Derrick White | Boston Celtics | points | 4.1 | 0.6–7.6 | 6 | 5.0, 5.0, 0.0, 10.0, 0.0, 2.0 |
-| Derrick White | Boston Celtics | rebounds | 1.2 | 0–2.5 | 6 | 1.0, 1.0, 0.0, 4.0, 1.0, 0.0 |
-| Jayson Tatum | Boston Celtics | assists | 2.5 | 1.0–4.0 | 5 | 4.0, 0.0, 2.0, 4.0, 3.0 |
-| Jayson Tatum | Boston Celtics | points | 11.7 | 7.6–15.9 | 5 | 8.0, 11.0, 16.0, 18.0, 8.0 |
-| Jayson Tatum | Boston Celtics | rebounds | 2.9 | 2.1–3.6 | 5 | 3.0, 2.0, 3.0, 4.0, 3.0 |
-| Luka Garza | Boston Celtics | points | 2.0 | 0–4.5 | 6 | 5.0, 0.0, 0.0, 0.0, 3.0, 6.0 |
-| Mitchell Robinson | Boston Celtics | rebounds | 2.7 | 0.6–4.7 | 6 | 1.0, 3.0, 4.0, 1.0, 7.0, 2.0 |
-| Neemias Queta | Boston Celtics | assists | 0.8 | 0.0–1.5 | 6 | 0.0, 1.0, 2.0, 1.0, 0.0, 0.0 |
-| Neemias Queta | Boston Celtics | points | 1.9 | 0.0–3.8 | 6 | 5.0, 0.0, 1.0, 0.0, 3.0, 0.0 |
-| Neemias Queta | Boston Celtics | rebounds | 1.3 | 0.6–2.1 | 6 | 2.0, 1.0, 0.0, 2.0, 2.0, 1.0 |
-| Payton Pritchard | Boston Celtics | assists | 1.0 | 0.3–1.6 | 6 | 0.0, 1.0, 1.0, 2.0, 2.0, 1.0 |
-| Payton Pritchard | Boston Celtics | points | 2.0 | 0.1–3.8 | 6 | 4.0, 0.0, 0.0, 3.0, 4.0, 0.0 |
-| Payton Pritchard | Boston Celtics | rebounds | 0.7 | 0–1.5 | 6 | 0.0, 1.0, 1.0, 2.0, 0.0, 0.0 |
-| Sam Hauser | Boston Celtics | points | 1.8 | 0–3.9 | 6 | 0.0, 3.0, 0.0, 3.0, 6.0, 2.0 |
-| Sam Hauser | Boston Celtics | rebounds | 1.3 | 0.3–2.3 | 6 | 1.0, 3.0, 1.0, 0.0, 1.0, 0.0 |
-| Alex Morales | Orlando Magic | points | 1.9 | 0–3.9 | 5 | 5.0, 0.0, 0.0, 0.0, 3.0 |
-| Anthony Black | Orlando Magic | assists | 2.2 | 0.9–3.5 | 5 | 4.0, 2.0, 0.0, 2.0, 1.0 |
-| Anthony Black | Orlando Magic | points | 5.9 | 1.4–10.4 | 5 | 7.0, 12.0, 0.0, 2.0, 1.0 |
-| Anthony Black | Orlando Magic | rebounds | 2.3 | 1.1–3.4 | 5 | 4.0, 1.0, 1.0, 2.0, 3.0 |
-| Desmond Bane | Orlando Magic | assists | 0.6 | 0.1–1.1 | 5 | 1.0, 1.0, 0.0, 0.0, 0.0 |
-| Desmond Bane | Orlando Magic | points | 5.0 | 3.3–6.7 | 5 | 3.0, 8.0, 4.0, 5.0, 6.0 |
-| Franz Wagner | Orlando Magic | assists | 2.5 | 0.9–4.0 | 6 | 0.0, 5.0, 2.0, 3.0, 3.0, 4.0 |
-| Franz Wagner | Orlando Magic | points | 6.7 | 5.0–8.4 | 6 | 6.0, 7.0, 8.0, 7.0, 7.0, 3.0 |
-| Franz Wagner | Orlando Magic | rebounds | 1.3 | 0.6–2.0 | 6 | 1.0, 1.0, 2.0, 2.0, 1.0, 0.0 |
-| Jase Richardson | Orlando Magic | assists | 0.8 | 0–1.8 | 6 | 1.0, 0.0, 0.0, 1.0, 3.0, 1.0 |
-| Jase Richardson | Orlando Magic | points | 1.8 | 0–3.8 | 6 | 0.0, 4.0, 0.0, 5.0, 0.0, 2.0 |
-| Nikola Vucevic | Orlando Magic | rebounds | 1.0 | 0.1–1.8 | 6 | 2.0, 0.0, 1.0, 0.0, 1.0, 2.0 |
-| Wendell Carter Jr. | Orlando Magic | points | 2.8 | 0.4–5.1 | 6 | 7.0, 0.0, 0.0, 3.0, 2.0, 3.0 |
-| Wendell Carter Jr. | Orlando Magic | rebounds | 2.2 | 0.3–4.1 | 6 | 2.0, 2.0, 1.0, 6.0, 0.0, 2.0 |
-
-## NBA: Chicago Bulls at Cleveland Cavaliers — Mon Nov 16, 07:00 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Donovan Mitchell | Cleveland Cavaliers | assists | 2.0 | 1.0–3.0 | 6 | 3.0, 1.0, 1.0, 3.0, 1.0, 3.0 |
-| Donovan Mitchell | Cleveland Cavaliers | points | 5.2 | 2.3–8.1 | 6 | 4.0, 3.0, 7.0, 10.0, 2.0, 8.0 |
-| Donovan Mitchell | Cleveland Cavaliers | rebounds | 1.0 | 0.2–1.9 | 6 | 1.0, 0.0, 2.0, 2.0, 0.0, 2.0 |
-| Evan Mobley | Cleveland Cavaliers | assists | 1.1 | 0.2–2.1 | 6 | 1.0, 0.0, 1.0, 3.0, 2.0, 1.0 |
-| Evan Mobley | Cleveland Cavaliers | points | 3.5 | 1.7–5.2 | 6 | 5.0, 2.0, 1.0, 5.0, 4.0, 6.0 |
-| Evan Mobley | Cleveland Cavaliers | rebounds | 1.5 | 0.1–2.8 | 6 | 1.0, 0.0, 3.0, 1.0, 4.0, 2.0 |
-| James Harden | Cleveland Cavaliers | assists | 1.9 | 0.4–3.3 | 6 | 0.0, 4.0, 2.0, 3.0, 0.0, 2.0 |
-| James Harden | Cleveland Cavaliers | points | 2.4 | 0.6–4.2 | 6 | 4.0, 2.0, 0.0, 4.0, 0.0, 4.0 |
-| James Harden | Cleveland Cavaliers | rebounds | 1.3 | 0.4–2.3 | 6 | 0.0, 2.0, 1.0, 3.0, 2.0, 1.0 |
-| Jarrett Allen | Cleveland Cavaliers | assists | 0.8 | 0.3–1.3 | 4 | 1.0, 1.0, 0.0, 1.0 |
-| Jarrett Allen | Cleveland Cavaliers | points | 4.7 | 1.5–7.9 | 4 | 4.0, 9.0, 0.0, 4.0 |
-| Jarrett Allen | Cleveland Cavaliers | rebounds | 3.6 | 2.0–5.2 | 4 | 5.0, 4.0, 1.0, 2.0 |
-| Mario Hezonja | Cleveland Cavaliers | points | 1.6 | 0–3.4 | 6 | 0.0, 4.0, 0.0, 2.0, 4.0, 0.0 |
-| Mario Hezonja | Cleveland Cavaliers | rebounds | 1.1 | 0–2.7 | 6 | 0.0, 0.0, 1.0, 3.0, 4.0, 3.0 |
-| Meleek Thomas | Cleveland Cavaliers | points | 3.8 | 1.6–6.0 | 6 | 5.0, 0.0, 6.0, 6.0, 3.0, 2.0 |
-| Peyton Watson | Cleveland Cavaliers | assists | 1.2 | 0–2.5 | 4 | 3.0, 0.0, 0.0, 0.0 |
-| Peyton Watson | Cleveland Cavaliers | points | 4.0 | 2.1–5.9 | 4 | 3.0, 4.0, 7.0, 2.0 |
-| Peyton Watson | Cleveland Cavaliers | rebounds | 1.4 | 0.5–2.3 | 4 | 2.0, 0.0, 2.0, 2.0 |
-| Tyrese Proctor | Cleveland Cavaliers | assists | 0.7 | 0–1.5 | 6 | 0.0, 2.0, 1.0, 0.0, 0.0, 1.0 |
-| Tyrese Proctor | Cleveland Cavaliers | points | 4.8 | 2.3–7.2 | 6 | 8.0, 4.0, 4.0, 0.0, 5.0, 6.0 |
-| Tyrese Proctor | Cleveland Cavaliers | rebounds | 1.6 | 0.4–2.9 | 6 | 2.0, 1.0, 1.0, 4.0, 0.0, 1.0 |
-| Caleb Wilson | Chicago Bulls | points | 4.0 | 2.0–6.1 | 6 | 5.0, 5.0, 0.0, 4.0, 6.0, 6.0 |
-| Caleb Wilson | Chicago Bulls | rebounds | 1.3 | 0.6–2.0 | 6 | 1.0, 2.0, 1.0, 1.0, 2.0, 0.0 |
-| Isaac Okoro | Chicago Bulls | assists | 0.6 | 0–1.3 | 6 | 2.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
-| Isaac Okoro | Chicago Bulls | points | 2.1 | 0.5–3.8 | 6 | 0.0, 4.0, 4.0, 2.0, 0.0, 3.0 |
-| Jalen Smith | Chicago Bulls | assists | 0.7 | 0–1.4 | 6 | 2.0, 0.0, 0.0, 0.0, 1.0, 0.0 |
-| Jalen Smith | Chicago Bulls | points | 6.9 | 3.3–10.5 | 6 | 10.0, 10.0, 3.0, 6.0, 0.0, 5.0 |
-| Jalen Smith | Chicago Bulls | rebounds | 2.4 | 0.9–3.9 | 6 | 2.0, 2.0, 2.0, 2.0, 6.0, 2.0 |
-| Jordan Hawkins | Chicago Bulls | assists | 0.7 | 0–1.5 | 5 | 2.0, 0.0, 0.0, 0.0, 0.0 |
-| Jordan Hawkins | Chicago Bulls | rebounds | 0.7 | 0–1.5 | 5 | 2.0, 0.0, 0.0, 0.0, 0.0 |
-| Josh Giddey | Chicago Bulls | assists | 3.8 | 1.4–6.2 | 6 | 4.0, 7.0, 0.0, 5.0, 1.0, 4.0 |
-| Josh Giddey | Chicago Bulls | points | 2.5 | 1.0–3.9 | 6 | 4.0, 2.0, 3.0, 2.0, 0.0, 0.0 |
-| Matas Buzelis | Chicago Bulls | assists | 1.1 | 0.4–1.8 | 6 | 1.0, 1.0, 2.0, 0.0, 1.0, 2.0 |
-| Matas Buzelis | Chicago Bulls | points | 4.4 | 1.8–6.9 | 6 | 7.0, 5.0, 0.0, 2.0, 7.0, 5.0 |
-| Matas Buzelis | Chicago Bulls | rebounds | 1.4 | 0.9–1.9 | 6 | 1.0, 1.0, 2.0, 2.0, 1.0, 2.0 |
-| Noa Essengue | Chicago Bulls | points | 1.8 | 0–3.7 | 6 | 0.0, 5.0, 3.0, 0.0, 0.0, 0.0 |
-| Noa Essengue | Chicago Bulls | rebounds | 1.3 | 0.1–2.5 | 6 | 2.0, 3.0, 0.0, 0.0, 0.0, 0.0 |
-| Patrick Williams | Chicago Bulls | rebounds | 0.8 | 0.2–1.4 | 3 | 1.0, 1.0, 0.0 |
-| Tre Jones | Chicago Bulls | points | 3.5 | 1.3–5.7 | 6 | 7.0, 2.0, 4.0, 0.0, 2.0, 2.0 |
-| Zach Collins | Chicago Bulls | rebounds | 0.7 | 0–1.5 | 4 | 0.0, 1.0, 2.0, 0.0 |
-
-## NBA: Memphis Grizzlies at Washington Wizards — Mon Nov 16, 07:00 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| AJ Dybantsa | Washington Wizards | points | 3.2 | 2.4–4.0 | 6 | 3.0, 4.0, 3.0, 2.0, 4.0, 4.0 |
-| AJ Dybantsa | Washington Wizards | rebounds | 0.8 | 0.2–1.4 | 6 | 0.0, 1.0, 1.0, 1.0, 2.0, 1.0 |
-| Alex Sarr | Washington Wizards | points | 4.1 | 1.7–6.5 | 5 | 3.0, 2.0, 9.0, 4.0, 4.0 |
-| Alex Sarr | Washington Wizards | rebounds | 3.4 | 1.3–5.5 | 5 | 5.0, 1.0, 6.0, 1.0, 2.0 |
-| Anthony Davis | Washington Wizards | points | 8.8 | 6.6–11.0 | 4 | 6.0, 11.0, 10.0, 11.0 |
-| Anthony Davis | Washington Wizards | rebounds | 3.2 | 2.4–4.0 | 4 | 3.0, 4.0, 3.0, 2.0 |
-| Bilal Coulibaly | Washington Wizards | assists | 0.9 | 0–1.9 | 5 | 2.0, 0.0, 0.0, 2.0, 0.0 |
-| Bilal Coulibaly | Washington Wizards | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
-| Deandre Ayton | Washington Wizards | points | 1.5 | 0.0–3.0 | 6 | 2.0, 0.0, 2.0, 4.0, 0.0, 0.0 |
-| Deandre Ayton | Washington Wizards | rebounds | 2.0 | 0–4.4 | 6 | 0.0, 3.0, 1.0, 7.0, 0.0, 2.0 |
-| Kyshawn George | Washington Wizards | assists | 0.7 | 0.2–1.2 | 6 | 0.0, 1.0, 1.0, 1.0, 1.0, 0.0 |
-| Kyshawn George | Washington Wizards | points | 3.9 | 1.2–6.6 | 6 | 3.0, 2.0, 2.0, 8.0, 7.0, 8.0 |
-| Kyshawn George | Washington Wizards | rebounds | 2.8 | 1.1–4.4 | 6 | 5.0, 1.0, 3.0, 3.0, 1.0, 0.0 |
-| Trae Young | Washington Wizards | assists | 1.8 | 0.3–3.3 | 6 | 1.0, 1.0, 1.0, 5.0, 3.0, 2.0 |
-| Trae Young | Washington Wizards | points | 4.6 | 0.7–8.4 | 6 | 3.0, 12.0, 0.0, 2.0, 5.0, 2.0 |
-| Tre Johnson | Washington Wizards | points | 2.7 | 0–5.7 | 6 | 5.0, 0.0, 0.0, 8.0, 0.0, 2.0 |
-| Cam Spencer | Memphis Grizzlies | assists | 1.2 | 0.1–2.3 | 6 | 0.0, 2.0, 0.0, 3.0, 2.0, 2.0 |
-| Cam Spencer | Memphis Grizzlies | points | 2.4 | 0.0–4.7 | 6 | 3.0, 0.0, 3.0, 2.0, 7.0, 0.0 |
-| Cam Spencer | Memphis Grizzlies | rebounds | 0.7 | 0–1.8 | 6 | 0.0, 1.0, 0.0, 3.0, 0.0, 0.0 |
-| Cameron Boozer | Memphis Grizzlies | assists | 1.2 | 0.4–2.0 | 6 | 2.0, 0.0, 2.0, 1.0, 1.0, 0.0 |
-| Cameron Boozer | Memphis Grizzlies | points | 3.0 | 1.3–4.7 | 6 | 2.0, 2.0, 4.0, 3.0, 4.0, 7.0 |
-| Cameron Boozer | Memphis Grizzlies | rebounds | 1.5 | 0–3.2 | 6 | 2.0, 1.0, 1.0, 0.0, 3.0, 5.0 |
-| Cedric Coward | Memphis Grizzlies | assists | 1.2 | 0.2–2.3 | 6 | 2.0, 1.0, 0.0, 1.0, 3.0, 0.0 |
-| Cedric Coward | Memphis Grizzlies | points | 2.8 | 0.2–5.4 | 6 | 3.0, 0.0, 2.0, 8.0, 2.0, 5.0 |
-| Cedric Coward | Memphis Grizzlies | rebounds | 3.0 | 2.0–4.0 | 6 | 3.0, 2.0, 5.0, 3.0, 2.0, 3.0 |
-| Isaiah Stewart | Memphis Grizzlies | points | 2.5 | 0–5.0 | 4 | 0.0, 4.0, 3.0, 7.0 |
-| Javon Small | Memphis Grizzlies | assists | 1.0 | 0.2–1.8 | 4 | 0.0, 2.0, 1.0, 2.0 |
-| Javon Small | Memphis Grizzlies | points | 1.6 | 0–3.6 | 4 | 0.0, 2.0, 5.0, 0.0 |
-| Javon Small | Memphis Grizzlies | rebounds | 0.8 | 0.1–1.5 | 4 | 0.0, 1.0, 2.0, 1.0 |
-| Jaylen Wells | Memphis Grizzlies | points | 3.9 | 1.4–6.3 | 6 | 8.0, 3.0, 2.0, 0.0, 4.0, 2.0 |
-| Jerami Grant | Memphis Grizzlies | assists | 1.0 | 0.3–1.7 | 6 | 1.0, 1.0, 2.0, 0.0, 1.0, 0.0 |
-| Jerami Grant | Memphis Grizzlies | points | 3.2 | 1.7–4.8 | 6 | 5.0, 4.0, 0.0, 3.0, 3.0, 3.0 |
-| Taylor Hendricks | Memphis Grizzlies | points | 2.7 | 0.6–4.8 | 4 | 3.0, 5.0, 0.0, 0.0 |
-| Ty Jerome | Memphis Grizzlies | assists | 1.1 | 0–2.2 | 5 | 2.0, 0.0, 1.0, 0.0, 3.0 |
-| Ty Jerome | Memphis Grizzlies | points | 3.9 | 0.7–7.0 | 5 | 0.0, 7.0, 8.0, 2.0, 2.0 |
-| Ty Jerome | Memphis Grizzlies | rebounds | 1.3 | 0.8–1.8 | 5 | 1.0, 2.0, 1.0, 1.0, 1.0 |
-| Zach Edey | Memphis Grizzlies | rebounds | 1.4 | 0.7–2.2 | 6 | 1.0, 2.0, 1.0, 2.0, 2.0, 0.0 |
-
-## NBA: Philadelphia 76ers at Brooklyn Nets — Mon Nov 16, 07:30 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Danny Wolf | Brooklyn Nets | assists | 0.9 | 0.4–1.4 | 4 | 1.0, 1.0, 1.0, 0.0 |
-| Danny Wolf | Brooklyn Nets | points | 2.8 | 0.5–5.1 | 4 | 5.0, 0.0, 4.0, 0.0 |
-| Danny Wolf | Brooklyn Nets | rebounds | 3.0 | 0.1–5.9 | 4 | 4.0, 0.0, 7.0, 0.0 |
-| Day'Ron Sharpe | Brooklyn Nets | assists | 1.0 | 0–2.0 | 6 | 1.0, 0.0, 3.0, 0.0, 1.0, 0.0 |
-| Day'Ron Sharpe | Brooklyn Nets | points | 2.0 | 0.4–3.5 | 6 | 3.0, 0.0, 4.0, 0.0, 2.0, 3.0 |
-| Day'Ron Sharpe | Brooklyn Nets | rebounds | 1.9 | 0–3.8 | 6 | 3.0, 1.0, 1.0, 0.0, 3.0, 6.0 |
-| Julius Randle | Brooklyn Nets | assists | 1.0 | 0–2.2 | 6 | 1.0, 0.0, 3.0, 0.0, 2.0, 0.0 |
-| Julius Randle | Brooklyn Nets | points | 4.6 | 2.3–6.9 | 6 | 6.0, 3.0, 5.0, 7.0, 0.0, 5.0 |
-| Julius Randle | Brooklyn Nets | rebounds | 1.8 | 1.1–2.5 | 6 | 2.0, 1.0, 2.0, 2.0, 3.0, 1.0 |
-| Keon Ellis | Brooklyn Nets | assists | 0.5 | 0–1.3 | 5 | 0.0, 2.0, 0.0, 0.0, 0.0 |
-| Michael Porter Jr. | Brooklyn Nets | assists | 0.9 | 0–1.8 | 6 | 2.0, 0.0, 1.0, 0.0, 0.0, 2.0 |
-| Michael Porter Jr. | Brooklyn Nets | points | 8.4 | 4.4–12.4 | 6 | 9.0, 15.0, 6.0, 2.0, 5.0, 7.0 |
-| Michael Porter Jr. | Brooklyn Nets | rebounds | 2.8 | 1.7–3.8 | 6 | 1.0, 4.0, 4.0, 3.0, 2.0, 3.0 |
-| Moritz Wagner | Brooklyn Nets | assists | 0.8 | 0.0–1.6 | 6 | 2.0, 1.0, 0.0, 0.0, 0.0, 0.0 |
-| Moritz Wagner | Brooklyn Nets | points | 4.2 | 2.0–6.4 | 6 | 7.0, 3.0, 5.0, 0.0, 3.0, 5.0 |
-| Noah Clowney | Brooklyn Nets | points | 2.6 | 0.4–4.8 | 6 | 6.0, 0.0, 3.0, 2.0, 0.0, 0.0 |
-| Anfernee Simons | Philadelphia 76ers | points | 1.9 | 0–4.0 | 6 | 2.0, 0.0, 6.0, 0.0, 0.0, 3.0 |
-| Dean Wade | Philadelphia 76ers | rebounds | 1.1 | 0.1–2.1 | 6 | 3.0, 0.0, 0.0, 1.0, 1.0, 1.0 |
-| Jabari Walker | Philadelphia 76ers | rebounds | 1.0 | 0.1–1.9 | 5 | 0.0, 2.0, 2.0, 0.0, 1.0 |
-| Jaylen Brown | Philadelphia 76ers | assists | 1.2 | 0.6–1.9 | 6 | 1.0, 1.0, 2.0, 1.0, 2.0, 0.0 |
-| Jaylen Brown | Philadelphia 76ers | points | 5.7 | 2.3–9.0 | 6 | 4.0, 8.0, 2.0, 10.0, 8.0, 1.0 |
-| Jaylen Brown | Philadelphia 76ers | rebounds | 1.5 | 0.3–2.8 | 6 | 0.0, 4.0, 1.0, 1.0, 2.0, 1.0 |
-| Joel Embiid | Philadelphia 76ers | points | 5.9 | 3.8–8.0 | 5 | 7.0, 6.0, 2.0, 8.0, 7.0 |
-| Joel Embiid | Philadelphia 76ers | rebounds | 3.6 | 2.4–4.8 | 5 | 3.0, 5.0, 2.0, 5.0, 3.0 |
-| Kentavious Caldwell-Pope | Philadelphia 76ers | assists | 0.8 | 0–1.5 | 6 | 1.0, 2.0, 0.0, 0.0, 0.0, 0.0 |
-| LeBron James | Philadelphia 76ers | assists | 1.1 | 0.3–1.9 | 5 | 0.0, 2.0, 1.0, 2.0, 2.0 |
-| LeBron James | Philadelphia 76ers | points | 1.9 | 0.5–3.2 | 5 | 0.0, 3.0, 2.0, 4.0, 2.0 |
-| LeBron James | Philadelphia 76ers | rebounds | 2.1 | 0.9–3.3 | 5 | 2.0, 1.0, 2.0, 4.0, 4.0 |
-| Tyrese Maxey | Philadelphia 76ers | assists | 1.0 | 0–2.8 | 6 | 0.0, 1.0, 0.0, 2.0, 5.0, 1.0 |
-| Tyrese Maxey | Philadelphia 76ers | points | 6.0 | 1.9–10.1 | 6 | 8.0, 6.0, 6.0, 2.0, 2.0, 14.0 |
-| Tyrese Maxey | Philadelphia 76ers | rebounds | 1.0 | 0.2–1.9 | 6 | 1.0, 2.0, 1.0, 0.0, 0.0, 2.0 |
-| VJ Edgecombe | Philadelphia 76ers | assists | 1.0 | 0.1–1.8 | 6 | 1.0, 2.0, 0.0, 0.0, 2.0, 0.0 |
-| VJ Edgecombe | Philadelphia 76ers | points | 4.1 | 1.0–7.2 | 6 | 2.0, 6.0, 2.0, 3.0, 11.0, 5.0 |
-| VJ Edgecombe | Philadelphia 76ers | rebounds | 1.6 | 0.6–2.5 | 6 | 2.0, 3.0, 0.0, 1.0, 1.0, 1.0 |
-
-## NBA: Houston Rockets at Miami Heat — Mon Nov 16, 07:30 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Andrew Wiggins | Miami Heat | points | 3.3 | 0.9–5.6 | 6 | 3.0, 6.0, 2.0, 0.0, 3.0, 7.0 |
-| Andrew Wiggins | Miami Heat | rebounds | 1.1 | 0–2.6 | 6 | 0.0, 0.0, 4.0, 2.0, 0.0, 1.0 |
-| Bam Adebayo | Miami Heat | assists | 0.6 | 0.1–1.1 | 6 | 1.0, 1.0, 0.0, 0.0, 1.0, 0.0 |
-| Bam Adebayo | Miami Heat | points | 5.3 | 2.0–8.7 | 6 | 2.0, 6.0, 7.0, 9.0, 2.0, 11.0 |
-| Bam Adebayo | Miami Heat | rebounds | 2.4 | 1.5–3.3 | 6 | 3.0, 3.0, 1.0, 3.0, 2.0, 1.0 |
-| Bobby Portis | Miami Heat | assists | 1.0 | 0–2.8 | 6 | 0.0, 1.0, 0.0, 5.0, 0.0, 0.0 |
-| Bobby Portis | Miami Heat | points | 2.1 | 0.5–3.7 | 6 | 3.0, 4.0, 0.0, 2.0, 0.0, 0.0 |
-| Bobby Portis | Miami Heat | rebounds | 1.1 | 0.2–2.0 | 6 | 1.0, 0.0, 3.0, 1.0, 1.0, 1.0 |
-| Davion Mitchell | Miami Heat | assists | 1.7 | 1.2–2.2 | 6 | 1.0, 2.0, 2.0, 2.0, 2.0, 2.0 |
-| Davion Mitchell | Miami Heat | points | 3.6 | 1.4–5.7 | 6 | 3.0, 3.0, 6.0, 2.0, 6.0, 0.0 |
-| Giannis Antetokounmpo | Miami Heat | assists | 1.3 | 0.3–2.2 | 6 | 1.0, 1.0, 2.0, 0.0, 3.0, 2.0 |
-| Giannis Antetokounmpo | Miami Heat | points | 7.4 | 5.5–9.2 | 6 | 8.0, 6.0, 9.0, 6.0, 8.0, 7.0 |
-| Giannis Antetokounmpo | Miami Heat | rebounds | 2.6 | 1.5–3.8 | 6 | 2.0, 2.0, 4.0, 2.0, 3.0, 5.0 |
-| Klay Thompson | Miami Heat | assists | 1.0 | 0–2.1 | 6 | 0.0, 1.0, 3.0, 0.0, 1.0, 2.0 |
-| Klay Thompson | Miami Heat | points | 5.2 | 2.0–8.5 | 6 | 5.0, 6.0, 0.0, 11.0, 5.0, 7.0 |
-| Pelle Larsson | Miami Heat | assists | 0.6 | 0.1–1.1 | 6 | 1.0, 0.0, 1.0, 0.0, 1.0, 0.0 |
-| Pelle Larsson | Miami Heat | points | 2.9 | 0.8–5.0 | 6 | 5.0, 0.0, 5.0, 3.0, 0.0, 2.0 |
-| Pelle Larsson | Miami Heat | rebounds | 0.7 | 0–1.8 | 6 | 1.0, 0.0, 0.0, 1.0, 3.0, 0.0 |
-| Ryan Conwell | Miami Heat | assists | 1.0 | 0.5–1.5 | 6 | 1.0, 1.0, 1.0, 1.0, 1.0, 0.0 |
-| Alperen Sengun | Houston Rockets | assists | 2.1 | 1.6–2.7 | 6 | 2.0, 2.0, 2.0, 3.0, 2.0, 2.0 |
-| Alperen Sengun | Houston Rockets | points | 4.5 | 1.6–7.4 | 6 | 9.0, 3.0, 2.0, 0.0, 6.0, 5.0 |
-| Alperen Sengun | Houston Rockets | rebounds | 3.0 | 0.9–5.0 | 6 | 5.0, 4.0, 1.0, 1.0, 0.0, 5.0 |
-| Amen Thompson | Houston Rockets | assists | 1.1 | 0.0–2.2 | 6 | 3.0, 0.0, 0.0, 1.0, 1.0, 0.0 |
-| Amen Thompson | Houston Rockets | points | 3.0 | 0.8–5.3 | 6 | 2.0, 2.0, 6.0, 2.0, 6.0, 0.0 |
-| Amen Thompson | Houston Rockets | rebounds | 1.6 | 0.2–2.9 | 6 | 4.0, 0.0, 1.0, 0.0, 2.0, 1.0 |
-| Fred VanVleet | Houston Rockets | assists | 1.7 | 1.0–2.5 | 5 | 2.0, 2.0, 1.0, 1.0, 3.0 |
-| Fred VanVleet | Houston Rockets | points | 4.2 | 2.2–6.2 | 5 | 3.0, 5.0, 3.0, 8.0, 3.0 |
-| Jabari Smith Jr. | Houston Rockets | points | 2.0 | 0.2–3.7 | 6 | 3.0, 2.0, 2.0, 0.0, 0.0, 5.0 |
-| Jabari Smith Jr. | Houston Rockets | rebounds | 1.2 | 0–2.7 | 6 | 0.0, 0.0, 3.0, 2.0, 2.0, 4.0 |
-| Kevin Durant | Houston Rockets | assists | 1.8 | 0.9–2.8 | 6 | 2.0, 3.0, 1.0, 2.0, 0.0, 1.0 |
-| Kevin Durant | Houston Rockets | points | 8.6 | 5.3–11.9 | 6 | 11.0, 11.0, 2.0, 10.0, 6.0, 10.0 |
-| Kevin Durant | Houston Rockets | rebounds | 2.0 | 0.4–3.6 | 6 | 1.0, 5.0, 1.0, 2.0, 0.0, 1.0 |
-| Marcus Smart | Houston Rockets | points | 2.9 | 0–6.7 | 6 | 3.0, 3.0, 3.0, 0.0, 2.0, 12.0 |
-| Reed Sheppard | Houston Rockets | points | 2.1 | 0–4.3 | 5 | 2.0, 0.0, 3.0, 6.0, 0.0 |
-| Tari Eason | Houston Rockets | points | 3.0 | 0.8–5.2 | 6 | 2.0, 6.0, 0.0, 2.0, 6.0, 3.0 |
-| Tari Eason | Houston Rockets | rebounds | 1.7 | 0.0–3.4 | 6 | 2.0, 1.0, 0.0, 5.0, 2.0, 0.0 |
-
-## NBA: Portland Trail Blazers at Minnesota Timberwolves — Mon Nov 16, 08:00 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Ayo Dosunmu | Minnesota Timberwolves | assists | 0.6 | 0–1.3 | 6 | 0.0, 0.0, 1.0, 2.0, 1.0, 0.0 |
-| Ayo Dosunmu | Minnesota Timberwolves | points | 5.2 | 2.0–8.5 | 6 | 3.0, 10.0, 4.0, 2.0, 9.0, 2.0 |
-| Ayo Dosunmu | Minnesota Timberwolves | rebounds | 1.5 | 0.1–2.9 | 6 | 2.0, 1.0, 0.0, 4.0, 1.0, 0.0 |
-| Bones Hyland | Minnesota Timberwolves | assists | 0.6 | 0–1.5 | 6 | 0.0, 0.0, 2.0, 0.0, 1.0, 2.0 |
-| Bones Hyland | Minnesota Timberwolves | points | 5.2 | 3.3–7.1 | 6 | 7.0, 3.0, 7.0, 3.0, 6.0, 3.0 |
-| Jaden McDaniels | Minnesota Timberwolves | assists | 2.0 | 0.9–3.0 | 6 | 3.0, 2.0, 1.0, 2.0, 0.0, 3.0 |
-| Jaden McDaniels | Minnesota Timberwolves | points | 2.0 | 0–5.5 | 6 | 0.0, 0.0, 6.0, 3.0, 0.0, 9.0 |
-| Jaden McDaniels | Minnesota Timberwolves | rebounds | 1.5 | 0.7–2.2 | 6 | 1.0, 2.0, 2.0, 2.0, 0.0, 1.0 |
-| Joan Beringer | Minnesota Timberwolves | rebounds | 1.6 | 0.8–2.3 | 6 | 1.0, 2.0, 1.0, 2.0, 3.0, 1.0 |
-| Jonathan Kuminga | Minnesota Timberwolves | assists | 0.8 | 0.1–1.5 | 6 | 0.0, 1.0, 1.0, 2.0, 1.0, 0.0 |
-| Jonathan Kuminga | Minnesota Timberwolves | points | 3.3 | 1.4–5.2 | 6 | 4.0, 5.0, 3.0, 3.0, 0.0, 0.0 |
-| Jonathan Kuminga | Minnesota Timberwolves | rebounds | 1.3 | 0.0–2.5 | 6 | 0.0, 3.0, 0.0, 3.0, 1.0, 1.0 |
-| LaMelo Ball | Minnesota Timberwolves | assists | 1.0 | 0.3–1.6 | 6 | 1.0, 1.0, 2.0, 0.0, 0.0, 1.0 |
-| LaMelo Ball | Minnesota Timberwolves | points | 6.8 | 3.3–10.2 | 6 | 4.0, 7.0, 8.0, 13.0, 2.0, 8.0 |
-| LaMelo Ball | Minnesota Timberwolves | rebounds | 1.0 | 0–2.4 | 6 | 2.0, 0.0, 0.0, 0.0, 3.0, 3.0 |
-| Rudy Gobert | Minnesota Timberwolves | rebounds | 3.3 | 2.3–4.4 | 5 | 3.0, 4.0, 2.0, 4.0, 5.0 |
-| Terrence Shannon Jr. | Minnesota Timberwolves | assists | 1.3 | 0.4–2.3 | 3 | 2.0, 1.0, 0.0 |
-| Terrence Shannon Jr. | Minnesota Timberwolves | points | 2.2 | 0–5.7 | 3 | 2.0, 0.0, 7.0 |
-| Terrence Shannon Jr. | Minnesota Timberwolves | rebounds | 1.2 | 0.6–1.8 | 3 | 1.0, 1.0, 2.0 |
-| Trey Lyles | Minnesota Timberwolves | points | 2.2 | 0–4.5 | 6 | 5.0, 0.0, 3.0, 0.0, 0.0, 5.0 |
-| Trey Lyles | Minnesota Timberwolves | rebounds | 1.7 | 0.8–2.7 | 6 | 3.0, 2.0, 1.0, 1.0, 0.0, 1.0 |
-| Damian Lillard | Portland Trail Blazers | assists | 1.1 | 0–2.2 | 6 | 2.0, 0.0, 1.0, 0.0, 2.0, 3.0 |
-| Damian Lillard | Portland Trail Blazers | points | 3.6 | 2.5–4.7 | 6 | 2.0, 5.0, 4.0, 3.0, 5.0, 3.0 |
-| Deni Avdija | Portland Trail Blazers | assists | 2.3 | 0.9–3.6 | 6 | 2.0, 3.0, 1.0, 3.0, 4.0, 0.0 |
-| Deni Avdija | Portland Trail Blazers | points | 4.6 | 2.9–6.3 | 6 | 3.0, 3.0, 6.0, 6.0, 7.0, 7.0 |
-| Deni Avdija | Portland Trail Blazers | rebounds | 2.4 | 0.7–4.1 | 6 | 1.0, 3.0, 3.0, 5.0, 1.0, 0.0 |
-| Donovan Clingan | Portland Trail Blazers | points | 2.3 | 0.0–4.6 | 6 | 0.0, 5.0, 0.0, 3.0, 6.0, 2.0 |
-| Donovan Clingan | Portland Trail Blazers | rebounds | 3.6 | 2.1–5.0 | 6 | 2.0, 5.0, 2.0, 6.0, 4.0, 4.0 |
-| Jrue Holiday | Portland Trail Blazers | points | 3.1 | 1.2–5.0 | 6 | 5.0, 3.0, 2.0, 4.0, 0.0, 0.0 |
-| Jrue Holiday | Portland Trail Blazers | rebounds | 1.0 | 0.1–1.9 | 6 | 2.0, 0.0, 0.0, 1.0, 2.0, 2.0 |
-| Robert Williams III | Portland Trail Blazers | points | 2.5 | 1.3–3.8 | 5 | 4.0, 2.0, 2.0, 2.0, 0.0 |
-| Robert Williams III | Portland Trail Blazers | rebounds | 1.8 | 0.4–3.2 | 5 | 2.0, 1.0, 4.0, 0.0, 1.0 |
-| Scoot Henderson | Portland Trail Blazers | points | 2.1 | 1.0–3.2 | 6 | 3.0, 0.0, 3.0, 2.0, 3.0, 2.0 |
-| Sidy Cissoko | Portland Trail Blazers | assists | 0.5 | 0–1.0 | 6 | 0.0, 1.0, 0.0, 1.0, 1.0, 0.0 |
-| Sidy Cissoko | Portland Trail Blazers | points | 3.4 | 1.2–5.6 | 6 | 6.0, 4.0, 0.0, 4.0, 2.0, 0.0 |
-| Sidy Cissoko | Portland Trail Blazers | rebounds | 1.3 | 0.2–2.5 | 6 | 0.0, 2.0, 3.0, 0.0, 2.0, 2.0 |
-| Toumani Camara | Portland Trail Blazers | points | 3.4 | 2.2–4.5 | 6 | 5.0, 4.0, 2.0, 2.0, 2.0, 3.0 |
-| Toumani Camara | Portland Trail Blazers | rebounds | 1.1 | 0–2.2 | 6 | 0.0, 2.0, 3.0, 0.0, 0.0, 1.0 |
-
-## NBA: Golden State Warriors at New Orleans Pelicans — Mon Nov 16, 08:00 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Dejounte Murray | New Orleans Pelicans | assists | 0.9 | 0.2–1.7 | 5 | 1.0, 0.0, 1.0, 2.0, 2.0 |
-| Dejounte Murray | New Orleans Pelicans | points | 2.6 | 0.2–5.0 | 5 | 2.0, 4.0, 2.0, 0.0, 7.0 |
-| Dejounte Murray | New Orleans Pelicans | rebounds | 1.0 | 0.3–1.7 | 5 | 2.0, 1.0, 0.0, 0.0, 1.0 |
-| Derik Queen | New Orleans Pelicans | assists | 0.7 | 0–1.8 | 6 | 0.0, 0.0, 3.0, 0.0, 1.0, 0.0 |
-| Derik Queen | New Orleans Pelicans | points | 2.0 | 0.4–3.7 | 6 | 2.0, 2.0, 2.0, 1.0, 2.0, 6.0 |
-| Derik Queen | New Orleans Pelicans | rebounds | 0.8 | 0–1.6 | 6 | 0.0, 2.0, 0.0, 1.0, 1.0, 2.0 |
-| Herbert Jones | New Orleans Pelicans | points | 1.6 | 0.5–2.7 | 6 | 2.0, 2.0, 2.0, 0.0, 0.0, 3.0 |
-| Herbert Jones | New Orleans Pelicans | rebounds | 1.3 | 0.4–2.2 | 6 | 1.0, 3.0, 0.0, 1.0, 1.0, 1.0 |
-| Jeremiah Fears | New Orleans Pelicans | assists | 2.4 | 1.3–3.6 | 6 | 3.0, 4.0, 1.0, 2.0, 1.0, 1.0 |
-| Jeremiah Fears | New Orleans Pelicans | points | 4.3 | 2.4–6.2 | 6 | 5.0, 3.0, 2.0, 8.0, 5.0, 4.0 |
-| Jeremiah Fears | New Orleans Pelicans | rebounds | 1.7 | 0.8–2.6 | 6 | 1.0, 1.0, 3.0, 2.0, 3.0, 1.0 |
-| Karlo Matkovic | New Orleans Pelicans | points | 4.5 | 0–9.9 | 6 | 2.0, 4.0, 0.0, 16.0, 3.0, 9.0 |
-| Karlo Matkovic | New Orleans Pelicans | rebounds | 1.7 | 0.5–3.0 | 6 | 1.0, 4.0, 0.0, 2.0, 1.0, 2.0 |
-| Saddiq Bey | New Orleans Pelicans | assists | 0.6 | 0–1.4 | 6 | 0.0, 2.0, 0.0, 1.0, 0.0, 0.0 |
-| Saddiq Bey | New Orleans Pelicans | points | 2.8 | 0.7–4.9 | 6 | 3.0, 0.0, 6.0, 3.0, 4.0, 0.0 |
-| Saddiq Bey | New Orleans Pelicans | rebounds | 0.7 | 0–1.8 | 6 | 0.0, 0.0, 3.0, 0.0, 1.0, 0.0 |
-| Zion Williamson | New Orleans Pelicans | assists | 1.0 | 0.3–1.7 | 5 | 1.0, 0.0, 2.0, 1.0, 2.0 |
-| Zion Williamson | New Orleans Pelicans | points | 3.8 | 1.0–6.6 | 5 | 5.0, 7.0, 0.0, 0.0, 4.0 |
-| Zion Williamson | New Orleans Pelicans | rebounds | 1.7 | 0.3–3.1 | 5 | 0.0, 2.0, 4.0, 1.0, 3.0 |
-| Al Horford | Golden State Warriors | assists | 1.0 | 0.3–1.7 | 5 | 1.0, 1.0, 2.0, 0.0, 0.0 |
-| Al Horford | Golden State Warriors | rebounds | 1.3 | 0.5–2.0 | 5 | 1.0, 1.0, 2.0, 2.0, 0.0 |
-| Brandin Podziemski | Golden State Warriors | assists | 1.0 | 0.5–1.6 | 6 | 1.0, 2.0, 0.0, 1.0, 1.0, 1.0 |
-| Brandin Podziemski | Golden State Warriors | points | 4.4 | 2.3–6.4 | 6 | 6.0, 5.0, 5.0, 3.0, 0.0, 2.0 |
-| Brandin Podziemski | Golden State Warriors | rebounds | 0.9 | 0.1–1.7 | 6 | 1.0, 1.0, 0.0, 2.0, 0.0, 2.0 |
-| Charles Bassey | Golden State Warriors | rebounds | 1.0 | 0.3–1.6 | 6 | 1.0, 1.0, 0.0, 1.0, 2.0, 2.0 |
-| De'Anthony Melton | Golden State Warriors | points | 2.5 | 0.9–4.1 | 6 | 2.0, 4.0, 3.0, 0.0, 2.0, 5.0 |
-| De'Anthony Melton | Golden State Warriors | rebounds | 1.0 | 0.4–1.7 | 6 | 1.0, 1.0, 0.0, 2.0, 2.0, 1.0 |
-| Draymond Green | Golden State Warriors | assists | 2.7 | 1.3–4.0 | 5 | 2.0, 2.0, 5.0, 3.0, 1.0 |
-| Draymond Green | Golden State Warriors | points | 1.9 | 0.4–3.4 | 5 | 4.0, 0.0, 2.0, 0.0, 2.0 |
-| Draymond Green | Golden State Warriors | rebounds | 1.8 | 0.4–3.2 | 5 | 2.0, 1.0, 4.0, 0.0, 1.0 |
-| Georges Niang | Golden State Warriors | points | 2.1 | 0.6–3.7 | 6 | 0.0, 4.0, 3.0, 3.0, 2.0, 0.0 |
-| Georges Niang | Golden State Warriors | rebounds | 0.8 | 0–1.8 | 6 | 0.0, 1.0, 1.0, 0.0, 3.0, 1.0 |
-| Gui Santos | Golden State Warriors | assists | 0.6 | 0–1.5 | 4 | 0.0, 2.0, 0.0, 0.0 |
-| Gui Santos | Golden State Warriors | rebounds | 1.7 | 0.4–3.0 | 4 | 2.0, 3.0, 0.0, 0.0 |
-| Stephen Curry | Golden State Warriors | assists | 0.7 | 0–1.5 | 5 | 0.0, 1.0, 2.0, 0.0, 0.0 |
-| Stephen Curry | Golden State Warriors | points | 5.1 | 2.9–7.4 | 5 | 3.0, 8.0, 7.0, 3.0, 3.0 |
-| Stephen Curry | Golden State Warriors | rebounds | 0.7 | 0–1.5 | 5 | 0.0, 1.0, 2.0, 0.0, 0.0 |
-| Will Richard | Golden State Warriors | points | 1.8 | 0–4.6 | 5 | 0.0, 0.0, 7.0, 3.0, 0.0 |
-| Yaxel Lendeborg | Golden State Warriors | assists | 1.4 | 0.7–2.2 | 6 | 0.0, 2.0, 2.0, 2.0, 2.0, 2.0 |
-| Yaxel Lendeborg | Golden State Warriors | points | 5.0 | 2.9–7.1 | 6 | 5.0, 7.0, 5.0, 5.0, 0.0, 5.0 |
-| Yaxel Lendeborg | Golden State Warriors | rebounds | 3.0 | 1.9–4.1 | 6 | 4.0, 3.0, 3.0, 3.0, 1.0, 1.0 |
-
-## NBA: Phoenix Suns at Denver Nuggets — Mon Nov 16, 09:00 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Aaron Gordon | Denver Nuggets | points | 2.8 | 1.4–4.2 | 6 | 4.0, 2.0, 4.0, 2.0, 0.0, 3.0 |
-| Cameron Johnson | Denver Nuggets | points | 4.2 | 2.8–5.5 | 6 | 5.0, 3.0, 4.0, 6.0, 2.0, 5.0 |
-| Cameron Johnson | Denver Nuggets | rebounds | 1.2 | 0.3–2.2 | 6 | 2.0, 1.0, 1.0, 0.0, 1.0, 3.0 |
-| Christian Braun | Denver Nuggets | assists | 1.0 | 0.5–1.5 | 6 | 1.0, 1.0, 1.0, 1.0, 1.0, 0.0 |
-| Christian Braun | Denver Nuggets | points | 3.9 | 0.2–7.5 | 6 | 7.0, 2.0, 2.0, 0.0, 5.0, 11.0 |
-| Christian Braun | Denver Nuggets | rebounds | 1.1 | 0.4–1.8 | 6 | 2.0, 1.0, 1.0, 0.0, 1.0, 0.0 |
-| DeMar DeRozan | Denver Nuggets | assists | 1.1 | 0.5–1.8 | 5 | 1.0, 2.0, 1.0, 0.0, 1.0 |
-| DeMar DeRozan | Denver Nuggets | points | 1.5 | 0.3–2.7 | 5 | 2.0, 0.0, 2.0, 3.0, 0.0 |
-| Jamal Murray | Denver Nuggets | assists | 1.5 | 0.2–2.7 | 6 | 3.0, 0.0, 1.0, 2.0, 0.0, 3.0 |
-| Jamal Murray | Denver Nuggets | points | 4.5 | 1.2–7.8 | 6 | 3.0, 7.0, 2.0, 3.0, 11.0, 2.0 |
-| Jamal Murray | Denver Nuggets | rebounds | 1.4 | 0.2–2.6 | 6 | 1.0, 0.0, 2.0, 2.0, 4.0, 2.0 |
-| Nikola Jokic | Denver Nuggets | assists | 3.6 | 2.3–5.0 | 6 | 4.0, 4.0, 3.0, 5.0, 2.0, 1.0 |
-| Nikola Jokic | Denver Nuggets | points | 8.4 | 6.0–10.9 | 6 | 8.0, 6.0, 10.0, 13.0, 6.0, 8.0 |
-| Nikola Jokic | Denver Nuggets | rebounds | 4.0 | 2.5–5.6 | 6 | 4.0, 2.0, 6.0, 5.0, 5.0, 2.0 |
-| Spencer Jones | Denver Nuggets | points | 1.5 | 0–3.2 | 3 | 3.0, 0.0, 0.0 |
-| Trevon Brazile | Denver Nuggets | points | 2.8 | 2.1–3.5 | 6 | 3.0, 2.0, 3.0, 4.0, 2.0, 3.0 |
-| Trevon Brazile | Denver Nuggets | rebounds | 2.5 | 1.1–3.8 | 6 | 4.0, 1.0, 2.0, 3.0, 3.0, 0.0 |
-| Tyus Jones | Denver Nuggets | assists | 1.0 | 0.1–1.8 | 6 | 2.0, 0.0, 0.0, 2.0, 1.0, 0.0 |
-| Collin Gillespie | Phoenix Suns | points | 2.3 | 0.0–4.5 | 6 | 6.0, 0.0, 0.0, 3.0, 0.0, 3.0 |
-| Devin Booker | Phoenix Suns | assists | 1.5 | 0.8–2.3 | 6 | 1.0, 1.0, 2.0, 3.0, 1.0, 2.0 |
-| Devin Booker | Phoenix Suns | points | 9.7 | 5.7–13.7 | 6 | 8.0, 15.0, 4.0, 12.0, 12.0, 5.0 |
-| Devin Booker | Phoenix Suns | rebounds | 0.8 | 0.3–1.3 | 6 | 1.0, 1.0, 0.0, 1.0, 1.0, 0.0 |
-| Dillon Brooks | Phoenix Suns | points | 4.6 | 2.6–6.5 | 6 | 4.0, 2.0, 5.0, 7.0, 8.0, 5.0 |
-| Dillon Brooks | Phoenix Suns | rebounds | 1.1 | 0.5–1.8 | 6 | 1.0, 1.0, 2.0, 0.0, 2.0, 1.0 |
-| Jalen Green | Phoenix Suns | assists | 1.4 | 0.4–2.5 | 6 | 1.0, 2.0, 3.0, 0.0, 1.0, 0.0 |
-| Jalen Green | Phoenix Suns | points | 3.0 | 0.3–5.6 | 6 | 2.0, 0.0, 8.0, 2.0, 5.0, 2.0 |
-| Jalen Green | Phoenix Suns | rebounds | 1.4 | 0.3–2.5 | 6 | 2.0, 2.0, 1.0, 0.0, 0.0, 3.0 |
-| Khaman Maluach | Phoenix Suns | assists | 1.7 | 0.6–2.8 | 6 | 3.0, 2.0, 0.0, 1.0, 2.0, 0.0 |
-| Khaman Maluach | Phoenix Suns | rebounds | 2.3 | 1.6–3.0 | 6 | 3.0, 2.0, 3.0, 1.0, 2.0, 2.0 |
-| Luke Kennard | Phoenix Suns | assists | 0.5 | 0–1.3 | 6 | 0.0, 0.0, 2.0, 0.0, 1.0, 1.0 |
-| Miles Bridges | Phoenix Suns | assists | 0.6 | 0–1.4 | 6 | 0.0, 0.0, 2.0, 1.0, 1.0, 0.0 |
-| Miles Bridges | Phoenix Suns | points | 1.8 | 0–3.6 | 6 | 0.0, 0.0, 4.0, 3.0, 4.0, 4.0 |
-| Miles Bridges | Phoenix Suns | rebounds | 1.8 | 0.9–2.7 | 6 | 1.0, 2.0, 1.0, 3.0, 3.0, 3.0 |
-| Oso Ighodaro | Phoenix Suns | assists | 0.5 | 0–1.3 | 6 | 0.0, 0.0, 1.0, 1.0, 2.0, 0.0 |
-| Oso Ighodaro | Phoenix Suns | points | 2.6 | 0.3–4.9 | 6 | 2.0, 2.0, 2.0, 2.0, 5.0, 8.0 |
-| Oso Ighodaro | Phoenix Suns | rebounds | 2.1 | 1.1–3.2 | 6 | 4.0, 1.0, 2.0, 1.0, 2.0, 1.0 |
-| Ryan Dunn | Phoenix Suns | assists | 0.5 | 0–1.2 | 6 | 0.0, 0.0, 1.0, 2.0, 0.0, 0.0 |
-| Ryan Dunn | Phoenix Suns | points | 3.4 | 1.4–5.4 | 6 | 4.0, 3.0, 5.0, 4.0, 0.0, 0.0 |
-| Ryan Dunn | Phoenix Suns | rebounds | 1.2 | 0.0–2.3 | 6 | 3.0, 0.0, 0.0, 1.0, 2.0, 0.0 |
+| Darnell Mooney | New York Giants | receiving yards | 4.9 | 0–11.2 | 6 | 17.0, 0.0, 0.0, 0.0, 0.0, 0.0 |
+| Darnell Mooney | New York Giants | rushing yards | 5.0 | 0–12.2 | 6 | 0.0, 3.0, 20.0, 0.0, 0.0, 9.0 |
+| Devin Singletary | New York Giants | rushing yards | 4.7 | 0–9.5 | 3 | 9.0, 0.0, 1.0 |
+| Isaiah Likely | New York Giants | receiving yards | 22.3 | 6.1–38.6 | 6 | 38.0, 0.0, 42.0, 19.0, 3.0, 10.0 |
+| J.J. McCarthy | New York Giants | passing yards | 59.6 | 15.8–103.4 | 4 | 77.0, 96.0, 0.0, 0.0 |
+| Jameis Winston | New York Giants | passing yards | 24.9 | 0.1–49.6 | 6 | 0.0, 0.0, 57.0, 46.0, 51.0, 54.0 |
+| Malachi Fields | New York Giants | receiving yards | 11.6 | 0–28.8 | 6 | 0.0, 47.0, 0.0, 0.0, 0.0, 9.0 |
+| Malik Nabers | New York Giants | receiving yards | 26.5 | 6.9–46.0 | 6 | 22.0, 50.0, -2.0, 27.0, 48.0, 5.0 |
+| Antonio Williams | Washington Commanders | receiving yards | 6.1 | 0–12.7 | 6 | 18.0, 4.0, 0.0, 0.0, 0.0, 0.0 |
+| Austin Ekeler | Washington Commanders | rushing yards | 4.9 | 0.9–9.0 | 5 | 5.0, 7.0, 3.0, 0.0, 12.0 |
+| Chig Okonkwo | Washington Commanders | receiving yards | 9.9 | 0–22.7 | 5 | 15.0, 0.0, 0.0, 34.0, 5.0 |
+| Colson Yankoff | Washington Commanders | receiving yards | 3.3 | 0.3–6.3 | 3 | 6.0, 0.0, 2.0 |
+| Jayden Daniels | Washington Commanders | passing yards | 39.5 | 24.2–54.8 | 4 | 57.0, 15.0, 44.0, 34.0 |
+| Rachaad White | Washington Commanders | rushing yards | 8.3 | 2.6–14.1 | 5 | 13.0, 13.0, 2.0, 0.0, 2.0 |
+| Stefon Diggs | Washington Commanders | receiving yards | 5.3 | 0–12.9 | 5 | 0.0, 0.0, 17.0, 14.0, 0.0 |
 
 ## NFL: New England Patriots at Detroit Lions — Sun Nov 15, 09:30 AM EST
 
@@ -1510,18 +1276,3 @@ Estimates use each player's recent first-quarter results, weighted toward newer 
 | Jaylen Warren | Pittsburgh Steelers | rushing yards | 29.7 | 10.3–49.1 | 6 | 65.0, 13.0, 20.0, 5.0, 29.0, 16.0 |
 | Pat Freiermuth | Pittsburgh Steelers | receiving yards | 3.0 | 0–6.3 | 6 | 7.0, 0.0, 0.0, 7.0, 0.0, 0.0 |
 | Rico Dowdle | Pittsburgh Steelers | rushing yards | 17.0 | 5.9–28.1 | 3 | 27.0, 5.0, 11.0 |
-
-## NFL: Los Angeles Chargers at Baltimore Ravens — Mon Nov 16, 08:15 PM EST
-
-| Player | Team | First-quarter stat | Estimate | Range | Games | Recent games (newest first) |
-|---|---|---|---:|---:|---:|---|
-| Derrick Henry | Baltimore Ravens | rushing yards | 20.8 | 9.3–32.3 | 6 | 18.0, 23.0, 9.0, 30.0, 40.0, 7.0 |
-| Justice Hill | Baltimore Ravens | rushing yards | 3.4 | 0–12.9 | 6 | 0.0, 0.0, 5.0, 0.0, 26.0, 0.0 |
-| Zay Flowers | Baltimore Ravens | receiving yards | 17.9 | 0–45.3 | 6 | -3.0, 0.0, 76.0, 6.0, 17.0, 37.0 |
-| Zay Flowers | Baltimore Ravens | rushing yards | 4.0 | 0–9.2 | 6 | 9.0, 0.0, 0.0, 1.0, 13.0, 0.0 |
-| Charlie Kolar | Los Angeles Chargers | receiving yards | 11.4 | 0.8–22.0 | 4 | 26.0, 0.0, 0.0, 10.0 |
-| Justin Herbert | Los Angeles Chargers | passing yards | 30.0 | 17.8–42.1 | 6 | 39.0, 40.0, 21.0, 10.0, 34.0, 13.0 |
-| Kimani Vidal | Los Angeles Chargers | rushing yards | 4.6 | 0.8–8.4 | 6 | 6.0, 1.0, 11.0, 2.0, 0.0, 6.0 |
-| Omarion Hampton | Los Angeles Chargers | rushing yards | 8.3 | 2.2–14.4 | 6 | 8.0, 10.0, 0.0, 8.0, 17.0, 18.0 |
-| Quentin Johnston | Los Angeles Chargers | receiving yards | 3.1 | 0–7.2 | 5 | 0.0, 10.0, 0.0, 0.0, 6.0 |
-| Tre' Harris | Los Angeles Chargers | receiving yards | 6.1 | 0–12.4 | 5 | 13.0, 0.0, 0.0, 13.0, 0.0 |
