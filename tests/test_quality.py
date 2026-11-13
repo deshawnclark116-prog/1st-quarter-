@@ -31,7 +31,7 @@ class FirstQuarterQualityTests(unittest.TestCase):
             return {"teamTricode": code, "players": [
                 {"playerName": f"{code} {i}", "lineupStatus": "Confirmed"} for i in range(5)]}
         payload = {"games": [{"teams": [team("BOS"), team("NY")]}]}
-        self.assertEqual(set(confirmed_starters(payload, self.game)), {"BOS", "NY"})
+        self.assertEqual(set(confirmed_starters(payload, self.game)), {"BOS", "NYK"})
         payload["games"][0]["teams"][0]["players"][0]["lineupStatus"] = "Expected"
         self.assertIsNone(confirmed_starters(payload, self.game))
 
