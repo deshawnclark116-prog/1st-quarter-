@@ -1,0 +1,52 @@
+{
+  "project": "1st Quarter",
+  "as_of": "2026-11-13",
+  "objective": "Improve first-quarter player projections and demonstrate genuine positive betting edge after vig, not merely closeness to averages.",
+  "champions": {
+    "NBA_Q1": {
+      "name": "q1_baseline_v1",
+      "method": "weighted recent first-quarter values (six prior team games)",
+      "state": "experimental/unvalidated",
+      "official_betting": false
+    },
+    "NFL_Q1": {
+      "name": "q1_baseline_v1",
+      "method": "weighted recent first-quarter values from play descriptions",
+      "state": "experimental/unvalidated",
+      "official_betting": false
+    }
+  },
+  "challengers": [
+    {
+      "name": "nba_starter_role_v1",
+      "state": "shadow_only",
+      "publication_source": "shadow_role_estimate",
+      "promotion": "prohibited pending chronological held-out comparison; no odds/ROI proof"
+    }
+  ],
+  "data_gates": {
+    "NBA": "NBA.com must return five individually confirmed starters for BOTH teams, plus active-roster checks. No fallback to Expected.",
+    "NFL": "NFL.com verified inactive list; current lead-QB check is based on last game and needs further hardening.",
+    "provenance": "Archive immutable pregame snapshots at least two minutes before scheduled start.",
+    "scoring": "Grade only finalized games; reconcile first-quarter team points against play-by-play."
+  },
+  "validation": {
+    "legacy_audit": "2026-11-12 historical prediction report before kickoff, 85 grades, starting lineups not previously verified, no sportsbook lines.",
+    "clean_forward_samples": 0,
+    "holdout": "NBA chronological research test: late-date holdout; historical starters are oracle availability, not pregame verification.",
+    "success_gate": "Promote only after future-only, preregistered paired tests across varied dates/teams; sufficient n per market, material error/calibration gains, bootstrap uncertainty; no cherry-picking.",
+    "profit_gate": "Real bettable 1Q lines and odds, vig, market availability, rejected/unfilled wagers, closing-line value and out-of-sample net ROI required.",
+    "not_yet_shown": [
+      "profitable bets",
+      "calibrated hit probabilities",
+      "robust NFL Q1 role/usage model",
+      "live NBA starter quality across entire slate"
+    ]
+  },
+  "operational_status": {
+    "github_actions": "2026-11-13 production smoke run succeeded after browser UA/header fix",
+    "lineup_feed": "Confirmed accessible from GitHub runner; 90 Expected players before games, correct structure observed.",
+    "prediction_schedule": "15-minute polling in selected UTC game windows",
+    "outcome_grading": "daily separate GitHub Action"
+  }
+}
