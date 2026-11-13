@@ -1,5 +1,7 @@
 # 1st Quarter
 
+**Model status: experimental baseline.** The current projections have not yet been backtested or shown to beat simple alternatives. Do not treat them as validated picks.
+
 An automated first-quarter player projection bot for upcoming NBA and NFL games. It reads public ESPN schedules and game summaries, calculates each player's recent first-quarter production, and writes a Markdown report plus machine-readable JSON.
 
 ## Where to find predictions
@@ -19,7 +21,7 @@ python -m unittest discover -s tests -v
 
 `--date` defaults to today's date in New York. Game times in the Markdown report are shown in Eastern time (EST or EDT); JSON includes both the UTC `date` and local `date_et`. `--days` controls how many calendar dates to scan, and `--games` controls the number of prior team games sampled. A player appears only when their most recent game roster includes them and they have at least three first-quarter samples. Estimates are recency-weighted averages. The displayed range uses observed variation, widened for small samples. It is **not** a probability or a guarantee.
 
-The report includes games that have not started at generation time. Once a game starts, it is excluded because a pregame first-quarter projection is no longer timely. Before showing a player, the bot checks the current ESPN team roster and game injury list. It removes players marked Out or Doubtful, and, for NFL passing yards, shows only the team's lead passer from its most recent game. These checks do not confirm game-day participation or tonight's starter.
+The report includes games that have not started at generation time. Once a game starts, it is excluded because a pregame first-quarter projection is no longer timely. Before showing a player, the bot checks the current ESPN team roster and game injury list. NFL player projections also require an NFL.com official game-day inactive report for both teams; if that report is missing or cannot be parsed, the game is withheld. The bot removes officially inactive players and, for NFL passing yards, shows only the team's lead passer from its most recent game. These checks do not confirm tonight's starter or snap count.
 
 ## Data limits
 
