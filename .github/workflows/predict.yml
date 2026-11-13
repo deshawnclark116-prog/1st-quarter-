@@ -22,7 +22,6 @@ jobs:
       - name: Generate projections
         run: python quarterbot.py
       - name: Add report to run summary
-        if: always()
         run: |
           if [ -f predictions.md ]; then
             cat predictions.md >> "$GITHUB_STEP_SUMMARY"
