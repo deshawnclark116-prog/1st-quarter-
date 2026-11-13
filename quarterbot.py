@@ -39,7 +39,11 @@ def fetch_json(url: str, params: dict | None = None, retries: int = 2) -> dict:
     last_error = None
     for attempt in range(retries + 1):
         try:
-            with urlopen(Request(url, headers={"User-Agent": "1st-quarter-bot/1.0"}), timeout=20) as response:
+            with urlopen(Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
+                "Accept": "application/json,text/plain,*/*",
+                "Referer": "https://www.espn.com/",
+            }), timeout=20) as response:
                 return json.load(response)
         except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
             last_error = error
@@ -50,7 +54,11 @@ def fetch_json(url: str, params: dict | None = None, retries: int = 2) -> dict:
 
 def fetch_text(url: str) -> str:
     try:
-        with urlopen(Request(url, headers={"User-Agent": "1st-quarter-bot/1.0"}), timeout=20) as response:
+        with urlopen(Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
+                "Accept": "application/json,text/plain,*/*",
+                "Referer": "https://www.espn.com/",
+            }), timeout=20) as response:
             return response.read().decode("utf-8")
     except (HTTPError, URLError, TimeoutError, UnicodeDecodeError) as error:
         raise RuntimeError(f"Could not fetch {url}: {error}") from error
