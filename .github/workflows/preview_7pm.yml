@@ -1,0 +1,29 @@
+name: One-time early seven PM first-quarter preview
+on:
+  push:
+    branches: ["early-preview-2026-11-13-7pm"]
+    paths: [".github/workflows/preview_7pm.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run early unverified NBA first-quarter model
+        run: python preview_7pm.py
+      - name: Persist independently labeled preview for inspection
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add early_preview_7pm.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record unverified November 13 seven PM preview"
+            git pull --rebase origin early-preview-2026-11-13-7pm
+            git push origin HEAD:early-preview-2026-11-13-7pm
+          fi
