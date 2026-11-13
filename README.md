@@ -19,6 +19,8 @@ python -m unittest discover -s tests -v
 
 `--date` defaults to today's date in New York. Game times in the Markdown report are shown in Eastern time (EST or EDT); JSON includes both the UTC `date` and local `date_et`. `--days` controls how many calendar dates to scan, and `--games` controls the number of prior team games sampled. A player appears only when their most recent game roster includes them and they have at least three first-quarter samples. Estimates are recency-weighted averages. The displayed range uses observed variation, widened for small samples. It is **not** a probability or a guarantee.
 
+The report includes games that have not started at generation time. Once a game starts, it is excluded because a pregame first-quarter projection is no longer timely.
+
 ## Data limits
 
 - ESPN is an unofficial public data source for this bot; feed fields, rate limits, and availability can change.
