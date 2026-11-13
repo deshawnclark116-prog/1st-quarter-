@@ -6,7 +6,7 @@ An automated first-quarter player projection bot for upcoming NBA and NFL games.
 
 ## Where to find predictions
 
-The latest run writes [predictions.md](predictions.md) and [predictions.json](predictions.json) in this repository. On the development branch, GitHub Actions polls potential pregame windows every 15 minutes and grades finalized games once daily. It can also be started manually from the **Actions** tab using **Run workflow**. The report is also added to the run summary.
+The latest run writes [predictions.md](predictions.md) and [predictions.json](predictions.json) in this repository. On the development branch, GitHub Actions polls every 15 minutes, while each game is only scored in its own roughly T-30 minute primary window and T-15 retry window (if not previously verified) and grades finalized games once daily. It can also be started manually from the **Actions** tab using **Run workflow**. The report is also added to the run summary.
 
 ## Run locally
 
@@ -104,3 +104,36 @@ research comparisons used the final-game box score to identify starters.
 The live workflow only publishes when both NBA starting fives have been
 confirmed before the game's start. Real betting-market prices, odds and
 net ROI are still required before this can be labeled a winning system.
+
+## November 13: game-relative automatic runs
+
+Each NBA or NFL game now has its **own** schedule based on the start time
+reported by ESPN rather than a fixed 7 PM slate trigger:
+
+- **Primary check:** when 20–35 minutes remain before scheduled tipoff or kickoff
+  (nominally T−30). Fetch recent stats, verify injuries and availability,
+  require five `Confirmed` NBA starters per team, and publish only if checks pass.
+- **Retry check:** when more than 2 but fewer than 20 minutes remain
+  (nominally T−15). Only games that have **not** published verified
+  predictions are recomputed; missing lineup confirmation gets another attempt.
+- **Protected cutoff:** new predictions cannot publish inside two minutes
+  of scheduled kickoff, even if GitHub Actions or network calls were delayed.
+- **Already verified:** retain the original confirmed T−30 snapshot in
+  the latest report without generating a false fresh prediction at T−15.
+- **Per-game independence:** a 7:00 PM matchup and an 8:30 PM matchup
+  can be checked at different times without overwriting each other's
+  valid verified reports. Roster/injury and official NFL inactive gates
+  remain unchanged.
+
+The workflow now runs a lightweight scoreboard preflight every fifteen
+minutes at minutes 02, 17, 32 and 47 UTC, covering all hours and days.
+Only when a game is due, a previously published game has begun, or
+an authorized manual/push run occurs does it run the full model and
+write predictions. The offset reduces top-of-hour cron congestion.
+
+**Operational caveat:** GitHub Actions cron is best-effort; GitHub may
+delay or drop scheduled jobs. This setup targets approximately T−30/T−15
+and does not guarantee an exact wall-clock trigger. Verify real
+`schedule` event executions under Actions before relying on it to
+automatically publish on game day. Use `workflow_dispatch` manually
+if GitHub's scheduler is disabled or delayed.
