@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:56:41.234534+00:00",
+  "generated_at": "2026-11-14T00:58:02.852620+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
@@ -23,16 +23,9 @@
           "abbreviation": "CLE"
         }
       ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-14T00:56:41.234534+00:00",
-      "excluded": [
-        "Evan Mobley (out)",
-        "Klay Thompson (out)",
-        "Pelle Larsson (out)"
-      ],
+      "run_phase": "closed",
       "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
+      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
     },
     {
       "id": "401909299",
@@ -52,14 +45,9 @@
           "abbreviation": "ATL"
         }
       ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-14T00:56:41.234534+00:00",
-      "excluded": [
-        "Caleb Wilson (out)"
-      ],
+      "run_phase": "closed",
       "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
+      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
     },
     {
       "id": "401909300",
@@ -79,15 +67,9 @@
           "abbreviation": "MEM"
         }
       ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-14T00:56:41.234534+00:00",
-      "excluded": [
-        "Dejounte Murray (out)",
-        "Zach Edey (out)"
-      ],
+      "run_phase": "closed",
       "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
+      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
     },
     {
       "id": "401909301",
@@ -108,7 +90,7 @@
         }
       ],
       "run_phase": "primary",
-      "checked_at": "2026-11-14T00:56:41.234534+00:00",
+      "checked_at": "2026-11-14T00:58:02.852620+00:00",
       "excluded": [],
       "predictions": [],
       "lineup_status": "unconfirmed",

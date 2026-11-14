@@ -1,6 +1,6 @@
 # Experimental first-quarter baseline
 
-Generated: Fri Nov 13, 07:56 PM EST
+Generated: Fri Nov 13, 07:58 PM EST
 Window starts: 2026-11-13 Eastern (2 days); NBA up to 10 and NFL up to 6 prior games per team.
 Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
@@ -8,15 +8,15 @@ Current team rosters and listed Out/Doubtful injuries are checked before a playe
 
 ## NBA: Cleveland Cavaliers at Miami Heat — Fri Nov 13, 08:00 PM EST
 
-NBA starters are not individually confirmed for both teams; no official first-quarter projections.
+Pregame cutoff reached; no new predictions published inside two minutes of tipoff.
 
 ## NBA: Atlanta Hawks at Chicago Bulls — Fri Nov 13, 08:00 PM EST
 
-NBA starters are not individually confirmed for both teams; no official first-quarter projections.
+Pregame cutoff reached; no new predictions published inside two minutes of tipoff.
 
 ## NBA: Memphis Grizzlies at New Orleans Pelicans — Fri Nov 13, 08:00 PM EST
 
-NBA starters are not individually confirmed for both teams; no official first-quarter projections.
+Pregame cutoff reached; no new predictions published inside two minutes of tipoff.
 
 ## NBA: Utah Jazz at Houston Rockets — Fri Nov 13, 08:30 PM EST
 
