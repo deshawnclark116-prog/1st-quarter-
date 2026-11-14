@@ -2,7 +2,7 @@ name: One-time early eight PM first-quarter preview
 on:
   push:
     branches: ["early-preview-2026-11-13-8pm"]
-    paths: [".github/workflows/preview_8pm.yml"]
+    paths: [".github/workflows/preview_8pm.yml", "preview_8pm.py"]
   workflow_dispatch:
 permissions:
   contents: write
