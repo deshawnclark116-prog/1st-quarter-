@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:54:03.615596+00:00",
+  "generated_at": "2026-11-14T00:56:41.234534+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
@@ -24,7 +24,7 @@
         }
       ],
       "run_phase": "retry",
-      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "checked_at": "2026-11-14T00:56:41.234534+00:00",
       "excluded": [
         "Evan Mobley (out)",
         "Klay Thompson (out)",
@@ -53,7 +53,7 @@
         }
       ],
       "run_phase": "retry",
-      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "checked_at": "2026-11-14T00:56:41.234534+00:00",
       "excluded": [
         "Caleb Wilson (out)"
       ],
@@ -80,7 +80,7 @@
         }
       ],
       "run_phase": "retry",
-      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "checked_at": "2026-11-14T00:56:41.234534+00:00",
       "excluded": [
         "Dejounte Murray (out)",
         "Zach Edey (out)"
@@ -107,9 +107,12 @@
           "abbreviation": "UTAH"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "primary",
+      "checked_at": "2026-11-14T00:56:41.234534+00:00",
+      "excluded": [],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909302",

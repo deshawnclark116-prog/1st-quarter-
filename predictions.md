@@ -1,6 +1,6 @@
 # Experimental first-quarter baseline
 
-Generated: Fri Nov 13, 07:54 PM EST
+Generated: Fri Nov 13, 07:56 PM EST
 Window starts: 2026-11-13 Eastern (2 days); NBA up to 10 and NFL up to 6 prior games per team.
 Game times are shown in Eastern time (EST or EDT). Games already started when the report runs are excluded.
 
@@ -20,7 +20,7 @@ NBA starters are not individually confirmed for both teams; no official first-qu
 
 ## NBA: Utah Jazz at Houston Rockets — Fri Nov 13, 08:30 PM EST
 
-Awaiting first lineup check approximately 30 minutes before scheduled tipoff.
+NBA starters are not individually confirmed for both teams; no official first-quarter projections.
 
 ## NBA: Golden State Warriors at San Antonio Spurs — Fri Nov 13, 09:30 PM EST
 
