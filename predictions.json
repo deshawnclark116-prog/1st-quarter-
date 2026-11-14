@@ -1,60 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:56:30.017060+00:00",
+  "generated_at": "2026-11-14T00:54:03.615596+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
   "nba_sample_size": 10,
   "games": [
-    {
-      "id": "401909296",
-      "date": "2026-11-14T00:00Z",
-      "date_et": "2026-11-13T19:00:00-05:00",
-      "sport": "nba",
-      "name": "New York Knicks at Indiana Pacers",
-      "teams": [
-        {
-          "id": "11",
-          "name": "Indiana Pacers",
-          "abbreviation": "IND"
-        },
-        {
-          "id": "18",
-          "name": "New York Knicks",
-          "abbreviation": "NY"
-        }
-      ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-13T23:56:30.017060+00:00",
-      "excluded": [],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
-    {
-      "id": "401909297",
-      "date": "2026-11-14T00:00Z",
-      "date_et": "2026-11-13T19:00:00-05:00",
-      "sport": "nba",
-      "name": "Milwaukee Bucks at Orlando Magic",
-      "teams": [
-        {
-          "id": "19",
-          "name": "Orlando Magic",
-          "abbreviation": "ORL"
-        },
-        {
-          "id": "15",
-          "name": "Milwaukee Bucks",
-          "abbreviation": "MIL"
-        }
-      ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-13T23:56:30.017060+00:00",
-      "excluded": [],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
     {
       "id": "401909298",
       "date": "2026-11-14T01:00Z",
@@ -73,9 +23,16 @@
           "abbreviation": "CLE"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "excluded": [
+        "Evan Mobley (out)",
+        "Klay Thompson (out)",
+        "Pelle Larsson (out)"
+      ],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909299",
@@ -95,9 +52,14 @@
           "abbreviation": "ATL"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "excluded": [
+        "Caleb Wilson (out)"
+      ],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909300",
@@ -117,9 +79,15 @@
           "abbreviation": "MEM"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-14T00:54:03.615596+00:00",
+      "excluded": [
+        "Dejounte Murray (out)",
+        "Zach Edey (out)"
+      ],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909301",
