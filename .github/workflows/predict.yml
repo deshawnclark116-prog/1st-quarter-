@@ -36,6 +36,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: One-time November 13 8 PM model preview (unconfirmed, never official)
+        if: github.event_name == 'push'
+        run: python preview_8pm.py
       - name: Check game-specific T-30 and T-15 triggers
         id: preflight
         run: python quarter_preflight.py
@@ -57,6 +60,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add predictions.md predictions.json
+          if [ -f early_preview_8pm.json ]; then
+            git add early_preview_8pm.json
+          fi
           if [ -d archive ] && find archive -type f -print -quit | grep -q .; then
             git add -A archive
           fi
