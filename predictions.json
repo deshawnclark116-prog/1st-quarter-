@@ -1,101 +1,10 @@
 {
-  "generated_at": "2026-11-14T00:58:02.852620+00:00",
+  "generated_at": "2026-11-14T02:24:25.546540+00:00",
   "start_date": "2026-11-13",
   "days": 2,
   "sample_size": 6,
   "nba_sample_size": 10,
   "games": [
-    {
-      "id": "401909298",
-      "date": "2026-11-14T01:00Z",
-      "date_et": "2026-11-13T20:00:00-05:00",
-      "sport": "nba",
-      "name": "Cleveland Cavaliers at Miami Heat",
-      "teams": [
-        {
-          "id": "14",
-          "name": "Miami Heat",
-          "abbreviation": "MIA"
-        },
-        {
-          "id": "5",
-          "name": "Cleveland Cavaliers",
-          "abbreviation": "CLE"
-        }
-      ],
-      "run_phase": "closed",
-      "predictions": [],
-      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
-    },
-    {
-      "id": "401909299",
-      "date": "2026-11-14T01:00Z",
-      "date_et": "2026-11-13T20:00:00-05:00",
-      "sport": "nba",
-      "name": "Atlanta Hawks at Chicago Bulls",
-      "teams": [
-        {
-          "id": "4",
-          "name": "Chicago Bulls",
-          "abbreviation": "CHI"
-        },
-        {
-          "id": "1",
-          "name": "Atlanta Hawks",
-          "abbreviation": "ATL"
-        }
-      ],
-      "run_phase": "closed",
-      "predictions": [],
-      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
-    },
-    {
-      "id": "401909300",
-      "date": "2026-11-14T01:00Z",
-      "date_et": "2026-11-13T20:00:00-05:00",
-      "sport": "nba",
-      "name": "Memphis Grizzlies at New Orleans Pelicans",
-      "teams": [
-        {
-          "id": "3",
-          "name": "New Orleans Pelicans",
-          "abbreviation": "NO"
-        },
-        {
-          "id": "29",
-          "name": "Memphis Grizzlies",
-          "abbreviation": "MEM"
-        }
-      ],
-      "run_phase": "closed",
-      "predictions": [],
-      "withheld_reason": "Pregame cutoff reached; no new predictions published inside two minutes of tipoff."
-    },
-    {
-      "id": "401909301",
-      "date": "2026-11-14T01:30Z",
-      "date_et": "2026-11-13T20:30:00-05:00",
-      "sport": "nba",
-      "name": "Utah Jazz at Houston Rockets",
-      "teams": [
-        {
-          "id": "10",
-          "name": "Houston Rockets",
-          "abbreviation": "HOU"
-        },
-        {
-          "id": "26",
-          "name": "Utah Jazz",
-          "abbreviation": "UTAH"
-        }
-      ],
-      "run_phase": "primary",
-      "checked_at": "2026-11-14T00:58:02.852620+00:00",
-      "excluded": [],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
     {
       "id": "401909302",
       "date": "2026-11-14T02:30Z",
@@ -114,9 +23,14 @@
           "abbreviation": "GS"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "retry",
+      "checked_at": "2026-11-14T02:24:25.546540+00:00",
+      "excluded": [
+        "Stephen Curry (out)"
+      ],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401909303",
