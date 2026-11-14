@@ -1,0 +1,959 @@
+{
+  "generated_at_utc": "2026-11-14T02:15:00.894282+00:00",
+  "source": "Immutable 2026-11-13 7 PM and 8 PM pre-tipoff preview files",
+  "status_note": "NOT official picks: no confirmed lineups; no line/odds; zero betting ROI evidence.",
+  "total_preview_games": 5,
+  "eligible_graded_games": 5,
+  "pending_or_excluded_games": 0,
+  "total_saved_preview_predictions": 190,
+  "graded_predictions": 180,
+  "by_market": {
+    "points": {
+      "n": 64,
+      "mae": 2.461,
+      "bias_projected_minus_actual": 0.611,
+      "mean_projection": 3.595,
+      "mean_actual": 2.984,
+      "within_one": 17,
+      "within_two": 34,
+      "range_coverage": 0.594,
+      "zero_actuals": 18
+    },
+    "rebounds": {
+      "n": 61,
+      "mae": 1.003,
+      "bias_projected_minus_actual": 0.111,
+      "mean_projection": 1.439,
+      "mean_actual": 1.328,
+      "within_one": 39,
+      "within_two": 54,
+      "range_coverage": 0.672,
+      "zero_actuals": 16
+    },
+    "assists": {
+      "n": 55,
+      "mae": 0.796,
+      "bias_projected_minus_actual": 0.102,
+      "mean_projection": 1.047,
+      "mean_actual": 0.945,
+      "within_one": 45,
+      "within_two": 52,
+      "range_coverage": 0.709,
+      "zero_actuals": 26
+    }
+  },
+  "paired_shot_comparison": {
+    "n": 64,
+    "baseline_mae_paired": 2.461,
+    "shot_mae_paired": 2.356,
+    "baseline_minus_shot_mae": 0.105,
+    "shot_improvement_pct": 4.28,
+    "shot_better_n": 39,
+    "baseline_better_n": 25,
+    "ties": 0,
+    "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+  },
+  "by_game": [
+    {
+      "name": "New York Knicks at Indiana Pacers",
+      "date_et": "2026-11-13T19:00:00-05:00",
+      "game_id": "401909296",
+      "preview_predictions": 45,
+      "pre_tipoff_snapshot": "2026-11-13T21:10:51.723652+00:00",
+      "lineups_confirmed_when_predicted": false,
+      "roster_injury_check": true,
+      "status": "graded",
+      "warnings": [
+        "Jarace Walker not listed as played in final box score; excluded instead of zero",
+        "Jarace Walker not listed as played in final box score; excluded instead of zero"
+      ],
+      "pre_tipoff_minutes": 169.14,
+      "official_q1_team_scores": {
+        "18": 27,
+        "11": 26
+      },
+      "graded_projections": 43,
+      "excluded_unverified_participation": 2,
+      "by_market": {
+        "points": {
+          "n": 15,
+          "mae": 2.887,
+          "bias_projected_minus_actual": 0.193,
+          "mean_projection": 3.593,
+          "mean_actual": 3.4,
+          "within_one": 4,
+          "within_two": 6,
+          "range_coverage": 0.467,
+          "zero_actuals": 3
+        },
+        "rebounds": {
+          "n": 13,
+          "mae": 0.838,
+          "bias_projected_minus_actual": 0.192,
+          "mean_projection": 1.5,
+          "mean_actual": 1.308,
+          "within_one": 10,
+          "within_two": 12,
+          "range_coverage": 0.846,
+          "zero_actuals": 3
+        },
+        "assists": {
+          "n": 15,
+          "mae": 0.9,
+          "bias_projected_minus_actual": 0.02,
+          "mean_projection": 0.887,
+          "mean_actual": 0.867,
+          "within_one": 12,
+          "within_two": 13,
+          "range_coverage": 0.733,
+          "zero_actuals": 7
+        }
+      },
+      "shot_model_comparison": {
+        "n": 15,
+        "baseline_mae_paired": 2.887,
+        "shot_mae_paired": 2.79,
+        "baseline_minus_shot_mae": 0.097,
+        "shot_improvement_pct": 3.35,
+        "shot_better_n": 9,
+        "baseline_better_n": 6,
+        "ties": 0,
+        "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+      },
+      "largest_misses": [
+        {
+          "player": "Karl-Anthony Towns",
+          "metric": "points",
+          "estimate": 5.4,
+          "actual": 12.0,
+          "absolute_error": 6.6
+        },
+        {
+          "player": "Jalen Brunson",
+          "metric": "points",
+          "estimate": 7.9,
+          "actual": 2.0,
+          "absolute_error": 5.9
+        },
+        {
+          "player": "Jay Huff",
+          "metric": "points",
+          "estimate": 3.0,
+          "actual": 8.0,
+          "absolute_error": 5.0
+        },
+        {
+          "player": "Ivica Zubac",
+          "metric": "points",
+          "estimate": 4.3,
+          "actual": 0.0,
+          "absolute_error": 4.3
+        },
+        {
+          "player": "Mikal Bridges",
+          "metric": "points",
+          "estimate": 1.8,
+          "actual": 6.0,
+          "absolute_error": 4.2
+        },
+        {
+          "player": "Pascal Siakam",
+          "metric": "points",
+          "estimate": 6.8,
+          "actual": 3.0,
+          "absolute_error": 3.8
+        },
+        {
+          "player": "Landry Shamet",
+          "metric": "points",
+          "estimate": 3.1,
+          "actual": 0.0,
+          "absolute_error": 3.1
+        },
+        {
+          "player": "Quenton Jackson",
+          "metric": "points",
+          "estimate": 3.0,
+          "actual": 0.0,
+          "absolute_error": 3.0
+        },
+        {
+          "player": "Andrew Nembhard",
+          "metric": "assists",
+          "estimate": 2.7,
+          "actual": 0.0,
+          "absolute_error": 2.7
+        },
+        {
+          "player": "Josh Hart",
+          "metric": "rebounds",
+          "estimate": 1.3,
+          "actual": 4.0,
+          "absolute_error": 2.7
+        }
+      ],
+      "preview_source": "preview_snapshots/2026-11-13_7pm.json"
+    },
+    {
+      "name": "Milwaukee Bucks at Orlando Magic",
+      "date_et": "2026-11-13T19:00:00-05:00",
+      "game_id": "401909297",
+      "preview_predictions": 33,
+      "pre_tipoff_snapshot": "2026-11-13T21:10:51.723652+00:00",
+      "lineups_confirmed_when_predicted": false,
+      "roster_injury_check": true,
+      "status": "graded",
+      "warnings": [
+        "Jase Richardson not listed as played in final box score; excluded instead of zero",
+        "Jase Richardson not listed as played in final box score; excluded instead of zero",
+        "Kasparas Jakucionis not listed as played in final box score; excluded instead of zero",
+        "Kasparas Jakucionis not listed as played in final box score; excluded instead of zero"
+      ],
+      "pre_tipoff_minutes": 169.14,
+      "official_q1_team_scores": {
+        "19": 23,
+        "15": 15
+      },
+      "graded_projections": 29,
+      "excluded_unverified_participation": 4,
+      "by_market": {
+        "points": {
+          "n": 9,
+          "mae": 2.944,
+          "bias_projected_minus_actual": 2.944,
+          "mean_projection": 4.389,
+          "mean_actual": 1.444,
+          "within_one": 3,
+          "within_two": 3,
+          "range_coverage": 0.556,
+          "zero_actuals": 4
+        },
+        "rebounds": {
+          "n": 11,
+          "mae": 1.2,
+          "bias_projected_minus_actual": -0.055,
+          "mean_projection": 1.491,
+          "mean_actual": 1.545,
+          "within_one": 5,
+          "within_two": 9,
+          "range_coverage": 0.636,
+          "zero_actuals": 1
+        },
+        "assists": {
+          "n": 9,
+          "mae": 0.678,
+          "bias_projected_minus_actual": 0.078,
+          "mean_projection": 1.078,
+          "mean_actual": 1.0,
+          "within_one": 8,
+          "within_two": 9,
+          "range_coverage": 0.889,
+          "zero_actuals": 4
+        }
+      },
+      "shot_model_comparison": {
+        "n": 9,
+        "baseline_mae_paired": 2.944,
+        "shot_mae_paired": 2.68,
+        "baseline_minus_shot_mae": 0.264,
+        "shot_improvement_pct": 8.98,
+        "shot_better_n": 6,
+        "baseline_better_n": 3,
+        "ties": 0,
+        "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+      },
+      "largest_misses": [
+        {
+          "player": "Kyle Kuzma",
+          "metric": "points",
+          "estimate": 5.3,
+          "actual": 0.0,
+          "absolute_error": 5.3
+        },
+        {
+          "player": "Anthony Black",
+          "metric": "points",
+          "estimate": 5.2,
+          "actual": 0.0,
+          "absolute_error": 5.2
+        },
+        {
+          "player": "Jaime Jaquez Jr.",
+          "metric": "points",
+          "estimate": 4.6,
+          "actual": 0.0,
+          "absolute_error": 4.6
+        },
+        {
+          "player": "Kel'el Ware",
+          "metric": "rebounds",
+          "estimate": 1.3,
+          "actual": 5.0,
+          "absolute_error": 3.7
+        },
+        {
+          "player": "Desmond Bane",
+          "metric": "points",
+          "estimate": 5.3,
+          "actual": 2.0,
+          "absolute_error": 3.3
+        },
+        {
+          "player": "Tyler Herro",
+          "metric": "points",
+          "estimate": 4.3,
+          "actual": 1.0,
+          "absolute_error": 3.3
+        },
+        {
+          "player": "Brayden Burries",
+          "metric": "points",
+          "estimate": 3.2,
+          "actual": 0.0,
+          "absolute_error": 3.2
+        },
+        {
+          "player": "Nate Ament",
+          "metric": "rebounds",
+          "estimate": 0.7,
+          "actual": 3.0,
+          "absolute_error": 2.3
+        },
+        {
+          "player": "Tyler Herro",
+          "metric": "assists",
+          "estimate": 1.5,
+          "actual": 0.0,
+          "absolute_error": 1.5
+        },
+        {
+          "player": "Wendell Carter Jr.",
+          "metric": "rebounds",
+          "estimate": 2.3,
+          "actual": 1.0,
+          "absolute_error": 1.3
+        }
+      ],
+      "preview_source": "preview_snapshots/2026-11-13_7pm.json"
+    },
+    {
+      "name": "Cleveland Cavaliers at Miami Heat",
+      "date_et": "2026-11-13T20:00:00-05:00",
+      "game_id": "401909298",
+      "preview_predictions": 35,
+      "pre_tipoff_snapshot": "2026-11-14T00:56:22.628670+00:00",
+      "lineups_confirmed_when_predicted": false,
+      "roster_injury_check": true,
+      "status": "graded",
+      "warnings": [],
+      "pre_tipoff_minutes": 3.62,
+      "official_q1_team_scores": {
+        "14": 29,
+        "5": 27
+      },
+      "graded_projections": 35,
+      "excluded_unverified_participation": 0,
+      "by_market": {
+        "points": {
+          "n": 12,
+          "mae": 2.208,
+          "bias_projected_minus_actual": 0.258,
+          "mean_projection": 3.925,
+          "mean_actual": 3.667,
+          "within_one": 4,
+          "within_two": 7,
+          "range_coverage": 0.667,
+          "zero_actuals": 4
+        },
+        "rebounds": {
+          "n": 12,
+          "mae": 0.783,
+          "bias_projected_minus_actual": 0.5,
+          "mean_projection": 1.583,
+          "mean_actual": 1.083,
+          "within_one": 10,
+          "within_two": 12,
+          "range_coverage": 1.0,
+          "zero_actuals": 4
+        },
+        "assists": {
+          "n": 11,
+          "mae": 0.864,
+          "bias_projected_minus_actual": 0.173,
+          "mean_projection": 1.082,
+          "mean_actual": 0.909,
+          "within_one": 8,
+          "within_two": 10,
+          "range_coverage": 0.455,
+          "zero_actuals": 6
+        }
+      },
+      "shot_model_comparison": {
+        "n": 12,
+        "baseline_mae_paired": 2.208,
+        "shot_mae_paired": 2.406,
+        "baseline_minus_shot_mae": -0.197,
+        "shot_improvement_pct": -8.94,
+        "shot_better_n": 5,
+        "baseline_better_n": 7,
+        "ties": 0,
+        "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+      },
+      "largest_misses": [
+        {
+          "player": "Tyrese Proctor",
+          "metric": "points",
+          "estimate": 4.1,
+          "actual": 12.0,
+          "absolute_error": 7.9
+        },
+        {
+          "player": "Meleek Thomas",
+          "metric": "points",
+          "estimate": 3.7,
+          "actual": 0.0,
+          "absolute_error": 3.7
+        },
+        {
+          "player": "Peyton Watson",
+          "metric": "points",
+          "estimate": 3.1,
+          "actual": 0.0,
+          "absolute_error": 3.1
+        },
+        {
+          "player": "James Harden",
+          "metric": "points",
+          "estimate": 3.0,
+          "actual": 0.0,
+          "absolute_error": 3.0
+        },
+        {
+          "player": "Jarrett Allen",
+          "metric": "points",
+          "estimate": 4.6,
+          "actual": 2.0,
+          "absolute_error": 2.6
+        },
+        {
+          "player": "Davion Mitchell",
+          "metric": "assists",
+          "estimate": 1.9,
+          "actual": 4.0,
+          "absolute_error": 2.1
+        },
+        {
+          "player": "Davion Mitchell",
+          "metric": "points",
+          "estimate": 3.4,
+          "actual": 5.0,
+          "absolute_error": 1.6
+        },
+        {
+          "player": "Mario Hezonja",
+          "metric": "points",
+          "estimate": 1.6,
+          "actual": 0.0,
+          "absolute_error": 1.6
+        },
+        {
+          "player": "Mario Hezonja",
+          "metric": "rebounds",
+          "estimate": 1.6,
+          "actual": 0.0,
+          "absolute_error": 1.6
+        },
+        {
+          "player": "Giannis Antetokounmpo",
+          "metric": "assists",
+          "estimate": 1.4,
+          "actual": 0.0,
+          "absolute_error": 1.4
+        }
+      ],
+      "preview_source": "early_preview_8pm.json"
+    },
+    {
+      "name": "Atlanta Hawks at Chicago Bulls",
+      "date_et": "2026-11-13T20:00:00-05:00",
+      "game_id": "401909299",
+      "preview_predictions": 39,
+      "pre_tipoff_snapshot": "2026-11-14T00:56:22.628670+00:00",
+      "lineups_confirmed_when_predicted": false,
+      "roster_injury_check": true,
+      "status": "graded",
+      "warnings": [
+        "Jordan Hawkins not listed as played in final box score; excluded instead of zero",
+        "Leonard Miller not listed as played in final box score; excluded instead of zero",
+        "Leonard Miller not listed as played in final box score; excluded instead of zero",
+        "Zuby Ejiofor not listed as played in final box score; excluded instead of zero"
+      ],
+      "pre_tipoff_minutes": 3.62,
+      "official_q1_team_scores": {
+        "4": 33,
+        "1": 24
+      },
+      "graded_projections": 35,
+      "excluded_unverified_participation": 4,
+      "by_market": {
+        "points": {
+          "n": 12,
+          "mae": 2.367,
+          "bias_projected_minus_actual": 1.483,
+          "mean_projection": 3.567,
+          "mean_actual": 2.083,
+          "within_one": 1,
+          "within_two": 8,
+          "range_coverage": 0.583,
+          "zero_actuals": 4
+        },
+        "rebounds": {
+          "n": 13,
+          "mae": 1.046,
+          "bias_projected_minus_actual": -0.108,
+          "mean_projection": 1.277,
+          "mean_actual": 1.385,
+          "within_one": 7,
+          "within_two": 11,
+          "range_coverage": 0.385,
+          "zero_actuals": 4
+        },
+        "assists": {
+          "n": 10,
+          "mae": 0.71,
+          "bias_projected_minus_actual": 0.29,
+          "mean_projection": 1.19,
+          "mean_actual": 0.9,
+          "within_one": 9,
+          "within_two": 10,
+          "range_coverage": 0.8,
+          "zero_actuals": 5
+        }
+      },
+      "shot_model_comparison": {
+        "n": 12,
+        "baseline_mae_paired": 2.367,
+        "shot_mae_paired": 2.055,
+        "baseline_minus_shot_mae": 0.311,
+        "shot_improvement_pct": 13.15,
+        "shot_better_n": 9,
+        "baseline_better_n": 3,
+        "ties": 0,
+        "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+      },
+      "largest_misses": [
+        {
+          "player": "Jalen Smith",
+          "metric": "points",
+          "estimate": 6.0,
+          "actual": 0.0,
+          "absolute_error": 6.0
+        },
+        {
+          "player": "Nickeil Alexander-Walker",
+          "metric": "points",
+          "estimate": 5.7,
+          "actual": 0.0,
+          "absolute_error": 5.7
+        },
+        {
+          "player": "Tre Jones",
+          "metric": "points",
+          "estimate": 2.7,
+          "actual": 0.0,
+          "absolute_error": 2.7
+        },
+        {
+          "player": "Aaron Wiggins",
+          "metric": "points",
+          "estimate": 2.7,
+          "actual": 5.0,
+          "absolute_error": 2.3
+        },
+        {
+          "player": "Josh Giddey",
+          "metric": "rebounds",
+          "estimate": 0.8,
+          "actual": 3.0,
+          "absolute_error": 2.2
+        },
+        {
+          "player": "Patrick Williams",
+          "metric": "rebounds",
+          "estimate": 0.8,
+          "actual": 3.0,
+          "absolute_error": 2.2
+        },
+        {
+          "player": "Kingston Flemings",
+          "metric": "points",
+          "estimate": 2.0,
+          "actual": 0.0,
+          "absolute_error": 2.0
+        },
+        {
+          "player": "Josh Giddey",
+          "metric": "points",
+          "estimate": 2.1,
+          "actual": 4.0,
+          "absolute_error": 1.9
+        },
+        {
+          "player": "Jalen Johnson",
+          "metric": "rebounds",
+          "estimate": 2.1,
+          "actual": 4.0,
+          "absolute_error": 1.9
+        },
+        {
+          "player": "Onyeka Okongwu",
+          "metric": "points",
+          "estimate": 4.9,
+          "actual": 3.0,
+          "absolute_error": 1.9
+        }
+      ],
+      "preview_source": "early_preview_8pm.json"
+    },
+    {
+      "name": "Memphis Grizzlies at New Orleans Pelicans",
+      "date_et": "2026-11-13T20:00:00-05:00",
+      "game_id": "401909300",
+      "preview_predictions": 38,
+      "pre_tipoff_snapshot": "2026-11-14T00:56:22.628670+00:00",
+      "lineups_confirmed_when_predicted": false,
+      "roster_injury_check": true,
+      "status": "graded",
+      "warnings": [],
+      "pre_tipoff_minutes": 3.62,
+      "official_q1_team_scores": {
+        "29": 35,
+        "3": 28
+      },
+      "graded_projections": 38,
+      "excluded_unverified_participation": 0,
+      "by_market": {
+        "points": {
+          "n": 16,
+          "mae": 2.05,
+          "bias_projected_minus_actual": -0.7,
+          "mean_projection": 2.925,
+          "mean_actual": 3.625,
+          "within_one": 5,
+          "within_two": 10,
+          "range_coverage": 0.688,
+          "zero_actuals": 3
+        },
+        "rebounds": {
+          "n": 12,
+          "mae": 1.175,
+          "bias_projected_minus_actual": 0.025,
+          "mean_projection": 1.358,
+          "mean_actual": 1.333,
+          "within_one": 7,
+          "within_two": 10,
+          "range_coverage": 0.5,
+          "zero_actuals": 4
+        },
+        "assists": {
+          "n": 10,
+          "mae": 0.76,
+          "bias_projected_minus_actual": -0.02,
+          "mean_projection": 1.08,
+          "mean_actual": 1.1,
+          "within_one": 8,
+          "within_two": 10,
+          "range_coverage": 0.7,
+          "zero_actuals": 4
+        }
+      },
+      "shot_model_comparison": {
+        "n": 16,
+        "baseline_mae_paired": 2.05,
+        "shot_mae_paired": 1.953,
+        "baseline_minus_shot_mae": 0.097,
+        "shot_improvement_pct": 4.72,
+        "shot_better_n": 10,
+        "baseline_better_n": 6,
+        "ties": 0,
+        "warning": "Unconfirmed-starter previews, not wagered picks, no sportsbook/ROI evidence."
+      },
+      "largest_misses": [
+        {
+          "player": "Zion Williamson",
+          "metric": "points",
+          "estimate": 3.9,
+          "actual": 9.0,
+          "absolute_error": 5.1
+        },
+        {
+          "player": "Karlo Matkovic",
+          "metric": "points",
+          "estimate": 4.4,
+          "actual": 0.0,
+          "absolute_error": 4.4
+        },
+        {
+          "player": "Cameron Boozer",
+          "metric": "points",
+          "estimate": 3.4,
+          "actual": 7.0,
+          "absolute_error": 3.6
+        },
+        {
+          "player": "Cam Spencer",
+          "metric": "points",
+          "estimate": 2.7,
+          "actual": 6.0,
+          "absolute_error": 3.3
+        },
+        {
+          "player": "Jaylen Wells",
+          "metric": "points",
+          "estimate": 3.3,
+          "actual": 0.0,
+          "absolute_error": 3.3
+        },
+        {
+          "player": "Saddiq Bey",
+          "metric": "rebounds",
+          "estimate": 0.9,
+          "actual": 4.0,
+          "absolute_error": 3.1
+        },
+        {
+          "player": "DeAndre Jordan",
+          "metric": "rebounds",
+          "estimate": 1.0,
+          "actual": 4.0,
+          "absolute_error": 3.0
+        },
+        {
+          "player": "Derik Queen",
+          "metric": "points",
+          "estimate": 2.1,
+          "actual": 0.0,
+          "absolute_error": 2.1
+        },
+        {
+          "player": "Saddiq Bey",
+          "metric": "points",
+          "estimate": 3.0,
+          "actual": 5.0,
+          "absolute_error": 2.0
+        },
+        {
+          "player": "Ty Jerome",
+          "metric": "assists",
+          "estimate": 1.0,
+          "actual": 3.0,
+          "absolute_error": 2.0
+        }
+      ],
+      "preview_source": "early_preview_8pm.json"
+    }
+  ],
+  "largest_misses_overall": [
+    {
+      "game": "Cleveland Cavaliers at Miami Heat",
+      "player": "Tyrese Proctor",
+      "metric": "points",
+      "estimate": 4.1,
+      "actual": 12.0,
+      "absolute_error": 7.9
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Karl-Anthony Towns",
+      "metric": "points",
+      "estimate": 5.4,
+      "actual": 12.0,
+      "absolute_error": 6.6
+    },
+    {
+      "game": "Atlanta Hawks at Chicago Bulls",
+      "player": "Jalen Smith",
+      "metric": "points",
+      "estimate": 6.0,
+      "actual": 0.0,
+      "absolute_error": 6.0
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Jalen Brunson",
+      "metric": "points",
+      "estimate": 7.9,
+      "actual": 2.0,
+      "absolute_error": 5.9
+    },
+    {
+      "game": "Atlanta Hawks at Chicago Bulls",
+      "player": "Nickeil Alexander-Walker",
+      "metric": "points",
+      "estimate": 5.7,
+      "actual": 0.0,
+      "absolute_error": 5.7
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Kyle Kuzma",
+      "metric": "points",
+      "estimate": 5.3,
+      "actual": 0.0,
+      "absolute_error": 5.3
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Anthony Black",
+      "metric": "points",
+      "estimate": 5.2,
+      "actual": 0.0,
+      "absolute_error": 5.2
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Zion Williamson",
+      "metric": "points",
+      "estimate": 3.9,
+      "actual": 9.0,
+      "absolute_error": 5.1
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Jay Huff",
+      "metric": "points",
+      "estimate": 3.0,
+      "actual": 8.0,
+      "absolute_error": 5.0
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Jaime Jaquez Jr.",
+      "metric": "points",
+      "estimate": 4.6,
+      "actual": 0.0,
+      "absolute_error": 4.6
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Karlo Matkovic",
+      "metric": "points",
+      "estimate": 4.4,
+      "actual": 0.0,
+      "absolute_error": 4.4
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Ivica Zubac",
+      "metric": "points",
+      "estimate": 4.3,
+      "actual": 0.0,
+      "absolute_error": 4.3
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Mikal Bridges",
+      "metric": "points",
+      "estimate": 1.8,
+      "actual": 6.0,
+      "absolute_error": 4.2
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Pascal Siakam",
+      "metric": "points",
+      "estimate": 6.8,
+      "actual": 3.0,
+      "absolute_error": 3.8
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Kel'el Ware",
+      "metric": "rebounds",
+      "estimate": 1.3,
+      "actual": 5.0,
+      "absolute_error": 3.7
+    },
+    {
+      "game": "Cleveland Cavaliers at Miami Heat",
+      "player": "Meleek Thomas",
+      "metric": "points",
+      "estimate": 3.7,
+      "actual": 0.0,
+      "absolute_error": 3.7
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Cameron Boozer",
+      "metric": "points",
+      "estimate": 3.4,
+      "actual": 7.0,
+      "absolute_error": 3.6
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Desmond Bane",
+      "metric": "points",
+      "estimate": 5.3,
+      "actual": 2.0,
+      "absolute_error": 3.3
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Tyler Herro",
+      "metric": "points",
+      "estimate": 4.3,
+      "actual": 1.0,
+      "absolute_error": 3.3
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Cam Spencer",
+      "metric": "points",
+      "estimate": 2.7,
+      "actual": 6.0,
+      "absolute_error": 3.3
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Jaylen Wells",
+      "metric": "points",
+      "estimate": 3.3,
+      "actual": 0.0,
+      "absolute_error": 3.3
+    },
+    {
+      "game": "Milwaukee Bucks at Orlando Magic",
+      "player": "Brayden Burries",
+      "metric": "points",
+      "estimate": 3.2,
+      "actual": 0.0,
+      "absolute_error": 3.2
+    },
+    {
+      "game": "New York Knicks at Indiana Pacers",
+      "player": "Landry Shamet",
+      "metric": "points",
+      "estimate": 3.1,
+      "actual": 0.0,
+      "absolute_error": 3.1
+    },
+    {
+      "game": "Cleveland Cavaliers at Miami Heat",
+      "player": "Peyton Watson",
+      "metric": "points",
+      "estimate": 3.1,
+      "actual": 0.0,
+      "absolute_error": 3.1
+    },
+    {
+      "game": "Memphis Grizzlies at New Orleans Pelicans",
+      "player": "Saddiq Bey",
+      "metric": "rebounds",
+      "estimate": 0.9,
+      "actual": 4.0,
+      "absolute_error": 3.1
+    }
+  ],
+  "caveat": "This is a retrospective SCORE of pre-recorded predictions, not an independently clean betting backtest: lineups were not verified and no sportsbook lines or odds were stored."
+}

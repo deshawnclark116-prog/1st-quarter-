@@ -1,0 +1,19 @@
+{
+  "sampled_games": 0,
+  "graded_projections": 0,
+  "by_market": [],
+  "shadow_comparison": [],
+  "shot_comparison": [],
+  "live_shot_validation": {
+    "status": "collecting",
+    "paired_n": 0,
+    "game_count": 0,
+    "dates": 0,
+    "accuracy_gate_passed": false,
+    "profitable_betting_proven": false,
+    "reason": "No verified future games with both estimates graded yet."
+  },
+  "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. NO challenger automatically promoted.",
+  "snapshots_checked": 0,
+  "warnings": []
+}
