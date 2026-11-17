@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T23:35:53.756226+00:00",
+  "generated_at_utc": "2026-11-17T22:43:29.219890+00:00",
   "source": "Immutable 2026-11-13 7 PM and 8 PM pre-tipoff preview files",
   "status_note": "NOT official picks: no confirmed lineups; no line/odds; zero betting ROI evidence.",
   "total_preview_games": 5,
@@ -69,8 +69,8 @@
       ],
       "pre_tipoff_minutes": 169.14,
       "official_q1_team_scores": {
-        "18": 27,
-        "11": 26
+        "11": 26,
+        "18": 27
       },
       "graded_projections": 43,
       "excluded_unverified_participation": 2,
@@ -490,8 +490,8 @@
       ],
       "pre_tipoff_minutes": 3.62,
       "official_q1_team_scores": {
-        "4": 33,
-        "1": 24
+        "1": 24,
+        "4": 33
       },
       "graded_projections": 35,
       "excluded_unverified_participation": 4,
