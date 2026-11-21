@@ -1,62 +1,10 @@
 {
-  "generated_at": "2026-11-21T02:38:48.257337+00:00",
-  "start_date": "2026-11-20",
+  "generated_at": "2026-11-21T17:29:28.753485+00:00",
+  "start_date": "2026-11-21",
   "days": 2,
   "sample_size": 6,
   "nba_sample_size": 10,
   "games": [
-    {
-      "id": "401909312",
-      "date": "2026-11-21T03:00Z",
-      "date_et": "2026-11-20T22:00:00-05:00",
-      "sport": "nba",
-      "name": "Houston Rockets at Denver Nuggets",
-      "teams": [
-        {
-          "id": "7",
-          "name": "Denver Nuggets",
-          "abbreviation": "DEN"
-        },
-        {
-          "id": "10",
-          "name": "Houston Rockets",
-          "abbreviation": "HOU"
-        }
-      ],
-      "run_phase": "primary",
-      "checked_at": "2026-11-21T02:38:48.257337+00:00",
-      "excluded": [],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
-    {
-      "id": "401909313",
-      "date": "2026-11-21T03:00Z",
-      "date_et": "2026-11-20T22:00:00-05:00",
-      "sport": "nba",
-      "name": "Sacramento Kings at Los Angeles Lakers",
-      "teams": [
-        {
-          "id": "13",
-          "name": "Los Angeles Lakers",
-          "abbreviation": "LAL"
-        },
-        {
-          "id": "23",
-          "name": "Sacramento Kings",
-          "abbreviation": "SAC"
-        }
-      ],
-      "run_phase": "primary",
-      "checked_at": "2026-11-21T02:38:48.257337+00:00",
-      "excluded": [
-        "Precious Achiuwa (out)"
-      ],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
     {
       "id": "401910023",
       "date": "2026-11-21T18:00Z",
@@ -75,9 +23,12 @@
           "abbreviation": "MIL"
         }
       ],
-      "run_phase": "waiting",
+      "run_phase": "primary",
+      "checked_at": "2026-11-21T17:29:28.753485+00:00",
+      "excluded": [],
       "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+      "lineup_status": "unconfirmed",
+      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
     },
     {
       "id": "401910024",
@@ -183,6 +134,402 @@
           "id": "2",
           "name": "Boston Celtics",
           "abbreviation": "BOS"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910029",
+      "date": "2026-11-22T20:30Z",
+      "date_et": "2026-11-22T15:30:00-05:00",
+      "sport": "nba",
+      "name": "Detroit Pistons at Atlanta Hawks",
+      "teams": [
+        {
+          "id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL"
+        },
+        {
+          "id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910030",
+      "date": "2026-11-22T23:00Z",
+      "date_et": "2026-11-22T18:00:00-05:00",
+      "sport": "nba",
+      "name": "Oklahoma City Thunder at Miami Heat",
+      "teams": [
+        {
+          "id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA"
+        },
+        {
+          "id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910031",
+      "date": "2026-11-23T00:00Z",
+      "date_et": "2026-11-22T19:00:00-05:00",
+      "sport": "nba",
+      "name": "Orlando Magic at Washington Wizards",
+      "teams": [
+        {
+          "id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH"
+        },
+        {
+          "id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910032",
+      "date": "2026-11-23T00:00Z",
+      "date_et": "2026-11-22T19:00:00-05:00",
+      "sport": "nba",
+      "name": "Denver Nuggets at Chicago Bulls",
+      "teams": [
+        {
+          "id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI"
+        },
+        {
+          "id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910033",
+      "date": "2026-11-23T00:00Z",
+      "date_et": "2026-11-22T19:00:00-05:00",
+      "sport": "nba",
+      "name": "Dallas Mavericks at Utah Jazz",
+      "teams": [
+        {
+          "id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH"
+        },
+        {
+          "id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910034",
+      "date": "2026-11-23T01:00Z",
+      "date_et": "2026-11-22T20:00:00-05:00",
+      "sport": "nba",
+      "name": "Indiana Pacers at New York Knicks",
+      "teams": [
+        {
+          "id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY"
+        },
+        {
+          "id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401910035",
+      "date": "2026-11-23T01:30Z",
+      "date_et": "2026-11-22T20:30:00-05:00",
+      "sport": "nba",
+      "name": "Boston Celtics at Golden State Warriors",
+      "teams": [
+        {
+          "id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS"
+        },
+        {
+          "id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873070",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Miami Dolphins at Buffalo Bills",
+      "teams": [
+        {
+          "id": "2",
+          "name": "Buffalo Bills",
+          "abbreviation": "BUF"
+        },
+        {
+          "id": "15",
+          "name": "Miami Dolphins",
+          "abbreviation": "MIA"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873071",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "New Orleans Saints at Chicago Bears",
+      "teams": [
+        {
+          "id": "3",
+          "name": "Chicago Bears",
+          "abbreviation": "CHI"
+        },
+        {
+          "id": "18",
+          "name": "New Orleans Saints",
+          "abbreviation": "NO"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873073",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Tennessee Titans at Dallas Cowboys",
+      "teams": [
+        {
+          "id": "6",
+          "name": "Dallas Cowboys",
+          "abbreviation": "DAL"
+        },
+        {
+          "id": "10",
+          "name": "Tennessee Titans",
+          "abbreviation": "TEN"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873072",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Tampa Bay Buccaneers at Detroit Lions",
+      "teams": [
+        {
+          "id": "8",
+          "name": "Detroit Lions",
+          "abbreviation": "DET"
+        },
+        {
+          "id": "27",
+          "name": "Tampa Bay Buccaneers",
+          "abbreviation": "TB"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873067",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Arizona Cardinals at Kansas City Chiefs",
+      "teams": [
+        {
+          "id": "12",
+          "name": "Kansas City Chiefs",
+          "abbreviation": "KC"
+        },
+        {
+          "id": "22",
+          "name": "Arizona Cardinals",
+          "abbreviation": "ARI"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873076",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Pittsburgh Steelers at Philadelphia Eagles",
+      "teams": [
+        {
+          "id": "21",
+          "name": "Philadelphia Eagles",
+          "abbreviation": "PHI"
+        },
+        {
+          "id": "23",
+          "name": "Pittsburgh Steelers",
+          "abbreviation": "PIT"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873068",
+      "date": "2026-11-22T18:00Z",
+      "date_et": "2026-11-22T13:00:00-05:00",
+      "sport": "nfl",
+      "name": "Baltimore Ravens at Carolina Panthers",
+      "teams": [
+        {
+          "id": "29",
+          "name": "Carolina Panthers",
+          "abbreviation": "CAR"
+        },
+        {
+          "id": "33",
+          "name": "Baltimore Ravens",
+          "abbreviation": "BAL"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873074",
+      "date": "2026-11-22T21:05Z",
+      "date_et": "2026-11-22T16:05:00-05:00",
+      "sport": "nfl",
+      "name": "New York Jets at Los Angeles Chargers",
+      "teams": [
+        {
+          "id": "24",
+          "name": "Los Angeles Chargers",
+          "abbreviation": "LAC"
+        },
+        {
+          "id": "20",
+          "name": "New York Jets",
+          "abbreviation": "NYJ"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873075",
+      "date": "2026-11-22T21:25Z",
+      "date_et": "2026-11-22T16:25:00-05:00",
+      "sport": "nfl",
+      "name": "Las Vegas Raiders at Denver Broncos",
+      "teams": [
+        {
+          "id": "7",
+          "name": "Denver Broncos",
+          "abbreviation": "DEN"
+        },
+        {
+          "id": "13",
+          "name": "Las Vegas Raiders",
+          "abbreviation": "LV"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873069",
+      "date": "2026-11-22T21:25Z",
+      "date_et": "2026-11-22T16:25:00-05:00",
+      "sport": "nfl",
+      "name": "Jacksonville Jaguars at New York Giants",
+      "teams": [
+        {
+          "id": "19",
+          "name": "New York Giants",
+          "abbreviation": "NYG"
+        },
+        {
+          "id": "30",
+          "name": "Jacksonville Jaguars",
+          "abbreviation": "JAX"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873077",
+      "date": "2026-11-23T01:20Z",
+      "date_et": "2026-11-22T20:20:00-05:00",
+      "sport": "nfl",
+      "name": "Minnesota Vikings at San Francisco 49ers",
+      "teams": [
+        {
+          "id": "25",
+          "name": "San Francisco 49ers",
+          "abbreviation": "SF"
+        },
+        {
+          "id": "16",
+          "name": "Minnesota Vikings",
+          "abbreviation": "MIN"
         }
       ],
       "run_phase": "waiting",
