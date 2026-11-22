@@ -1,1 +1,12 @@
 date_et,game_id,matchup,sport,snapshot_at,model_version,player,metric,estimate,actual,error,absolute_error,in_range,shadow_estimate,shadow_absolute_error,shot_estimate,shot_absolute_error
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Emmett Johnson,receiving_yards,7.9,17.0,-9.1,9.1,False,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Emmett Johnson,rushing_yards,11.0,55.0,-44.0,44.0,False,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Noah Gray,receiving_yards,5.6,0.0,5.6,5.6,True,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Patrick Mahomes,passing_yards,72.2,94.0,-21.8,21.8,False,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Patrick Mahomes,rushing_yards,3.0,0.0,3.0,3.0,True,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Rashee Rice,receiving_yards,13.0,47.0,-34.0,34.0,False,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Travis Kelce,receiving_yards,14.5,26.0,-11.5,11.5,False,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Xavier Worthy,receiving_yards,12.8,0.0,12.8,12.8,True,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Simi Fehoko,receiving_yards,10.5,0.0,10.5,10.5,True,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Trey McBride,receiving_yards,11.1,0.0,11.1,11.1,True,,,,
+2026-11-22,401873067,Arizona Cardinals at Kansas City Chiefs,nfl,2026-11-22T17:42:59.573266+00:00,q1_baseline_v1_nfl6,Tyler Allgeier,rushing_yards,10.4,3.0,7.4,7.4,True,,,,

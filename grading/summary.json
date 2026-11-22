@@ -1,7 +1,32 @@
 {
-  "sampled_games": 0,
-  "graded_projections": 0,
-  "by_market": [],
+  "sampled_games": 1,
+  "graded_projections": 11,
+  "by_market": [
+    {
+      "sport": "nfl",
+      "market": "passing_yards",
+      "n": 1,
+      "mae": 21.8,
+      "bias": -21.8,
+      "empirical_range_coverage": 0.0
+    },
+    {
+      "sport": "nfl",
+      "market": "receiving_yards",
+      "n": 7,
+      "mae": 13.514,
+      "bias": -2.086,
+      "empirical_range_coverage": 0.571
+    },
+    {
+      "sport": "nfl",
+      "market": "rushing_yards",
+      "n": 3,
+      "mae": 18.133,
+      "bias": -11.2,
+      "empirical_range_coverage": 0.667
+    }
+  ],
   "shadow_comparison": [],
   "shot_comparison": [],
   "live_shot_validation": {
@@ -14,6 +39,13 @@
     "reason": "No verified future games with both estimates graded yet."
   },
   "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. NO challenger automatically promoted.",
-  "snapshots_checked": 0,
-  "warnings": []
+  "snapshots_checked": 7,
+  "warnings": [
+    "401873072: Game not final",
+    "401873071: Game not final",
+    "401873068: Game not final",
+    "401873073: Game not final",
+    "401873070: Game not final",
+    "401873076: Game not final"
+  ]
 }
