@@ -1,0 +1,295 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873072",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Tampa Bay Buccaneers at Detroit Lions",
+  "teams": [
+    {
+      "id": "8",
+      "name": "Detroit Lions",
+      "abbreviation": "DET"
+    },
+    {
+      "id": "27",
+      "name": "Tampa Bay Buccaneers",
+      "abbreviation": "TB"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "Brock Wright",
+      "player_id": "4242392",
+      "team": "Detroit Lions",
+      "team_id": "8",
+      "metric": "receiving_yards",
+      "estimate": 3.5,
+      "low": 0,
+      "high": 7.5,
+      "games": 3,
+      "recent": [
+        7.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "player_id": "4429795",
+      "team": "Detroit Lions",
+      "team_id": "8",
+      "metric": "rushing_yards",
+      "estimate": 28.4,
+      "low": 15.8,
+      "high": 41.0,
+      "games": 6,
+      "recent": [
+        43.0,
+        34.0,
+        18.0,
+        24.0,
+        5.0,
+        14.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jameson Williams",
+      "player_id": "4426388",
+      "team": "Detroit Lions",
+      "team_id": "8",
+      "metric": "receiving_yards",
+      "estimate": 14.8,
+      "low": 0,
+      "high": 34.5,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        46.0,
+        40.0,
+        0.0,
+        6.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jared Goff",
+      "player_id": "3046779",
+      "team": "Detroit Lions",
+      "team_id": "8",
+      "metric": "passing_yards",
+      "estimate": 59.2,
+      "low": 26.7,
+      "high": 91.7,
+      "games": 6,
+      "recent": [
+        74.0,
+        31.0,
+        66.0,
+        108.0,
+        7.0,
+        42.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Sione Vaki",
+      "player_id": "4912274",
+      "team": "Detroit Lions",
+      "team_id": "8",
+      "metric": "rushing_yards",
+      "estimate": 7.0,
+      "low": 1.9,
+      "high": 12.1,
+      "games": 6,
+      "recent": [
+        8.0,
+        11.0,
+        11.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Baker Mayfield",
+      "player_id": "3052587",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "passing_yards",
+      "estimate": 30.8,
+      "low": 4.3,
+      "high": 57.4,
+      "games": 3,
+      "recent": [
+        54.0,
+        0.0,
+        23.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Bucky Irving",
+      "player_id": "4596448",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "rushing_yards",
+      "estimate": 29.0,
+      "low": 12.3,
+      "high": 45.7,
+      "games": 6,
+      "recent": [
+        18.0,
+        48.0,
+        48.0,
+        13.0,
+        5.0,
+        20.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Cade Otton",
+      "player_id": "4243331",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "receiving_yards",
+      "estimate": 3.4,
+      "low": 0,
+      "high": 9.7,
+      "games": 5,
+      "recent": [
+        2.0,
+        0.0,
+        0.0,
+        14.0,
+        13.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chris Godwin Jr.",
+      "player_id": "3116165",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "receiving_yards",
+      "estimate": 5.7,
+      "low": 0,
+      "high": 16.9,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        0.0,
+        28.0,
+        18.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Emeka Egbuka",
+      "player_id": "4567750",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "receiving_yards",
+      "estimate": 9.2,
+      "low": 3.0,
+      "high": 15.4,
+      "games": 4,
+      "recent": [
+        5.0,
+        16.0,
+        12.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Kenny Gainwell",
+      "player_id": "4371733",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "receiving_yards",
+      "estimate": 13.6,
+      "low": 0,
+      "high": 29.7,
+      "games": 6,
+      "recent": [
+        44.0,
+        0.0,
+        0.0,
+        7.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Kenny Gainwell",
+      "player_id": "4371733",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "rushing_yards",
+      "estimate": 3.5,
+      "low": 0,
+      "high": 7.1,
+      "games": 6,
+      "recent": [
+        7.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tez Johnson",
+      "player_id": "4608810",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "receiving_yards",
+      "estimate": 5.1,
+      "low": 0,
+      "high": 12.7,
+      "games": 5,
+      "recent": [
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tez Johnson",
+      "player_id": "4608810",
+      "team": "Tampa Bay Buccaneers",
+      "team_id": "27",
+      "metric": "rushing_yards",
+      "estimate": 3.7,
+      "low": 0,
+      "high": 9.3,
+      "games": 5,
+      "recent": [
+        0.0,
+        14.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

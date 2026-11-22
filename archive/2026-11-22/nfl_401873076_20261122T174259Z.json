@@ -1,0 +1,239 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873076",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Pittsburgh Steelers at Philadelphia Eagles",
+  "teams": [
+    {
+      "id": "21",
+      "name": "Philadelphia Eagles",
+      "abbreviation": "PHI"
+    },
+    {
+      "id": "23",
+      "name": "Pittsburgh Steelers",
+      "abbreviation": "PIT"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "Dallas Goedert",
+      "player_id": "3121023",
+      "team": "Philadelphia Eagles",
+      "team_id": "21",
+      "metric": "receiving_yards",
+      "estimate": 9.1,
+      "low": 3.0,
+      "high": 15.2,
+      "games": 5,
+      "recent": [
+        17.0,
+        0.0,
+        5.0,
+        14.0,
+        9.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Darius Cooper",
+      "player_id": "4715355",
+      "team": "Philadelphia Eagles",
+      "team_id": "21",
+      "metric": "receiving_yards",
+      "estimate": 5.9,
+      "low": 0,
+      "high": 12.7,
+      "games": 6,
+      "recent": [
+        0.0,
+        11.0,
+        17.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Makai Lemon",
+      "player_id": "4870795",
+      "team": "Philadelphia Eagles",
+      "team_id": "21",
+      "metric": "receiving_yards",
+      "estimate": 10.2,
+      "low": 1.8,
+      "high": 18.6,
+      "games": 6,
+      "recent": [
+        0.0,
+        20.0,
+        21.0,
+        0.0,
+        11.0,
+        8.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Saquon Barkley",
+      "player_id": "3929630",
+      "team": "Philadelphia Eagles",
+      "team_id": "21",
+      "metric": "receiving_yards",
+      "estimate": 9.8,
+      "low": 0.3,
+      "high": 19.3,
+      "games": 4,
+      "recent": [
+        0.0,
+        24.0,
+        12.0,
+        2.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Saquon Barkley",
+      "player_id": "3929630",
+      "team": "Philadelphia Eagles",
+      "team_id": "21",
+      "metric": "rushing_yards",
+      "estimate": 14.1,
+      "low": 0,
+      "high": 31.7,
+      "games": 4,
+      "recent": [
+        3.0,
+        9.0,
+        47.0,
+        8.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Aaron Rodgers",
+      "player_id": "8439",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "passing_yards",
+      "estimate": 24.1,
+      "low": 0,
+      "high": 62.0,
+      "games": 6,
+      "recent": [
+        0.0,
+        17.0,
+        26.0,
+        11.0,
+        108.0,
+        69.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "DK Metcalf",
+      "player_id": "4047650",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "receiving_yards",
+      "estimate": 3.2,
+      "low": 0,
+      "high": 10.8,
+      "games": 6,
+      "recent": [
+        0.0,
+        4.0,
+        5.0,
+        0.0,
+        3.0,
+        22.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Germie Bernard",
+      "player_id": "4685261",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "receiving_yards",
+      "estimate": 4.7,
+      "low": 0.3,
+      "high": 9.1,
+      "games": 6,
+      "recent": [
+        0.0,
+        6.0,
+        6.0,
+        6.0,
+        13.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jaylen Warren",
+      "player_id": "4569987",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "receiving_yards",
+      "estimate": 10.0,
+      "low": 0,
+      "high": 36.7,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        75.0,
+        20.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jaylen Warren",
+      "player_id": "4569987",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "rushing_yards",
+      "estimate": 23.5,
+      "low": 2.6,
+      "high": 44.5,
+      "games": 6,
+      "recent": [
+        3.0,
+        65.0,
+        13.0,
+        20.0,
+        5.0,
+        29.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Rico Dowdle",
+      "player_id": "4038815",
+      "team": "Pittsburgh Steelers",
+      "team_id": "23",
+      "metric": "rushing_yards",
+      "estimate": 10.2,
+      "low": 0.0,
+      "high": 20.4,
+      "games": 4,
+      "recent": [
+        0.0,
+        27.0,
+        5.0,
+        11.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

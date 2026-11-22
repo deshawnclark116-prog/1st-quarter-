@@ -1,0 +1,274 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873067",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Arizona Cardinals at Kansas City Chiefs",
+  "teams": [
+    {
+      "id": "12",
+      "name": "Kansas City Chiefs",
+      "abbreviation": "KC"
+    },
+    {
+      "id": "22",
+      "name": "Arizona Cardinals",
+      "abbreviation": "ARI"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "Emmett Johnson",
+      "player_id": "4832955",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 7.9,
+      "low": 0.4,
+      "high": 15.4,
+      "games": 6,
+      "recent": [
+        21.0,
+        0.0,
+        8.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Emmett Johnson",
+      "player_id": "4832955",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "rushing_yards",
+      "estimate": 11.0,
+      "low": 0,
+      "high": 24.5,
+      "games": 6,
+      "recent": [
+        37.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jake Briningstool",
+      "player_id": "4431196",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 10.0,
+      "low": 0,
+      "high": 21.3,
+      "games": 3,
+      "recent": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Noah Gray",
+      "player_id": "4240472",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 5.6,
+      "low": 0,
+      "high": 15.2,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        16.0,
+        11.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Patrick Mahomes",
+      "player_id": "3139477",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "passing_yards",
+      "estimate": 72.2,
+      "low": 54.2,
+      "high": 90.3,
+      "games": 6,
+      "recent": [
+        85.0,
+        68.0,
+        60.0,
+        58.0,
+        95.0,
+        63.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Patrick Mahomes",
+      "player_id": "3139477",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "rushing_yards",
+      "estimate": 3.0,
+      "low": 0,
+      "high": 6.2,
+      "games": 6,
+      "recent": [
+        9.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Rashee Rice",
+      "player_id": "4428331",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 13.0,
+      "low": 0,
+      "high": 27.7,
+      "games": 3,
+      "recent": [
+        0.0,
+        26.0,
+        26.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Travis Kelce",
+      "player_id": "15847",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 14.5,
+      "low": 5.2,
+      "high": 23.8,
+      "games": 6,
+      "recent": [
+        23.0,
+        17.0,
+        19.0,
+        0.0,
+        0.0,
+        5.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Xavier Worthy",
+      "player_id": "4683062",
+      "team": "Kansas City Chiefs",
+      "team_id": "12",
+      "metric": "receiving_yards",
+      "estimate": 12.8,
+      "low": 0,
+      "high": 37.9,
+      "games": 6,
+      "recent": [
+        0.0,
+        11.0,
+        7.0,
+        2.0,
+        69.0,
+        41.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Devin Duvernay",
+      "player_id": "4039050",
+      "team": "Arizona Cardinals",
+      "team_id": "22",
+      "metric": "receiving_yards",
+      "estimate": 19.2,
+      "low": 0.6,
+      "high": 37.7,
+      "games": 3,
+      "recent": [
+        35.0,
+        5.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Simi Fehoko",
+      "player_id": "4360739",
+      "team": "Arizona Cardinals",
+      "team_id": "22",
+      "metric": "receiving_yards",
+      "estimate": 10.5,
+      "low": 0,
+      "high": 22.4,
+      "games": 3,
+      "recent": [
+        21.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Trey McBride",
+      "player_id": "4361307",
+      "team": "Arizona Cardinals",
+      "team_id": "22",
+      "metric": "receiving_yards",
+      "estimate": 11.1,
+      "low": 0,
+      "high": 24.2,
+      "games": 6,
+      "recent": [
+        13.0,
+        5.0,
+        5.0,
+        5.0,
+        42.0,
+        11.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tyler Allgeier",
+      "player_id": "4373626",
+      "team": "Arizona Cardinals",
+      "team_id": "22",
+      "metric": "rushing_yards",
+      "estimate": 10.4,
+      "low": 1.8,
+      "high": 19.1,
+      "games": 6,
+      "recent": [
+        9.0,
+        26.0,
+        4.0,
+        5.0,
+        2.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

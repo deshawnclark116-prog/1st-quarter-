@@ -1,0 +1,279 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873070",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Miami Dolphins at Buffalo Bills",
+  "teams": [
+    {
+      "id": "2",
+      "name": "Buffalo Bills",
+      "abbreviation": "BUF"
+    },
+    {
+      "id": "15",
+      "name": "Miami Dolphins",
+      "abbreviation": "MIA"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "DJ Moore",
+      "player_id": "3915416",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "receiving_yards",
+      "estimate": 5.6,
+      "low": 0,
+      "high": 12.3,
+      "games": 4,
+      "recent": [
+        0.0,
+        15.0,
+        0.0,
+        11.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "DJ Moore",
+      "player_id": "3915416",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "rushing_yards",
+      "estimate": 3.0,
+      "low": 0.8,
+      "high": 5.2,
+      "games": 4,
+      "recent": [
+        4.0,
+        0.0,
+        4.0,
+        6.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Dawson Knox",
+      "player_id": "3930086",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "receiving_yards",
+      "estimate": 3.9,
+      "low": 0.7,
+      "high": 7.1,
+      "games": 6,
+      "recent": [
+        7.0,
+        7.0,
+        0.0,
+        0.0,
+        0.0,
+        5.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "James Cook III",
+      "player_id": "4379399",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "rushing_yards",
+      "estimate": 19.0,
+      "low": 10.5,
+      "high": 27.6,
+      "games": 6,
+      "recent": [
+        22.0,
+        17.0,
+        17.0,
+        16.0,
+        32.0,
+        3.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Josh Allen",
+      "player_id": "3918298",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "passing_yards",
+      "estimate": 46.0,
+      "low": 20.2,
+      "high": 71.8,
+      "games": 6,
+      "recent": [
+        24.0,
+        43.0,
+        77.0,
+        77.0,
+        7.0,
+        54.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Josh Allen",
+      "player_id": "3918298",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "rushing_yards",
+      "estimate": 6.9,
+      "low": 1.6,
+      "high": 12.2,
+      "games": 6,
+      "recent": [
+        4.0,
+        7.0,
+        13.0,
+        2.0,
+        14.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Khalil Shakir",
+      "player_id": "4373678",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "receiving_yards",
+      "estimate": 15.9,
+      "low": 0,
+      "high": 32.8,
+      "games": 6,
+      "recent": [
+        13.0,
+        9.0,
+        50.0,
+        0.0,
+        0.0,
+        10.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Khalil Shakir",
+      "player_id": "4373678",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "rushing_yards",
+      "estimate": 5.1,
+      "low": 0,
+      "high": 11.9,
+      "games": 6,
+      "recent": [
+        18.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Ty Johnson",
+      "player_id": "3915411",
+      "team": "Buffalo Bills",
+      "team_id": "2",
+      "metric": "receiving_yards",
+      "estimate": 5.0,
+      "low": 0,
+      "high": 13.6,
+      "games": 6,
+      "recent": [
+        4.0,
+        0.0,
+        0.0,
+        24.0,
+        0.0,
+        9.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Caleb Douglas",
+      "player_id": "4869645",
+      "team": "Miami Dolphins",
+      "team_id": "15",
+      "metric": "receiving_yards",
+      "estimate": 6.7,
+      "low": 0,
+      "high": 14.9,
+      "games": 4,
+      "recent": [
+        0.0,
+        20.0,
+        0.0,
+        7.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Greg Dulcich",
+      "player_id": "4367209",
+      "team": "Miami Dolphins",
+      "team_id": "15",
+      "metric": "receiving_yards",
+      "estimate": 7.3,
+      "low": 0,
+      "high": 29.3,
+      "games": 5,
+      "recent": [
+        0.0,
+        0.0,
+        0.0,
+        55.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Malik Washington",
+      "player_id": "4569603",
+      "team": "Miami Dolphins",
+      "team_id": "15",
+      "metric": "receiving_yards",
+      "estimate": 3.9,
+      "low": 0,
+      "high": 13.0,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        0.0,
+        22.0,
+        0.0,
+        16.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Ollie Gordon II",
+      "player_id": "4711533",
+      "team": "Miami Dolphins",
+      "team_id": "15",
+      "metric": "rushing_yards",
+      "estimate": 15.9,
+      "low": 5.5,
+      "high": 26.3,
+      "games": 6,
+      "recent": [
+        5.0,
+        13.0,
+        16.0,
+        33.0,
+        32.0,
+        12.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

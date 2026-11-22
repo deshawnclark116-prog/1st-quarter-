@@ -1,0 +1,264 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873073",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Tennessee Titans at Dallas Cowboys",
+  "teams": [
+    {
+      "id": "6",
+      "name": "Dallas Cowboys",
+      "abbreviation": "DAL"
+    },
+    {
+      "id": "10",
+      "name": "Tennessee Titans",
+      "abbreviation": "TEN"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "CeeDee Lamb",
+      "player_id": "4241389",
+      "team": "Dallas Cowboys",
+      "team_id": "6",
+      "metric": "receiving_yards",
+      "estimate": 8.2,
+      "low": 0.6,
+      "high": 15.8,
+      "games": 6,
+      "recent": [
+        0.0,
+        13.0,
+        9.0,
+        9.0,
+        22.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Dak Prescott",
+      "player_id": "2577417",
+      "team": "Dallas Cowboys",
+      "team_id": "6",
+      "metric": "passing_yards",
+      "estimate": 42.6,
+      "low": 27.5,
+      "high": 57.7,
+      "games": 6,
+      "recent": [
+        51.0,
+        56.0,
+        10.0,
+        49.0,
+        42.0,
+        37.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "George Pickens",
+      "player_id": "4426354",
+      "team": "Dallas Cowboys",
+      "team_id": "6",
+      "metric": "receiving_yards",
+      "estimate": 18.9,
+      "low": 0,
+      "high": 39.7,
+      "games": 5,
+      "recent": [
+        51.0,
+        0.0,
+        0.0,
+        0.0,
+        29.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Javonte Williams",
+      "player_id": "4361579",
+      "team": "Dallas Cowboys",
+      "team_id": "6",
+      "metric": "rushing_yards",
+      "estimate": 18.2,
+      "low": 10.7,
+      "high": 25.7,
+      "games": 6,
+      "recent": [
+        16.0,
+        29.0,
+        9.0,
+        20.0,
+        10.0,
+        26.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Ryan Flournoy",
+      "player_id": "5083754",
+      "team": "Dallas Cowboys",
+      "team_id": "6",
+      "metric": "receiving_yards",
+      "estimate": 7.5,
+      "low": 0,
+      "high": 19.9,
+      "games": 6,
+      "recent": [
+        0.0,
+        7.0,
+        0.0,
+        35.0,
+        9.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Cam Ward",
+      "player_id": "4688380",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "passing_yards",
+      "estimate": 55.1,
+      "low": 28.5,
+      "high": 81.7,
+      "games": 6,
+      "recent": [
+        36.0,
+        109.0,
+        39.0,
+        37.0,
+        35.0,
+        59.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Cam Ward",
+      "player_id": "4688380",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "rushing_yards",
+      "estimate": 5.1,
+      "low": 0.2,
+      "high": 10.1,
+      "games": 6,
+      "recent": [
+        13.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Daniel Bellinger",
+      "player_id": "4361516",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "receiving_yards",
+      "estimate": 5.2,
+      "low": 0,
+      "high": 13.4,
+      "games": 6,
+      "recent": [
+        0.0,
+        22.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Elic Ayomanor",
+      "player_id": "4883647",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "receiving_yards",
+      "estimate": 11.2,
+      "low": 1.0,
+      "high": 21.4,
+      "games": 6,
+      "recent": [
+        20.0,
+        23.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Gunnar Helm",
+      "player_id": "4686728",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "receiving_yards",
+      "estimate": 5.1,
+      "low": 0,
+      "high": 12.7,
+      "games": 5,
+      "recent": [
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tony Pollard",
+      "player_id": "3916148",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "receiving_yards",
+      "estimate": 4.5,
+      "low": 0,
+      "high": 9.4,
+      "games": 6,
+      "recent": [
+        5.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tony Pollard",
+      "player_id": "3916148",
+      "team": "Tennessee Titans",
+      "team_id": "10",
+      "metric": "rushing_yards",
+      "estimate": 37.5,
+      "low": 7.7,
+      "high": 67.2,
+      "games": 6,
+      "recent": [
+        0.0,
+        62.0,
+        88.0,
+        18.0,
+        24.0,
+        23.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

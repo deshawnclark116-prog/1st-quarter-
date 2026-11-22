@@ -1,0 +1,280 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873071",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "New Orleans Saints at Chicago Bears",
+  "teams": [
+    {
+      "id": "3",
+      "name": "Chicago Bears",
+      "abbreviation": "CHI"
+    },
+    {
+      "id": "18",
+      "name": "New Orleans Saints",
+      "abbreviation": "NO"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "Caleb Williams",
+      "player_id": "4431611",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "passing_yards",
+      "estimate": 89.4,
+      "low": 67.1,
+      "high": 111.8,
+      "games": 4,
+      "recent": [
+        105.0,
+        58.0,
+        95.0,
+        110.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Caleb Williams",
+      "player_id": "4431611",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "rushing_yards",
+      "estimate": 4.4,
+      "low": 0,
+      "high": 9.2,
+      "games": 4,
+      "recent": [
+        11.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Colston Loveland",
+      "player_id": "4723086",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "receiving_yards",
+      "estimate": 14.3,
+      "low": 1.1,
+      "high": 27.6,
+      "games": 6,
+      "recent": [
+        0.0,
+        27.0,
+        11.0,
+        36.0,
+        0.0,
+        14.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "D'Andre Swift",
+      "player_id": "4259545",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "receiving_yards",
+      "estimate": 5.6,
+      "low": 0,
+      "high": 12.9,
+      "games": 6,
+      "recent": [
+        0.0,
+        8.0,
+        0.0,
+        14.0,
+        18.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "D'Andre Swift",
+      "player_id": "4259545",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "rushing_yards",
+      "estimate": 12.7,
+      "low": 0.4,
+      "high": 25.0,
+      "games": 6,
+      "recent": [
+        10.0,
+        15.0,
+        11.0,
+        15.0,
+        1.0,
+        41.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Luther Burden III",
+      "player_id": "4685278",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "receiving_yards",
+      "estimate": 44.2,
+      "low": 17.9,
+      "high": 70.6,
+      "games": 6,
+      "recent": [
+        55.0,
+        23.0,
+        84.0,
+        33.0,
+        0.0,
+        49.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Rome Odunze",
+      "player_id": "4431299",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "receiving_yards",
+      "estimate": 13.8,
+      "low": 0.2,
+      "high": 27.4,
+      "games": 6,
+      "recent": [
+        32.0,
+        0.0,
+        0.0,
+        25.0,
+        0.0,
+        23.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Zavion Thomas",
+      "player_id": "4869748",
+      "team": "Chicago Bears",
+      "team_id": "3",
+      "metric": "receiving_yards",
+      "estimate": 5.2,
+      "low": 0,
+      "high": 10.8,
+      "games": 4,
+      "recent": [
+        13.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chris Olave",
+      "player_id": "4361370",
+      "team": "New Orleans Saints",
+      "team_id": "18",
+      "metric": "receiving_yards",
+      "estimate": 8.9,
+      "low": 0,
+      "high": 23.6,
+      "games": 6,
+      "recent": [
+        0.0,
+        11.0,
+        15.0,
+        0.0,
+        14.0,
+        44.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Devaughn Vele",
+      "player_id": "4569559",
+      "team": "New Orleans Saints",
+      "team_id": "18",
+      "metric": "receiving_yards",
+      "estimate": 5.0,
+      "low": 0,
+      "high": 11.9,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        14.0,
+        16.0,
+        0.0,
+        2.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Juwan Johnson",
+      "player_id": "3929645",
+      "team": "New Orleans Saints",
+      "team_id": "18",
+      "metric": "receiving_yards",
+      "estimate": 5.7,
+      "low": 0,
+      "high": 16.2,
+      "games": 6,
+      "recent": [
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0,
+        25.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tyler Shough",
+      "player_id": "4360689",
+      "team": "New Orleans Saints",
+      "team_id": "18",
+      "metric": "passing_yards",
+      "estimate": 29.0,
+      "low": 0,
+      "high": 59.0,
+      "games": 6,
+      "recent": [
+        25.0,
+        30.0,
+        36.0,
+        16.0,
+        9.0,
+        100.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tyler Shough",
+      "player_id": "4360689",
+      "team": "New Orleans Saints",
+      "team_id": "18",
+      "metric": "rushing_yards",
+      "estimate": 4.1,
+      "low": 0.1,
+      "high": 8.1,
+      "games": 6,
+      "recent": [
+        5.0,
+        11.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}

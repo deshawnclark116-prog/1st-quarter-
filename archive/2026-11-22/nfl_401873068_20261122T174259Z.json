@@ -1,0 +1,244 @@
+{
+  "snapshot_at": "2026-11-22T17:42:59.573266+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873068",
+  "sport": "nfl",
+  "date": "2026-11-22T18:00Z",
+  "date_et": "2026-11-22T13:00:00-05:00",
+  "name": "Baltimore Ravens at Carolina Panthers",
+  "teams": [
+    {
+      "id": "29",
+      "name": "Carolina Panthers",
+      "abbreviation": "CAR"
+    },
+    {
+      "id": "33",
+      "name": "Baltimore Ravens",
+      "abbreviation": "BAL"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+  "predictions": [
+    {
+      "player": "Bryce Young",
+      "player_id": "4685720",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "passing_yards",
+      "estimate": 30.4,
+      "low": 5.5,
+      "high": 55.3,
+      "games": 6,
+      "recent": [
+        24.0,
+        10.0,
+        53.0,
+        10.0,
+        67.0,
+        68.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chuba Hubbard",
+      "player_id": "4241416",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "receiving_yards",
+      "estimate": 6.4,
+      "low": 1.0,
+      "high": 11.8,
+      "games": 6,
+      "recent": [
+        9.0,
+        -1.0,
+        15.0,
+        6.0,
+        0.0,
+        7.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chuba Hubbard",
+      "player_id": "4241416",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "rushing_yards",
+      "estimate": 21.1,
+      "low": 10.4,
+      "high": 31.8,
+      "games": 6,
+      "recent": [
+        36.0,
+        5.0,
+        29.0,
+        9.0,
+        19.0,
+        21.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Mitchell Evans",
+      "player_id": "4683243",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "receiving_yards",
+      "estimate": 3.6,
+      "low": 0,
+      "high": 7.7,
+      "games": 6,
+      "recent": [
+        0.0,
+        11.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tetairoa McMillan",
+      "player_id": "4685472",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "receiving_yards",
+      "estimate": 8.4,
+      "low": 0,
+      "high": 29.8,
+      "games": 6,
+      "recent": [
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        42.0,
+        52.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tommy Tremble",
+      "player_id": "4372780",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "receiving_yards",
+      "estimate": 6.3,
+      "low": 0,
+      "high": 12.8,
+      "games": 6,
+      "recent": [
+        6.0,
+        0.0,
+        19.0,
+        0.0,
+        6.0,
+        9.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Trevor Etienne",
+      "player_id": "4685350",
+      "team": "Carolina Panthers",
+      "team_id": "29",
+      "metric": "receiving_yards",
+      "estimate": 3.0,
+      "low": 0,
+      "high": 6.6,
+      "games": 5,
+      "recent": [
+        9.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Derrick Henry",
+      "player_id": "3043078",
+      "team": "Baltimore Ravens",
+      "team_id": "33",
+      "metric": "rushing_yards",
+      "estimate": 14.1,
+      "low": 0.5,
+      "high": 27.8,
+      "games": 6,
+      "recent": [
+        -2.0,
+        18.0,
+        23.0,
+        9.0,
+        30.0,
+        40.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Josh Cuevas",
+      "player_id": "4876132",
+      "team": "Baltimore Ravens",
+      "team_id": "33",
+      "metric": "receiving_yards",
+      "estimate": 7.3,
+      "low": 0,
+      "high": 19.8,
+      "games": 5,
+      "recent": [
+        0.0,
+        0.0,
+        16.0,
+        31.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Mark Andrews",
+      "player_id": "3116365",
+      "team": "Baltimore Ravens",
+      "team_id": "33",
+      "metric": "receiving_yards",
+      "estimate": 5.7,
+      "low": 0,
+      "high": 12.0,
+      "games": 6,
+      "recent": [
+        17.0,
+        0.0,
+        0.0,
+        6.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Zay Flowers",
+      "player_id": "4429615",
+      "team": "Baltimore Ravens",
+      "team_id": "33",
+      "metric": "receiving_yards",
+      "estimate": 16.4,
+      "low": 0,
+      "high": 43.1,
+      "games": 6,
+      "recent": [
+        17.0,
+        -3.0,
+        0.0,
+        76.0,
+        6.0,
+        17.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}
