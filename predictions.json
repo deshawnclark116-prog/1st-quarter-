@@ -1,79 +1,10 @@
 {
-  "generated_at": "2026-11-24T01:05:58.045963+00:00",
-  "start_date": "2026-11-23",
+  "generated_at": "2026-11-24T10:53:47.147946+00:00",
+  "start_date": "2026-11-24",
   "days": 2,
   "sample_size": 6,
   "nba_sample_size": 10,
   "games": [
-    {
-      "id": "401910043",
-      "date": "2026-11-24T01:30Z",
-      "date_et": "2026-11-23T20:30:00-05:00",
-      "sport": "nba",
-      "name": "LA Clippers at Houston Rockets",
-      "teams": [
-        {
-          "id": "10",
-          "name": "Houston Rockets",
-          "abbreviation": "HOU"
-        },
-        {
-          "id": "12",
-          "name": "LA Clippers",
-          "abbreviation": "LAC"
-        }
-      ],
-      "run_phase": "primary",
-      "checked_at": "2026-11-24T01:05:58.045963+00:00",
-      "excluded": [],
-      "predictions": [],
-      "lineup_status": "unconfirmed",
-      "withheld_reason": "NBA starters are not individually confirmed for both teams; no official first-quarter projections."
-    },
-    {
-      "id": "401910044",
-      "date": "2026-11-24T03:00Z",
-      "date_et": "2026-11-23T22:00:00-05:00",
-      "sport": "nba",
-      "name": "Utah Jazz at Los Angeles Lakers",
-      "teams": [
-        {
-          "id": "13",
-          "name": "Los Angeles Lakers",
-          "abbreviation": "LAL"
-        },
-        {
-          "id": "26",
-          "name": "Utah Jazz",
-          "abbreviation": "UTAH"
-        }
-      ],
-      "run_phase": "waiting",
-      "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
-    },
-    {
-      "id": "401910045",
-      "date": "2026-11-24T03:00Z",
-      "date_et": "2026-11-23T22:00:00-05:00",
-      "sport": "nba",
-      "name": "San Antonio Spurs at Sacramento Kings",
-      "teams": [
-        {
-          "id": "23",
-          "name": "Sacramento Kings",
-          "abbreviation": "SAC"
-        },
-        {
-          "id": "24",
-          "name": "San Antonio Spurs",
-          "abbreviation": "SA"
-        }
-      ],
-      "run_phase": "waiting",
-      "predictions": [],
-      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
-    },
     {
       "id": "401909314",
       "date": "2026-11-25T00:00Z",
@@ -141,382 +72,224 @@
       "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     },
     {
-      "id": "401873078",
-      "date": "2026-11-24T01:15Z",
-      "date_et": "2026-11-23T20:15:00-05:00",
-      "sport": "nfl",
-      "name": "Cincinnati Bengals at Washington Commanders",
+      "id": "401909317",
+      "date": "2026-11-25T22:00Z",
+      "date_et": "2026-11-25T17:00:00-05:00",
+      "sport": "nba",
+      "name": "Miami Heat at Philadelphia 76ers",
       "teams": [
         {
-          "id": "28",
-          "name": "Washington Commanders",
-          "abbreviation": "WSH"
+          "id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI"
+        },
+        {
+          "id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909318",
+      "date": "2026-11-26T00:00Z",
+      "date_et": "2026-11-25T19:00:00-05:00",
+      "sport": "nba",
+      "name": "Chicago Bulls at Charlotte Hornets",
+      "teams": [
+        {
+          "id": "30",
+          "name": "Charlotte Hornets",
+          "abbreviation": "CHA"
         },
         {
           "id": "4",
-          "name": "Cincinnati Bengals",
-          "abbreviation": "CIN"
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI"
         }
       ],
-      "run_phase": "retry",
-      "checked_at": "2026-11-24T01:05:58.045963+00:00",
-      "availability_source": "https://amp.nfl.com/news/week-11-monday-night-inactives-cincinnati-bengals-at-washington-commanders",
-      "excluded": [],
-      "predictions": [
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909319",
+      "date": "2026-11-26T00:30Z",
+      "date_et": "2026-11-25T19:30:00-05:00",
+      "sport": "nba",
+      "name": "Cleveland Cavaliers at New York Knicks",
+      "teams": [
         {
-          "player": "Antonio Williams",
-          "player_id": "5081432",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "receiving_yards",
-          "estimate": 5.0,
-          "low": 0,
-          "high": 11.6,
-          "games": 6,
-          "recent": [
-            0.0,
-            18.0,
-            4.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
+          "id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY"
         },
         {
-          "player": "Austin Ekeler",
-          "player_id": "3068267",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "rushing_yards",
-          "estimate": 5.5,
-          "low": 1.8,
-          "high": 9.3,
-          "games": 6,
-          "recent": [
-            7.0,
-            5.0,
-            7.0,
-            3.0,
-            0.0,
-            12.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Chig Okonkwo",
-          "player_id": "4360635",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "receiving_yards",
-          "estimate": 11.9,
-          "low": 0,
-          "high": 23.8,
-          "games": 6,
-          "recent": [
-            17.0,
-            15.0,
-            0.0,
-            0.0,
-            34.0,
-            5.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Jayden Daniels",
-          "player_id": "4426348",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "passing_yards",
-          "estimate": 45.0,
-          "low": 29.4,
-          "high": 60.6,
-          "games": 5,
-          "recent": [
-            56.0,
-            57.0,
-            15.0,
-            44.0,
-            34.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Rachaad White",
-          "player_id": "4697815",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "rushing_yards",
-          "estimate": 8.3,
-          "low": 2.9,
-          "high": 13.8,
-          "games": 5,
-          "recent": [
-            6.0,
-            13.0,
-            13.0,
-            2.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Stefon Diggs",
-          "player_id": "2976212",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "receiving_yards",
-          "estimate": 4.5,
-          "low": 0,
-          "high": 11.7,
-          "games": 5,
-          "recent": [
-            4.0,
-            0.0,
-            0.0,
-            17.0,
-            14.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Treylon Burks",
-          "player_id": "4567156",
-          "team": "Washington Commanders",
-          "team_id": "28",
-          "metric": "receiving_yards",
-          "estimate": 10.9,
-          "low": 0.4,
-          "high": 21.3,
-          "games": 5,
-          "recent": [
-            27.0,
-            7.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Chase Brown",
-          "player_id": "4362238",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 8.5,
-          "low": 4.9,
-          "high": 12.1,
-          "games": 6,
-          "recent": [
-            13.0,
-            11.0,
-            5.0,
-            3.0,
-            6.0,
-            5.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Chase Brown",
-          "player_id": "4362238",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "rushing_yards",
-          "estimate": 10.4,
-          "low": 0.1,
-          "high": 20.7,
-          "games": 6,
-          "recent": [
-            12.0,
-            0.0,
-            30.0,
-            5.0,
-            6.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Dohnte Meyers",
-          "player_id": "4384852",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "rushing_yards",
-          "estimate": 3.8,
-          "low": 0,
-          "high": 9.8,
-          "games": 6,
-          "recent": [
-            0.0,
-            16.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Drew Sample",
-          "player_id": "3127310",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 3.0,
-          "low": 0,
-          "high": 6.4,
-          "games": 3,
-          "recent": [
-            6.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Ja'Marr Chase",
-          "player_id": "4362628",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 32.4,
-          "low": 10.9,
-          "high": 54.0,
-          "games": 6,
-          "recent": [
-            47.0,
-            60.0,
-            13.0,
-            9.0,
-            7.0,
-            6.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Joe Burrow",
-          "player_id": "3915511",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "passing_yards",
-          "estimate": 73.3,
-          "low": 36.6,
-          "high": 110.1,
-          "games": 6,
-          "recent": [
-            122.0,
-            95.0,
-            38.0,
-            12.0,
-            46.0,
-            53.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Joe Burrow",
-          "player_id": "3915511",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "rushing_yards",
-          "estimate": 3.6,
-          "low": 0,
-          "high": 7.6,
-          "games": 6,
-          "recent": [
-            8.0,
-            0.0,
-            0.0,
-            9.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Mike Gesicki",
-          "player_id": "3116164",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 4.9,
-          "low": 1.0,
-          "high": 8.7,
-          "games": 6,
-          "recent": [
-            9.0,
-            8.0,
-            0.0,
-            0.0,
-            4.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Samaje Perine",
-          "player_id": "3116389",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 5.7,
-          "low": 0,
-          "high": 13.2,
-          "games": 6,
-          "recent": [
-            20.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Samaje Perine",
-          "player_id": "3116389",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "rushing_yards",
-          "estimate": 3.6,
-          "low": 0,
-          "high": 10.6,
-          "games": 6,
-          "recent": [
-            4.0,
-            4.0,
-            0.0,
-            -2.0,
-            19.0,
-            0.0
-          ],
-          "availability": "active roster; game status unconfirmed"
-        },
-        {
-          "player": "Tee Higgins",
-          "player_id": "4239993",
-          "team": "Cincinnati Bengals",
-          "team_id": "4",
-          "metric": "receiving_yards",
-          "estimate": 17.7,
-          "low": 8.4,
-          "high": 27.1,
-          "games": 6,
-          "recent": [
-            27.0,
-            12.0,
-            20.0,
-            0.0,
-            22.0,
-            26.0
-          ],
-          "availability": "active roster; game status unconfirmed"
+          "id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE"
         }
-      ]
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909320",
+      "date": "2026-11-26T00:30Z",
+      "date_et": "2026-11-25T19:30:00-05:00",
+      "sport": "nba",
+      "name": "Minnesota Timberwolves at Oklahoma City Thunder",
+      "teams": [
+        {
+          "id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC"
+        },
+        {
+          "id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909321",
+      "date": "2026-11-26T01:00Z",
+      "date_et": "2026-11-25T20:00:00-05:00",
+      "sport": "nba",
+      "name": "LA Clippers at Memphis Grizzlies",
+      "teams": [
+        {
+          "id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM"
+        },
+        {
+          "id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909322",
+      "date": "2026-11-26T01:00Z",
+      "date_et": "2026-11-25T20:00:00-05:00",
+      "sport": "nba",
+      "name": "Brooklyn Nets at Milwaukee Bucks",
+      "teams": [
+        {
+          "id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL"
+        },
+        {
+          "id": "17",
+          "name": "Brooklyn Nets",
+          "abbreviation": "BKN"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909323",
+      "date": "2026-11-26T01:30Z",
+      "date_et": "2026-11-25T20:30:00-05:00",
+      "sport": "nba",
+      "name": "Phoenix Suns at Houston Rockets",
+      "teams": [
+        {
+          "id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU"
+        },
+        {
+          "id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909324",
+      "date": "2026-11-26T03:00Z",
+      "date_et": "2026-11-25T22:00:00-05:00",
+      "sport": "nba",
+      "name": "Sacramento Kings at Golden State Warriors",
+      "teams": [
+        {
+          "id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS"
+        },
+        {
+          "id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401909325",
+      "date": "2026-11-26T03:00Z",
+      "date_et": "2026-11-25T22:00:00-05:00",
+      "sport": "nba",
+      "name": "San Antonio Spurs at Portland Trail Blazers",
+      "teams": [
+        {
+          "id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR"
+        },
+        {
+          "id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
+    },
+    {
+      "id": "401873079",
+      "date": "2026-11-26T01:00Z",
+      "date_et": "2026-11-25T20:00:00-05:00",
+      "sport": "nfl",
+      "name": "Green Bay Packers at Los Angeles Rams",
+      "teams": [
+        {
+          "id": "14",
+          "name": "Los Angeles Rams",
+          "abbreviation": "LAR"
+        },
+        {
+          "id": "9",
+          "name": "Green Bay Packers",
+          "abbreviation": "GB"
+        }
+      ],
+      "run_phase": "waiting",
+      "predictions": [],
+      "withheld_reason": "Awaiting first lineup check approximately 30 minutes before scheduled tipoff."
     }
   ],
   "warnings": [],
