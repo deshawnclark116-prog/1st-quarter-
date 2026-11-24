@@ -1,0 +1,379 @@
+{
+  "snapshot_at": "2026-11-24T01:06:13.274844+00:00",
+  "model_version": "q1_baseline_v1_nfl6",
+  "game_id": "401873078",
+  "sport": "nfl",
+  "date": "2026-11-24T01:15Z",
+  "date_et": "2026-11-23T20:15:00-05:00",
+  "name": "Cincinnati Bengals at Washington Commanders",
+  "teams": [
+    {
+      "id": "28",
+      "name": "Washington Commanders",
+      "abbreviation": "WSH"
+    },
+    {
+      "id": "4",
+      "name": "Cincinnati Bengals",
+      "abbreviation": "CIN"
+    }
+  ],
+  "lineup_status": null,
+  "lineup_source": null,
+  "availability_source": "https://amp.nfl.com/news/week-11-monday-night-inactives-cincinnati-bengals-at-washington-commanders",
+  "predictions": [
+    {
+      "player": "Antonio Williams",
+      "player_id": "5081432",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "receiving_yards",
+      "estimate": 5.0,
+      "low": 0,
+      "high": 11.6,
+      "games": 6,
+      "recent": [
+        0.0,
+        18.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Austin Ekeler",
+      "player_id": "3068267",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "rushing_yards",
+      "estimate": 5.5,
+      "low": 1.8,
+      "high": 9.3,
+      "games": 6,
+      "recent": [
+        7.0,
+        5.0,
+        7.0,
+        3.0,
+        0.0,
+        12.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chig Okonkwo",
+      "player_id": "4360635",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "receiving_yards",
+      "estimate": 11.9,
+      "low": 0,
+      "high": 23.8,
+      "games": 6,
+      "recent": [
+        17.0,
+        15.0,
+        0.0,
+        0.0,
+        34.0,
+        5.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Jayden Daniels",
+      "player_id": "4426348",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "passing_yards",
+      "estimate": 45.0,
+      "low": 29.4,
+      "high": 60.6,
+      "games": 5,
+      "recent": [
+        56.0,
+        57.0,
+        15.0,
+        44.0,
+        34.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Rachaad White",
+      "player_id": "4697815",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "rushing_yards",
+      "estimate": 8.3,
+      "low": 2.9,
+      "high": 13.8,
+      "games": 5,
+      "recent": [
+        6.0,
+        13.0,
+        13.0,
+        2.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Stefon Diggs",
+      "player_id": "2976212",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "receiving_yards",
+      "estimate": 4.5,
+      "low": 0,
+      "high": 11.7,
+      "games": 5,
+      "recent": [
+        4.0,
+        0.0,
+        0.0,
+        17.0,
+        14.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Treylon Burks",
+      "player_id": "4567156",
+      "team": "Washington Commanders",
+      "team_id": "28",
+      "metric": "receiving_yards",
+      "estimate": 10.9,
+      "low": 0.4,
+      "high": 21.3,
+      "games": 5,
+      "recent": [
+        27.0,
+        7.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chase Brown",
+      "player_id": "4362238",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 8.5,
+      "low": 4.9,
+      "high": 12.1,
+      "games": 6,
+      "recent": [
+        13.0,
+        11.0,
+        5.0,
+        3.0,
+        6.0,
+        5.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Chase Brown",
+      "player_id": "4362238",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "rushing_yards",
+      "estimate": 10.4,
+      "low": 0.1,
+      "high": 20.7,
+      "games": 6,
+      "recent": [
+        12.0,
+        0.0,
+        30.0,
+        5.0,
+        6.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Dohnte Meyers",
+      "player_id": "4384852",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "rushing_yards",
+      "estimate": 3.8,
+      "low": 0,
+      "high": 9.8,
+      "games": 6,
+      "recent": [
+        0.0,
+        16.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Drew Sample",
+      "player_id": "3127310",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 3.0,
+      "low": 0,
+      "high": 6.4,
+      "games": 3,
+      "recent": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "player_id": "4362628",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 32.4,
+      "low": 10.9,
+      "high": 54.0,
+      "games": 6,
+      "recent": [
+        47.0,
+        60.0,
+        13.0,
+        9.0,
+        7.0,
+        6.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Joe Burrow",
+      "player_id": "3915511",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "passing_yards",
+      "estimate": 73.3,
+      "low": 36.6,
+      "high": 110.1,
+      "games": 6,
+      "recent": [
+        122.0,
+        95.0,
+        38.0,
+        12.0,
+        46.0,
+        53.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Joe Burrow",
+      "player_id": "3915511",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "rushing_yards",
+      "estimate": 3.6,
+      "low": 0,
+      "high": 7.6,
+      "games": 6,
+      "recent": [
+        8.0,
+        0.0,
+        0.0,
+        9.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Mike Gesicki",
+      "player_id": "3116164",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 4.9,
+      "low": 1.0,
+      "high": 8.7,
+      "games": 6,
+      "recent": [
+        9.0,
+        8.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Samaje Perine",
+      "player_id": "3116389",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 5.7,
+      "low": 0,
+      "high": 13.2,
+      "games": 6,
+      "recent": [
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Samaje Perine",
+      "player_id": "3116389",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "rushing_yards",
+      "estimate": 3.6,
+      "low": 0,
+      "high": 10.6,
+      "games": 6,
+      "recent": [
+        4.0,
+        4.0,
+        0.0,
+        -2.0,
+        19.0,
+        0.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    },
+    {
+      "player": "Tee Higgins",
+      "player_id": "4239993",
+      "team": "Cincinnati Bengals",
+      "team_id": "4",
+      "metric": "receiving_yards",
+      "estimate": 17.7,
+      "low": 8.4,
+      "high": 27.1,
+      "games": 6,
+      "recent": [
+        27.0,
+        12.0,
+        20.0,
+        0.0,
+        22.0,
+        26.0
+      ],
+      "availability": "active roster; game status unconfirmed"
+    }
+  ]
+}
