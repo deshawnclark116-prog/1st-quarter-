@@ -1,30 +1,30 @@
 {
-  "sampled_games": 7,
-  "graded_projections": 85,
+  "sampled_games": 8,
+  "graded_projections": 102,
   "by_market": [
     {
       "sport": "nfl",
       "market": "passing_yards",
-      "n": 10,
-      "mae": 22.1,
-      "bias": -7.42,
+      "n": 12,
+      "mae": 22.858,
+      "bias": -1.742,
       "empirical_range_coverage": 0.5
     },
     {
       "sport": "nfl",
       "market": "receiving_yards",
-      "n": 51,
-      "mae": 8.908,
-      "bias": -0.092,
-      "empirical_range_coverage": 0.745
+      "n": 61,
+      "mae": 9.22,
+      "bias": 0.603,
+      "empirical_range_coverage": 0.705
     },
     {
       "sport": "nfl",
       "market": "rushing_yards",
-      "n": 24,
-      "mae": 10.754,
-      "bias": 1.079,
-      "empirical_range_coverage": 0.5
+      "n": 29,
+      "mae": 9.614,
+      "bias": 1.579,
+      "empirical_range_coverage": 0.552
     }
   ],
   "shadow_comparison": [],
@@ -40,7 +40,5 @@
   },
   "note": "Accuracy diagnostics only; no odds, betting lines, holdout or net ROI measured. NO challenger automatically promoted.",
   "snapshots_checked": 8,
-  "warnings": [
-    "401873078: Game not final"
-  ]
+  "warnings": []
 }
